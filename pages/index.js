@@ -9,7 +9,7 @@ export default function Home() {
         <title>Roxbury Poetry Festival</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header />
       <main>
         <h1>Roxbury Poetry Festival</h1>
       </main>
