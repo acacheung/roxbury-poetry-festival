@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <h1>Roxbury Poetry Festival</h1>
+        <h1 className="text-5xl">Roxbury Poetry Festival</h1>
       </main>
       <Footer />
     </div>
