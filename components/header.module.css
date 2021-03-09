@@ -1,0 +1,38 @@
+.isActive {
+  @apply bg-gray-900;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+.isActive .mainNav {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  justify-content: center;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.isActive .iconClose {
+  display: block;
+}
+
+.isActive .iconHamburger {
+  display: none;
+}
+
+.isActive .socialMedia {
+  justify-content: space-between;
+  display: flex;
+  fill: currentColor;
+}
