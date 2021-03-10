@@ -9,13 +9,19 @@
     font-display: swap;
     font-family: "Plex";
     font-weight: 400;
-    src: url("../public/fonts/IBMPlexSans-Bold.ttf") format("ttf");
+    src: url("../public/fonts/IBMPlexSans-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "Plex";
+    font-weight: 700;
+    src: url("../public/fonts/IBMPlexSans-Bold.ttf") format("truetype");
   }
   @font-face {
     font-display: swap;
     font-family: "Plex Mono";
     font-weight: 400;
-    src: url("../public/fonts/IBMPlexMono-Regular.ttf") format("ttf");
+    src: url("../public/fonts/IBMPlexMono-Regular.ttf") format("truetype");
   }
 }
 
@@ -25,26 +31,35 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 0;
   margin: 0;
-  @apply bg-gray-900;
   @apply text-white;
+  @apply bg-gray-900;
 }
 
-* {
-  box-sizing: border-box;
+.cursor {
+  background: radial-gradient(
+    circle,
+    rgb(212, 114, 154) 0%,
+    rgba(3, 3, 3, 1) 50%
+  );
+  width: 24.25rem;
+  height: 24.25rem;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 20;
+  transition: opacity ease 0.15s, transform ease 0.15s, left ease-out 0.15s,
+    top ease-out 0.15s;
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.cursor--hidden {
+  opacity: 0;
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(1.25);
+}
+
+.cursor--clicked {
+  transform: translate(-50%, -50%) scale(0.9);
 }

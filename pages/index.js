@@ -16,11 +16,11 @@ export default function Home() {
             <div className="italic mb-32 mt-20 text-center">
               Free virtual poetry festival 06.20.2021
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between z-50">
               <div>
                 <img alt="Poetry writing book gif" src="/img/gif.png" />
               </div>
-              <p className="font-mono max-w-4xl">
+              <p className="font-mono max-w-4xl text-lg">
                 THE ROXBURY POETRY FESTIVAL is a free one-day virtual
                 experience. Part conference, part competition – the festival
                 will be a combination of talks and workshops by prominent change
@@ -33,14 +33,14 @@ export default function Home() {
           </div>
           <div className="bottom-0 bg-gray-900 border-b border-t fixed flex h-16 items-center justify-end w-full">
             <div className="text-3xl uppercase">Register</div>
-            <div className="flex">
-              <svg className="fill-current" height="19" width="20">
+            <div className="flex ml-4">
+              <svg className="fill-current mr-4" height="19" width="20">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
-              <svg className="fill-current" height="19" width="20">
+              <svg className="fill-current mr-4" height="19" width="20">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
-              <svg className="fill-current" height="19" width="20">
+              <svg className="fill-current mr-4" height="19" width="20">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
             </div>

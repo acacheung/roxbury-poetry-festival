@@ -1,6 +1,10 @@
 export default function Svg() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" className="hidden">
+      <symbol id="icon-close" viewBox="0 0 33 32">
+        <path d="M0.827 0.776l0.552-0.552 31.237 31.237-0.552 0.552-31.237-31.237z"></path>
+        <path d="M0.224 31.401l31.237-31.237 0.552 0.552-31.237 31.237-0.552-0.552z"></path>
+      </symbol>
       <symbol id="icon-facebook" viewBox="0 0 32 32">
         <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
       </symbol>
@@ -16,6 +20,9 @@ export default function Svg() {
         <path d="M0 16h42.667v1.067h-42.667v-1.067z"></path>
         <path d="M0 0h42.667v1.067h-42.667v-1.067z"></path>
         <path d="M0 30.933h42.667v1.067h-42.667v-1.067z"></path>
+      </symbol>
+      <symbol id="icon-navline" viewBox="0 0 3968 32">
+        <path d="M0 0h3968v32h-3968v-32z"></path>
       </symbol>
       <symbol id="icon-rightarrow" viewBox="0 0 55 32">
         <path d="M37.943 30.857l-3.657-3.657 6.4-6.4 3.657-2.971v-0.229l-7.086 0.457h-36.114v-5.029h36.114l7.086 0.457v-0.229l-3.657-2.971-6.4-6.4 3.657-3.429 15.086 15.086-15.086 15.314z"></path>

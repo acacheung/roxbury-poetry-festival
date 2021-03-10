@@ -7,8 +7,8 @@ export default function Layout({ children }) {
     <>
       <Svg />
       <Header />
-      <div className="min-h-screen">
-        <main>{children}</main>
+      <div className="min-h-screen bg-gray-900 relative">
+        <main className="relative z-30">{children}</main>
       </div>
       <Footer />
     </>
