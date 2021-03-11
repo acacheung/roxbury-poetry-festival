@@ -23,9 +23,13 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-between">
               <div>
-                <img alt="Poetry writing book gif" src="/img/gif.png" />
+                <img
+                  alt="Poetry writing book gif"
+                  className="w-5/6"
+                  src="/img/maingif.gif"
+                />
               </div>
-              <div className="font-mono max-w-4xl text-lg">
+              <div className="font-mono max-w-4xl ml-16 text-lg">
                 <p className="mb-8">
                   THE ROXBURY POETRY FESTIVAL is a biennial event centering
                   poetry in Roxbury. The Inaugural festival occurs mostly
@@ -58,7 +62,7 @@ export default function Home() {
           </div>
         </div>
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-center justify-between mb-14 mt-56">
+          <div className="flex items-center justify-between mb-14 mt-80">
             <h2 className="font-bold text-4xl">The Speakers</h2>
             <a
               href="/schedule"

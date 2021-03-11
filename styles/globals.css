@@ -99,7 +99,7 @@ body {
 }
 
 .speakers-grid:hover img {
-  filter: none;
+  filter: grayscale(0);
 }
 
 .summaryWrap {
