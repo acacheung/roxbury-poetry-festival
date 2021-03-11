@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import headerStyles from "./header.module.css";
+import headerStyles from "./Header.module.css";
 
 const Header = class extends React.Component {
   constructor(props) {
