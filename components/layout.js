@@ -1,6 +1,6 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
-import Svg from "../components/svg";
+import Header from "@components/header";
+import Footer from "@components/footer";
+import Svg from "@components/svg";
 
 export default function Layout({ children }) {
   return (
