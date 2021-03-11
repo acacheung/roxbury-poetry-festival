@@ -94,6 +94,14 @@ body {
   transform: scaleY(6);
 }
 
+.speakers-grid img {
+  filter: grayscale(1);
+}
+
+.speakers-grid:hover img {
+  filter: none;
+}
+
 .summaryWrap {
   list-style-type: none;
 }

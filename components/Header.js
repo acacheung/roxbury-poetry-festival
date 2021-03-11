@@ -251,7 +251,9 @@ const Header = class extends React.Component {
               </svg>
             </a>
           </div>
-          <div>Free virtual poetry festival 06.20.2021</div>
+          <div className="font-mono">
+            Free virtual poetry festival June 05, 2021
+          </div>
         </div>
       </header>
     );

@@ -61,20 +61,20 @@ export default function Home() {
           <div className="flex items-center justify-between mb-14 mt-56">
             <h2 className="font-bold text-4xl">The Speakers</h2>
             <a
-              href="#"
+              href="/schedule"
               className="border flex items-center px-5 py-3 rounded-full text-lg"
             >
-              See all Speakers
+              See the Schedule
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
             </a>
           </div>
-          <ul className="gap-x-10 grid md:grid-cols-2 lg:grid-cols-3">
+          <ul className="gap-x-10 gap-y-20 grid mb-20 md:grid-cols-2 lg:grid-cols-3">
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Porsha Olayiwola</h3>
               <p className="mb-8 text-lg">Black, Futurist, Poet</p>
-              <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+              <img alt="Porsha Olayiwola" src="/img/amandag.jpg" />
               <p className="font-mono mt-6 text-lg">
                 Black, futurist, poet, dyke, hip-hop feminist, womanist: Porsha
                 is a native of Chicago who now resides in Boston.
@@ -92,7 +92,34 @@ export default function Home() {
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Porsha Olayiwola</h3>
               <p className="mb-8 text-lg">Black, Futurist, Poet</p>
+              <img alt="Porsha Olayiwola" src="/img/amandag.jpg" />
+              <p className="font-mono mt-6 text-lg">
+                Black, futurist, poet, dyke, hip-hop feminist, womanist: Porsha
+                is a native of Chicago who now resides in Boston.
+              </p>
+            </li>
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Porsha Olayiwola</h3>
+              <p className="mb-8 text-lg">Black, Futurist, Poet</p>
+              <img alt="Porsha Olayiwola" src="/img/amandag.jpg" />
+              <p className="font-mono mt-6 text-lg">
+                Black, futurist, poet, dyke, hip-hop feminist, womanist: Porsha
+                is a native of Chicago who now resides in Boston.
+              </p>
+            </li>
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Porsha Olayiwola</h3>
+              <p className="mb-8 text-lg">Black, Futurist, Poet</p>
               <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+              <p className="font-mono mt-6 text-lg">
+                Black, futurist, poet, dyke, hip-hop feminist, womanist: Porsha
+                is a native of Chicago who now resides in Boston.
+              </p>
+            </li>
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Porsha Olayiwola</h3>
+              <p className="mb-8 text-lg">Black, Futurist, Poet</p>
+              <img alt="Porsha Olayiwola" src="/img/amandag.jpg" />
               <p className="font-mono mt-6 text-lg">
                 Black, futurist, poet, dyke, hip-hop feminist, womanist: Porsha
                 is a native of Chicago who now resides in Boston.
