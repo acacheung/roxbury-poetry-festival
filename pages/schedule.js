@@ -28,7 +28,7 @@ export default function Schedule() {
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
-                      09:00am - 11:30am ET
+                      10:00am - 11:30am ET
                     </p>
                     <div className="md:col-span-3 lg:col-span-4 md:text-lg">
                       Workshops & Panels
