@@ -85,61 +85,118 @@ export default function About() {
           And another round of applause to our sponsors. Thank you for helping
           make this event possible
         </div>
-        <ul className="gap-x-10 gap-y-10 grid mb-20 md:grid-cols-2 lg:grid-cols-3">
+        <ul className="gap-x-10 gap-y-10 grid mb-20 md:grid-cols-3 lg:grid-cols-4">
           <li className="speakers-grid">
-            <a href="https://poets.org/" target="_blank">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Academy of American Poets
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://poets.org/"
+              target="_blank"
+            >
+              <img
+                alt="Academy of American Poets"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/poets-org.png"
+              />
+              <h4 className="text-2xl uppercase">Academy of American Poets</h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="http://roxburyculturaldistrict.com/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Roxbury Cultural District
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="http://roxburyculturaldistrict.com/"
+              target="_blank"
+            >
+              <img
+                alt="Roxbury Cultural District"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/roxbury-cultural-district.png"
+              />
+              <h4 className="text-2xl uppercase">Roxbury Cultural District</h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://www.boston.gov/departments/arts-and-culture">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://www.boston.gov/departments/arts-and-culture"
+              target="_blank"
+            >
+              <img
+                alt="City of Boston"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/boston.png"
+              />
+              <h4 className="text-2xl uppercase">
                 Mayor’s Office of Arts & Culture
               </h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="http://www.madison-park.org/what-we-do/arts-culture/hibernian-hall/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Hibernian Hall
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="http://www.madison-park.org/what-we-do/arts-culture/hibernian-hall/"
+              target="_blank"
+            >
+              <img
+                alt="Hibernian Hall"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/hibernian-hall.png"
+              />
+              <h4 className="text-2xl uppercase">Hibernian Hall</h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://masspoetry.org/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Mass Poetry
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://masspoetry.org/"
+              target="_blank"
+            >
+              <img
+                alt="Mass Poetry"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/mass-poetry.png"
+              />
+              <h4 className="text-2xl uppercase">Mass Poetry</h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://blackmarketnubian.com/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Black Market Dudley
-              </h4>
+            <a
+              className="items-center md:mb-4 mt-8"
+              href="https://blackmarketnubian.com/"
+              target="_blank"
+            >
+              <img
+                alt="Black Market Dudley"
+                className="h-20 mr-6 mt-8"
+                src="/img/logos/black-market.jpeg"
+              />
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://grubstreet.org/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Grub Street
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://grubstreet.org/"
+              target="_blank"
+            >
+              <img
+                alt="Grub Street"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/grub-street.png"
+              />
+              <h4 className="text-2xl uppercase">Grub Street</h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://haleyhouse.org/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Haley House
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://haleyhouse.org/"
+              target="_blank"
+            >
+              <img
+                alt="Haley House"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/haley-house.png"
+              />
+              <h4 className="text-2xl uppercase">Haley House</h4>
             </a>
           </li>
           <li className="speakers-grid">
@@ -150,45 +207,86 @@ export default function About() {
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://www.northeastern.edu/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Northeastern
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://www.northeastern.edu/"
+              target="_blank"
+            >
+              <img
+                alt="Northeastern"
+                className="h-20 mr-6"
+                src="/img/logos/northeastern2.jpg"
+              />
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://826boston.org/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                826 Boston
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://826boston.org/"
+              target="_blank"
+            >
+              <img
+                alt="826 Boston"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/826-boston.jpeg"
+              />
+              <h4 className="text-2xl uppercase">826 Boston</h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://buttonpoetry.com/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Button Poetry
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://buttonpoetry.com/"
+              target="_blank"
+            >
+              <img
+                alt="Button Poetry"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/button-poetry.jpeg"
+              />
+              <h4 className="text-2xl uppercase">Button Poetry</h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://www.therecordco.org/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                The Record Company
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://www.therecordco.org/"
+              target="_blank"
+            >
+              <img
+                alt="The Record Company"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/the-record-co.png"
+              />
+              <h4 className="text-2xl uppercase">The Record Company</h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://www.haymarketbooks.org/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Haymarket Books
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://www.haymarketbooks.org/"
+              target="_blank"
+            >
+              <img
+                alt="Haymarket Books"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/haymarket-books.png"
+              />
+              <h4 className="text-2xl uppercase">Haymarket Books</h4>
             </a>
           </li>
           <li className="speakers-grid">
-            <a href="https://printaintdead.us/">
-              <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                Print Ain’t Dead
-              </h4>
+            <a
+              className="flex items-center md:mb-4 mt-8"
+              href="https://printaintdead.us/"
+              target="_blank"
+            >
+              <img
+                alt="Print Ain’t Dead"
+                className="h-16 md:h-20 mr-6"
+                src="/img/logos/print-aint-dead.jpeg"
+              />
+              <h4 className="text-2xl uppercase">Print Ain’t Dead</h4>
             </a>
           </li>
         </ul>
