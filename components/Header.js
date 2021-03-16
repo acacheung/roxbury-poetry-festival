@@ -35,7 +35,7 @@ const Header = class extends React.Component {
   render() {
     return (
       <header
-        className={`justify-center md:items-center mx-auto relative text-white z-50 w-full ${this.state.navBarActiveClass}`}
+        className={`justify-center md:items-center mx-auto relative z-50 w-full ${this.state.navBarActiveClass}`}
       >
         <nav className="flex flex-col flex-grow justify-center">
           <button

@@ -38,16 +38,12 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 0;
   margin: 0;
-  @apply text-white;
   @apply bg-gray-900;
+  @apply text-white;
 }
 
 .cursor {
-  background: radial-gradient(
-    circle,
-    rgb(124, 114, 212) 0%,
-    rgba(3, 3, 3, 1) 50%
-  );
+  background: radial-gradient(circle, #3755da 0%, #030303 50%);
   width: 24.25rem;
   height: 24.25rem;
   border-radius: 50%;
@@ -132,6 +128,38 @@ body {
 .logo-festival svg:hover {
   fill: #cefc64;
   transition-duration: 0.25s;
+}
+
+.register-wrap {
+  white-space: nowrap;
+}
+
+.register-banner {
+  animation: marquee 5s linear infinite;
+  display: inline-block;
+  padding-right: 8px;
+  @apply h-full;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@screen md {
+  .footer-top::before {
+    content: "";
+    @apply bg-white;
+    display: block;
+    position: absolute;
+    height: 1px;
+    top: 0;
+    width: 100%;
+  }
 }
 
 @screen lg {

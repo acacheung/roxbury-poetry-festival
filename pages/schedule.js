@@ -22,21 +22,23 @@ export default function Schedule() {
           The Schedule
         </h2>
         <div>
-          <details className="border-t">
+          <details className="border-t border-white">
             <summary className="focus:outline-none summaryWrap">
-              <div className="md:grid md:grid-cols-3 md:gap-x-10 my-10">
-                <div className="mb-6 md:mb-0 md:text-3xl text-2xl">
-                  09:00am - 11:30am ET
-                </div>
-                <div className="md:col-span-2 flex md:text-lg justify-between">
-                  Choose the session you want to to attend! We’ll have a
-                  publishing panel and two writing workshops by Chen Chen and
-                  Denice Froham. Workshops require registration ahead of time.
-                  <div>
-                    <svg className="fill-current ml-12" height="20" width="40">
-                      <use xlinkHref="#icon-uparrow" />
-                    </svg>
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+                <div className="md:col-span-7">
+                  <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
+                    <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
+                      09:00am - 11:30am ET
+                    </p>
+                    <div className="md:col-span-3 lg:col-span-4 md:text-lg">
+                      Workshops & Panels
+                    </div>
                   </div>
+                </div>
+                <div className="md:col-span-1 flex flex-col items-end">
+                  <svg className="fill-current" height="20" width="40">
+                    <use xlinkHref="#icon-uparrow" />
+                  </svg>
                 </div>
               </div>
             </summary>
@@ -52,7 +54,7 @@ export default function Schedule() {
                   surrounding the success and challenges associated with
                   publishing in journals as well as a full-length manuscript.
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -69,7 +71,7 @@ export default function Schedule() {
                 <p className="font-mono mt-6">
                   This writing workshop facilitated by Chen Chen
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -87,7 +89,7 @@ export default function Schedule() {
                   This writing workshop will be facilitated by women of the
                   world poetry slam champion, Denice Froham
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -104,7 +106,7 @@ export default function Schedule() {
                 <p className="font-mono mt-6">
                   This session will feature an author reading and a q/a
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -115,21 +117,23 @@ export default function Schedule() {
               </div>
             </div>
           </details>
-          <details className="border-t">
+          <details className="border-t border-white">
             <summary className="focus:outline-none summaryWrap">
-              <div className="md:grid md:grid-cols-3 md:gap-x-10 my-10">
-                <div className="mb-6 md:mb-0 md:text-3xl text-2xl">
-                  11:30am - 1:00pm ET
-                </div>
-                <div className="md:col-span-2 flex md:text-lg justify-between">
-                  We’ll have a panel and three writing workshops by Tatiana
-                  Johnson-Boria, Aricka Foreman, and Rajiv Mohabir. Workshops
-                  require registration ahead of time.
-                  <div>
-                    <svg className="fill-current ml-12" height="20" width="40">
-                      <use xlinkHref="#icon-uparrow" />
-                    </svg>
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+                <div className="md:col-span-7">
+                  <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
+                    <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
+                      11:30am - 1:00pm ET
+                    </p>
+                    <div className="md:col-span-3 lg:col-span-4 md:text-lg">
+                      Workshops & Panels
+                    </div>
                   </div>
+                </div>
+                <div className="md:col-span-1 flex flex-col items-end">
+                  <svg className="fill-current" height="20" width="40">
+                    <use xlinkHref="#icon-uparrow" />
+                  </svg>
                 </div>
               </div>
             </summary>
@@ -143,7 +147,7 @@ export default function Schedule() {
                   This panel will consist of artists, residents and city
                   planners to discuss the trajectory and dreams of Roxbury.
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -161,7 +165,7 @@ export default function Schedule() {
                   This writing workshop facilitated by Roxbury native, Tatiana
                   Johnson-Boria
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -179,7 +183,7 @@ export default function Schedule() {
                   This writing workshop will be facilitated by Detroit native
                   and Chicago Resident, Aricka Foreman
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -197,7 +201,7 @@ export default function Schedule() {
                   This writing workshop will be facilitated by local professor,
                   MFA Rajiv Mohabir
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -208,19 +212,23 @@ export default function Schedule() {
               </div>
             </div>
           </details>
-          <details className="border-t">
+          <details className="border-t border-white">
             <summary className="focus:outline-none summaryWrap">
-              <div className="md:grid md:grid-cols-3 md:gap-x-10 my-10">
-                <div className="mb-6 md:mb-0 md:text-3xl text-2xl">
-                  1:00pm - 2:00pm ET
-                </div>
-                <div className="md:col-span-2 flex md:text-lg justify-between">
-                  Lunch Time Craft Talks & Discussions
-                  <div>
-                    <svg className="fill-current ml-12" height="20" width="40">
-                      <use xlinkHref="#icon-uparrow" />
-                    </svg>
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+                <div className="md:col-span-7">
+                  <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
+                    <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
+                      1:00pm - 2:00pm ET
+                    </p>
+                    <div className="md:col-span-3 lg:col-span-4 md:text-lg">
+                      Lunch Time Craft Talks & Discussions
+                    </div>
                   </div>
+                </div>
+                <div className="md:col-span-1 flex flex-col items-end">
+                  <svg className="fill-current" height="20" width="40">
+                    <use xlinkHref="#icon-uparrow" />
+                  </svg>
                 </div>
               </div>
             </summary>
@@ -239,7 +247,7 @@ export default function Schedule() {
                   and a Roxbury Youth Poet Laureate Finalist regarding Elhillo’s
                   recently released YA novel written in verse.
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -259,7 +267,7 @@ export default function Schedule() {
                   on screen while be inspired to think about writing differently
                   with poet and performer, Rachel McKibbens
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -270,19 +278,23 @@ export default function Schedule() {
               </div>
             </div>
           </details>
-          <details className="border-t">
+          <details className="border-t border-white">
             <summary className="focus:outline-none summaryWrap">
-              <div className="md:grid md:grid-cols-3 md:gap-x-10 my-10">
-                <div className="mb-6 md:mb-0 md:text-3xl text-2xl">
-                  2:00pm - 3:00pm ET
-                </div>
-                <div className="md:col-span-2 flex md:text-lg justify-between">
-                  Readings, Performances & Conversations
-                  <div>
-                    <svg className="fill-current ml-12" height="20" width="40">
-                      <use xlinkHref="#icon-uparrow" />
-                    </svg>
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+                <div className="md:col-span-7">
+                  <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
+                    <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
+                      2:00pm - 3:00pm ET
+                    </p>
+                    <div className="md:col-span-3 lg:col-span-4 md:text-lg">
+                      Readings, Performances & Conversations
+                    </div>
                   </div>
+                </div>
+                <div className="md:col-span-1 flex flex-col items-end">
+                  <svg className="fill-current" height="20" width="40">
+                    <use xlinkHref="#icon-uparrow" />
+                  </svg>
                 </div>
               </div>
             </summary>
@@ -298,7 +310,7 @@ export default function Schedule() {
                   This reading and performance features latinext folks who were
                   published in the BreakBeat Poets Anthology. Closes with a q/a
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -318,7 +330,7 @@ export default function Schedule() {
                   poetry world nationally and locally. #LocalLivingLegends
                   Closes with a q/a
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -338,7 +350,7 @@ export default function Schedule() {
                   Anthology. The reading takes place outside the Roxbury Branch
                   Library
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -356,7 +368,7 @@ export default function Schedule() {
                 <p className="font-mono mt-6">
                   This event will be curated by poet Ashley Rose.
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -367,19 +379,23 @@ export default function Schedule() {
               </div>
             </div>
           </details>
-          <details className="border-t">
+          <details className="border-t border-white">
             <summary className="focus:outline-none summaryWrap">
-              <div className="md:grid md:grid-cols-3 md:gap-x-10 my-10">
-                <div className="mb-6 md:mb-0 md:text-3xl text-2xl">
-                  3:00pm - 4:00pm ET
-                </div>
-                <div className="md:col-span-2 flex md:text-lg justify-between">
-                  Readings, Performances & Conversations
-                  <div>
-                    <svg className="fill-current ml-12" height="20" width="40">
-                      <use xlinkHref="#icon-uparrow" />
-                    </svg>
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+                <div className="md:col-span-7">
+                  <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
+                    <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
+                      3:00pm - 4:00pm ET
+                    </p>
+                    <div className="md:col-span-3 lg:col-span-4 md:text-lg">
+                      Readings, Performances & Conversations
+                    </div>
                   </div>
+                </div>
+                <div className="md:col-span-1 flex flex-col items-end">
+                  <svg className="fill-current" height="20" width="40">
+                    <use xlinkHref="#icon-uparrow" />
+                  </svg>
                 </div>
               </div>
             </summary>
@@ -397,7 +413,7 @@ export default function Schedule() {
                   Diaspora who were contributors to the Breakbeat Poet
                   Anthology: Halal If You Hear Me. Closes with a q/a
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -419,7 +435,7 @@ export default function Schedule() {
                   hosts, Nina La Negra and Fulani Haynes. This provides an
                   opportunity for folks to sign up to read on the open mic.
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -442,7 +458,7 @@ export default function Schedule() {
                   historical gossip associated with the local and national
                   literary movements & writers
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -463,7 +479,7 @@ export default function Schedule() {
                   and incarcerated writers who have spent time in writing
                   classrooms with Jill
                 </p>
-                <div className="border inline-block rounded-full mt-10 py-3 px-5">
+                <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
                     <svg className="fill-current ml-2" height="12" width="15">
@@ -474,11 +490,11 @@ export default function Schedule() {
               </div>
             </div>
           </details>
-          <div className="border-t md:grid md:grid-cols-3 md:gap-x-10 py-10">
-            <div className="mb-6 md:mb-0 md:text-3xl text-2xl">
+          <div className="border-t border-white md:grid md:grid-cols-8 items-center md:w-full py-10">
+            <div className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
               4:00pm - 5:00pm ET
             </div>
-            <div className="md:col-span-2 mr-16 text-lg">
+            <div className="md:col-span-4 lg:col-span-5 text-lg">
               <h3 className="mb-4 md:text-4xl text-3xl uppercase">
                 Keynote Address w/ Jericho Brown
               </h3>
@@ -487,7 +503,7 @@ export default function Schedule() {
                 of his book. This talk will be moderated by a local artist.
                 Hosted by Roxbury Branch Public Library.
               </p>
-              <div className="border inline-block rounded-full mt-10 py-3 px-5">
+              <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                 <a href="#" className="flex items-center">
                   Register for this event
                   <svg className="fill-current ml-2" height="12" width="15">
@@ -497,11 +513,11 @@ export default function Schedule() {
               </div>
             </div>
           </div>
-          <div className="border-t md:grid md:grid-cols-3 md:gap-x-10 py-10">
-            <div className="mb-6 md:mb-0 md:text-3xl text-2xl">
+          <div className="border-t border-white md:grid md:grid-cols-8 items-center md:w-full py-10">
+            <div className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
               5:00pm - 7:00pm ET
             </div>
-            <div className="col-span-2 mr-16 text-lg">
+            <div className="md:col-span-4 lg:col-span-5 text-lg">
               <h3 className="mb-4 md:text-4xl text-3xl uppercase">
                 Publisher’s Poetry Slam
               </h3>
@@ -512,7 +528,7 @@ export default function Schedule() {
                 Button Poetry. This event is only open to poetry living in
                 Massachusetts. Hosted by Button Poetry.
               </p>
-              <div className="border inline-block rounded-full mt-10 py-3 px-5">
+              <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                 <a href="#" className="flex items-center">
                   Register for this event
                   <svg className="fill-current ml-2" height="12" width="15">
@@ -522,11 +538,11 @@ export default function Schedule() {
               </div>
             </div>
           </div>
-          <div className="border-t md:grid md:grid-cols-3 md:gap-x-10 py-10">
-            <div className="mb-6 md:mb-0 md:text-3xl text-2xl">
+          <div className="border-t border-white md:grid md:grid-cols-8 items-center md:w-full py-10">
+            <div className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
               7:00pm - 9:00pm ET
             </div>
-            <div className="col-span-2 mr-16 text-lg">
+            <div className="md:col-span-4 lg:col-span-5 text-lg">
               <h3 className="mb-4 md:text-4xl text-3xl uppercase">
                 Boston Un-Versed: a concert
               </h3>
@@ -535,7 +551,7 @@ export default function Schedule() {
                 in the Blair Lot and feature local hip hop artists in a
                 friendly. Hosted by DJ Why SHam.
               </p>
-              <div className="border inline-block rounded-full mt-10 py-3 px-5">
+              <div className="border border-white inline-block rounded-full mt-10 py-3 px-5">
                 <a href="#" className="flex items-center">
                   Register for this event
                   <svg className="fill-current ml-2" height="12" width="15">

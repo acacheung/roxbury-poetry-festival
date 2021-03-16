@@ -19,7 +19,7 @@ export default function About() {
           </a>
         </Link>
         <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">About Us</h2>
-        <div className="border-t md:flex md:pt-20 pt-10">
+        <div className="border-t border-white md:flex md:pt-20 pt-10">
           <div className="mb-10 md:mb-0 md:mr-20 md:text-3xl text-2xl xl:mr-32 w-full">
             Roxbury Poetry Festival 2021 is the start of a multi-year
             collaboration between poetry and the city of Boston.
@@ -87,7 +87,7 @@ export default function About() {
         </div>
         <ul className="gap-x-10 gap-y-10 grid mb-20 md:grid-cols-2 lg:grid-cols-3">
           <li className="speakers-grid">
-            <a href="https://poets.org/">
+            <a href="https://poets.org/" target="_blank">
               <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                 Academy of American Poets
               </h4>

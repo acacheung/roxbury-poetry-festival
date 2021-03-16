@@ -38,6 +38,11 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/schedule.js"
+    ],
+    "/speakers": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/speakers.js"
     ]
   },
   "ampFirstPages": []
