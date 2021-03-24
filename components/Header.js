@@ -42,7 +42,7 @@ const Header = class extends React.Component {
             className="absolute focus:outline-none mr-6 mt-6 right-0 top-0"
             onClick={() => this.toggleHamburger()}
           >
-            <div className={headerStyles.iconHamburger}>
+            <div className={headerStyles.iconHamburger + " block"}>
               <svg className="fill-current" height="29" width="40">
                 <use xlinkHref="#icon-menu" />
               </svg>
