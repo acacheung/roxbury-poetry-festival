@@ -123,6 +123,48 @@ export default function About() {
             </a>
           </li>
           <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">George Abraham</h3>
+            <p className="mb-8 text-lg">
+              Palestinian Diasporic Poet, Educator, Engineer
+            </p>
+            <img alt="George Abraham" src="/img/george-abraham.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              <a
+                className="underline"
+                href="https://www.gabrahampoet.com/"
+                target="_blank"
+              >
+                George Abraham
+              </a>{" "}
+              (they / he) is a Palestinian american poet, writer, and engineer
+              from Jacksonville, FL. Their debut poetry collection{" "}
+              <a
+                className="underline"
+                href="https://buttonpoetry.com/product/birthright/"
+                target="_blank"
+              >
+                Birthright
+              </a>{" "}
+              (Button Poetry, 2020) was a finalist for the Lambda Literary Award
+              in Bisexual Poetry, and the Big Other Book Award. He is a board
+              member for the Radius of Arab American Writers (RAWI), a recipient
+              of fellowships from Kundiman and The Boston Foundation, and winner
+              of the 2017 College Union Poetry Slam Invitational's Best Poet
+              title. Their work has appeared in The American Poetry Review, The
+              Baffler, The Paris Review, The Missouri Review, Mizna, and
+              elsewhere. A graduate of Swarthmore College and Harvard
+              University, Abraham currently teaches at Emerson College, and will
+              be a Litowitz MA+MFA Candidate at Northwestern University in the
+              fall.
+            </p>
+            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Paths to Publication
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Jill McDonough</h3>
             <p className="mb-8 text-lg">Jill's at UMB and jails.</p>
             <img alt="Jill McDonough" src="/img/jill-mcdonough.jpg" />
