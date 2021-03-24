@@ -6,7 +6,7 @@ export default function About() {
   return (
     <Layout>
       <Head>
-        <title>Spakers | Roxbury Poetry Festival</title>
+        <title>Speakers | Roxbury Poetry Festival</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="max-w-7xl mx-auto px-6 w-full">
@@ -21,8 +21,39 @@ export default function About() {
         <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">Speakers</h2>
         <ul className="gap-x-10 gap-y-20 grid mb-20 md:grid-cols-2 lg:grid-cols-3">
           <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Denice Frohman</h3>
+            <p className="mb-8 text-lg">Poet, Educator, Activist</p>
+            <img alt="Denice Frohman" src="/img/denice-frohman.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              <a
+                className="underline"
+                href="https://www.denicefrohman.com"
+                target="_blank"
+              >
+                Denice Frohman
+              </a>{" "}
+              (she / her) is a poet, performer and educator from New York City.
+              A CantoMundo Fellow, she’s received residencies and awards from
+              the National Association of Latino Arts & Cultures, Leeway
+              Foundation, Millay Colony and Blue Mountain Center.
+              <br />
+              Her work has appeared in The New York Times, The BreakBeat Poets:
+              LatiNext, Nepantla: An Anthology for Queer Poets of Color, ESPNW
+              and elsewhere. A former Women of the World Poetry Slam Champion,
+              she’s featured on hundreds of stages from The White House to The
+              Apollo, and co-organized #PoetsforPuertoRico. She lives in
+              Philadelphia.
+            </p>
+            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Sweet Impossible Blossom
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Diannely Antigua</h3>
-            <p className="mb-8 text-lg">TBA</p>
+            <p className="mb-8 text-lg"></p>
             <img alt="Diannely Antigua" src="/img/diannely-antigua.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
@@ -53,12 +84,55 @@ export default function About() {
             </a>
           </li>
           <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Frances Donovan</h3>
+            <p className="mb-8 text-lg">Poet, Writer, Teacher</p>
+            <img alt="Frances Donovan" src="/img/frances-donovan.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              <a
+                className="underline"
+                href="https://gardenofwords.com/"
+                target="_blank"
+              >
+                Frances Donovan’s
+              </a>{" "}
+              (she / her) chapbook{" "}
+              <a
+                className="underline"
+                href="https://www.amazon.com/Mad-Quick-Hand-Seashore-Poems/dp/1984273159"
+                target="_blank"
+              >
+                Mad Quick Hand of the Seashore
+              </a>{" "}
+              was a finalist in the Lambda Literary Awards. Bylines include The
+              Rumpus, SWWIM, and Solstice. She holds an MFA in poetry from
+              Lesley University and she once drove a bulldozer in an LGBTQ+
+              Pride Parade while wearing a bustier. Twitter:{" "}
+              <a
+                className="underline"
+                href="https://twitter.com/okelle"
+                target="_blank"
+              >
+                @okelle
+              </a>
+            </p>
+            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Paths to Publication
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Jill McDonough</h3>
             <p className="mb-8 text-lg">Jill's at UMB and jails.</p>
             <img alt="Jill McDonough" src="/img/jill-mcdonough.jpg" />
             <p className="font-mono mt-6 text-lg">
               Three-time Pushcart prize winner{" "}
-              <a className="underline" href="jillmcdonough.com" target="_blank">
+              <a
+                className="underline"
+                href="http://www.jillmcdonough.com/"
+                target="_blank"
+              >
                 Jill McDonough
               </a>{" "}
               (she / her) is the recipient of Lannan, NEA, Cullman Center, and
@@ -84,7 +158,7 @@ export default function About() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Jonathan Mendoza</h3>
-            <p className="mb-8 text-lg">Organizer, poet, and educator</p>
+            <p className="mb-8 text-lg">Organizer, Poet, Educator</p>
             <img alt="Jonathan Mendoza" src="/img/jonathan-mendoza.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
@@ -104,10 +178,96 @@ export default function About() {
               is a proud anxious Virgo, Greek yogurt enthusiast, and devout
               believer in the power of young people to change this world for the
               better. Books, updates, and more information can be found at
-              MendozaPoetry.com and @JMendoza010 on Twitter and Instagram.
+              @JMendoza010 on{" "}
+              <a
+                className="underline"
+                href="https://twitter.com/jmendoza010"
+                target="_blank"
+              >
+                Twitter
+              </a>{" "}
+              and{" "}
+              <a
+                className="underline"
+                href="https://www.instagram.com/jmendoza010/"
+                target="_blank"
+              >
+                Instagram
+              </a>
+              .
             </p>
             <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for LatiNext Reading
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Kristina Marie Darling
+            </h3>
+            <p className="mb-8 text-lg">Poet, Editor, Critic</p>
+            <img
+              alt="Kristina Marie Darling"
+              src="/img/kristina-marie-darling.jpg"
+            />
+            <p className="font-mono mt-6 text-lg">
+              <a
+                className="underline"
+                href="https://kristinamariedarling.com"
+                target="_blank"
+              >
+                Kristina Marie Darling
+              </a>{" "}
+              (she / her) is the author of thirty-five books, which include Look
+              to Your Left: A Feminist Poetics of Spectacle (University of Akron
+              Press, 2021); Stylistic Innovation, Conscious Experience, and the
+              Self in Modernist Women’s Poetry (Rowman & Littlefield Publishing
+              Group, 2021); Silence in Contemporary Poetry, which will be
+              published in hardcover by Clemson University Press in the United
+              States and Liverpool University Press in the United Kingdom;
+              SILENT REFUSAL: Essays on Contemporary Feminist Poetry (Black
+              Ocean, forthcoming); ANGEL OF THE NORTH (Salmon Poetry,
+              forthcoming); and X Marks the Dress: A Registry (co-written with
+              Carol Guess), which will be launched by Persea Books in the United
+              States. Penguin Random House Canada will also publish a Canadian
+              edition. Her work has been recognized with three residencies at
+              Yaddo, where she has held the Martha Walsh Pulver Residency for a
+              Poet and the Howard Moss Residency in Poetry; a Fundación
+              Valparaíso fellowship to live and work in Spain; a Hawthornden
+              Castle Fellowship, funded by the Heinz Foundation; an
+              artist-in-residence position at Cité Internationale des Arts in
+              Paris; five residencies at the American Academy in Rome; two
+              grants from the Whiting Foundation; a Faber Residency in the Arts,
+              Sciences, and Humanities, which she received on two separate
+              occasions; an artist-in-residence position with the Andorran
+              Ministry of Culture; and the Dan Liberthson Prize from the Academy
+              of American Poets, which she received on three separate occasions;
+              among many other awards and honors. She serves as Editor-in-Chief
+              of Tupelo Press & Tupelo Quarterly.
+            </p>
+            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Paths to Publication
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Letta Simone Neely</h3>
+            <p className="mb-8 text-lg">
+              Artist, Poet, Activist, Earthling, Parent
+            </p>
+            <img alt="Letta Simone Neely" src="/img/letta-neely.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              Letta Neely (she / her) is a Black Lesbian Earthling. She is the
+              author of two books of poetry and numerous plays. She is a
+              draptomaniac who knows her liberation is tied to yours and vice
+              versa.
+            </p>
+            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Local Literary Legends
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -118,7 +278,11 @@ export default function About() {
             <p className="mb-8 text-lg">Is a poet.</p>
             <img alt="Malcolm Friend" src="/img/malcolm-friend.jpg" />
             <p className="font-mono mt-6 text-lg">
-              <a className="underline" href="malcolmfriend.com" target="_blank">
+              <a
+                className="underline"
+                href="http://www.malcolmfriend.com/"
+                target="_blank"
+              >
                 Malcolm Friend
               </a>{" "}
               (he / him) is a poet originally from the Rainier Beach
@@ -146,12 +310,12 @@ export default function About() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Martha Collins</h3>
-            <p className="mb-8 text-lg">TBA</p>
+            <p className="mb-8 text-lg"></p>
             <img alt="Martha Collins" src="/img/martha-collins.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
-                href="marthacollinspoet.com"
+                href="https://marthacollinspoet.com/"
                 target="_blank"
               >
                 Martha Collins's
@@ -182,7 +346,6 @@ export default function About() {
               </svg>
             </a>
           </li>
-
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Nikia Chaney</h3>
             <p className="mb-8 text-lg">Poet, Educator</p>
@@ -190,7 +353,7 @@ export default function About() {
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
-                href="www.nikiachaney.com"
+                href="https://www.nikiachaney.com/"
                 target="_blank"
               >
                 ​Nikia Chaney
@@ -215,7 +378,46 @@ export default function About() {
               </svg>
             </a>
           </li>
-
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
+            <p className="mb-8 text-lg">Poet, Witch, Noisemaker</p>
+            <img alt="Rachel McKibbens" src="/img/rachel-mckibbens.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              ​Rachel McKibbens (she / her) is a witch, a writer and a thinker.
+              She founded the Pink Door Writing Retreat for fellows and resides
+              in upstate New York.
+            </p>
+            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Excavating the Wicked Imagination
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Ryan Murphy</h3>
+            <p className="mb-8 text-lg">Publisher, Poet</p>
+            <img alt="Ryan Murphy" src="/img/ryan-murphy.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              Ryan Murphy (he / him) is the author of Millbrook,{" "}
+              <a
+                className="underline"
+                href="https://www.spdbooks.org/Author/Default.aspx?AuthorId=4219"
+                target="_blank"
+              >
+                The Redcoats
+              </a>
+              , and Down with the Ship. He has received grants and awards from
+              the Aldrich Museum of Contemporary Art, Chelsea Magazine, The Fund
+              For Poetry, and The New York State Foundation for the Arts.
+            </p>
+            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Excavating the Wicked Imagination
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Seema Yasmin</h3>
             <p className="mb-8 text-lg">Poet, Doctor, Journalist</p>
@@ -223,7 +425,7 @@ export default function About() {
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
-                href="www.seemayasmin.com"
+                href="http://seemayasmin.com/"
                 target="_blank"
               >
                 Seema Yasmin
@@ -232,19 +434,42 @@ export default function About() {
               and author. A fiction fellow of the Kundiman and Tin House
               workshops, she is the author of four books including Muslim Women
               Are Everything, Viral BS: Medical Myths and Why We Fall for Them,
-              and{" "}
-              <a
-                className="underline"
-                href="https://www.haymarketbooks.org/books/1636-if-god-is-a-virus"
-                target="_blank"
-              >
-                If God is a Virus
-              </a>
-              , poems based on her reporting on the Ebola epidemic in West
+              and , poems based on her reporting on the Ebola epidemic in West
               Africa.
             </p>
             <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Halal If Your Hear Me
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Tatiana Johnson-Boria
+            </h3>
+            <p className="mb-8 text-lg"></p>
+            <img
+              alt="Tatiana Johnson-Boria"
+              src="/img/tatiana-johnson-boria.jpg"
+            />
+            <p className="font-mono mt-6 text-lg">
+              <a
+                className="underline"
+                href="http://www.tatianamrjohnson.com/"
+                target="_blank"
+              >
+                Tatiana
+              </a>{" "}
+              (she / her) is a writer, artist and educator. Her writing explores
+              identity, trauma, especially inherited trauma, and what it means
+              to heal. She completed her MFA in Creative Writing at Emerson
+              College and is a 2021 Tin House Scholar. She also serves on the
+              board for VIDA: Women in Literary Arts. Find her work in or
+              forthcoming at Ploughshares, New Delta Review, Foundry and others.
+            </p>
+            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Writing Our Mothers
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
