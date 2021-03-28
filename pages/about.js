@@ -8,7 +8,7 @@ export default function About() {
     <>
       <Layout>
         <Head>
-          <title>Roxbury Poetry Festival</title>
+          <title>About | Roxbury Poetry Festival</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className="max-w-7xl mx-auto px-6 w-full">
@@ -59,8 +59,8 @@ export default function About() {
           </div>
           <div className="flex justify-center max-w-4xl lg:text-5xl md:my-24 md:text-4xl my-16 mx-auto text-2xl text-center">
             Teamwork makes the dream work. Shout out to the team that brought
-            this all together. Please give a round of applause to the
-            organizers.
+            this all together. Please give a round of applause to the organizers
+            and sponsors.
           </div>
           <ul className="gap-x-10 gap-y-10 grid mb-20 md:grid-cols-3 lg:grid-cols-4">
             <li className="speakers-grid">

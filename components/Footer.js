@@ -13,13 +13,9 @@ export default function Footer() {
         <Link href="/about">
           <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">About</a>
         </Link>
-        <Link href="/schedule">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">Schedule</a>
+        <Link href="/slam">
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">Slam</a>
         </Link>
-        <Link href="/speakers">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">Speakers</a>
-        </Link>
-        <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">Register</a>
       </div>
     </footer>
   );

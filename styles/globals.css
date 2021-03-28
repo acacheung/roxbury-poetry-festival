@@ -70,10 +70,6 @@ body {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-.hero {
-  height: calc(100vh - 1.5rem);
-}
-
 .speakers-grid::before {
   content: "";
   @apply bg-black;
@@ -95,14 +91,6 @@ body {
 
 .speakers-grid:hover::before {
   transform: scaleY(6);
-}
-
-.speakers-grid img {
-  filter: grayscale(1);
-}
-
-.speakers-grid:hover img {
-  filter: grayscale(0);
 }
 
 .summaryWrap {
@@ -158,6 +146,10 @@ body {
 }
 
 @screen md {
+  .hero {
+    height: calc(100vh - 1.5rem);
+  }
+
   .footer-top::before {
     content: "";
     @apply bg-black;

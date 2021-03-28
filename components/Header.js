@@ -55,13 +55,13 @@ const Header = class extends React.Component {
           </button>
           <div
             className={
-              headerStyles.mainNav + " flex font-bold font-sans hidden"
+              headerStyles.mainNav + " flex font-bold font-sans hidden mt-20"
             }
           >
             <Link href="/about">
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
+                  <div className="flex items-center">
                     <p>About RFP 2021</p>
                     <svg className="fill-current mx-4" height="3" width="80">
                       <use xlinkHref="#icon-navline" />
@@ -69,7 +69,7 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
+                  <div className="flex items-center">
                     <p>About RFP 2021</p>
                     <svg className="fill-current mx-4" height="3" width="80">
                       <use xlinkHref="#icon-navline" />
@@ -77,7 +77,7 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
+                  <div className="flex items-center">
                     <p>About RFP 2021</p>
                     <svg className="fill-current mx-4" height="3" width="80">
                       <use xlinkHref="#icon-navline" />
@@ -85,7 +85,7 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
+                  <div className="flex items-center">
                     <p>About RFP 2021</p>
                     <svg className="fill-current mx-4" height="3" width="80">
                       <use xlinkHref="#icon-navline" />
@@ -93,7 +93,7 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
+                  <div className="flex items-center">
                     <p>About RFP 2021</p>
                     <svg className="fill-current mx-4" height="3" width="80">
                       <use xlinkHref="#icon-navline" />
@@ -101,9 +101,73 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
+                  <div className="flex items-center">
                     <p>About RFP 2021</p>
                     <svg className="fill-current mx-4" height="3" width="80">
+                      <use xlinkHref="#icon-navline" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </Link>
+            <Link href="/slam">
+              <a className={headerStyles.scrollingItem}>
+                <div className={headerStyles.scrolling}>
+                  <div className="flex items-center">
+                    <p>Poetry Slam</p>
+                    <svg
+                      className="fill-current ml-6 mr-4"
+                      height="3"
+                      width="80"
+                    >
+                      <use xlinkHref="#icon-navline" />
+                    </svg>
+                  </div>
+                </div>
+                <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div className="flex items-center">
+                    <p>Poetry Slam</p>
+                    <svg
+                      className="fill-current ml-6 mr-4"
+                      height="3"
+                      width="80"
+                    >
+                      <use xlinkHref="#icon-navline" />
+                    </svg>
+                  </div>
+                </div>
+                <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div className="flex items-center">
+                    <p>Poetry Slam</p>
+                    <svg
+                      className="fill-current ml-6 mr-4"
+                      height="3"
+                      width="80"
+                    >
+                      <use xlinkHref="#icon-navline" />
+                    </svg>
+                  </div>
+                </div>
+                <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div className="flex items-center">
+                    <p>Poetry Slam</p>
+                    <svg
+                      className="fill-current ml-6 mr-4"
+                      height="3"
+                      width="80"
+                    >
+                      <use xlinkHref="#icon-navline" />
+                    </svg>
+                  </div>
+                </div>
+                <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div className="flex items-center">
+                    <p>Poetry Slam</p>
+                    <svg
+                      className="fill-current ml-6 mr-4"
+                      height="3"
+                      width="80"
+                    >
                       <use xlinkHref="#icon-navline" />
                     </svg>
                   </div>
@@ -113,8 +177,8 @@ const Header = class extends React.Component {
             <Link href="/schedule">
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
-                    <p>See Schedule</p>
+                  <div className="flex items-center">
+                    <p>Schedule (coming soon!)</p>
                     <svg
                       className="fill-current ml-6 mr-4"
                       height="3"
@@ -125,8 +189,8 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
-                    <p>See Schedule</p>
+                  <div className="flex items-center">
+                    <p>Schedule (coming soon!)</p>
                     <svg
                       className="fill-current ml-6 mr-4"
                       height="3"
@@ -137,8 +201,8 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
-                    <p>See Schedule</p>
+                  <div className="flex items-center">
+                    <p>Schedule (coming soon!)</p>
                     <svg
                       className="fill-current ml-6 mr-4"
                       height="3"
@@ -149,8 +213,8 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
-                    <p>See Schedule</p>
+                  <div className="flex items-center">
+                    <p>Schedule (coming soon!)</p>
                     <svg
                       className="fill-current ml-6 mr-4"
                       height="3"
@@ -161,8 +225,8 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
-                    <p>See Schedule</p>
+                  <div className="flex items-center">
+                    <p>Schedule (coming soon!)</p>
                     <svg
                       className="fill-current ml-6 mr-4"
                       height="3"
@@ -176,7 +240,7 @@ const Header = class extends React.Component {
             </Link>
             <a href="#" className={headerStyles.scrollingItem}>
               <div className={headerStyles.scrolling}>
-                <div className="flex items-center" href="#">
+                <div className="flex items-center">
                   <p>Register Now</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
@@ -184,7 +248,7 @@ const Header = class extends React.Component {
                 </div>
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
-                <div className="flex items-center" href="#">
+                <div className="flex items-center">
                   <p>Register Now</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
@@ -192,7 +256,7 @@ const Header = class extends React.Component {
                 </div>
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
-                <div className="flex items-center" href="#">
+                <div className="flex items-center">
                   <p>Register Now</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
@@ -200,7 +264,7 @@ const Header = class extends React.Component {
                 </div>
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
-                <div className="flex items-center" href="#">
+                <div className="flex items-center">
                   <p>Register Now</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
@@ -208,7 +272,7 @@ const Header = class extends React.Component {
                 </div>
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
-                <div className="flex items-center" href="#">
+                <div className="flex items-center">
                   <p>Register Now</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
@@ -252,8 +316,9 @@ const Header = class extends React.Component {
             </a>
           </div>
           <div className="font-mono">
-            Free virtual poetry festival June 05, 2021
+            A vital gathering of national and local writers
           </div>
+          <div className="font-mono">June 05, 2021</div>
         </div>
       </header>
     );

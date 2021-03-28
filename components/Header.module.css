@@ -43,7 +43,7 @@
 }
 
 .scrolling {
-  animation: marquee 5s linear infinite;
+  animation: marquee 15s linear infinite;
   display: inline-block;
   padding-right: 8px;
 }
