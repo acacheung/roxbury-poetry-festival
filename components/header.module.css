@@ -1,5 +1,5 @@
 .isActive {
-  @apply bg-gray-900;
+  background-image: url("../public/img/background.jpg");
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -59,11 +59,4 @@
 
 .scrollingItem:hover .scrolling {
   animation-play-state: paused;
-}
-
-.scrollingText {
-  color: white;
-  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
 }

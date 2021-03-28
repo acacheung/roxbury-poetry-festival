@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="footer-top mb-32 lg:flex mt-20 items-center justify-between max-w-7xl mx-auto px-6 relative text-lg z-30">
+    <footer className="footer-top pb-20 lg:flex mt-32 items-center justify-between max-w-7xl mx-auto px-6 relative text-lg z-30">
       <div className="border-t border-black lg:border-none mb-6 pt-6 lg:mb-0 lg:pt-8">
         © 2021 Roxbury Poetry Festival
       </div>

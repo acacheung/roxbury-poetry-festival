@@ -38,8 +38,11 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 0;
   margin: 0;
-  @apply bg-gray-900;
-  @apply text-white;
+  background-color: #abe1fc;
+  background-image: url("../public/img/background.jpg");
+  background-position: 57% 49%;
+  background-size: cover;
+  @apply text-black;
 }
 
 .cursor {
@@ -67,9 +70,13 @@ body {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
+.hero {
+  height: calc(100vh - 1.5rem);
+}
+
 .speakers-grid::before {
   content: "";
-  @apply bg-white;
+  @apply bg-black;
   display: block;
   position: absolute;
   height: 1px;
@@ -153,7 +160,7 @@ body {
 @screen md {
   .footer-top::before {
     content: "";
-    @apply bg-white;
+    @apply bg-black;
     display: block;
     position: absolute;
     height: 1px;

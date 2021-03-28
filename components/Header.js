@@ -62,23 +62,7 @@ const Header = class extends React.Component {
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrolling}>
                   <div className="flex items-center" href="#">
-                    <p className={headerStyles.scrollingText}>About RFP 2021</p>
-                    <svg className="fill-current mx-4" height="3" width="80">
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
-                    <p className={headerStyles.scrollingText}>About RFP 2021</p>
-                    <svg className="fill-current mx-4" height="3" width="80">
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center" href="#">
-                    <p className={headerStyles.scrollingText}>About RFP 2021</p>
+                    <p>About RFP 2021</p>
                     <svg className="fill-current mx-4" height="3" width="80">
                       <use xlinkHref="#icon-navline" />
                     </svg>
@@ -94,7 +78,7 @@ const Header = class extends React.Component {
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center" href="#">
-                    <p className={headerStyles.scrollingText}>About RFP 2021</p>
+                    <p>About RFP 2021</p>
                     <svg className="fill-current mx-4" height="3" width="80">
                       <use xlinkHref="#icon-navline" />
                     </svg>
@@ -102,7 +86,23 @@ const Header = class extends React.Component {
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center" href="#">
-                    <p className={headerStyles.scrollingText}>About RFP 2021</p>
+                    <p>About RFP 2021</p>
+                    <svg className="fill-current mx-4" height="3" width="80">
+                      <use xlinkHref="#icon-navline" />
+                    </svg>
+                  </div>
+                </div>
+                <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div className="flex items-center" href="#">
+                    <p>About RFP 2021</p>
+                    <svg className="fill-current mx-4" height="3" width="80">
+                      <use xlinkHref="#icon-navline" />
+                    </svg>
+                  </div>
+                </div>
+                <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div className="flex items-center" href="#">
+                    <p>About RFP 2021</p>
                     <svg className="fill-current mx-4" height="3" width="80">
                       <use xlinkHref="#icon-navline" />
                     </svg>

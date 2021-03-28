@@ -10,114 +10,49 @@ export default function Home() {
         <title>Roxbury Poetry Festival</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="px-6 lg:px-0 w-full">
-        <div className="md:h-screen">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="flex justify-center mt-32">
-              <span className="hidden">Roxbury Poetry Festival</span>
-              <HeroLogo />
-            </h1>
-            <div className="font-mono italic mb-20 mt-10 md:mb-32 md:mt-20 text-center">
-              Free virtual poetry festival June 05, 2021
-            </div>
-            <div className="md:flex items-center justify-between">
-              <div>
+      <div className="w-full">
+        <div className="hero">
+          <div className="flex flex-col justify-between max-w-7xl mx-auto px-6">
+            <div className="flex items-center">
+              <h1 className="mt-20">
+                <span className="hidden">Roxbury Poetry Festival</span>
+                <svg height="305" width="557">
+                  <use xlinkHref="#icon-logo" />
+                </svg>
+              </h1>
+              <div className="w-1/4 ml-10 mt-10">
                 <img
                   alt="Poetry writing book gif"
                   className="w-full"
-                  src="/img/maingif.gif"
+                  src="/img/gif-black.gif"
                 />
               </div>
-              <div className="font-mono max-w-4xl md:mt-0 md:ml-16 mt-16 text-lg">
-                <p className="mb-8">
-                  THE ROXBURY POETRY FESTIVAL is a biennial event centering
-                  poetry in Roxbury, MA. The inaugural festival occurs mostly
-                  digital with the exception of two evening events. The festival
-                  features several award winning writers panelists, and curators
-                  and centers a keynote address from 2020 Pulitzer-Prize winning
-                  poet, Jericho Brown.
-                </p>
-                <p>
-                  The day-long event culminates with a poetry slam sponsored by
-                  Button Poetry that yields a book contract for a local writer
-                  and a concert highlighting local hip hop artists.
-                </p>
-              </div>
+            </div>
+            <div className="font-mono mt-10">
+              <p className="text-3xl uppercase">
+                June 05, 2021 / 10 am - 9 pm ET
+              </p>
+              <p className="text-lg mt-8">
+                A vital gathering of national and local writers
+              </p>
             </div>
           </div>
-          <a
-            className="bottom-0 bg-gray-900 border-t border-white fixed h-16 items-center -ml-6 lg:-ml-0 z-50 text-2xl uppercase"
-            href="/"
-          >
-            <div className="flex items-center pt-3 register-wrap">
-              <div className="register-banner">
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <svg className="fill-current mx-10" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </div>
-              </div>
-              <div className="register-banner">
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <svg className="fill-current mx-10" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </div>
-              </div>
-              <div className="register-banner">
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <svg className="fill-current mx-10" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </div>
-              </div>
-              <div className="register-banner">
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <svg className="fill-current mx-10" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </div>
-              </div>
-              <div className="register-banner">
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <svg className="fill-current mx-10" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </div>
-              </div>
-              <div className="register-banner">
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <svg className="fill-current mx-10" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </div>
-              </div>
-              <div className="register-banner">
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <svg className="fill-current mx-10" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </div>
-              </div>
-              <div className="register-banner">
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <svg className="fill-current mx-10" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </div>
-              </div>
+          <div className="bottom-0 bg-gray-900 fixed h-16 items-center -ml-6 lg:-ml-0 z-50 text-white text-2xl uppercase w-full">
+            <div className="flex h-full items-center justify-end">
+              Registration Opens April 15th
+              <svg className="fill-current ml-6" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+              <svg className="fill-current ml-6" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+              <svg className="fill-current mx-6" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
             </div>
-          </a>
+          </div>
         </div>
-        <div className="max-w-7xl mx-auto">
+        {/* <div className="max-w-7xl mx-auto">
           <div className="md:flex items-center justify-between mb-10 md:mb-14 md:mt-80 mt-24">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">
               Featured Speakers
@@ -160,7 +95,7 @@ export default function Home() {
               </p>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
