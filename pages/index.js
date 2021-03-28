@@ -64,7 +64,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto pb-56">
+        <div className="max-w-7xl mx-auto pb-56 px-6">
           <div className="md:flex items-center justify-between mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">
               Featured Speakers
