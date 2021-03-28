@@ -64,13 +64,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div className="max-w-7xl mx-auto">
-          <div className="md:flex items-center justify-between mb-10 md:mb-14 md:mt-80 mt-24">
+        <div className="max-w-7xl mx-auto pb-56">
+          <div className="md:flex items-center justify-between mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">
               Featured Speakers
             </h2>
             <Link href="/speakers">
-              <a className="border border-white inline-flex items-center px-5 py-3 rounded-full text-lg">
+              <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
                 See all the Speakers
                 <svg className="fill-current ml-2" height="12" width="15">
                   <use xlinkHref="#icon-rightarrow" />
@@ -78,7 +78,7 @@ export default function Home() {
               </a>
             </Link>
           </div>
-          <ul className="gap-x-10 gap-y-20 grid mb-20 md:grid-cols-2 lg:grid-cols-3">
+          <ul className="gap-x-10 gap-y-20 grid md:grid-cols-2 lg:grid-cols-3">
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Porsha Olayiwola</h3>
               <p className="mb-8 text-lg">Black, Futurist, Poet</p>
@@ -107,7 +107,7 @@ export default function Home() {
               </p>
             </li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </Layout>
   );

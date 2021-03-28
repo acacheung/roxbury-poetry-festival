@@ -1,8 +1,9 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "@components/Layout";
+import Footer from "../components/Footer";
 
-export default function About() {
+export default function Speakers() {
   return (
     <Layout>
       <Head>
@@ -19,7 +20,7 @@ export default function About() {
           </a>
         </Link>
         <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">Speakers</h2>
-        <ul className="gap-x-10 gap-y-20 grid mb-20 md:grid-cols-2 lg:grid-cols-3">
+        <ul className="gap-x-10 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Denice Frohman</h3>
             <p className="mb-8 text-lg">Poet, Educator, Activist</p>
@@ -44,7 +45,7 @@ export default function About() {
               Apollo, and co-organized #PoetsforPuertoRico. She lives in
               Philadelphia.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Sweet Impossible Blossom
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -76,7 +77,7 @@ export default function About() {
               2020 Whiting Award. She received her BA in English from the
               University of Massachusetts Lowell and her MFA at NYU.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for LatiNext Reading
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -115,7 +116,7 @@ export default function About() {
                 @okelle
               </a>
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Paths to Publication
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -157,7 +158,7 @@ export default function About() {
               be a Litowitz MA+MFA Candidate at Northwestern University in the
               fall.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Paths to Publication
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -191,7 +192,7 @@ export default function About() {
               UMass-Boston and offers College Reading and Writing in Boston
               jails.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for On Sound & Form
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -238,7 +239,7 @@ export default function About() {
               </a>
               .
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for LatiNext Reading
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -289,7 +290,7 @@ export default function About() {
               among many other awards and honors. She serves as Editor-in-Chief
               of Tupelo Press & Tupelo Quarterly.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Paths to Publication
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -308,7 +309,7 @@ export default function About() {
               draptomaniac who knows her liberation is tied to yours and vice
               versa.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Local Literary Legends
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -343,7 +344,7 @@ export default function About() {
               Mahung, he is a member of Black Plantains, an Afrocaribbean poetry
               collective.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for LatiNEXT Reading
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -381,7 +382,7 @@ export default function About() {
               program, and later served as Pauline Delaney Professor of Creative
               Writing at Oberlin College.{" "}
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Flowers As They Live
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -413,7 +414,7 @@ export default function About() {
               Girl Press). She has served as Inlandia Literary Laureate
               (2016-2018). She teaches at Cabrillo College.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Halal If Your Hear Me
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -429,7 +430,7 @@ export default function About() {
               She founded the Pink Door Writing Retreat for fellows and resides
               in upstate New York.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Excavating the Wicked Imagination
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -453,7 +454,7 @@ export default function About() {
               the Aldrich Museum of Contemporary Art, Chelsea Magazine, The Fund
               For Poetry, and The New York State Foundation for the Arts.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Excavating the Wicked Imagination
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -479,7 +480,7 @@ export default function About() {
               and , poems based on her reporting on the Ebola epidemic in West
               Africa.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Halal If Your Hear Me
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -510,7 +511,7 @@ export default function About() {
               board for VIDA: Women in Literary Arts. Find her work in or
               forthcoming at Ploughshares, New Delta Review, Foundry and others.
             </p>
-            <a className="border border-white inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Writing Our Mothers
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
@@ -519,6 +520,7 @@ export default function About() {
           </li>
         </ul>
       </div>
+      <Footer />
     </Layout>
   );
 }
