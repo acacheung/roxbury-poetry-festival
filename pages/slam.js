@@ -20,8 +20,8 @@ export default function Slam() {
               </svg>
             </a>
           </Link>
-          <div className="flex items-center justify-between mb-10 mt-24">
-            <h2 className="font-bold md:text-4xl text-3xl">
+          <div className="md:flex items-center justify-between mb-10 mt-24">
+            <h2 className="font-bold mb-6 md:mb-0 md:text-4xl text-3xl">
               Publisher's Poetry Slam
             </h2>
             <a
@@ -43,7 +43,9 @@ export default function Slam() {
               <p>The 10 selected poets will be notified by May 24, 2021.</p>
             </div>
             <div className="font-mono md:text-lg md:max-w-md lg:max-w-2xl xl:max-w-3xl">
-              <h3 className="mb-10 text-5xl uppercase">Rules & Guidelines</h3>
+              <h3 className="mb-8 md:mb-10 text-4xl md:text-5xl uppercase">
+                Rules & Guidelines
+              </h3>
               <ul className="list-disc list-outside pl-6">
                 <li className="pl-6 mb-8">
                   10 poets will compete in three rounds. Poets must perform
@@ -52,7 +54,7 @@ export default function Slam() {
                   have 3 minutes and a 10 second grace period. There will be a
                   half point time penalty for every 10 seconds over time limit.
                 </li>
-                <ul className="pl-16">
+                <ul className="pl-6 md:pl-16">
                   <li className="mb-6">
                     <span className="font-bold">Round 1:</span> 10 poets with
                     random draw
@@ -76,7 +78,7 @@ export default function Slam() {
               </ul>
             </div>
           </div>
-          <p className="max-w-4xl lg:text-5xl md:mt-20 md:mb-40 md:text-4xl my-16 mx-auto text-2xl text-center">
+          <p className="max-w-4xl lg:text-5xl md:mt-20 md:mb-40 md:text-4xl mt-12 mx-auto text-2xl text-center">
             The Poetry Slam will be filmed and published by{" "}
             <a
               className="underline"
