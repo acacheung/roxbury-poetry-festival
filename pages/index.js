@@ -2,8 +2,24 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "@components/Layout";
 import HeroLogo from "@components/HeroLogo";
+import React, { useEffect, useState } from "react";
 
 export default function Home() {
+  const [scrollState, setScrollState] = useState(0);
+
+  useEffect(function mount() {
+    function onScroll() {
+      setScrollState(window.pageYOffset + window.innerHeight - 64);
+      console.log(scrollState);
+    }
+
+    window.addEventListener("scroll", onScroll);
+
+    return function unMount() {
+      window.removeEventListener("scroll", onScroll);
+    };
+  });
+
   return (
     <Layout>
       <Head>
@@ -41,9 +57,15 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="bottom-0 bg-gray-900 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full">
-            <div className="flex h-full items-center justify-end">
-              Registration Opens April 15th
+          <div
+            className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full"
+            style={{
+              backgroundPositionY: scrollState,
+              backgroundSize: document.body.scrollHeight,
+            }}
+          >
+            <div className="banner-text bg-gray-900 flex h-full items-center justify-end">
+              <p>Registration Opens April 15th</p>
               <svg
                 className="fill-current hidden md:block ml-6"
                 height="12"

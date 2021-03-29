@@ -45,6 +45,15 @@ body {
   @apply text-black;
 }
 
+.background-banner {
+  background-image: url("../public/img/background.jpg");
+  background-size: cover;
+}
+
+.banner-text {
+  mix-blend-mode: multiply;
+}
+
 .cursor {
   background: radial-gradient(circle, #3755da 0%, #030303 50%);
   width: 24.25rem;
