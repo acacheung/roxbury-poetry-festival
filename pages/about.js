@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "@components/Layout";
-import Footer from "../components/Footer";
 
 export default function About() {
   return (
@@ -47,17 +46,37 @@ export default function About() {
                 American Poets. Part of her work with the Academy of American
                 Poets is establishing the inaugural Roxbury Poetry Festival.
               </p>
-              <p>
-                <span className="font-bold">
-                  Roxbury Poetry Festival Advisory Team:
-                </span>{" "}
-                Vernon C. Robinson, Shamara Rhodes, Crystal Valentine,
-                Canderlaria Silva, Tariq Charles, Stephen Hamilton, and Amber
-                Sublime Luv
-              </p>
+              <div>
+                <h3 className="font-bold">
+                  Roxbury Poetry Festival Advisory Team
+                </h3>
+                <ul className="list-disc grid grid-cols-2 ml-5">
+                  <li className="mt-2">Vernon C. Robinson</li>
+                  <li className="mt-2">Shamara Rhodes</li>
+                  <li className="mt-2">Crystal Valentine</li>
+                  <li className="mt-2">Canderlaria Silva</li>
+                  <li className="mt-2">Tariq Charles</li>
+                  <li className="mt-2">Stephen Hamilton</li>
+                  <li className="mt-2">Amber Sublime Luv</li>
+                </ul>
+              </div>
+              <div className="my-10">
+                <h3 className="font-bold mb-2">Public Safety & COVID-19</h3>
+                <p>
+                  Due to the pandemic and the goal to ensure a public
+                  health-conscious space, this year’s festival will take place
+                  online via zoom. If the health mandates permit, The
+                  Publisher’s Poetry Slam and Beast The Beat will take place
+                  outdoors in Nubian Square’s Blair Lot. In addition to onsite
+                  sanitizers, mandated masks, and public health care
+                  representatives, there will be social distance markers and
+                  volunteers to ensure the community members are socially
+                  distancing and masked.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="flex justify-center max-w-4xl lg:text-5xl md:my-24 md:text-4xl my-16 mx-auto text-2xl text-center">
+          <div className="flex justify-center max-w-4xl lg:text-5xl md:mb-32 md:mt-24 md:text-4xl my-16 mx-auto text-2xl text-center">
             Teamwork makes the dream work. Shout out to the team that brought
             this all together. Please give a round of applause to the organizers
             and sponsors.
@@ -182,7 +201,7 @@ export default function About() {
             </li>
             <li className="speakers-grid">
               <a href="#">
-                <h4 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
+                <h4 className="mb-4 mt-8 text-2xl uppercase">
                   Savior the Square
                 </h4>
               </a>
@@ -272,7 +291,6 @@ export default function About() {
             </li>
           </ul>
         </div>
-        <Footer />
       </Layout>
     </>
   );

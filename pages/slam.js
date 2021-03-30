@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "@components/Layout";
-import Footer from "../components/Footer";
 
 export default function Slam() {
   return (
@@ -28,7 +27,7 @@ export default function Slam() {
               className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg"
               href="/"
             >
-              Register for the Slam
+              Registration Opens April 15
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -40,7 +39,6 @@ export default function Slam() {
                 The Poetry Slam takes place outdoors in the Blair Lot on June 5,
                 2021 from 5pm-7pm ET.
               </p>
-              <p>The 10 selected poets will be notified by May 24, 2021.</p>
             </div>
             <div className="font-mono md:text-lg md:max-w-md lg:max-w-2xl xl:max-w-3xl">
               <h3 className="mb-8 md:mb-10 text-4xl md:text-5xl uppercase">
@@ -69,7 +67,8 @@ export default function Slam() {
                   </li>
                 </ul>
                 <li className="pl-6 mb-10">
-                  Judges are TBD. Poem and performance will be judged on a scale
+                  Judges are TBD. Poem and performance will be judged on a
+                  scale.
                 </li>
                 <li className="pl-6">
                   Winner will receive a chapbook deal from Button Poetry along
@@ -89,7 +88,6 @@ export default function Slam() {
             </a>
           </p>
         </div>
-        <Footer />
       </Layout>
     </>
   );

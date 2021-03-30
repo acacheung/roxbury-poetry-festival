@@ -90,7 +90,9 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <div>{/* <Cursor /> */}</div>
+      <div>
+        <Cursor />
+      </div>
       <Component {...pageProps} />
     </>
   );

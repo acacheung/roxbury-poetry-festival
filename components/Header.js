@@ -174,74 +174,10 @@ const Header = class extends React.Component {
                 </div>
               </a>
             </Link>
-            <Link href="/schedule">
-              <a className={headerStyles.scrollingItem}>
-                <div className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Schedule (coming soon!)</p>
-                    <svg
-                      className="fill-current ml-6 mr-4"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Schedule (coming soon!)</p>
-                    <svg
-                      className="fill-current ml-6 mr-4"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Schedule (coming soon!)</p>
-                    <svg
-                      className="fill-current ml-6 mr-4"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Schedule (coming soon!)</p>
-                    <svg
-                      className="fill-current ml-6 mr-4"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Schedule (coming soon!)</p>
-                    <svg
-                      className="fill-current ml-6 mr-4"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-              </a>
-            </Link>
-            <a href="#" className={headerStyles.scrollingItem}>
+            <div className={headerStyles.scrollingItem}>
               <div className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register Now</p>
+                  <p>Schedule (coming soon!)</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
                   </svg>
@@ -249,7 +185,7 @@ const Header = class extends React.Component {
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register Now</p>
+                  <p>Schedule (coming soon!)</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
                   </svg>
@@ -257,7 +193,7 @@ const Header = class extends React.Component {
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register Now</p>
+                  <p>Schedule (coming soon!)</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
                   </svg>
@@ -265,7 +201,7 @@ const Header = class extends React.Component {
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register Now</p>
+                  <p>Schedule (coming soon!)</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
                   </svg>
@@ -273,48 +209,21 @@ const Header = class extends React.Component {
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register Now</p>
+                  <p>Schedule (coming soon!)</p>
                   <svg className="fill-current ml-6 mr-4" height="3" width="80">
                     <use xlinkHref="#icon-navline" />
                   </svg>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </nav>
         <div
           className={
             headerStyles.socialMedia +
-            " hidden flex md:justify-between md:max-w-6xl md:w-full items-end"
+            " hidden flex md:justify-between md:max-w-7xl md:w-full items-end"
           }
         >
-          <div className="flex mr-5">
-            <a
-              aria-label="RPF Instagram"
-              className="mr-6"
-              href="#"
-              target="_blank"
-            >
-              <svg className="fill-current" height="20" width="20">
-                <use xlinkHref="#icon-instagram" />
-              </svg>
-            </a>
-            <a
-              aria-label="RFP Twitter"
-              className="mr-6"
-              href="#"
-              target="_blank"
-            >
-              <svg className="fill-current" height="20" width="20">
-                <use xlinkHref="#icon-twitter" />
-              </svg>
-            </a>
-            <a aria-label="RFP Facebook" href="#" target="_blank">
-              <svg className="fill-current" height="20" width="20">
-                <use xlinkHref="#icon-facebook" />
-              </svg>
-            </a>
-          </div>
           <div className="font-mono">
             A vital gathering of national and local writers
           </div>

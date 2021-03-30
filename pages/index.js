@@ -10,7 +10,6 @@ export default function Home() {
   useEffect(function mount() {
     function onScroll() {
       setScrollState(window.pageYOffset + window.innerHeight - 64);
-      console.log(scrollState);
     }
 
     window.addEventListener("scroll", onScroll);
@@ -29,18 +28,18 @@ export default function Home() {
       <div className="w-full">
         <div className="hero">
           <div className="flex flex-col justify-between max-w-7xl mx-auto px-6 pb-32">
-            <div className="md:flex md:flex-row items-center">
+            <div className="md:flex md:flex-row items-center w-max">
               <h1 className="mt-20">
                 <span className="hidden">Roxbury Poetry Festival</span>
                 <svg
-                  className="h-32 md:h-60 md:-ml-10 lg:ml-0 lg:h-full w-full"
+                  className="fill-current h-32 md:h-60 md:-ml-10 lg:ml-0 lg:h-full w-full max-w-xl"
                   height="305"
                   width="557"
                 >
                   <use xlinkHref="#icon-logo" />
                 </svg>
               </h1>
-              <div className="w-2/3 md:w-1/4 lg:ml-10 md:mt-10 mt-6 mx-auto">
+              <div className="md:mt-10 mt-6 ml-16 mx-auto">
                 <img
                   alt="Poetry writing book gif"
                   className="w-full"
@@ -48,7 +47,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="font-mono md:mt-10 mt-6 text-center md:text-left">
+            <div className="font-mono md:mt-10 mt-6 md:text-left">
               <p className="md:text-3xl text-2xl uppercase">
                 June 05, 2021 / 10 am - 9 pm ET
               </p>
@@ -61,7 +60,6 @@ export default function Home() {
             className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full"
             style={{
               backgroundPositionY: scrollState,
-              backgroundSize: document.body.scrollHeight,
             }}
           >
             <div className="banner-text bg-gray-900 flex h-full items-center justify-end">
@@ -86,46 +84,66 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto pb-56 px-6">
-          <div className="md:flex items-center justify-between mb-10 md:mb-14">
+        <div className="max-w-7xl mx-auto py-20 px-6">
+          <div className="mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">
               Featured Speakers
             </h2>
-            <Link href="/speakers">
-              <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
-                See all the Speakers
-                <svg className="fill-current ml-2" height="12" width="15">
-                  <use xlinkHref="#icon-rightarrow" />
-                </svg>
-              </a>
-            </Link>
           </div>
-          <ul className="gap-x-10 gap-y-20 grid md:grid-cols-2 lg:grid-cols-3">
+          <ul className="gap-x-20 gap-y-20 grid md:grid-cols-2 lg:grid-cols-3">
             <li className="speakers-grid">
-              <h3 className="mb-4 mt-8 text-5xl uppercase">Porsha Olayiwola</h3>
-              <p className="mb-8 text-lg">Black, Futurist, Poet</p>
-              <img alt="Porsha Olayiwola" src="/img/amandag.jpg" />
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
+              <p className="mb-8 text-lg">Poet, Witch, Noisemaker</p>
+              <img alt="Rachel McKibbens" src="/img/rachel-mckibbens.jpg" />
               <p className="font-mono mt-6 text-lg">
-                Black, futurist, poet, dyke, hip-hop feminist, womanist: Porsha
-                is a native of Chicago who now resides in Boston.
+                ​Rachel McKibbens (she / her) is a witch, a writer and a
+                thinker. She founded the Pink Door Writing Retreat for fellows
+                and resides in upstate New York.
               </p>
             </li>
             <li className="speakers-grid">
-              <h3 className="mb-4 mt-8 text-5xl uppercase">Porsha Olayiwola</h3>
-              <p className="mb-8 text-lg">Black, Futurist, Poet</p>
-              <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+              <h3 className="mb-4 mt-8 text-5xl uppercase">
+                Safia
+                <br />
+                Elhillo
+              </h3>
+              <p className="mb-8 text-lg">Author, Teaching Artist, Editor</p>
+              <img alt="​Safia Elhillo" src="/img/safia-elhillo.jpg" />
               <p className="font-mono mt-6 text-lg">
-                Black, futurist, poet, dyke, hip-hop feminist, womanist: Porsha
-                is a native of Chicago who now resides in Boston.
+                ​
+                <a
+                  className="underline"
+                  href="https://safia-mafia.com/bio"
+                  target="_blank"
+                >
+                  Safia Elhillo
+                </a>{" "}
+                (she / her) is the author of The January Children (University of
+                Nebraska Press, 2017), which received the the Sillerman First
+                Book Prize for African Poets and an Arab American Book Award,
+                Girls That Never Die (One World/Random House 2021), and the
+                novel in verse{" "}
+                <a
+                  className="underline"
+                  href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
+                  target="_blank"
+                >
+                  Home Is Not A Country
+                </a>{" "}
+                (Make Me A World/Random House, 2021). With Fatimah Asghar, she
+                is co-editor of the anthology Halal If You Hear Me (Haymarket
+                Books, 2019). She is currently a Wallace Stegner Fellow at
+                Stanford University and lives in Oakland.
               </p>
             </li>
             <li className="speakers-grid">
-              <h3 className="mb-4 mt-8 text-5xl uppercase">Porsha Olayiwola</h3>
-              <p className="mb-8 text-lg">Black, Futurist, Poet</p>
-              <img alt="Porsha Olayiwola" src="/img/amandag.jpg" />
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
+              <p className="mb-8 text-lg">TBD</p>
+              <img alt="Jericho Brown" src="/img/jericho-brown.jpg" />
               <p className="font-mono mt-6 text-lg">
-                Black, futurist, poet, dyke, hip-hop feminist, womanist: Porsha
-                is a native of Chicago who now resides in Boston.
+                2020 Pulitzer Prize winner, Jericho Brown will read from his
+                book The Tradition and answer a few questions from the audience.
+                This talk will be moderated by a local artist.
               </p>
             </li>
           </ul>
