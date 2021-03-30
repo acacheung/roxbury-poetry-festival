@@ -37,7 +37,7 @@ const Header = class extends React.Component {
       <header
         className={`justify-center h-6 md:items-center mx-auto relative z-50 w-full ${this.state.navBarActiveClass}`}
       >
-        <nav className="flex flex-col flex-grow justify-center">
+        <nav className="flex flex-col md:flex-grow justify-center">
           <button
             className="absolute focus:outline-none mr-6 mt-6 right-0 top-0"
             onClick={() => this.toggleHamburger()}
@@ -56,7 +56,7 @@ const Header = class extends React.Component {
           <div
             className={
               headerStyles.mainNav +
-              " flex font-bold font-sans hidden justify-between mt-10 md:mt-20"
+              " flex font-bold font-sans hidden justify-between mt-20"
             }
           >
             <Link href="/about">
@@ -290,7 +290,7 @@ const Header = class extends React.Component {
         <div
           className={
             headerStyles.socialMedia +
-            " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:items-end md:pb-0 md:text-left md:w-full pb-6 px-6 text-center"
+            " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:items-end md:mt-0 md:text-left md:w-full mt-20 px-6 text-center"
           }
         >
           <div className="font-mono mb-6">
