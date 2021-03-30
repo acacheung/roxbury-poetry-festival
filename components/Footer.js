@@ -6,12 +6,16 @@ export default function Footer() {
       <div className="border-t border-black lg:border-none mb-6 pt-6 lg:mb-0 lg:pt-8">
         © 2021 Roxbury Poetry Festival
       </div>
-      <div className="flex flex-col lg:flex-row lg:gap-x-16">
+      <div className="flex flex-col lg:flex-row">
         <Link href="/">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">Home</a>
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:mr-16 lg:pt-8">
+            Home
+          </a>
         </Link>
         <Link href="/about">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">About</a>
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:mr-16 lg:pt-8">
+            About
+          </a>
         </Link>
         <Link href="/slam">
           <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">Slam</a>

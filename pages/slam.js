@@ -28,13 +28,13 @@ export default function Slam() {
             </div>
           </div>
           <div className="border-t border-black md:flex md:pt-20 pt-10">
-            <div className="mb-10 md:mb-0 md:mr-20 md:text-3xl text-2xl xl:mr-32 w-full">
+            <div className="mb-10 md:mb-0 md:mr-20 md:text-3xl md:w-1/3 text-2xl xl:mr-32">
               <p className="mb-6">
                 The Poetry Slam takes place outdoors in the Blair Lot on June 5,
                 2021 from 5pm-7pm ET.
               </p>
             </div>
-            <div className="font-mono md:text-lg md:max-w-md lg:max-w-2xl xl:max-w-3xl">
+            <div className="font-mono md:text-lg md:w-3/4">
               <h3 className="mb-8 md:mb-10 text-4xl md:text-5xl uppercase">
                 Rules & Guidelines
               </h3>

@@ -22,12 +22,12 @@ export default function About() {
           <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">
             About Us
           </h2>
-          <div className="border-t border-black md:flex md:pt-20 pt-10">
-            <div className="mb-10 md:mb-0 md:mr-20 md:text-3xl text-2xl xl:mr-32 w-full">
+          <div className="border-t border-black md:flex md:pt-20 pt-10 w-full">
+            <div className="mb-10 md:mb-0 md:mr-20 md:text-3xl md:w-1/3 pr-6 text-2xl xl:mr-32">
               The Roxbury Poetry Festival is a biennial event centering poetry
               in Roxbury, MA.
             </div>
-            <div className="font-mono md:text-lg md:max-w-md lg:max-w-2xl xl:max-w-3xl">
+            <div className="font-mono md:text-lg md:w-3/4">
               <p>
                 The inaugural festival is happening virtually with the exception
                 of two evening events. The festival features several
@@ -50,7 +50,7 @@ export default function About() {
                 <h3 className="font-bold">
                   Roxbury Poetry Festival Advisory Team
                 </h3>
-                <ul className="list-disc md:grid md:grid-cols-2 ml-5">
+                <ul className="list-disc lg:grid lg:grid-cols-2 ml-5">
                   <li className="mt-2">Vernon C. Robinson</li>
                   <li className="mt-2">Shamara Rhodes</li>
                   <li className="mt-2">Crystal Valentine</li>

@@ -55,7 +55,11 @@ body {
 }
 
 .cursor {
-  background: radial-gradient(circle, rgb(255, 255, 174) 0%, transparent 60%);
+  background: radial-gradient(
+    circle,
+    rgb(255, 255, 174) 0%,
+    rgba(255, 255, 255, 0) 60%
+  );
   width: 24.25rem;
   height: 24.25rem;
   border-radius: 50%;

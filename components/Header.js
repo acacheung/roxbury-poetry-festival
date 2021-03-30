@@ -56,7 +56,7 @@ const Header = class extends React.Component {
           <div
             className={
               headerStyles.mainNav +
-              " flex font-bold font-sans hidden justify-between mt-20"
+              " flex font-bold font-sans hidden justify-between md:mt-20 mt-28"
             }
           >
             <Link href="/about">
@@ -290,7 +290,7 @@ const Header = class extends React.Component {
         <div
           className={
             headerStyles.socialMedia +
-            " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:items-end md:mt-0 md:text-left md:w-full mt-20 px-6 text-center"
+            " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:items-end md:mt-0 md:text-left md:w-full mt-10 px-6 text-center"
           }
         >
           <div className="font-mono mb-6">
