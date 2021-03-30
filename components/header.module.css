@@ -16,11 +16,16 @@
 .isActive .mainNav {
   display: flex;
   flex-direction: column;
-  font-size: 4.5rem;
+  font-size: 2rem;
   justify-content: center;
   line-height: 1.15;
   text-align: center;
   text-transform: uppercase;
+  @apply px-6;
+}
+
+.scrollingItem {
+  height: 5rem;
 }
 
 .isActive .iconClose {
@@ -37,26 +42,38 @@
   fill: currentColor;
 }
 
-.scrollingItem {
-  height: 8rem;
-  white-space: nowrap;
-}
-
-.scrolling {
-  animation: marquee 15s linear infinite;
-  display: inline-block;
-  padding-right: 8px;
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
+@screen md {
+  .isActive .mainNav {
+    display: flex;
+    flex-direction: column;
+    font-size: 4.5rem;
+    justify-content: center;
+    line-height: 1.15;
+    text-align: center;
+    text-transform: uppercase;
   }
-  to {
-    transform: translateX(-100%);
-  }
-}
 
-.scrollingItem:hover .scrolling {
-  animation-play-state: paused;
+  .scrollingItem {
+    height: 8rem;
+    white-space: nowrap;
+  }
+
+  .scrolling {
+    animation: marquee 15s linear infinite;
+    display: inline-block;
+    padding-right: 8px;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .scrollingItem:hover .scrolling {
+    animation-play-state: paused;
+  }
 }
