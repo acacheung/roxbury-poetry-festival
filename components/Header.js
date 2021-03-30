@@ -290,7 +290,7 @@ const Header = class extends React.Component {
         <div
           className={
             headerStyles.socialMedia +
-            " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:w-full md:items-end px-6"
+            " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:items-end md:pb-0 md:text-left md:w-full pb-6 px-6 text-center"
           }
         >
           <div className="font-mono mb-6">

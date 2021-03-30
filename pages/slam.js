@@ -25,9 +25,6 @@ export default function Slam() {
             </h2>
             <div className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
               Registration Opens April 15
-              <svg className="fill-current ml-2" height="12" width="15">
-                <use xlinkHref="#icon-rightarrow" />
-              </svg>
             </div>
           </div>
           <div className="border-t border-black md:flex md:pt-20 pt-10">
@@ -49,7 +46,7 @@ export default function Slam() {
                   have 3 minutes and a 10 second grace period. There will be a
                   half point time penalty for every 10 seconds over time limit.
                 </li>
-                <ul className="pl-6 md:pl-16">
+                <ul className="pl-6">
                   <li className="mb-6">
                     <span className="font-bold">Round 1:</span> 10 poets with
                     random draw

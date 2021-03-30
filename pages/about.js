@@ -50,7 +50,7 @@ export default function About() {
                 <h3 className="font-bold">
                   Roxbury Poetry Festival Advisory Team
                 </h3>
-                <ul className="list-disc grid grid-cols-2 ml-5">
+                <ul className="list-disc md:grid md:grid-cols-2 ml-5">
                   <li className="mt-2">Vernon C. Robinson</li>
                   <li className="mt-2">Shamara Rhodes</li>
                   <li className="mt-2">Crystal Valentine</li>

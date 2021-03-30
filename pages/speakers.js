@@ -474,6 +474,41 @@ export default function Speakers() {
             </a>
           </li>
           <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Safia
+              <br />
+              Elhillo
+            </h3>
+            <p className="mb-8 text-lg">Author, Teaching Artist, Editor</p>
+            <img alt="​Safia Elhillo" src="/img/speakers/safia-elhillo.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              ​
+              <a
+                className="underline"
+                href="https://safia-mafia.com/bio"
+                target="_blank"
+              >
+                Safia Elhillo
+              </a>{" "}
+              (she / her) is the author of The January Children (University of
+              Nebraska Press, 2017), which received the the Sillerman First Book
+              Prize for African Poets and an Arab American Book Award, Girls
+              That Never Die (One World/Random House 2021), and the novel in
+              verse{" "}
+              <a
+                className="underline"
+                href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
+                target="_blank"
+              >
+                Home Is Not A Country
+              </a>{" "}
+              (Make Me A World/Random House, 2021). With Fatimah Asghar, she is
+              co-editor of the anthology Halal If You Hear Me (Haymarket Books,
+              2019). She is currently a Wallace Stegner Fellow at Stanford
+              University and lives in Oakland.
+            </p>
+          </li>
+          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Seema Yasmin</h3>
             <p className="mb-8 text-lg">Poet, Doctor, Journalist</p>
             <img alt="Seema Yasmin" src="/img/speakers/seema-yasmin.jpg" />
