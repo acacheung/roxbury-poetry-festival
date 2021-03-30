@@ -27,8 +27,8 @@ export default function Home() {
       </Head>
       <div className="w-full">
         <div className="hero">
-          <div className="flex flex-col justify-between max-w-7xl mx-auto px-6 pb-32">
-            <div className="md:flex md:flex-row items-center w-max">
+          <div className="flex flex-col justify-between max-w-7xl md:mb-20 lg:pb-32 mx-auto px-6 ">
+            <div className="items-center md:flex md:flex-row md:w-max">
               <h1 className="mt-20">
                 <span className="hidden">Roxbury Poetry Festival</span>
                 <svg
@@ -39,7 +39,7 @@ export default function Home() {
                   <use xlinkHref="#icon-logo" />
                 </svg>
               </h1>
-              <div className="md:mt-10 mt-6 ml-16 mx-auto">
+              <div className="md:w-1/4 md:mt-10 md:-ml-6 mt-6 lg:ml-16 mx-auto w-2/3">
                 <img
                   alt="Poetry writing book gif"
                   className="w-full"
@@ -84,7 +84,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto py-20 px-6">
+        <div className="max-w-7xl mx-auto py-28 md:py-20 px-6">
           <div className="mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">
               Featured Speakers
@@ -99,6 +99,16 @@ export default function Home() {
                 ​Rachel McKibbens (she / her) is a witch, a writer and a
                 thinker. She founded the Pink Door Writing Retreat for fellows
                 and resides in upstate New York.
+              </p>
+            </li>
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
+              <p className="mb-8 text-lg">TBD</p>
+              <img alt="Jericho Brown" src="/img/jericho-brown.jpg" />
+              <p className="font-mono mt-6 text-lg">
+                2020 Pulitzer Prize winner, Jericho Brown will read from his
+                book The Tradition and answer a few questions from the audience.
+                This talk will be moderated by a local artist.
               </p>
             </li>
             <li className="speakers-grid">
@@ -134,16 +144,6 @@ export default function Home() {
                 is co-editor of the anthology Halal If You Hear Me (Haymarket
                 Books, 2019). She is currently a Wallace Stegner Fellow at
                 Stanford University and lives in Oakland.
-              </p>
-            </li>
-            <li className="speakers-grid">
-              <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
-              <p className="mb-8 text-lg">TBD</p>
-              <img alt="Jericho Brown" src="/img/jericho-brown.jpg" />
-              <p className="font-mono mt-6 text-lg">
-                2020 Pulitzer Prize winner, Jericho Brown will read from his
-                book The Tradition and answer a few questions from the audience.
-                This talk will be moderated by a local artist.
               </p>
             </li>
           </ul>

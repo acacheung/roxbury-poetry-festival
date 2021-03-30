@@ -23,15 +23,12 @@ export default function Slam() {
             <h2 className="font-bold mb-6 md:mb-0 md:text-4xl text-3xl">
               Publisher's Poetry Slam
             </h2>
-            <a
-              className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg"
-              href="/"
-            >
+            <div className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
               Registration Opens April 15
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
-            </a>
+            </div>
           </div>
           <div className="border-t border-black md:flex md:pt-20 pt-10">
             <div className="mb-10 md:mb-0 md:mr-20 md:text-3xl text-2xl xl:mr-32 w-full">
