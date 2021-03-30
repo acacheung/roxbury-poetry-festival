@@ -32,7 +32,14 @@ export default function Home() {
               <h1 className="mt-20">
                 <span className="hidden">Roxbury Poetry Festival</span>
                 <svg
-                  className="fill-current h-32 md:h-60 md:-ml-10 lg:ml-0 lg:h-full w-full max-w-xl"
+                  className="fill-current h-32 md:hidden w-full"
+                  height="305"
+                  width="557"
+                >
+                  <use xlinkHref="#icon-logo-center" />
+                </svg>
+                <svg
+                  className="fill-current hidden md:block md:h-60 md:-ml-10 lg:ml-0 lg:h-full w-full max-w-xl"
                   height="305"
                   width="557"
                 >
@@ -47,7 +54,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="font-mono md:mt-10 mt-6 md:text-left">
+            <div className="font-mono md:mt-10 mt-6 md:text-left text-center">
               <p className="md:text-3xl text-2xl uppercase">
                 June 05, 2021 / 10 am - 9 pm ET
               </p>
