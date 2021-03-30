@@ -25,7 +25,9 @@
 }
 
 .scrollingItem {
-  height: 5rem;
+  align-items: center;
+  display: flex;
+  height: 6rem;
   white-space: nowrap;
 }
 

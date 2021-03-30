@@ -20,11 +20,11 @@ export default function Speakers() {
           </a>
         </Link>
         <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">Speakers</h2>
-        <ul className="gap-x-10 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
+        <ul className="gap-x-20 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Denice Frohman</h3>
             <p className="mb-8 text-lg">Poet, Educator, Activist</p>
-            <img alt="Denice Frohman" src="/img/denice-frohman.jpg" />
+            <img alt="Denice Frohman" src="/img/speakers/denice-frohman.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
@@ -54,8 +54,11 @@ export default function Speakers() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Diannely Antigua</h3>
-            <p className="mb-8 text-lg"></p>
-            <img alt="Diannely Antigua" src="/img/diannely-antigua.jpg" />
+            <p className="mb-8 text-lg">TBD</p>
+            <img
+              alt="Diannely Antigua"
+              src="/img/speakers/diannely-antigua.jpg"
+            />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
@@ -87,7 +90,10 @@ export default function Speakers() {
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Frances Donovan</h3>
             <p className="mb-8 text-lg">Poet, Writer, Teacher</p>
-            <img alt="Frances Donovan" src="/img/frances-donovan.jpg" />
+            <img
+              alt="Frances Donovan"
+              src="/img/speakers/frances-donovan.jpg"
+            />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
@@ -128,7 +134,7 @@ export default function Speakers() {
             <p className="mb-8 text-lg">
               Palestinian Diasporic Poet, Educator, Engineer
             </p>
-            <img alt="George Abraham" src="/img/george-abraham.jpg" />
+            <img alt="George Abraham" src="/img/speakers/george-abraham.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
@@ -168,7 +174,7 @@ export default function Speakers() {
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Jill McDonough</h3>
             <p className="mb-8 text-lg">Jill's at UMB and jails.</p>
-            <img alt="Jill McDonough" src="/img/jill-mcdonough.jpg" />
+            <img alt="Jill McDonough" src="/img/speakers/jill-mcdonough.jpg" />
             <p className="font-mono mt-6 text-lg">
               Three-time Pushcart prize winner{" "}
               <a
@@ -202,7 +208,10 @@ export default function Speakers() {
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Jonathan Mendoza</h3>
             <p className="mb-8 text-lg">Organizer, Poet, Educator</p>
-            <img alt="Jonathan Mendoza" src="/img/jonathan-mendoza.jpg" />
+            <img
+              alt="Jonathan Mendoza"
+              src="/img/speakers/jonathan-mendoza.jpg"
+            />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
@@ -253,7 +262,7 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Poet, Editor, Critic</p>
             <img
               alt="Kristina Marie Darling"
-              src="/img/kristina-marie-darling.jpg"
+              src="/img/speakers/kristina-marie-darling.jpg"
             />
             <p className="font-mono mt-6 text-lg">
               <a
@@ -302,7 +311,7 @@ export default function Speakers() {
             <p className="mb-8 text-lg">
               Artist, Poet, Activist, Earthling, Parent
             </p>
-            <img alt="Letta Simone Neely" src="/img/letta-neely.jpg" />
+            <img alt="Letta Simone Neely" src="/img/speakers/letta-neely.jpg" />
             <p className="font-mono mt-6 text-lg">
               Letta Neely (she / her) is a Black Lesbian Earthling. She is the
               author of two books of poetry and numerous plays. She is a
@@ -319,7 +328,7 @@ export default function Speakers() {
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Malcolm Friend</h3>
             <p className="mb-8 text-lg">Is a poet.</p>
-            <img alt="Malcolm Friend" src="/img/malcolm-friend.jpg" />
+            <img alt="Malcolm Friend" src="/img/speakers/malcolm-friend.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
@@ -354,7 +363,7 @@ export default function Speakers() {
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Martha Collins</h3>
             <p className="mb-8 text-lg"></p>
-            <img alt="Martha Collins" src="/img/martha-collins.jpg" />
+            <img alt="Martha Collins" src="/img/speakers/martha-collins.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
@@ -392,7 +401,7 @@ export default function Speakers() {
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Nikia Chaney</h3>
             <p className="mb-8 text-lg">Poet, Educator</p>
-            <img alt="Nikia Chaney" src="/img/nikia-chaney.jpg" />
+            <img alt="Nikia Chaney" src="/img/speakers/nikia-chaney.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
@@ -424,7 +433,10 @@ export default function Speakers() {
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
             <p className="mb-8 text-lg">Poet, Witch, Noisemaker</p>
-            <img alt="Rachel McKibbens" src="/img/rachel-mckibbens.jpg" />
+            <img
+              alt="Rachel McKibbens"
+              src="/img/speakers/rachel-mckibbens.jpg"
+            />
             <p className="font-mono mt-6 text-lg">
               ​Rachel McKibbens (she / her) is a witch, a writer and a thinker.
               She founded the Pink Door Writing Retreat for fellows and resides
@@ -440,7 +452,7 @@ export default function Speakers() {
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Ryan Murphy</h3>
             <p className="mb-8 text-lg">Publisher, Poet</p>
-            <img alt="Ryan Murphy" src="/img/ryan-murphy.jpg" />
+            <img alt="Ryan Murphy" src="/img/speakers/ryan-murphy.jpg" />
             <p className="font-mono mt-6 text-lg">
               Ryan Murphy (he / him) is the author of Millbrook,{" "}
               <a
@@ -464,7 +476,7 @@ export default function Speakers() {
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Seema Yasmin</h3>
             <p className="mb-8 text-lg">Poet, Doctor, Journalist</p>
-            <img alt="Seema Yasmin" src="/img/seema-yasmin.jpg" />
+            <img alt="Seema Yasmin" src="/img/speakers/seema-yasmin.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
                 className="underline"
@@ -494,7 +506,7 @@ export default function Speakers() {
             <p className="mb-8 text-lg"></p>
             <img
               alt="Tatiana Johnson-Boria"
-              src="/img/tatiana-johnson-boria.jpg"
+              src="/img/speakers/tatiana-johnson-boria.jpg"
             />
             <p className="font-mono mt-6 text-lg">
               <a

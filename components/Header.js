@@ -55,7 +55,8 @@ const Header = class extends React.Component {
           </button>
           <div
             className={
-              headerStyles.mainNav + " flex font-bold font-sans hidden mt-20"
+              headerStyles.mainNav +
+              " flex font-bold font-sans hidden justify-between mt-10 md:mt-20"
             }
           >
             <Link href="/about">
@@ -63,7 +64,11 @@ const Header = class extends React.Component {
                 <div className={headerStyles.scrolling}>
                   <div className="flex items-center">
                     <p>About RFP 2021</p>
-                    <svg className="fill-current mx-4" height="3" width="80">
+                    <svg
+                      className="fill-current ml-6 mr-4 w-10"
+                      height="3"
+                      width="80"
+                    >
                       <use xlinkHref="#icon-navline" />
                     </svg>
                   </div>
@@ -71,7 +76,11 @@ const Header = class extends React.Component {
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
                     <p>About RFP 2021</p>
-                    <svg className="fill-current mx-4" height="3" width="80">
+                    <svg
+                      className="fill-current ml-6 mr-4 w-10"
+                      height="3"
+                      width="80"
+                    >
                       <use xlinkHref="#icon-navline" />
                     </svg>
                   </div>
@@ -79,7 +88,11 @@ const Header = class extends React.Component {
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
                     <p>About RFP 2021</p>
-                    <svg className="fill-current mx-4" height="3" width="80">
+                    <svg
+                      className="fill-current ml-6 mr-4 w-10"
+                      height="3"
+                      width="80"
+                    >
                       <use xlinkHref="#icon-navline" />
                     </svg>
                   </div>
@@ -87,7 +100,11 @@ const Header = class extends React.Component {
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
                     <p>About RFP 2021</p>
-                    <svg className="fill-current mx-4" height="3" width="80">
+                    <svg
+                      className="fill-current ml-6 mr-4 w-10"
+                      height="3"
+                      width="80"
+                    >
                       <use xlinkHref="#icon-navline" />
                     </svg>
                   </div>
@@ -95,7 +112,11 @@ const Header = class extends React.Component {
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
                     <p>About RFP 2021</p>
-                    <svg className="fill-current mx-4" height="3" width="80">
+                    <svg
+                      className="fill-current ml-6 mr-4 w-10"
+                      height="3"
+                      width="80"
+                    >
                       <use xlinkHref="#icon-navline" />
                     </svg>
                   </div>
@@ -103,7 +124,11 @@ const Header = class extends React.Component {
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
                     <p>About RFP 2021</p>
-                    <svg className="fill-current mx-4" height="3" width="80">
+                    <svg
+                      className="fill-current ml-6 mr-4 w-10"
+                      height="3"
+                      width="80"
+                    >
                       <use xlinkHref="#icon-navline" />
                     </svg>
                   </div>
@@ -116,7 +141,7 @@ const Header = class extends React.Component {
                   <div className="flex items-center">
                     <p>Poetry Slam</p>
                     <svg
-                      className="fill-current ml-6 mr-4"
+                      className="fill-current ml-6 mr-4 w-10"
                       height="3"
                       width="80"
                     >
@@ -128,7 +153,7 @@ const Header = class extends React.Component {
                   <div className="flex items-center">
                     <p>Poetry Slam</p>
                     <svg
-                      className="fill-current ml-6 mr-4"
+                      className="fill-current ml-6 mr-4 w-10"
                       height="3"
                       width="80"
                     >
@@ -140,7 +165,7 @@ const Header = class extends React.Component {
                   <div className="flex items-center">
                     <p>Poetry Slam</p>
                     <svg
-                      className="fill-current ml-6 mr-4"
+                      className="fill-current ml-6 mr-4 w-10"
                       height="3"
                       width="80"
                     >
@@ -152,7 +177,7 @@ const Header = class extends React.Component {
                   <div className="flex items-center">
                     <p>Poetry Slam</p>
                     <svg
-                      className="fill-current ml-6 mr-4"
+                      className="fill-current ml-6 mr-4 w-10"
                       height="3"
                       width="80"
                     >
@@ -164,7 +189,31 @@ const Header = class extends React.Component {
                   <div className="flex items-center">
                     <p>Poetry Slam</p>
                     <svg
-                      className="fill-current ml-6 mr-4"
+                      className="fill-current ml-6 mr-4 w-10"
+                      height="3"
+                      width="80"
+                    >
+                      <use xlinkHref="#icon-navline" />
+                    </svg>
+                  </div>
+                </div>
+                <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div className="flex items-center">
+                    <p>Poetry Slam</p>
+                    <svg
+                      className="fill-current ml-6 mr-4 w-10"
+                      height="3"
+                      width="80"
+                    >
+                      <use xlinkHref="#icon-navline" />
+                    </svg>
+                  </div>
+                </div>
+                <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div className="flex items-center">
+                    <p>Poetry Slam</p>
+                    <svg
+                      className="fill-current ml-6 mr-4 w-10"
                       height="3"
                       width="80"
                     >
@@ -178,7 +227,11 @@ const Header = class extends React.Component {
               <div className={headerStyles.scrolling}>
                 <div className="flex items-center">
                   <p>Schedule (coming soon!)</p>
-                  <svg className="fill-current ml-6 mr-4" height="3" width="80">
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
                     <use xlinkHref="#icon-navline" />
                   </svg>
                 </div>
@@ -186,7 +239,11 @@ const Header = class extends React.Component {
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
                   <p>Schedule (coming soon!)</p>
-                  <svg className="fill-current ml-6 mr-4" height="3" width="80">
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
                     <use xlinkHref="#icon-navline" />
                   </svg>
                 </div>
@@ -194,7 +251,11 @@ const Header = class extends React.Component {
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
                   <p>Schedule (coming soon!)</p>
-                  <svg className="fill-current ml-6 mr-4" height="3" width="80">
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
                     <use xlinkHref="#icon-navline" />
                   </svg>
                 </div>
@@ -202,7 +263,11 @@ const Header = class extends React.Component {
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
                   <p>Schedule (coming soon!)</p>
-                  <svg className="fill-current ml-6 mr-4" height="3" width="80">
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
                     <use xlinkHref="#icon-navline" />
                   </svg>
                 </div>
@@ -210,7 +275,11 @@ const Header = class extends React.Component {
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
                   <p>Schedule (coming soon!)</p>
-                  <svg className="fill-current ml-6 mr-4" height="3" width="80">
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
                     <use xlinkHref="#icon-navline" />
                   </svg>
                 </div>
@@ -221,7 +290,7 @@ const Header = class extends React.Component {
         <div
           className={
             headerStyles.socialMedia +
-            " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:w-full md:items-end px-6 md:px-0"
+            " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:w-full md:items-end px-6"
           }
         >
           <div className="font-mono mb-6">

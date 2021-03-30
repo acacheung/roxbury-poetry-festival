@@ -46,10 +46,10 @@ export default function Home() {
                   <use xlinkHref="#icon-logo" />
                 </svg>
               </h1>
-              <div className="md:w-1/4 md:mt-10 md:-ml-6 mt-6 lg:ml-16 mx-auto w-2/3">
+              <div className="md:w-1/4 md:mt-10 md:-ml-6 mt-6 lg:ml-8 mx-auto w-2/3">
                 <img
                   alt="Poetry writing book gif"
-                  className="w-full"
+                  className="w-3/4 mx-auto"
                   src="/img/gif-black.gif"
                 />
               </div>
@@ -101,7 +101,10 @@ export default function Home() {
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
               <p className="mb-8 text-lg">Poet, Witch, Noisemaker</p>
-              <img alt="Rachel McKibbens" src="/img/rachel-mckibbens.jpg" />
+              <img
+                alt="Rachel McKibbens"
+                src="/img/speakers/rachel-mckibbens.jpg"
+              />
               <p className="font-mono mt-6 text-lg">
                 ​Rachel McKibbens (she / her) is a witch, a writer and a
                 thinker. She founded the Pink Door Writing Retreat for fellows
@@ -111,7 +114,7 @@ export default function Home() {
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
               <p className="mb-8 text-lg">TBD</p>
-              <img alt="Jericho Brown" src="/img/jericho-brown.jpg" />
+              <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
               <p className="font-mono mt-6 text-lg">
                 2020 Pulitzer Prize winner, Jericho Brown will read from his
                 book The Tradition and answer a few questions from the audience.
@@ -125,7 +128,7 @@ export default function Home() {
                 Elhillo
               </h3>
               <p className="mb-8 text-lg">Author, Teaching Artist, Editor</p>
-              <img alt="​Safia Elhillo" src="/img/safia-elhillo.jpg" />
+              <img alt="​Safia Elhillo" src="/img/speakers/safia-elhillo.jpg" />
               <p className="font-mono mt-6 text-lg">
                 ​
                 <a
