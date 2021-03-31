@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "@components/Layout";
-import Footer from "../components/Footer";
 
 export default function Speakers() {
   return (
@@ -21,6 +20,110 @@ export default function Speakers() {
         </Link>
         <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">Speakers</h2>
         <ul className="gap-x-20 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Aricka Foreman</h3>
+            <p className="mb-8 text-lg">TBD</p>
+            <img alt="Aricka Foreman" src="/img/speakers/aricka-foreman.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              <a
+                className="underline"
+                href="https://www.arickaforeman.com/"
+                target="_blank"
+              >
+                Aricka Foreman
+              </a>{" "}
+              (she / her) is an American poet and interdisciplinary writer from
+              Detroit MI. Author of the chapbook Dream with a Glass Chamber, and{" "}
+              <a
+                className="underline"
+                href="https://www.yesyesbooks.com/product-page/salt-body-shimmer"
+                target="_blank"
+              >
+                Salt Body Shimmer
+              </a>{" "}
+              (YesYes Books), she has earned fellowships from Cave Canem,
+              Callaloo, and the Millay Colony for the Arts. She serves on the
+              Board of Directors for The Offing, and spends her time in Chicago,
+              IL engaging poetry with photography & video.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for What Awaits Is What We Make It
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Ashley Rose</h3>
+            <p className="mb-8 text-lg">Poet, Playwright, Actress, Activist</p>
+            <img alt="Ashley Rose" src="/img/speakers/ashley-rose.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              Ashley Rose (she / her) is an award winning poet, playwright,
+              actress and educator. For over 15 years she has used her art and
+              activism background to create community and hold space for
+              healing. Currently she works at Suffolk University as a
+              Restorative Justice Specialist and Race Relations Liason for the
+              institution and clients around the nation.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for 50 Greatest Rappers
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Asiyah Herrera</h3>
+            <p className="mb-8 text-lg">TBD</p>
+            <img alt="Asiyah Herrera" src="/img/speakers/asiyah-herrera.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              Asiyah Herrera (she / her) is 19 years. Last year, she was a
+              finalist for the Boston Youth Poet Laureate position. This year,
+              she became the youngest author to be published in the Boston Art
+              Review with her piece “Making space for Gen Z.” Currently she
+              works as the Teaching Artist for the Youth Literary Advisory Board
+              at 826 Boston, a nonprofit writing and tutoring organization.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Home is Not a Country
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Chen Chen</h3>
+            <p className="mb-8 text-lg">Poet, Writer</p>
+            <img alt="Chen Chen" src="/img/speakers/chen-chen.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              Chen Chen (he / him) is the author of{" "}
+              <a
+                className="underline"
+                href="https://www.amazon.com/Further-Possibilities-Poulin-Poets-America/dp/1942683332"
+                target="_blank"
+              >
+                When I Grow Up I Want to Be a List of Further Possibilities
+              </a>
+              , which was longlisted for the National Book Award and won the A.
+              Poulin, Jr. Poetry Prize, the GLCA New Writers Award, and the Thom
+              Gunn Award for Gay Poetry. The collection was also a finalist for
+              the Lambda Literary Award for Gay Poetry and named one of the best
+              of 2017 by The Brooklyn Rail, Entropy, Library Journal, and
+              others. His work has appeared in many publications, including
+              Poetry, Tin House, Poem-a-Day, The Best American Poetry, Bettering
+              American Poetry, and The Best American Nonrequired Reading. Chen
+              earned his MFA from Syracuse University and is pursuing a PhD in
+              English and Creative Writing as an off-site Texas Tech University
+              student. He lives in frequently snowy Rochester, NY with his
+              partner, Jeff Gilbert and their pug dog, Mr. Rupert Giles.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Elegy in a Time of Pandemic
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Denice Frohman</h3>
             <p className="mb-8 text-lg">Poet, Educator, Activist</p>
@@ -565,9 +668,29 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Yasmin Belkhyr</h3>
+            <p className="mb-8 text-lg">Moroccan-American Writer & Editor </p>
+            <img alt="Yasmin Belkhyr" src="/img/speakers/yasmin-belkhyr.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              Yasmin Belkhyr (she / her) is a Moroccan-American writer and
+              editor. She is the author of Bone Light, a poetry chapbook
+              published by the African Poetry Book Fund and Akashic Books, as
+              part of their New Generations African Poetry series. Her writing
+              has appeared in Soul Sister Revue, PANK, Waxwing, the TED Ideas
+              Blog, and Muzzle Magazine. She is the founder & editor of the
+              literary magazine, Winter Tangerine, and the independent
+              publisher, Honeysuckle Press.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Halal If You Hear Me
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
         </ul>
       </div>
-      <Footer />
     </Layout>
   );
 }

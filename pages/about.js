@@ -22,42 +22,66 @@ export default function About() {
           <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">
             About Us
           </h2>
-          <div className="border-t border-black md:flex md:pt-20 pt-10 w-full">
-            <div className="mb-10 md:mb-0 md:mr-20 md:text-3xl md:w-1/3 pr-6 text-2xl xl:mr-32">
-              The Roxbury Poetry Festival is a biennial event centering poetry
-              in Roxbury, MA.
+          <div className="border-t border-black lg:flex md:pt-20 pt-10 w-full">
+            <div className="mb-10 lg:mb-0 lg:mr-16 lg:text-3xl lg:w-1/3 lg:pr-6 text-center text-2xl xl:mr-32">
+              <p className="mb-6">
+                “I don't understand art for art's sake. Art is for the guts of
+                the people.”
+              </p>
+              <p className="text-right">- Elma Lewis, 1977</p>
             </div>
-            <div className="font-mono md:text-lg md:w-3/4">
+            <div className="font-mono md:text-lg lg:w-3/4">
               <p>
-                The inaugural festival is happening virtually with the exception
-                of two evening events. The festival features several
-                award-winning writers, panelists, and curators, and centers a
-                keynote address from 2020 Pulitzer Prize winning poet, Jericho
-                Brown. The day-long event culminates with a Publisher’s Poetry
-                Slam sponsored by Button Poetry that yields a book contract for
-                a local writer and a “Beast The Beat” concert battle
-                highlighting local hip hop artist.
+                The Roxbury Poetry Festival is a biennial event centering poetry
+                in Roxbury, MA. The inaugural festival is happening virtually
+                with the exception of two evening events. The festival features
+                several award-winning writers, panelists, and curators, and
+                centers a keynote address from 2020 Pulitzer Prize winning poet,
+                Jericho Brown. The day-long event culminates with a Publisher’s
+                Poetry Slam sponsored by Button Poetry that yields a book
+                contract for a local writer and a “Beast The Beat” concert
+                battle highlighting local hip hop artist.
               </p>
-              <p className="my-10">
-                <span className="font-bold">About The Director:</span> Porsha
-                Olayiwola is a writer, performer, futurist and curator.
-                Olayiwola is serving as the current Poet Laureate for the City
-                of Boston and a 2020 laureate fellow with the Academy of
-                American Poets. Part of her work with the Academy of American
-                Poets is establishing the inaugural Roxbury Poetry Festival.
-              </p>
+              <div className="my-10">
+                <h3 className="font-bold mb-2">About the Laureate</h3>
+                <div className="md:flex">
+                  <img
+                    alt="Porsha Olayiwola"
+                    className="w-full h-full mb-4 md:w-1/2"
+                    src="/img/porsha.jpg"
+                  />
+                  <p className="font-mono md:ml-6 md:text-lg md:w-1/2">
+                    <a
+                      className="underline"
+                      href="http://www.porshaolayiwola.com/"
+                      target="_blank"
+                    >
+                      ​Porsha Olayiwola
+                    </a>{" "}
+                    is a writer, performer, futurist and curator. Olayiwola is
+                    serving as the current Poet Laureate for the City of Boston
+                    and a 2020 laureate fellow with the Academy of American
+                    Poets. Part of her work with the Academy of American Poets
+                    is establishing the HOME Reading & Workshop series as well
+                    as the inaugural Roxbury Poetry Festival. (Photo credit:
+                    Feda Eid)
+                  </p>
+                </div>
+              </div>
               <div>
                 <h3 className="font-bold">
                   Roxbury Poetry Festival Advisory Team
                 </h3>
-                <ul className="list-disc lg:grid lg:grid-cols-2 ml-5">
+                <ul className="list-disc md:gap-x-20 md:grid md:grid-cols-2 ml-5">
                   <li className="mt-2">Vernon C. Robinson</li>
-                  <li className="mt-2">Shamara Rhodes</li>
+                  <li className="mt-2">DJ WHY SHAM</li>
                   <li className="mt-2">Crystal Valentine</li>
                   <li className="mt-2">Canderlaria Silva</li>
                   <li className="mt-2">Tariq Charles</li>
                   <li className="mt-2">Stephen Hamilton</li>
-                  <li className="mt-2">Amber Sublime Luv</li>
+                  <li className="mt-2">
+                    Amber Williams (also known as Sublime Luv)
+                  </li>
                 </ul>
               </div>
               <div className="my-10">
@@ -65,13 +89,12 @@ export default function About() {
                 <p>
                   Due to the pandemic and the goal to ensure a public
                   health-conscious space, this year’s festival will take place
-                  online via zoom. If the health mandates permit, The
-                  Publisher’s Poetry Slam and Beast The Beat will take place
-                  outdoors in Nubian Square’s Blair Lot. In addition to onsite
-                  sanitizers, mandated masks, and public health care
-                  representatives, there will be social distance markers and
-                  volunteers to ensure the community members are socially
-                  distancing and masked.
+                  online via zoom. If health mandates permit, The Publisher’s
+                  Poetry Slam and Beast The Beat will take place outdoors in
+                  Nubian Square’s Blair Lot. In addition to onsite sanitizers,
+                  mandated masks, and public health care representatives, there
+                  will be social distance markers and volunteers to ensure the
+                  community members are socially distancing and masked.
                 </p>
               </div>
             </div>
