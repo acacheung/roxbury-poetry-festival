@@ -293,8 +293,9 @@ const Header = class extends React.Component {
             " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:items-end md:mt-0 md:text-left md:w-full mt-10 px-6 text-center"
           }
         >
-          <div className="font-mono mb-6">
-            A vital gathering of national and local writers
+          <div className="font-mono mb-6 md:mb-0">
+            <span className="scroll-word"></span> gathering of national and
+            local writers
           </div>
           <div className="font-mono">June 05, 2021</div>
         </div>

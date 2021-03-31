@@ -3,6 +3,7 @@ import "@styles/globals.css";
 import { useState, useEffect } from "react";
 import classNames from "classnames";
 import { useRouter } from "next/router";
+import Transition from "../components/Transition";
 
 // Custom cursor https://dev.to/andrewchmr/awesome-animated-cursor-with-react-hooks-5ec3
 
@@ -93,7 +94,9 @@ function MyApp({ Component, pageProps }) {
       <div>
         <Cursor />
       </div>
-      <Component {...pageProps} />
+      <Transition location={router.pathname}>
+        <Component {...pageProps} />
+      </Transition>
     </>
   );
 }

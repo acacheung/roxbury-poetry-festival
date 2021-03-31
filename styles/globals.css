@@ -83,6 +83,43 @@ body {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
+.scroll-word::before {
+  content: "A vital";
+  animation: scroll infinite 20s;
+}
+@keyframes scroll {
+  0% {
+    content: "A vital";
+  }
+
+  12.5% {
+    content: "A joyful";
+  }
+
+  25% {
+    content: "A lively";
+  }
+
+  37.5% {
+    content: "A compelling";
+  }
+
+  50% {
+    content: "A riveting";
+  }
+
+  62.5% {
+    content: "An experimental";
+  }
+
+  75% {
+    content: "A futuristic";
+  }
+
+  87.5% {
+    content: "A curious";
+  }
+}
 .speakers-grid::before {
   content: "";
   @apply bg-black;

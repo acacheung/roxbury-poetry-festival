@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "@components/Layout";
-import HeroLogo from "@components/HeroLogo";
 import React, { useEffect, useState } from "react";
 
 export default function Home() {
@@ -59,7 +58,8 @@ export default function Home() {
                 June 05, 2021 / 10 am - 9 pm ET
               </p>
               <p className="md:text-lg mt-8">
-                A vital gathering of national and local writers
+                <span className="scroll-word"></span> gathering of national and
+                local writers
               </p>
             </div>
           </div>
