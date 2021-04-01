@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "@components/Layout";
+import Footer from "../components/Footer";
 
 export default function About() {
   return (
@@ -371,6 +372,7 @@ export default function About() {
             .
           </div>
         </div>
+        <Footer />
       </Layout>
     </>
   );
