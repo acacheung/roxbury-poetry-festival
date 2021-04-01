@@ -56,7 +56,7 @@ const Header = class extends React.Component {
           <div
             className={
               headerStyles.mainNav +
-              " flex font-bold font-sans hidden justify-between md:mt-20 mt-28"
+              " flex font-bold font-sans hidden justify-between md:mt-0 mt-28"
             }
           >
             <Link href="/about">
@@ -135,94 +135,6 @@ const Header = class extends React.Component {
                 </div>
               </a>
             </Link>
-            <Link href="/slam">
-              <a className={headerStyles.scrollingItem}>
-                <div className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Poetry Slam</p>
-                    <svg
-                      className="fill-current ml-6 mr-4 w-10"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Poetry Slam</p>
-                    <svg
-                      className="fill-current ml-6 mr-4 w-10"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Poetry Slam</p>
-                    <svg
-                      className="fill-current ml-6 mr-4 w-10"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Poetry Slam</p>
-                    <svg
-                      className="fill-current ml-6 mr-4 w-10"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Poetry Slam</p>
-                    <svg
-                      className="fill-current ml-6 mr-4 w-10"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Poetry Slam</p>
-                    <svg
-                      className="fill-current ml-6 mr-4 w-10"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Poetry Slam</p>
-                    <svg
-                      className="fill-current ml-6 mr-4 w-10"
-                      height="3"
-                      width="80"
-                    >
-                      <use xlinkHref="#icon-navline" />
-                    </svg>
-                  </div>
-                </div>
-              </a>
-            </Link>
             <div className={headerStyles.scrollingItem}>
               <div className={headerStyles.scrolling}>
                 <div className="flex items-center">
@@ -275,6 +187,80 @@ const Header = class extends React.Component {
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
                   <p>Schedule (coming soon!)</p>
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
+                    <use xlinkHref="#icon-navline" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className={headerStyles.scrollingItem}>
+              <div className={headerStyles.scrollingSpeakers}>
+                <div className="flex items-center">
+                  <p>Speakers (coming soon!)</p>
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
+                    <use xlinkHref="#icon-navline" />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                className={headerStyles.scrollingSpeakers}
+              >
+                <div className="flex items-center">
+                  <p>Speakers (coming soon!)</p>
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
+                    <use xlinkHref="#icon-navline" />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                className={headerStyles.scrollingSpeakers}
+              >
+                <div className="flex items-center">
+                  <p>Speakers (coming soon!)</p>
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
+                    <use xlinkHref="#icon-navline" />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                className={headerStyles.scrollingSpeakers}
+              >
+                <div className="flex items-center">
+                  <p>Speakers (coming soon!)</p>
+                  <svg
+                    className="fill-current ml-6 mr-4 w-10"
+                    height="3"
+                    width="80"
+                  >
+                    <use xlinkHref="#icon-navline" />
+                  </svg>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                className={headerStyles.scrollingSpeakers}
+              >
+                <div className="flex items-center">
+                  <p>Speakers (coming soon!)</p>
                   <svg
                     className="fill-current ml-6 mr-4 w-10"
                     height="3"

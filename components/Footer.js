@@ -13,12 +13,7 @@ export default function Footer() {
           </a>
         </Link>
         <Link href="/about">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:mr-16 lg:pt-8">
-            About
-          </a>
-        </Link>
-        <Link href="/slam">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">Slam</a>
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">About</a>
         </Link>
       </div>
     </footer>

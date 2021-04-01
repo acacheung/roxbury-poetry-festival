@@ -51,6 +51,12 @@
   padding-right: 8px;
 }
 
+.scrollingSpeakers {
+  animation: marquee 20s linear infinite;
+  display: inline-block;
+  padding-right: 8px;
+}
+
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -60,7 +66,8 @@
   }
 }
 
-.scrollingItem:hover .scrolling {
+.scrollingItem:hover .scrolling,
+.scrollingItem:hover .scrollingSpeakers {
   animation-play-state: paused;
 }
 @screen md {

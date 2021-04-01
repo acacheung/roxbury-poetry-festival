@@ -93,11 +93,19 @@ export default function Home() {
         </div>
         <div className="max-w-7xl mx-auto py-28 md:py-20 px-6">
           <div className="mb-10 md:mb-14">
-            <h2 className="font-bold mb-10 md:mb-0 text-4xl">
-              Featured Speakers
-            </h2>
+            <h2 className="font-bold mb-10 md:mb-0 text-4xl">Headliners</h2>
           </div>
-          <ul className="gap-x-20 gap-y-20 grid md:grid-cols-2 lg:grid-cols-3">
+          <ul className="gap-x-24 grid md:grid-cols-2 lg:grid-cols-3">
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
+              <p className="mb-8 text-lg">TBD</p>
+              <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
+              <p className="font-mono mt-6 text-lg">
+                2020 Pulitzer Prize winner, Jericho Brown will read from his
+                book The Tradition and answer a few questions from the audience.
+                This talk will be moderated by a local artist.
+              </p>
+            </li>
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
               <p className="mb-8 text-lg">Poet, Witch, Noisemaker</p>
@@ -109,16 +117,6 @@ export default function Home() {
                 ​Rachel McKibbens (she / her) is a witch, a writer and a
                 thinker. She founded the Pink Door Writing Retreat for fellows
                 and resides in upstate New York.
-              </p>
-            </li>
-            <li className="speakers-grid">
-              <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
-              <p className="mb-8 text-lg">TBD</p>
-              <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
-              <p className="font-mono mt-6 text-lg">
-                2020 Pulitzer Prize winner, Jericho Brown will read from his
-                book The Tradition and answer a few questions from the audience.
-                This talk will be moderated by a local artist.
               </p>
             </li>
             <li className="speakers-grid">
