@@ -44,8 +44,8 @@ export default function About() {
                 and open to the public.
               </p>
               <p>
-                Stay tuned! As we release the festival schedule! Check the
-                schedule for more information!
+                Stay tuned for the schedule release and more information
+                regarding the festival!
               </p>
               <div className="my-10">
                 <h3 className="font-bold mb-2">About the Poet Laureate</h3>
@@ -76,12 +76,13 @@ export default function About() {
               </div>
               <div>
                 <h3 className="font-bold">RPF Advisory Team</h3>
-                <ul className="list-disc ml-5">
+                <ul className="list-disc md:gap-x-20 md:grid md:grid-cols-2 ml-5">
+                  <li className="mt-2">Vernon C. Robinson</li>
                   <li className="mt-2">DJ WHY SHAM</li>
                   <li className="mt-2">Crystal Valentine</li>
                   <li className="mt-2">Canderlaria Silva-Collins</li>
-                  <li className="mt-2">Amanda Cheung</li>
-                  <li className="mt-2">Ashley Ramsay</li>
+                  <li className="mt-2">Amanda Cheung (Tech Team)</li>
+                  <li className="mt-2">Ashley Ramsay (Tech Team)</li>
                   <li className="mt-2">Thomas Johnston</li>
                   <li className="mt-2">Kristina McGeehan</li>
                   <li className="mt-2">Tariq Charles</li>

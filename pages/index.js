@@ -62,12 +62,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div
-            className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full"
-            style={{
-              backgroundPositionY: scrollState,
-            }}
-          >
+          <div className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full">
             <div className="banner-text bg-gray-900 flex h-full items-center justify-end">
               <p>Registration Opens April 15th</p>
               <svg

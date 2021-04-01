@@ -47,6 +47,7 @@ body {
 
 .background-banner {
   background-image: url("../public/img/background.jpg");
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -87,6 +88,7 @@ body {
   content: "A vital";
   animation: scroll infinite 20s;
 }
+
 @keyframes scroll {
   0% {
     content: "A vital";
@@ -120,6 +122,7 @@ body {
     content: "A curious";
   }
 }
+
 .speakers-grid::before {
   content: "";
   @apply bg-black;
@@ -150,51 +153,6 @@ body {
 .summaryWrap::-webkit-details-marker,
 .summaryWrap::marker {
   display: none;
-}
-
-.logo-roxbury svg,
-.logo-poetry svg,
-.logo-festival svg {
-  fill: white;
-  stroke: black;
-  stroke-width: 2px;
-  transition-property: fill;
-  transition-duration: 5s;
-}
-
-.logo-roxbury svg:hover {
-  fill: #fd88b9;
-  transition-duration: 0.25s;
-}
-
-.logo-poetry svg:hover {
-  fill: #f5c234;
-  transition-duration: 0.25s;
-}
-
-.logo-festival svg:hover {
-  fill: #cefc64;
-  transition-duration: 0.25s;
-}
-
-.register-wrap {
-  white-space: nowrap;
-}
-
-.register-banner {
-  animation: marquee 5s linear infinite;
-  display: inline-block;
-  padding-right: 8px;
-  @apply h-full;
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
 }
 
 @screen md {
