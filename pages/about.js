@@ -9,7 +9,6 @@ export default function About() {
       <Layout>
         <Head>
           <title>About | Roxbury Poetry Festival</title>
-          <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className="max-w-7xl mx-auto px-6 w-full">
           <Link href="/">

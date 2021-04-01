@@ -22,7 +22,6 @@ export default function Home() {
     <Layout>
       <Head>
         <title>Roxbury Poetry Festival</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="w-full">
         <div className="hero pb-32">
