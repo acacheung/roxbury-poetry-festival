@@ -84,42 +84,56 @@ body {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .scroll-word::before {
-  content: "A vital";
-  animation: scroll infinite 20s;
+  content: "vital";
+  animation-name: scroll;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes scroll {
   0% {
-    content: "A vital";
+    content: "vital";
   }
 
   12.5% {
-    content: "A joyful";
+    content: "joyful";
   }
 
   25% {
-    content: "A lively";
+    content: "lively";
   }
 
   37.5% {
-    content: "A compelling";
+    content: "compelling";
   }
 
   50% {
-    content: "A riveting";
+    content: "riveting";
   }
 
   62.5% {
-    content: "An experimental";
+    content: "experimental";
   }
 
   75% {
-    content: "A futuristic";
+    content: "futuristic";
   }
 
   87.5% {
-    content: "A curious";
+    content: "curious";
   }
 }
 
