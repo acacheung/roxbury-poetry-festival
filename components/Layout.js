@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Svg from "../components/Svg";
 
-export default function Layout({ children, pageTitle }) {
+export default function Layout({ children }) {
   return (
     <>
       <Head>
