@@ -80,24 +80,7 @@ export default function Home() {
           </div>
           <div className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full">
             <div className="banner-text bg-gray-900 flex h-full items-center justify-end">
-              <p>Registration Opens April 15th</p>
-              <svg
-                className="fill-current hidden md:block ml-6"
-                height="12"
-                width="15"
-              >
-                <use xlinkHref="#icon-rightarrow" />
-              </svg>
-              <svg
-                className="fill-current hidden md:block ml-6"
-                height="12"
-                width="15"
-              >
-                <use xlinkHref="#icon-rightarrow" />
-              </svg>
-              <svg className="fill-current mx-4 md:mx-6" height="12" width="15">
-                <use xlinkHref="#icon-rightarrow" />
-              </svg>
+              <p className="pr-6">Registration Opens April 15th</p>
             </div>
           </div>
         </div>

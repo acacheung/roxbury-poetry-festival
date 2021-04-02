@@ -64,37 +64,37 @@ const Header = class extends React.Component {
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RFP 2021</p>
+                    <p>About RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RFP 2021</p>
+                    <p>About RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RFP 2021</p>
+                    <p>About RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RFP 2021</p>
+                    <p>About RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RFP 2021</p>
+                    <p>About RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RFP 2021</p>
+                    <p>About RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>

@@ -40,7 +40,7 @@ export default function About() {
                 Jericho Brown. The day-long event culminates with a Publisher’s
                 Poetry Slam sponsored by Button Poetry that yields a book
                 contract for a local writer and a “Beast The Beat” concert
-                battle highlighting local hip hop artist. The festival is free
+                battle highlighting a local hip hop artist. The festival is free
                 and open to the public.
               </p>
               <p>
