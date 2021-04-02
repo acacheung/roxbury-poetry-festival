@@ -54,9 +54,6 @@ export default function Svg() {
         <path d="M0 0h42.667v1.067h-42.667v-1.067z"></path>
         <path d="M0 30.933h42.667v1.067h-42.667v-1.067z"></path>
       </symbol>
-      <symbol id="icon-navline" viewBox="0 0 3968 32">
-        <path d="M0 0h3968v32h-3968v-32z"></path>
-      </symbol>
       <symbol id="icon-rightarrow" viewBox="0 0 55 32">
         <path d="M37.943 30.857l-3.657-3.657 6.4-6.4 3.657-2.971v-0.229l-7.086 0.457h-36.114v-5.029h36.114l7.086 0.457v-0.229l-3.657-2.971-6.4-6.4 3.657-3.429 15.086 15.086-15.086 15.314z"></path>
       </symbol>

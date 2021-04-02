@@ -173,7 +173,6 @@ body {
   list-style-type: none;
 }
 
-.summaryWrap::-webkit-details-marker,
 .summaryWrap::marker {
   display: none;
 }
