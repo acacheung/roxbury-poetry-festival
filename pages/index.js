@@ -24,7 +24,7 @@ export default function Home() {
         <title>Roxbury Poetry Festival</title>
       </Head>
       <div className="w-full">
-        <div className="hero pb-32">
+        <div className="hero pb-32 min-h-screen">
           <div className="flex flex-col justify-between max-w-7xl md:mb-20 lg:pb-32 mx-auto px-6">
             <div className="items-center md:flex md:flex-row md:w-max">
               <h1 className="mt-20">
@@ -48,7 +48,9 @@ export default function Home() {
                 <img
                   alt="Poetry writing book gif"
                   className="w-3/4 mx-auto"
+                  height="300"
                   src="/img/gif-black.gif"
+                  width="300"
                 />
               </div>
             </div>
