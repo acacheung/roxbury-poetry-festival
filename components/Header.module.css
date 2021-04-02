@@ -27,7 +27,7 @@
 .scrollingItem {
   align-items: center;
   display: flex;
-  height: 6rem;
+  height: 5.5rem;
   white-space: nowrap;
 }
 

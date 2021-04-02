@@ -84,56 +84,65 @@ body {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-.sr-only {
+.scroll-words {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
+  top: 0;
+  opacity: 0;
+  @apply h-full;
+  @apply justify-center;
+  @apply w-32;
 }
 
-.scroll-word::before {
-  content: "vital";
-  animation-name: scroll;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
+.scroll-words:nth-child(1) {
+  animation: scroll-word 42s 0s infinite linear;
+  -webkit-animation: scroll-word 42s 0s infinite linear;
 }
 
-@keyframes scroll {
+.scroll-words:nth-child(2) {
+  animation: scroll-word 42s 6s infinite linear;
+  -webkit-animation: scroll-word 42s 6s infinite linear;
+}
+
+.scroll-words:nth-child(3) {
+  animation: scroll-word 42s 12s infinite linear;
+  -webkit-animation: scroll-word 42s 12s infinite linear;
+}
+
+.scroll-words:nth-child(4) {
+  animation: scroll-word 42s 18s infinite linear;
+  -webkit-animation: scroll-word 42s 18s infinite linear;
+}
+
+.scroll-words:nth-child(5) {
+  animation: scroll-word 42s 24s infinite linear;
+  -webkit-animation: scroll-word 42s 24s infinite linear;
+}
+
+.scroll-words:nth-child(6) {
+  animation: scroll-word 42s 30s infinite linear;
+  -webkit-animation: scroll-word 42s 30s infinite linear;
+}
+
+.scroll-words:nth-child(7) {
+  animation: scroll-word 42s 36s infinite linear;
+  -webkit-animation: scroll-word 42s 36s infinite linear;
+}
+
+@keyframes scroll-word {
   0% {
-    content: "vital";
+    opacity: 0;
   }
-
-  12.5% {
-    content: "joyful";
+  2% {
+    opacity: 1;
   }
-
-  25% {
-    content: "lively";
+  10% {
+    opacity: 1;
   }
-
-  37.5% {
-    content: "compelling";
+  12% {
+    opacity: 0;
   }
-
-  50% {
-    content: "riveting";
-  }
-
-  62.5% {
-    content: "experimental";
-  }
-
-  75% {
-    content: "futuristic";
-  }
-
-  87.5% {
-    content: "curious";
+  100% {
+    opacity: 0;
   }
 }
 

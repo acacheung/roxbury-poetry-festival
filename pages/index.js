@@ -57,11 +57,17 @@ export default function Home() {
                 June 05, 2021 / 10 am - 9 pm ET
               </p>
               <div className="md:flex md:text-lg mt-8 items-start">
-                <div className="flex justify-center md:justify-start">
+                <div className="flex md:justify-start justify-center">
                   A
-                  <p className="border-b border-black italic mx-2 md:mx-4 scroll-word text-center h-full w-32">
-                    <span className="sr-only">vital</span>
-                  </p>{" "}
+                  <div className="border-b border-black italic relative text-center w-32 mx-4">
+                    <div className="scroll-words">vital</div>
+                    <div className="scroll-words">joyful</div>
+                    <div className="scroll-words">lively</div>
+                    <div className="scroll-words">riveting</div>
+                    <div className="scroll-words">experimental</div>
+                    <div className="scroll-words">futuristic</div>
+                    <div className="scroll-words">curious</div>
+                  </div>{" "}
                   gathering
                 </div>
                 <p className="mt-2 md:mt-0 ml-2">

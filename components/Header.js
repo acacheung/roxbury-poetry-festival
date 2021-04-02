@@ -276,14 +276,26 @@ const Header = class extends React.Component {
         <div
           className={
             headerStyles.socialMedia +
-            " hidden flex flex-col md:flex-row md:justify-between md:max-w-7xl md:items-end md:mt-0 md:text-left md:w-full mt-10 px-6 text-center"
+            " hidden flex flex-col md:flex-row-reverse md:justify-between md:max-w-7xl md:items-end md:mt-0 md:text-left md:w-full mt-10 px-6 text-center"
           }
         >
-          <div className="font-mono mb-6 md:mb-0">
-            <span className="scroll-word"></span> gathering of national and
-            local writers
+          <div className="font-mono uppercase mb-6 md:mb-0">June 05, 2021</div>
+          <div className="font-mono md:flex items-start">
+            <div className="flex md:justify-start justify-center">
+              A
+              <div className="border-b border-black italic md:mx-4 mx-2 relative text-center w-32">
+                <div className="scroll-words">vital</div>
+                <div className="scroll-words">joyful</div>
+                <div className="scroll-words">lively</div>
+                <div className="scroll-words">riveting</div>
+                <div className="scroll-words">experimental</div>
+                <div className="scroll-words">futuristic</div>
+                <div className="scroll-words">curious</div>
+              </div>{" "}
+              gathering
+            </div>
+            <p className="mt-2 md:mt-0 ml-2">of national and local writers</p>
           </div>
-          <div className="font-mono">June 05, 2021</div>
         </div>
       </header>
     );
