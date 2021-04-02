@@ -56,10 +56,24 @@ export default function Home() {
               <p className="md:text-3xl text-2xl uppercase">
                 June 05, 2021 / 10 am - 9 pm ET
               </p>
-              <p className="md:text-lg mt-8">
-                <span className="scroll-word"></span> gathering of national and
-                local writers
-              </p>
+              <div className="md:flex md:text-lg mt-8 items-start">
+                <div className="flex md:justify-start justify-center">
+                  A
+                  <div className="border-b border-black italic relative text-center w-32 mx-4">
+                    <div className="scroll-words">vital</div>
+                    <div className="scroll-words">joyful</div>
+                    <div className="scroll-words">lively</div>
+                    <div className="scroll-words">riveting</div>
+                    <div className="scroll-words">experimental</div>
+                    <div className="scroll-words">futuristic</div>
+                    <div className="scroll-words">curious</div>
+                  </div>{" "}
+                  gathering
+                </div>
+                <p className="mt-2 md:mt-0 ml-2">
+                  of national and local writers
+                </p>
+              </div>
             </div>
           </div>
           <div className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full">

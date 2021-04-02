@@ -84,42 +84,65 @@ body {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-.scroll-word::before {
-  content: "A vital";
-  animation: scroll infinite 20s;
+.scroll-words {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  @apply h-full;
+  @apply justify-center;
+  @apply w-32;
 }
 
-@keyframes scroll {
+.scroll-words:nth-child(1) {
+  animation: scroll-word 42s 0s infinite linear;
+  -webkit-animation: scroll-word 42s 0s infinite linear;
+}
+
+.scroll-words:nth-child(2) {
+  animation: scroll-word 42s 6s infinite linear;
+  -webkit-animation: scroll-word 42s 6s infinite linear;
+}
+
+.scroll-words:nth-child(3) {
+  animation: scroll-word 42s 12s infinite linear;
+  -webkit-animation: scroll-word 42s 12s infinite linear;
+}
+
+.scroll-words:nth-child(4) {
+  animation: scroll-word 42s 18s infinite linear;
+  -webkit-animation: scroll-word 42s 18s infinite linear;
+}
+
+.scroll-words:nth-child(5) {
+  animation: scroll-word 42s 24s infinite linear;
+  -webkit-animation: scroll-word 42s 24s infinite linear;
+}
+
+.scroll-words:nth-child(6) {
+  animation: scroll-word 42s 30s infinite linear;
+  -webkit-animation: scroll-word 42s 30s infinite linear;
+}
+
+.scroll-words:nth-child(7) {
+  animation: scroll-word 42s 36s infinite linear;
+  -webkit-animation: scroll-word 42s 36s infinite linear;
+}
+
+@keyframes scroll-word {
   0% {
-    content: "A vital";
+    opacity: 0;
   }
-
-  12.5% {
-    content: "A joyful";
+  2% {
+    opacity: 1;
   }
-
-  25% {
-    content: "A lively";
+  10% {
+    opacity: 1;
   }
-
-  37.5% {
-    content: "A compelling";
+  12% {
+    opacity: 0;
   }
-
-  50% {
-    content: "A riveting";
-  }
-
-  62.5% {
-    content: "An experimental";
-  }
-
-  75% {
-    content: "A futuristic";
-  }
-
-  87.5% {
-    content: "A curious";
+  100% {
+    opacity: 0;
   }
 }
 
