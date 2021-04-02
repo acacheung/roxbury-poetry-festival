@@ -6,6 +6,8 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
+        <html lang="en" />
+        <title>Roxbury Poetry Festival</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <meta
@@ -40,6 +42,20 @@ export default function Layout({ children }) {
           key="ogdesc"
         />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-5R06V6T39B"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-5R06V6T39B');
+                `,
+          }}
+        />
       </Head>
       <Svg />
       <Header />

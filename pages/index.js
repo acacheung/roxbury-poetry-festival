@@ -20,12 +20,9 @@ export default function Home() {
 
   return (
     <Layout>
-      <Head>
-        <title>Roxbury Poetry Festival</title>
-      </Head>
       <div className="w-full">
-        <div className="hero pb-32">
-          <div className="flex flex-col justify-between max-w-7xl md:mb-20 lg:pb-32 mx-auto px-6">
+        <div className="hero">
+          <div className="flex flex-col justify-between max-w-7xl mx-auto px-6">
             <div className="items-center md:flex md:flex-row md:w-max">
               <h1 className="mt-20">
                 <span className="hidden">Roxbury Poetry Festival</span>
@@ -37,22 +34,23 @@ export default function Home() {
                   <use xlinkHref="#icon-logo-center" />
                 </svg>
                 <svg
-                  className="fill-current hidden md:block md:h-60 md:-ml-10 lg:ml-0 lg:h-full w-full max-w-xl"
+                  className="fill-current hidden md:block h-full w-full md:max-w-md lg:max-w-xl"
                   height="305"
                   width="557"
                 >
                   <use xlinkHref="#icon-logo" />
                 </svg>
               </h1>
-              <div className="md:w-1/4 md:mt-10 md:-ml-6 mt-6 lg:ml-8 mx-auto w-2/3">
+              <div className="md:w-1/4 md:mt-10 mt-6 mx-auto w-2/3">
                 <img
                   alt="Poetry writing book gif"
-                  className="w-3/4 mx-auto"
+                  height="300"
                   src="/img/gif-black.gif"
+                  width="300"
                 />
               </div>
             </div>
-            <div className="font-mono md:mt-10 mt-6 md:text-left text-center">
+            <div className="font-mono md:mt-10 mt-6 md:text-left mb-20 pb-20 text-center">
               <p className="md:text-3xl text-2xl uppercase">
                 June 05, 2021 / 10 am - 9 pm ET
               </p>
@@ -78,24 +76,7 @@ export default function Home() {
           </div>
           <div className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full">
             <div className="banner-text bg-gray-900 flex h-full items-center justify-end">
-              <p>Registration Opens April 15th</p>
-              <svg
-                className="fill-current hidden md:block ml-6"
-                height="12"
-                width="15"
-              >
-                <use xlinkHref="#icon-rightarrow" />
-              </svg>
-              <svg
-                className="fill-current hidden md:block ml-6"
-                height="12"
-                width="15"
-              >
-                <use xlinkHref="#icon-rightarrow" />
-              </svg>
-              <svg className="fill-current mx-4 md:mx-6" height="12" width="15">
-                <use xlinkHref="#icon-rightarrow" />
-              </svg>
+              <p className="pr-6">Registration Opens April 15th</p>
             </div>
           </div>
         </div>
