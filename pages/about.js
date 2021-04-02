@@ -7,9 +7,6 @@ export default function About() {
   return (
     <>
       <Layout>
-        <Head>
-          <title>About | Roxbury Poetry Festival</title>
-        </Head>
         <div className="max-w-7xl mx-auto px-6 w-full">
           <Link href="/">
             <a className="hidden md:flex h-32 items-center justify-center">
