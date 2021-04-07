@@ -5,10 +5,6 @@ import Layout from "@components/Layout";
 export default function Speakers() {
   return (
     <Layout>
-      <Head>
-        <title>Speakers | Roxbury Poetry Festival</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <div className="max-w-7xl mx-auto px-6 w-full">
         <Link href="/">
           <a className="hidden md:flex h-32 items-center justify-center">
@@ -18,8 +14,10 @@ export default function Speakers() {
             </svg>
           </a>
         </Link>
-        <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">Speakers</h2>
-        <ul className="gap-x-20 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
+        <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">
+          All Speakers
+        </h2>
+        <ul className="gap-x-28 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Aricka Foreman</h3>
             <p className="mb-8 text-lg">TBD</p>

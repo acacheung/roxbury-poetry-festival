@@ -6,10 +6,6 @@ export default function Slam() {
   return (
     <>
       <Layout>
-        <Head>
-          <title>Publisher's Poetry Slam | Roxbury Poetry Festival</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
         <div className="max-w-7xl mx-auto px-6 w-full">
           <Link href="/">
             <a className="hidden md:flex h-32 items-center justify-center">

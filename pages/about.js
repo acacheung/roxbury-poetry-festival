@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "@components/Layout";
-import Footer from "../components/Footer";
 
 export default function About() {
   return (
@@ -354,8 +353,8 @@ export default function About() {
             a step toward dismantling the ongoing legacies of settler
             colonialism, and as a commitment to social justice. We also
             acknowledge and trace this country’s modern existence to the
-            historical enslavement of Black and African people. We recongize
-            that the genocide of Idengenous people occured conjunctionally and
+            historical enslavement of Black and African people. We recognize
+            that the genocide of indigenous people occured conjunctionally and
             alongside the enslavement of Africans. To learn more about the
             colonial and current history of Roxbury and its residents, please
             visit{" "}
@@ -369,7 +368,6 @@ export default function About() {
             .
           </div>
         </div>
-        <Footer />
       </Layout>
     </>
   );

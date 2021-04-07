@@ -1,15 +1,10 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "@components/Layout";
-import Footer from "../components/Footer";
 
 export default function Schedule() {
   return (
     <Layout>
-      <Head>
-        <title>Schedule | Roxbury Poetry Festival</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <div className="max-w-7xl mx-auto px-6 w-full">
         <Link href="/">
           <a className="hidden md:flex h-32 items-center justify-center">
@@ -564,7 +559,6 @@ export default function Schedule() {
           </div>
         </div>
       </div>
-      <Footer />
     </Layout>
   );
 }

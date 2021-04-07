@@ -74,11 +74,105 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full">
+          <a
+            className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full"
+            href="/"
+            target="_blank"
+          >
             <div className="banner-text bg-gray-900 flex h-full items-center justify-end">
-              <p className="pr-6">Registration Opens April 15th</p>
+              <p>Register Now</p>
+              <svg
+                className="fill-current hidden md:block ml-6"
+                height="12"
+                width="15"
+              >
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+              <svg
+                className="fill-current hidden md:block ml-6"
+                height="12"
+                width="15"
+              >
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+              <svg className="fill-current mx-4 md:mx-6" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
             </div>
+          </a>
+        </div>
+        <div className="max-w-7xl mx-auto pb-48 px-6">
+          <div className="flex items-center justify-between mb-10 md:mb-14">
+            <h2 className="font-bold mb-10 md:mb-0 text-4xl">Headliners</h2>
+            <Link href="/speakers">
+              <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
+                See all Speakers
+                <svg className="ml-3" height="12" width="15">
+                  <use xlinkHref="#icon-rightarrow" />
+                </svg>
+              </a>
+            </Link>
           </div>
+          <ul className="gap-x-28 grid md:grid-cols-2 lg:grid-cols-3">
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
+              <p className="mb-8 text-lg">TBD</p>
+              <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
+              <p className="font-mono mt-6 text-lg">
+                2020 Pulitzer Prize winner, Jericho Brown will read from his
+                book The Tradition and answer a few questions from the audience.
+                This talk will be moderated by a local artist.
+              </p>
+            </li>
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
+              <p className="mb-8 text-lg">Poet, Witch, Noisemaker</p>
+              <img
+                alt="Rachel McKibbens"
+                src="/img/speakers/rachel-mckibbens.jpg"
+              />
+              <p className="font-mono mt-6 text-lg">
+                ​Rachel McKibbens (she / her) is a witch, a writer and a
+                thinker. She founded the Pink Door Writing Retreat for fellows
+                and resides in upstate New York.
+              </p>
+            </li>
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">
+                Safia
+                <br />
+                Elhillo
+              </h3>
+              <p className="mb-8 text-lg">Author, Teaching Artist, Editor</p>
+              <img alt="​Safia Elhillo" src="/img/speakers/safia-elhillo.jpg" />
+              <p className="font-mono mt-6 text-lg">
+                ​
+                <a
+                  className="underline"
+                  href="https://safia-mafia.com/bio"
+                  target="_blank"
+                >
+                  Safia Elhillo
+                </a>{" "}
+                (she / her) is the author of The January Children (University of
+                Nebraska Press, 2017), which received the the Sillerman First
+                Book Prize for African Poets and an Arab American Book Award,
+                Girls That Never Die (One World/Random House 2021), and the
+                novel in verse{" "}
+                <a
+                  className="underline"
+                  href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
+                  target="_blank"
+                >
+                  Home Is Not A Country
+                </a>{" "}
+                (Make Me A World/Random House, 2021). With Fatimah Asghar, she
+                is co-editor of the anthology Halal If You Hear Me (Haymarket
+                Books, 2019). She is currently a Wallace Stegner Fellow at
+                Stanford University and lives in Oakland.
+              </p>
+            </li>
+          </ul>
         </div>
       </div>
     </Layout>
