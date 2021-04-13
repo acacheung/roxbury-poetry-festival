@@ -500,14 +500,6 @@ export default function Schedule() {
                 of his book. This talk will be moderated by a local artist.
                 Hosted by Roxbury Branch Public Library.
               </p>
-              <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                <a href="#" className="flex items-center">
-                  Register for this event
-                  <svg className="fill-current ml-2" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </a>
-              </div>
             </div>
           </div>
           <div className="border-t border-black md:grid md:grid-cols-8 items-center md:w-full py-10">
@@ -525,14 +517,6 @@ export default function Schedule() {
                 Button Poetry. This event is only open to poetry living in
                 Massachusetts. Hosted by Button Poetry.
               </p>
-              <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                <a href="#" className="flex items-center">
-                  Register for this event
-                  <svg className="fill-current ml-2" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </a>
-              </div>
             </div>
           </div>
           <div className="border-t border-black md:grid md:grid-cols-8 items-center md:w-full py-10">
@@ -548,14 +532,6 @@ export default function Schedule() {
                 in the Blair Lot and feature local hip hop artists in a
                 friendly. Hosted by DJ Why SHam.
               </p>
-              <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                <a href="#" className="flex items-center">
-                  Register for this event
-                  <svg className="fill-current ml-2" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </a>
-              </div>
             </div>
           </div>
         </div>

@@ -143,12 +143,6 @@ export default function Home() {
                 Candler Professor of Creative Writing and the Director of the
                 Creative Writing Program at Emory University in Atlanta.
               </p>
-              <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
-                Register for An Evening with Jericho Brown
-                <svg className="ml-6 w-6" height="12" width="15">
-                  <use xlinkHref="#icon-rightarrow" />
-                </svg>
-              </a>
             </li>
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
