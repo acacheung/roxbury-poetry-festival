@@ -48,10 +48,10 @@ export default function About() {
                 <div className="md:flex">
                   <img
                     alt="Porsha Olayiwola"
-                    className="w-full h-full mb-4 md:w-1/3"
+                    className="w-full h-full mb-4 md:w-1/4"
                     src="/img/porsha.jpg"
                   />
-                  <p className="font-mono md:ml-6 md:text-lg md:w-2/3">
+                  <p className="font-mono md:ml-6 md:text-lg md:w-3/4">
                     <a
                       className="underline"
                       href="http://www.porshaolayiwola.com/"

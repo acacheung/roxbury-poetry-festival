@@ -22,7 +22,7 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Aricka Foreman</h3>
             <p className="mb-8 text-lg">TBD</p>
             <img alt="Aricka Foreman" src="/img/speakers/aricka-foreman.jpg" />
-            <p className="font-mono mt-6 text-lg">
+            <p className="font-mono mt-6 lg:text-lg">
               <a
                 className="underline"
                 href="https://www.arickaforeman.com/"
@@ -44,9 +44,9 @@ export default function Speakers() {
               Board of Directors for The Offing, and spends her time in Chicago,
               IL engaging poetry with photography & video.
             </p>
-            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
               Register for What Awaits Is What We Make It
-              <svg className="fill-current ml-2" height="12" width="15">
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
             </a>
@@ -55,7 +55,7 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Ashley Rose</h3>
             <p className="mb-8 text-lg">Poet, Playwright, Actress, Activist</p>
             <img alt="Ashley Rose" src="/img/speakers/ashley-rose.jpg" />
-            <p className="font-mono mt-6 text-lg">
+            <p className="font-mono mt-6 lg:text-lg">
               Ashley Rose (she / her) is an award winning poet, playwright,
               actress and educator. For over 15 years she has used her art and
               activism background to create community and hold space for
@@ -63,9 +63,9 @@ export default function Speakers() {
               Restorative Justice Specialist and Race Relations Liason for the
               institution and clients around the nation.
             </p>
-            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
-              Register for 50 Greatest Rappers
-              <svg className="fill-current ml-2" height="12" width="15">
+            <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
+              Register for the 50 Greatest Rappers
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
             </a>
@@ -82,9 +82,66 @@ export default function Speakers() {
               works as the Teaching Artist for the Youth Literary Advisory Board
               at 826 Boston, a nonprofit writing and tutoring organization.
             </p>
-            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+            <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
               Register for Home is Not a Country
-              <svg className="fill-current ml-2" height="12" width="15">
+              <svg className="ml-6 w-5" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Askia Toure</h3>
+            <p className="mb-8 text-lg">
+              Leading voice of the Black Arts Movement
+            </p>
+            <img alt="Askia Toure" src="/img/speakers/askia-toure.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              Askia Muhammad Touré (he / him) is an African-American poet,
+              essayist, political editor, and leading voice of the Black Arts
+              Movement. Toure helped to define a new generation of black
+              consciousness by creating a triumphal identity for the purpose of
+              uplifting the African heritage beyond the oppressive ideas that
+              dominated the time.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
+              Register for Flowers As They Live
+              <svg className="ml-6 w-5" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Candace McDuffie</h3>
+            <p className="mb-8 text-lg">Journalist, Writer, Cultural Critic</p>
+            <img
+              alt="Candace McDuffie"
+              src="/img/speakers/candace-mcduffie.jpg"
+            />
+            <p className="font-mono mt-6 text-lg">
+              <a
+                className="underline"
+                href="https://www.candacemcduffie.com/"
+                target="_blank"
+              >
+                Candace McDuffie
+              </a>{" "}
+              (she / her) is a respected cultural critic and music journalist
+              who focuses on the intersection of race, gender and entertainment.
+              Her written work has been featured on digital platforms such as
+              Rolling Stone, MTV, Forbes, PAPER, SPIN, Entertainment Weekly, NBC
+              News and Newsweek. Candace’s first book,{" "}
+              <a
+                className="underline"
+                href="https://www.amazon.com/Rappers-Who-Changed-World-Celebration/dp/1784883387"
+                target="_blank"
+              >
+                50 Rappers Who Changed The World
+              </a>
+              , is out now wherever books are sold.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
+              Register for 50 Rappers Who Changed The World
+              <svg className="ml-6 w-5" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
             </a>
@@ -244,7 +301,7 @@ export default function Speakers() {
               >
                 George Abraham
               </a>{" "}
-              (they / he) is a Palestinian american poet, writer, and engineer
+              (they / them) is a Palestinian american poet, writer, and engineer
               from Jacksonville, FL. Their debut poetry collection{" "}
               <a
                 className="underline"
@@ -267,6 +324,42 @@ export default function Speakers() {
             </p>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Paths to Publication
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
+            <p className="mb-8 text-lg">Poet, Educator</p>
+            <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              <a
+                className="underline"
+                href="https://www.jerichobrown.com/"
+                target="_blank"
+              >
+                Jericho Brown
+              </a>{" "}
+              (he / him) is the recipient of a Whiting Writers’ Award and
+              fellowships from the John Simon Guggenheim Foundation, the
+              Radcliffe Institute for Advanced Study at Harvard University, and
+              the National Endowment for the Arts. Brown’s first book, Please
+              (2008), won the American Book Award. His second book, The New
+              Testament (2014), won the Anisfield-Wolf Book Award and was named
+              one of the best of the year by Library Journal, Coldfront, and the
+              Academy of American Poets. He is also the author of the collection
+              The Tradition (2019), which was a finalist for the 2019 National
+              Book Award and the winner of the 2020 Pulitzer Prize for Poetry.
+              His poems have appeared in Buzzfeed, The Nation, The New York
+              Times, The New Yorker, The New Republic, Time, and The Pushcart
+              Prize Anthology, and several volumes of The Best American Poetry
+              anthologies. He is the Charles Howard Candler Professor of
+              Creative Writing and the Director of the Creative Writing Program
+              at Emory University in Atlanta.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for An Evening with Jericho Brown
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -463,7 +556,7 @@ export default function Speakers() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Martha Collins</h3>
-            <p className="mb-8 text-lg"></p>
+            <p className="mb-8 text-lg">TBD</p>
             <img alt="Martha Collins" src="/img/speakers/martha-collins.jpg" />
             <p className="font-mono mt-6 text-lg">
               <a
@@ -551,6 +644,47 @@ export default function Speakers() {
             </a>
           </li>
           <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Rajiv Mohabir</h3>
+            <p className="mb-8 text-lg">Poet, Translator, Memoirist</p>
+            <img alt="Rajiv Mohabir" src="/img/speakers/rajiv-mohabir.jpg" />
+            <p className="font-mono mt-6 text-lg">
+              <a
+                className="underline"
+                href="http://www.rajivmohabir.com/"
+                target="_blank"
+              >
+                Rajiv Mohabir
+              </a>{" "}
+              (he / him) is the author of The Cowherd’s Son (Tupelo Press 2017,
+              winner of the 2015 Kundiman Prize; Eric Hoffer Honorable Mention
+              2018) and The Taxidermist’s Cut (Four Way Books 2016, winner of
+              the Four Way Books Intro to Poetry Prize, Finalist for the Lambda
+              Literary Award for Gay Poetry in 2017), and translator of I Even
+              Regret Night: Holi Songs of Demerara (1916) (Kaya Press 2019)
+              which received a PEN/Heim Translation Fund Grant Award and the
+              2020 Harold Morton Landon Translation Award from the American
+              Academy of Poets. His{" "}
+              <a
+                className="underline"
+                href="https://restlessbooks.org/bookstore/antiman"
+                target="_blank"
+              >
+                memoir
+              </a>{" "}
+              received the 2019 Reckless Books’ New Immigrant Writing Prize and
+              is forthcoming 2021. Currently he is an Assistant Professor of
+              poetry in the MFA program at Emerson College, translations editor
+              at Waxwing Journal and poetry editor of Asian American Literary
+              Review.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
+              Register for At Home in the Moving Body
+              <svg className="ml-6 w-5" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Ryan Murphy</h3>
             <p className="mb-8 text-lg">Publisher, Poet</p>
             <img alt="Ryan Murphy" src="/img/speakers/ryan-murphy.jpg" />
@@ -568,7 +702,7 @@ export default function Speakers() {
               For Poetry, and The New York State Foundation for the Arts.
             </p>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
-              Register for Excavating the Wicked Imagination
+              Register for Poetry in the Marketplace
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -608,6 +742,12 @@ export default function Speakers() {
               2019). She is currently a Wallace Stegner Fellow at Stanford
               University and lives in Oakland.
             </p>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Home Is Not A Country
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Seema Yasmin</h3>
@@ -625,7 +765,7 @@ export default function Speakers() {
               and author. A fiction fellow of the Kundiman and Tin House
               workshops, she is the author of four books including Muslim Women
               Are Everything, Viral BS: Medical Myths and Why We Fall for Them,
-              and , poems based on her reporting on the Ebola epidemic in West
+              and, poems based on her reporting on the Ebola epidemic in West
               Africa.
             </p>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
@@ -636,10 +776,51 @@ export default function Speakers() {
             </a>
           </li>
           <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Stephen Hamilton</h3>
+            <p className="mb-8 text-lg">Artist, Educator</p>
+            <img
+              alt="​Stephen Hamilton"
+              src="/img/speakers/stephen-hamilton.jpg"
+            />
+            <p className="font-mono mt-6 text-lg">
+              ​
+              <a
+                className="underline"
+                href="http://www.itanproject.com/"
+                target="_blank"
+              >
+                Stephen Hamilton
+              </a>{" "}
+              (he / him) is an artist and arts educator living and working in
+              Boston Massachusetts. Stephen’s Work incorporates both Western and
+              African techniques, blending figurative painting and drawing with
+              resist dyeing, weaving, and woodcarving. Each image is a marriage
+              between the aesthetic perspectives and artistry of both
+              traditions. As a Black American trained in traditional west
+              African artforms, he treats the acts of weaving, dyeing, and
+              woodcarving as ritualized acts of reclamation. He uses traditional
+              techniques and materials native to West Africa to reclaim
+              ancestral knowledge dissociated from Africans in the Americas,
+              during the transatlantic slave trade. The work explores and
+              heavily references the Black body in pre-colonial African art
+              history, creating visual connections between the past and the
+              present. This forms a body of work, which serves as a conceptual
+              and visual bridge between the ancient and modern worlds. Through
+              this, he explores elements of black identity through time and
+              space on its own terms.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Dreamscaping: Future of Roxbury Panel
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">
               Tatiana Johnson-Boria
             </h3>
-            <p className="mb-8 text-lg"></p>
+            <p className="mb-8 text-lg">TBD</p>
             <img
               alt="Tatiana Johnson-Boria"
               src="/img/speakers/tatiana-johnson-boria.jpg"

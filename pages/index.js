@@ -101,7 +101,7 @@ export default function Home() {
             </div>
           </a>
         </div>
-        <div className="max-w-7xl mx-auto pb-48 px-6">
+        <div className="max-w-7xl mx-auto pb-16 px-6">
           <div className="flex items-center justify-between mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">Headliners</h2>
             <Link href="/speakers">
@@ -116,13 +116,39 @@ export default function Home() {
           <ul className="gap-x-28 grid md:grid-cols-2 lg:grid-cols-3">
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
-              <p className="mb-8 text-lg">TBD</p>
+              <p className="mb-8 text-lg">Poet, Educator</p>
               <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
               <p className="font-mono mt-6 text-lg">
-                2020 Pulitzer Prize winner, Jericho Brown will read from his
-                book The Tradition and answer a few questions from the audience.
-                This talk will be moderated by a local artist.
+                <a
+                  className="underline"
+                  href="https://www.jerichobrown.com/"
+                  target="_blank"
+                >
+                  Jericho Brown
+                </a>{" "}
+                (he / him) is the recipient of a Whiting Writers’ Award and
+                fellowships from the John Simon Guggenheim Foundation, the
+                Radcliffe Institute for Advanced Study at Harvard University,
+                and the National Endowment for the Arts. Brown’s first book,
+                Please (2008), won the American Book Award. His second book, The
+                New Testament (2014), won the Anisfield-Wolf Book Award and was
+                named one of the best of the year by Library Journal, Coldfront,
+                and the Academy of American Poets. He is also the author of the
+                collection The Tradition (2019), which was a finalist for the
+                2019 National Book Award and the winner of the 2020 Pulitzer
+                Prize for Poetry. His poems have appeared in Buzzfeed, The
+                Nation, The New York Times, The New Yorker, The New Republic,
+                Time, and The Pushcart Prize Anthology, and several volumes of
+                The Best American Poetry anthologies. He is the Charles Howard
+                Candler Professor of Creative Writing and the Director of the
+                Creative Writing Program at Emory University in Atlanta.
               </p>
+              <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
+                Register for An Evening with Jericho Brown
+                <svg className="ml-6 w-6" height="12" width="15">
+                  <use xlinkHref="#icon-rightarrow" />
+                </svg>
+              </a>
             </li>
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>

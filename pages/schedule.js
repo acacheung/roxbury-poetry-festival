@@ -18,7 +18,7 @@ export default function Schedule() {
           The Schedule
         </h2>
         <div>
-          <details className="border-t border-black">
+          <details className="border-t border-black" open>
             <summary className="focus:outline-none summaryWrap">
               <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
                 <div className="md:col-span-7">
@@ -38,17 +38,21 @@ export default function Schedule() {
                 </div>
               </div>
             </summary>
-            <div className="gap-x-20 grid gap-y-20 mb-20 md:grid-cols-2 summaryDetail xl:gap-y-0 xl:grid-cols-4">
+            <div className="gap-x-28 grid gap-y-20 mb-20 md:grid-cols-2 summaryDetail xl:gap-y-0 xl:grid-cols-3">
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                  On Publishing
+                  Paths to Publication
                 </h3>
-                <p className="mb-8">The in’s, out’s and edits of publishing</p>
+                <p className="mb-8">
+                  Kristina Marie Darling, Ryan Murphy, Frances Donovan, George
+                  Abraham
+                </p>
+                <div className="publication-images w-full"></div>
                 <p className="font-mono mt-6">
                   This panel will consist of a variety of writers, editors and
                   publishers who will discuss and answer any questions
-                  surrounding the success and challenges associated with
-                  publishing in journals as well as a full-length manuscript.
+                  associated with publishing in journals as well as publishing a
+                  full-length manuscript.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -63,7 +67,7 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Elegy in a Time of Pandemic
                 </h3>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <img alt="Chen Chen" src="/img/speakers/chen-chen.jpg" />
                 <p className="font-mono mt-6">
                   This writing workshop facilitated by Chen Chen
                 </p>
@@ -80,27 +84,13 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Writing Workshop
                 </h3>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <img
+                  alt="Denice Frohman"
+                  src="/img/speakers/denice-frohman.jpg"
+                />
                 <p className="font-mono mt-6">
                   This writing workshop will be facilitated by women of the
-                  world poetry slam champion, Denice Froham
-                </p>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a href="#" className="flex items-center">
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div className="speakers-grid">
-                <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                  50 Rappers Who Changed The World
-                </h3>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
-                <p className="font-mono mt-6">
-                  This session will feature an author reading and a q/a
+                  world poetry slam champion, Denice Frohman
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -140,8 +130,8 @@ export default function Schedule() {
                 </h3>
                 <p className="mb-8">Future of Roxbury Panel</p>
                 <p className="font-mono mt-6">
-                  This panel will consist of artists, residents and city
-                  planners to discuss the trajectory and dreams of Roxbury.
+                  This panel will consist of artists, residents, youth and city
+                  planners and will center futurescaping Roxbury.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -156,10 +146,13 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Writing our Mothers
                 </h3>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <img
+                  alt="Tatiana Johnson-Boria"
+                  src="/img/speakers/tatiana-johnson-boria.jpg"
+                />
                 <p className="font-mono mt-6">
-                  This writing workshop facilitated by Roxbury native, Tatiana
-                  Johnson-Boria
+                  This writing workshop is facilitated by Roxbury native,
+                  Tatiana Johnson-Boria.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -174,10 +167,13 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Writing Workshop
                 </h3>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <img
+                  alt="Aricka Foreman"
+                  src="/img/speakers/aricka-foreman.jpg"
+                />
                 <p className="font-mono mt-6">
                   This writing workshop will be facilitated by Detroit native
-                  and Chicago Resident, Aricka Foreman
+                  and Chicago Resident, Aricka Foreman.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -192,10 +188,13 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Writing Workshop
                 </h3>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <img
+                  alt="Rajiv Mohabir"
+                  src="/img/speakers/rajiv-mohabir.jpg"
+                />
                 <p className="font-mono mt-6">
                   This writing workshop will be facilitated by local professor,
-                  MFA Rajiv Mohabir
+                  MFA Rajiv Mohabir.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -228,20 +227,17 @@ export default function Schedule() {
                 </div>
               </div>
             </summary>
-            <div className="gap-x-20 grid md:grid-cols-2 mb-20 summaryDetail2Col">
+            <div className="gap-x-20 gap-y-20 grid md:grid-cols-2 mb-20 summaryDetail2Col">
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Home Is Not A Country
                 </h3>
-                <p className="mb-8">
-                  This event is hosted by Roxbury Resident and youth Poet
-                  Laureate Finalist, A
-                </p>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <div className="home-images w-full"></div>
                 <p className="font-mono mt-6">
                   Home is Not A Country is a talk and reading with Safia Elhilio
-                  and a Roxbury Youth Poet Laureate Finalist regarding Elhillo’s
-                  recently released YA novel written in verse.
+                  and a Roxbury Youth Poet Laureate Finalist, Asiyah Herrera
+                  regarding Elhillo’s recently released YA novel written in
+                  verse.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -256,12 +252,14 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Craft Talk w/ Rachel McKibbens
                 </h3>
-                <p className="mb-8">Moderator: Grub Street</p>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <img
+                  alt="Rachel McKibbens"
+                  src="/img/speakers/rachel-mckibbens.jpg"
+                />
                 <p className="font-mono mt-6">
                   This craft talk encourages participants to bring their lunch
-                  on screen while be inspired to think about writing differently
-                  with poet and performer, Rachel McKibbens
+                  on screen while enjoying a craft talk from poet and performer,
+                  Rachel McKibbens.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -302,9 +300,11 @@ export default function Schedule() {
                 <p className="mb-8">
                   Diannely Antigua, Malcolm Friend, Jonathan Mendoza
                 </p>
+                <div className="latinext-images w-full"></div>
                 <p className="font-mono mt-6">
-                  This reading and performance features latinext folks who were
-                  published in the BreakBeat Poets Anthology. Closes with a q/a
+                  This reading and performance features Latinext folks who were
+                  published in the BreakBeat Poet’s LatiNEXT Anthology. Closes
+                  with a q/a.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -320,11 +320,11 @@ export default function Schedule() {
                   Flowers As They Live: Local Living Legends Reading
                 </h3>
                 <p className="mb-8">Askia Toure, Letta Neely, Martha Collins</p>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <div className="locals-images w-full"></div>
                 <p className="font-mono mt-6">
                   This reading highlights writers who have made an impact on the
                   poetry world nationally and locally. #LocalLivingLegends
-                  Closes with a q/a
+                  Closes with a q/a.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -340,11 +340,10 @@ export default function Schedule() {
                   826 Youth Anthology Reading
                 </h3>
                 <p className="mb-8">826 Boston</p>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
                 <p className="font-mono mt-6">
-                  This performance features youth poets published in 826
-                  Anthology. The reading takes place outside the Roxbury Branch
-                  Library
+                  This performance features youth poets published in 826 Boston
+                  Poetry Anthology. The reading takes place outside the Roxbury
+                  Branch Library.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -357,12 +356,13 @@ export default function Schedule() {
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                  Ashley Rose
+                  50 Rappers Who Changed The World
                 </h3>
-                <p className="mb-8">Guest Curation</p>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <p className="mb-8">Curated by Ashley Rose</p>
+                <div className="rappers-images w-full"></div>
                 <p className="font-mono mt-6">
-                  This event will be curated by poet Ashley Rose.
+                  This session will feature a reading with Candace McDuffie and
+                  a q/a.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -404,10 +404,11 @@ export default function Schedule() {
                   Anthology Reading from Dr. Seema Yasmin, Nikia Chaney, Yasmin
                   Belkhyr
                 </p>
+                <div className="halal-images w-full"></div>
                 <p className="font-mono mt-6">
                   This reading and performance celebrates poets of the Muslim
                   Diaspora who were contributors to the Breakbeat Poet
-                  Anthology: Halal If You Hear Me. Closes with a q/a
+                  Anthology: <em>Halal If You Hear Me.</em> Closes with a q/a
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -425,7 +426,6 @@ export default function Schedule() {
                 <p className="mb-8">
                   Open Mic with Nina La Negra and Fulani Haynes
                 </p>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
                 <p className="font-mono mt-6">
                   This will be a digital open mic hosted by long-time Roxbury
                   hosts, Nina La Negra and Fulani Haynes. This provides an
@@ -447,12 +447,11 @@ export default function Schedule() {
                 <p className="mb-8">
                   Cierra Peters, Arielle Gray, Print Ain't Dead
                 </p>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
                 <p className="font-mono mt-6">
                   This casual discussion is facilitated by local collective,
-                  Print Ain’t Dead and will discuss some of the literary and
-                  historical gossip associated with the local and national
-                  literary movements & writers
+                  Print Ain’t Dead and will implore the literary and historical
+                  gossip associated with local and national literary movements &
+                  writers.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
@@ -467,13 +466,15 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   On Sound & Form
                 </h3>
-                <p className="mb-8">Jill McDonough</p>
-                <img alt="Porsha Olayiwola" src="/img/porsha.jpg" />
+                <img
+                  alt="Jill McDonough"
+                  src="/img/speakers/jill-mcdonough.jpg"
+                />
                 <p className="font-mono mt-6">
                   Jill McDonough will be offering some ways to think about sound
                   and form in poems, then sharing some poems written by unhoused
                   and incarcerated writers who have spent time in writing
-                  classrooms with Jill
+                  classrooms with Jill.
                 </p>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">

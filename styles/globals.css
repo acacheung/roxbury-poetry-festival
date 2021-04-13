@@ -178,6 +178,159 @@ body {
   display: none;
 }
 
+.publication-images {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 21rem;
+  -webkit-animation: publicationImageTransition 12s infinite;
+  animation: publicationImageTransition 12s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes publicationImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/kristina-marie-darling.jpg");
+  }
+  25% {
+    background-image: url("../public/img/speakers/ryan-murphy.jpg");
+  }
+  50% {
+    background-image: url("../public/img/speakers/frances-donovan.jpg");
+  }
+  75% {
+    background-image: url("../public/img/speakers/george-abraham.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/kristina-marie-darling.jpg");
+  }
+}
+
+.home-images {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 21rem;
+  -webkit-animation: homeImageTransition 8s infinite;
+  animation: homeImageTransition 8s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes homeImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/safia-elhillo.jpg");
+  }
+  50% {
+    background-image: url("../public/img/speakers/asiyah-herrera.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/safia-elhillo.jpg");
+  }
+}
+
+.latinext-images {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 15.5rem;
+  -webkit-animation: latinextImageTransition 12s infinite;
+  animation: latinextImageTransition 12s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes latinextImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/diannely-antigua.jpg");
+  }
+  33% {
+    background-image: url("../public/img/speakers/malcolm-friend.jpg");
+  }
+  66% {
+    background-image: url("../public/img/speakers/jonathan-mendoza.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/diannely-antigua.jpg");
+  }
+}
+
+.locals-images {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 15.5rem;
+  -webkit-animation: localsImageTransition 12s infinite;
+  animation: localsImageTransition 12s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes localsImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/askia-toure.jpg");
+  }
+  33% {
+    background-image: url("../public/img/speakers/letta-neely.jpg");
+  }
+  66% {
+    background-image: url("../public/img/speakers/martha-collins.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/askia-toure.jpg");
+  }
+}
+
+.rappers-images {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 15.5rem;
+  -webkit-animation: rappersImageTransition 8s infinite;
+  animation: rappersImageTransition 8s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes rappersImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/candace-mcduffie.jpg");
+  }
+  50% {
+    background-image: url("../public/img/speakers/ashley-rose.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/candace-mcduffie.jpg");
+  }
+}
+
+.halal-images {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 15.5rem;
+  -webkit-animation: halalImmageTransition 12s infinite;
+  animation: halalImmageTransition 12s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes halalImmageTransition {
+  0% {
+    background-image: url("../public/img/speakers/seema-yasmin.jpg");
+  }
+  33% {
+    background-image: url("../public/img/speakers/nikia-chaney.jpg");
+  }
+  66% {
+    background-image: url("../public/img/speakers/yasmin-belkhyr.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/seema-yasmin.jpg");
+  }
+}
+
 @screen md {
   .hero {
     height: calc(100vh - 1.5rem);
@@ -195,12 +348,25 @@ body {
     width: 100%;
     margin-right: 1.5rem;
   }
+
+  .publication-images,
+  .home-images {
+    height: 26.1875rem;
+  }
 }
 
 @screen lg {
   .summaryDetail,
   .summaryDetail2Col {
     margin-left: 33vw;
+  }
+
+  .publication-images {
+    height: 21rem;
+  }
+
+  .home-images {
+    height: 22.72rem;
   }
 }
 
