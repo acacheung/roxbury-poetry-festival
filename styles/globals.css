@@ -174,7 +174,7 @@ body {
   list-style-type: none;
 }
 
-.summaryWrap::marker {
+details summary::-webkit-details-marker {
   display: none;
 }
 

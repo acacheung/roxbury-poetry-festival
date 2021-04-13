@@ -102,7 +102,7 @@ export default function Home() {
           </a>
         </div>
         <div className="max-w-7xl mx-auto pb-16 px-6">
-          <div className="flex items-center justify-between mb-10 md:mb-14">
+          <div className="md:flex items-center justify-between mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">Headliners</h2>
             <Link href="/speakers">
               <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
@@ -113,7 +113,7 @@ export default function Home() {
               </a>
             </Link>
           </div>
-          <ul className="gap-x-28 grid md:grid-cols-2 lg:grid-cols-3">
+          <ul className="gap-x-28 gap-y-20 grid md:grid-cols-2 lg:grid-cols-3">
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
               <p className="mb-8 text-lg">Poet, Educator</p>
