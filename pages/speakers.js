@@ -19,19 +19,47 @@ export default function Speakers() {
         </h2>
         <ul className="gap-x-28 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
           <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Angelo Geter</h3>
+            <p className="mb-8 text-lg">Educator, Writer, Performer</p>
+            <img alt="Angelo Geter" src="/img/speakers/angelo-geter.jpg" />
+            <details className="font-mono mt-6 text-lg">
+              and performance artist also known in the spoken word world as
+              “EyeAmBic.” Geter is a National Poetry Slam champion, Rustbelt
+              Regional Poetry Slam finalist, Southern Fried Regional Poetry Slam
+              finalist, and a 2019 All-America City winner. He has performed at
+              venues and competitions across the country, and currently serves
+              on the Board of Directors for the Watering Hole, an organization
+              dedicated to holding spaces for poets of color in the oral and
+              written traditions of poetry. He also works as the Director of
+              Campus Programming at Winthrop University and is releasing his
+              debut poetry collection in late 2020. Geter is the poet laureate
+              of Rock Hill, South Carolina.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.angelogeter.com/"
+                  target="_blank"
+                >
+                  Angelo Geter
+                </a>{" "}
+                (he / him) received a BA in Political Science from Winthrop
+                University and a MS in Higher Education from Drexel University.
+                He is a poet
+              </summary>
+            </details>
+            <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
+              Register for Poetry Is Not A Luxury
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Aricka Foreman</h3>
             <p className="mb-8 text-lg">TBD</p>
             <img alt="Aricka Foreman" src="/img/speakers/aricka-foreman.jpg" />
-            <p className="font-mono mt-6 lg:text-lg">
-              <a
-                className="underline"
-                href="https://www.arickaforeman.com/"
-                target="_blank"
-              >
-                Aricka Foreman
-              </a>{" "}
-              (she / her) is an American poet and interdisciplinary writer from
-              Detroit MI. Author of the chapbook Dream with a Glass Chamber, and{" "}
+            <details className="font-mono mt-6 text-lg">
+              Chamber, and{" "}
               <a
                 className="underline"
                 href="https://www.yesyesbooks.com/product-page/salt-body-shimmer"
@@ -43,7 +71,18 @@ export default function Speakers() {
               Callaloo, and the Millay Colony for the Arts. She serves on the
               Board of Directors for The Offing, and spends her time in Chicago,
               IL engaging poetry with photography & video.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.arickaforeman.com/"
+                  target="_blank"
+                >
+                  Aricka Foreman
+                </a>{" "}
+                (she / her) is an American poet and interdisciplinary writer
+                from Detroit MI. Author of the chapbook Dream with a Glass
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
               Register for What Awaits Is What We Make It
               <svg className="ml-4 lg:ml-6" height="8" width="19">
@@ -52,17 +91,24 @@ export default function Speakers() {
             </a>
           </li>
           <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">Ashley Rose</h3>
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Ashley
+              <br />
+              Rose
+            </h3>
             <p className="mb-8 text-lg">Poet, Playwright, Actress, Activist</p>
             <img alt="Ashley Rose" src="/img/speakers/ashley-rose.jpg" />
-            <p className="font-mono mt-6 lg:text-lg">
-              Ashley Rose (she / her) is an award winning poet, playwright,
-              actress and educator. For over 15 years she has used her art and
-              activism background to create community and hold space for
-              healing. Currently she works at Suffolk University as a
-              Restorative Justice Specialist and Race Relations Liason for the
-              institution and clients around the nation.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              create community and hold space for healing. Currently she works
+              at Suffolk University as a Restorative Justice Specialist and Race
+              Relations Liason for the institution and clients around the
+              nation.
+              <summary className="focus:outline-none textWrap">
+                Ashley Rose (she / her) is an award winning poet, playwright,
+                actress and educator. For over 15 years she has used her art and
+                activism background to
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
               Register for the 50 Greatest Rappers
               <svg className="ml-4 lg:ml-6" height="8" width="19">
@@ -74,14 +120,17 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Asiyah Herrera</h3>
             <p className="mb-8 text-lg">TBD</p>
             <img alt="Asiyah Herrera" src="/img/speakers/asiyah-herrera.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              Asiyah Herrera (she / her) is 19 years. Last year, she was a
-              finalist for the Boston Youth Poet Laureate position. This year,
-              she became the youngest author to be published in the Boston Art
-              Review with her piece “Making space for Gen Z.” Currently she
-              works as the Teaching Artist for the Youth Literary Advisory Board
-              at 826 Boston, a nonprofit writing and tutoring organization.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              youngest author to be published in the Boston Art Review with her
+              piece “Making space for Gen Z.” Currently she works as the
+              Teaching Artist for the Youth Literary Advisory Board at 826
+              Boston, a nonprofit writing and tutoring organization.
+              <summary className="focus:outline-none textWrap">
+                Asiyah Herrera (she / her) is 19 years. Last year, she was a
+                finalist for the Boston Youth Poet Laureate position. This year,
+                she became the
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
               Register for Home is Not a Country
               <svg className="ml-6 w-5" height="12" width="15">
@@ -95,14 +144,16 @@ export default function Speakers() {
               Leading voice of the Black Arts Movement
             </p>
             <img alt="Askia Toure" src="/img/speakers/askia-toure.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              Askia Muhammad Touré (he / him) is an African-American poet,
-              essayist, political editor, and leading voice of the Black Arts
-              Movement. Toure helped to define a new generation of black
-              consciousness by creating a triumphal identity for the purpose of
-              uplifting the African heritage beyond the oppressive ideas that
-              dominated the time.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              define a new generation of black consciousness by creating a
+              triumphal identity for the purpose of uplifting the African
+              heritage beyond the oppressive ideas that dominated the time.
+              <summary className="focus:outline-none textWrap">
+                Askia Muhammad Touré (he / him) is an African-American poet,
+                essayist, political editor, and leading voice of the Black Arts
+                Movement. Toure helped to
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
               Register for Flowers As They Live
               <svg className="ml-6 w-5" height="12" width="15">
@@ -117,16 +168,7 @@ export default function Speakers() {
               alt="Candace McDuffie"
               src="/img/speakers/candace-mcduffie.jpg"
             />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://www.candacemcduffie.com/"
-                target="_blank"
-              >
-                Candace McDuffie
-              </a>{" "}
-              (she / her) is a respected cultural critic and music journalist
-              who focuses on the intersection of race, gender and entertainment.
+            <details className="font-mono mt-6 text-lg">
               Her written work has been featured on digital platforms such as
               Rolling Stone, MTV, Forbes, PAPER, SPIN, Entertainment Weekly, NBC
               News and Newsweek. Candace’s first book,{" "}
@@ -138,7 +180,19 @@ export default function Speakers() {
                 50 Rappers Who Changed The World
               </a>
               , is out now wherever books are sold.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.candacemcduffie.com/"
+                  target="_blank"
+                >
+                  Candace McDuffie
+                </a>{" "}
+                (she / her) is a respected cultural critic and music journalist
+                who focuses on the intersection of race, gender and
+                entertainment.
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
               Register for 50 Rappers Who Changed The World
               <svg className="ml-6 w-5" height="12" width="15">
@@ -150,28 +204,31 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Chen Chen</h3>
             <p className="mb-8 text-lg">Poet, Writer</p>
             <img alt="Chen Chen" src="/img/speakers/chen-chen.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              Chen Chen (he / him) is the author of{" "}
-              <a
-                className="underline"
-                href="https://www.amazon.com/Further-Possibilities-Poulin-Poets-America/dp/1942683332"
-                target="_blank"
-              >
-                When I Grow Up I Want to Be a List of Further Possibilities
-              </a>
-              , which was longlisted for the National Book Award and won the A.
-              Poulin, Jr. Poetry Prize, the GLCA New Writers Award, and the Thom
-              Gunn Award for Gay Poetry. The collection was also a finalist for
-              the Lambda Literary Award for Gay Poetry and named one of the best
-              of 2017 by The Brooklyn Rail, Entropy, Library Journal, and
-              others. His work has appeared in many publications, including
-              Poetry, Tin House, Poem-a-Day, The Best American Poetry, Bettering
-              American Poetry, and The Best American Nonrequired Reading. Chen
-              earned his MFA from Syracuse University and is pursuing a PhD in
-              English and Creative Writing as an off-site Texas Tech University
-              student. He lives in frequently snowy Rochester, NY with his
-              partner, Jeff Gilbert and their pug dog, Mr. Rupert Giles.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              Book Award and won the A. Poulin, Jr. Poetry Prize, the GLCA New
+              Writers Award, and the Thom Gunn Award for Gay Poetry. The
+              collection was also a finalist for the Lambda Literary Award for
+              Gay Poetry and named one of the best of 2017 by The Brooklyn Rail,
+              Entropy, Library Journal, and others. His work has appeared in
+              many publications, including Poetry, Tin House, Poem-a-Day, The
+              Best American Poetry, Bettering American Poetry, and The Best
+              American Nonrequired Reading. Chen earned his MFA from Syracuse
+              University and is pursuing a PhD in English and Creative Writing
+              as an off-site Texas Tech University student. He lives in
+              frequently snowy Rochester, NY with his partner, Jeff Gilbert and
+              their pug dog, Mr. Rupert Giles.
+              <summary className="focus:outline-none textWrap">
+                Chen Chen (he / him) is the author of{" "}
+                <a
+                  className="underline"
+                  href="https://www.amazon.com/Further-Possibilities-Poulin-Poets-America/dp/1942683332"
+                  target="_blank"
+                >
+                  When I Grow Up I Want to Be a List of Further Possibilities
+                </a>
+                , which was longlisted for the National
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Elegy in a Time of Pandemic
               <svg className="fill-current ml-2" height="12" width="15">
@@ -183,18 +240,9 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Denice Frohman</h3>
             <p className="mb-8 text-lg">Poet, Educator, Activist</p>
             <img alt="Denice Frohman" src="/img/speakers/denice-frohman.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://www.denicefrohman.com"
-                target="_blank"
-              >
-                Denice Frohman
-              </a>{" "}
-              (she / her) is a poet, performer and educator from New York City.
-              A CantoMundo Fellow, she’s received residencies and awards from
-              the National Association of Latino Arts & Cultures, Leeway
-              Foundation, Millay Colony and Blue Mountain Center.
+            <details className="font-mono mt-6 text-lg">
+              awards from the National Association of Latino Arts & Cultures,
+              Leeway Foundation, Millay Colony and Blue Mountain Center.
               <br />
               Her work has appeared in The New York Times, The BreakBeat Poets:
               LatiNext, Nepantla: An Anthology for Queer Poets of Color, ESPNW
@@ -202,7 +250,18 @@ export default function Speakers() {
               she’s featured on hundreds of stages from The White House to The
               Apollo, and co-organized #PoetsforPuertoRico. She lives in
               Philadelphia.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.denicefrohman.com"
+                  target="_blank"
+                >
+                  Denice Frohman
+                </a>{" "}
+                (she / her) is a poet, performer and educator from New York
+                City. A CantoMundo Fellow, she’s received residencies and
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Sweet Impossible Blossom
               <svg className="fill-current ml-2" height="12" width="15">
@@ -217,27 +276,30 @@ export default function Speakers() {
               alt="Diannely Antigua"
               src="/img/speakers/diannely-antigua.jpg"
             />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://diannelyantigua.com"
-                target="_blank"
-              >
-                Diannely Antigua
-              </a>{" "}
-              (she / her) is a Dominican American poet and educator, born and
-              raised in Massachusetts. Her debut collection{" "}
-              <a
-                className="underline"
-                href="https://www.yesyesbooks.com/product-page/ugly-music-by-diannely-antigua"
-                target="_blank"
-              >
-                Ugly Music
-              </a>{" "}
+            <details className="font-mono mt-6 text-lg">
+              {" "}
               (YesYes Books, 2019) was the winner of the Pamet River Prize and a
               2020 Whiting Award. She received her BA in English from the
               University of Massachusetts Lowell and her MFA at NYU.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://diannelyantigua.com"
+                  target="_blank"
+                >
+                  Diannely Antigua
+                </a>{" "}
+                (she / her) is a Dominican American poet and educator, born and
+                raised in Massachusetts. Her debut collection{" "}
+                <a
+                  className="underline"
+                  href="https://www.yesyesbooks.com/product-page/ugly-music-by-diannely-antigua"
+                  target="_blank"
+                >
+                  Ugly Music
+                </a>
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for LatiNext Reading
               <svg className="fill-current ml-2" height="12" width="15">
@@ -252,26 +314,10 @@ export default function Speakers() {
               alt="Frances Donovan"
               src="/img/speakers/frances-donovan.jpg"
             />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://gardenofwords.com/"
-                target="_blank"
-              >
-                Frances Donovan’s
-              </a>{" "}
-              (she / her) chapbook{" "}
-              <a
-                className="underline"
-                href="https://www.amazon.com/Mad-Quick-Hand-Seashore-Poems/dp/1984273159"
-                target="_blank"
-              >
-                Mad Quick Hand of the Seashore
-              </a>{" "}
-              was a finalist in the Lambda Literary Awards. Bylines include The
-              Rumpus, SWWIM, and Solstice. She holds an MFA in poetry from
-              Lesley University and she once drove a bulldozer in an LGBTQ+
-              Pride Parade while wearing a bustier. Twitter:{" "}
+            <details className="font-mono mt-6 text-lg">
+              and Solstice. She holds an MFA in poetry from Lesley University
+              and she once drove a bulldozer in an LGBTQ+ Pride Parade while
+              wearing a bustier. Twitter:{" "}
               <a
                 className="underline"
                 href="https://twitter.com/okelle"
@@ -279,7 +325,26 @@ export default function Speakers() {
               >
                 @okelle
               </a>
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://gardenofwords.com/"
+                  target="_blank"
+                >
+                  Frances Donovan’s
+                </a>{" "}
+                (she / her) chapbook{" "}
+                <a
+                  className="underline"
+                  href="https://www.amazon.com/Mad-Quick-Hand-Seashore-Poems/dp/1984273159"
+                  target="_blank"
+                >
+                  Mad Quick Hand of the Seashore
+                </a>{" "}
+                was a finalist in the Lambda Literary Awards. Bylines include
+                The Rumpus, SWWIM,
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Paths to Publication
               <svg className="fill-current ml-2" height="12" width="15">
@@ -287,29 +352,39 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Fulani Haynes</h3>
+            <p className="mb-8 text-lg">Musician, Performer, Chef</p>
+            <img alt="Fulani Haynes" src="/img/speakers/fulani-haynes.jpg" />
+            <details className="font-mono mt-6 text-lg">
+              four decades. Her depth of musical and theatrical experience has
+              given Fulani a rich foundation to draw upon in performances and
+              collaborations with noted recording artists like Frank Wilkins,
+              Patricia Adams, Hakim Law, and Mike Shea, and in performances for
+              regular folks and nonprofit organizations in her own community.
+              <summary className="focus:outline-none textWrap">
+                Fulani Haynes (she / her) has electrified audiences in clubs,
+                cabarets, theaters, and other performance venues in the Boston
+                area for more than
+              </summary>
+            </details>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Art Is Life Itself
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">George Abraham</h3>
             <p className="mb-8 text-lg">
               Palestinian Diasporic Poet, Educator, Engineer
             </p>
             <img alt="George Abraham" src="/img/speakers/george-abraham.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://www.gabrahampoet.com/"
-                target="_blank"
-              >
-                George Abraham
-              </a>{" "}
-              (they / them) is a Palestinian american poet, writer, and engineer
-              from Jacksonville, FL. Their debut poetry collection{" "}
-              <a
-                className="underline"
-                href="https://buttonpoetry.com/product/birthright/"
-                target="_blank"
-              >
-                Birthright
-              </a>{" "}
+            <details className="font-mono mt-6 text-lg">
+              {" "}
               (Button Poetry, 2020) was a finalist for the Lambda Literary Award
               in Bisexual Poetry, and the Big Other Book Award. He is a board
               member for the Radius of Arab American Writers (RAWI), a recipient
@@ -321,9 +396,99 @@ export default function Speakers() {
               University, Abraham currently teaches at Emerson College, and will
               be a Litowitz MA+MFA Candidate at Northwestern University in the
               fall.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.gabrahampoet.com/"
+                  target="_blank"
+                >
+                  George Abraham
+                </a>{" "}
+                (they / them) is a Palestinian american poet, writer, and
+                engineer from Jacksonville, FL. Their debut poetry collection{" "}
+                <a
+                  className="underline"
+                  href="https://buttonpoetry.com/product/birthright/"
+                  target="_blank"
+                >
+                  Birthright
+                </a>
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Paths to Publication
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Harlym125</h3>
+            <p className="mb-8 text-lg">Educator, Poet, Performer</p>
+            <img alt="Harlym125" src="/img/speakers/harlym125.jpg" />
+            <details className="font-mono mt-6 text-lg">
+              competitions, performance, concert and beyond. 125 has become a
+              part of the Boston area poetry scene and joined teams of poets who
+              have won numerous competitions regionally and nationally. 125 has
+              also become well known in the Boston area for his work leading
+              workshops dealing with issues of diversity, equity and inclusion.
+              Several times in the last couple of years, Harlym has been called
+              to local high schools, colleges and communities to help bring a
+              calm and constructive unity after incidents of racial injustice
+              have occurred. Known for his work, Harlym 1Two5 is often asked to
+              be a panelist or to give presentations on a broad range of topics
+              regarding diversity and pluralism, and also is asked to prepare
+              presentations in response to very specific incidents or
+              conditions. Appearing at dozens of college campuses every year. He
+              is the "HUMAN HIGHLIGHT OF POETRY AND EDU-ACTIVISM."
+              <summary className="focus:outline-none textWrap">
+                1Two5 remains well known nationally and in multitudes poetry
+                circles. Known as Harlym 125, He is a frequent and highly
+                regarded figure in
+              </summary>
+            </details>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Publisher's Poetry Slam
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Janice Lobo Sapiago
+            </h3>
+            <p className="mb-8 text-lg">Poet, Professor, Editor</p>
+            <img
+              alt="Janice Lobo Sapiago"
+              src="/img/speakers/janice-lobo-sapigao.jpg"
+            />
+            <details className="font-mono mt-6 text-lg">
+              BA in Ethnic Studies from the University of California, San Diego.
+              She is the author of like a solid to a shadow (Timeless, Infinite
+              Light/ Nightboat Books, 2017) and microchips for millions
+              (Philippine American Writers and Artists, Inc., 2016). A
+              VONA/Voices Fellow, Sapigao was awarded a Manuel G. Flores Prize
+              PAWA Scholarship to the Kundiman Poetry Retreat and was named one
+              of the San Francisco Bay Area’s Women to Watch in 2017. She is a
+              poetry editor at Angel City Review and a co-founder of Sunday
+              Jump, an open mic in Los Angeles. She is an Assistant Professor of
+              English at Skyline College and the poet laureate of Santa Clara
+              County, California.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.janicewrites.com/"
+                  target="_blank"
+                >
+                  Janice Lobo Sapigao
+                </a>{" "}
+                (she / her) was born and raised in San José, California. She
+                received her MFA from California Institute of the Arts and a
+              </summary>
+            </details>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Future of Roxbury Panel
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -333,18 +498,9 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
             <p className="mb-8 text-lg">Poet, Educator</p>
             <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://www.jerichobrown.com/"
-                target="_blank"
-              >
-                Jericho Brown
-              </a>{" "}
-              (he / him) is the recipient of a Whiting Writers’ Award and
-              fellowships from the John Simon Guggenheim Foundation, the
-              Radcliffe Institute for Advanced Study at Harvard University, and
-              the National Endowment for the Arts. Brown’s first book, Please
+            <details className="font-mono mt-6 text-lg">
+              Institute for Advanced Study at Harvard University, and the
+              National Endowment for the Arts. Brown’s first book, Please
               (2008), won the American Book Award. His second book, The New
               Testament (2014), won the Anisfield-Wolf Book Award and was named
               one of the best of the year by Library Journal, Coldfront, and the
@@ -357,7 +513,19 @@ export default function Speakers() {
               anthologies. He is the Charles Howard Candler Professor of
               Creative Writing and the Director of the Creative Writing Program
               at Emory University in Atlanta.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.jerichobrown.com/"
+                  target="_blank"
+                >
+                  Jericho Brown
+                </a>{" "}
+                (he / him) is the recipient of a Whiting Writers’ Award and
+                fellowships from the John Simon Guggenheim Foundation, the
+                Radcliffe
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for An Evening with Jericho Brown
               <svg className="fill-current ml-2" height="12" width="15">
@@ -369,17 +537,8 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Jill McDonough</h3>
             <p className="mb-8 text-lg">Jill's at UMB and jails.</p>
             <img alt="Jill McDonough" src="/img/speakers/jill-mcdonough.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              Three-time Pushcart prize winner{" "}
-              <a
-                className="underline"
-                href="http://www.jillmcdonough.com/"
-                target="_blank"
-              >
-                Jill McDonough
-              </a>{" "}
-              (she / her) is the recipient of Lannan, NEA, Cullman Center, and
-              Stegner fellowships. Her most recent book is{" "}
+            <details className="font-mono mt-6 text-lg">
+              Her most recent book is{" "}
               <a
                 className="underline"
                 href="https://www.brooklinebooksmith-shop.com/book/9781948579025
@@ -391,7 +550,19 @@ export default function Speakers() {
               (Alice James, 2019). She teaches in the MFA program at
               UMass-Boston and offers College Reading and Writing in Boston
               jails.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                Three-time Pushcart prize winner{" "}
+                <a
+                  className="underline"
+                  href="http://www.jillmcdonough.com/"
+                  target="_blank"
+                >
+                  Jill McDonough
+                </a>{" "}
+                (she / her) is the recipient of Lannan, NEA, Cullman Center, and
+                Stegner fellowships.
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for On Sound & Form
               <svg className="fill-current ml-2" height="12" width="15">
@@ -406,17 +577,8 @@ export default function Speakers() {
               alt="Jonathan Mendoza"
               src="/img/speakers/jonathan-mendoza.jpg"
             />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://mendozapoetry.com"
-                target="_blank"
-              >
-                Jonathan Mendoza
-              </a>{" "}
-              (he / him) is a Boston-bred, Chicago-based Jewish and
-              Mexican-American activist, poet, and social justice educator. He
-              is a National Poetry Slam Champion, winner of the Sonia Sanchez –
+            <details className="font-mono mt-6 text-lg">
+              National Poetry Slam Champion, winner of the Sonia Sanchez –
               Langston Hughes Poetry Prize, and a three-time award winner at the
               College Union Poetry Slam Invitational. He currently works as a
               community organizer for housing and youth, a teaching artist, and
@@ -441,9 +603,54 @@ export default function Speakers() {
                 Instagram
               </a>
               .
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://mendozapoetry.com"
+                  target="_blank"
+                >
+                  Jonathan Mendoza
+                </a>{" "}
+                (he / him) is a Boston-bred, Chicago-based Jewish and
+                Mexican-American activist, poet, and social justice educator. He
+                is a
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for LatiNext Reading
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Kai Grant</h3>
+            <p className="mb-8 text-lg">Entrepreneur, Organizer, Creative</p>
+            <img alt="Kai Grant" src="/img/speakers/kai-grant.jpg" />
+            <details className="font-mono mt-6 text-lg">
+              Spiritual Leaders, and Military Leaders. She's been awarded
+              citations by the Boston City Council, the Governor of
+              Massachusetts, the Black & Latino Caucus, the NAACP, and a host of
+              local organizations and currently resides on the Board of
+              Directors for the Roxbury Cultural District. Kai resides in the
+              Historic District of Highland Park where she and her husband of 29
+              years raised their four sons. Kai Grant is the co-founder and
+              program manager at Black Market.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://blackmarketnubian.com/"
+                  target="_blank"
+                >
+                  Kai Grant's
+                </a>{" "}
+                (she / her) family has been in Boston’s Roxbury neighborhood for
+                over 100 years as Educators, Entrepreneurs, Political Leaders,
+                Artists,
+              </summary>
+            </details>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Future of Roxbury Panel
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -458,41 +665,43 @@ export default function Speakers() {
               alt="Kristina Marie Darling"
               src="/img/speakers/kristina-marie-darling.jpg"
             />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://kristinamariedarling.com"
-                target="_blank"
-              >
-                Kristina Marie Darling
-              </a>{" "}
-              (she / her) is the author of thirty-five books, which include Look
-              to Your Left: A Feminist Poetics of Spectacle (University of Akron
-              Press, 2021); Stylistic Innovation, Conscious Experience, and the
-              Self in Modernist Women’s Poetry (Rowman & Littlefield Publishing
-              Group, 2021); Silence in Contemporary Poetry, which will be
-              published in hardcover by Clemson University Press in the United
-              States and Liverpool University Press in the United Kingdom;
-              SILENT REFUSAL: Essays on Contemporary Feminist Poetry (Black
-              Ocean, forthcoming); ANGEL OF THE NORTH (Salmon Poetry,
-              forthcoming); and X Marks the Dress: A Registry (co-written with
-              Carol Guess), which will be launched by Persea Books in the United
-              States. Penguin Random House Canada will also publish a Canadian
-              edition. Her work has been recognized with three residencies at
-              Yaddo, where she has held the Martha Walsh Pulver Residency for a
-              Poet and the Howard Moss Residency in Poetry; a Fundación
-              Valparaíso fellowship to live and work in Spain; a Hawthornden
-              Castle Fellowship, funded by the Heinz Foundation; an
-              artist-in-residence position at Cité Internationale des Arts in
-              Paris; five residencies at the American Academy in Rome; two
-              grants from the Whiting Foundation; a Faber Residency in the Arts,
-              Sciences, and Humanities, which she received on two separate
-              occasions; an artist-in-residence position with the Andorran
-              Ministry of Culture; and the Dan Liberthson Prize from the Academy
-              of American Poets, which she received on three separate occasions;
-              among many other awards and honors. She serves as Editor-in-Chief
-              of Tupelo Press & Tupelo Quarterly.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              (University of Akron Press, 2021); Stylistic Innovation, Conscious
+              Experience, and the Self in Modernist Women’s Poetry (Rowman &
+              Littlefield Publishing Group, 2021); Silence in Contemporary
+              Poetry, which will be published in hardcover by Clemson University
+              Press in the United States and Liverpool University Press in the
+              United Kingdom; SILENT REFUSAL: Essays on Contemporary Feminist
+              Poetry (Black Ocean, forthcoming); ANGEL OF THE NORTH (Salmon
+              Poetry, forthcoming); and X Marks the Dress: A Registry
+              (co-written with Carol Guess), which will be launched by Persea
+              Books in the United States. Penguin Random House Canada will also
+              publish a Canadian edition. Her work has been recognized with
+              three residencies at Yaddo, where she has held the Martha Walsh
+              Pulver Residency for a Poet and the Howard Moss Residency in
+              Poetry; a Fundación Valparaíso fellowship to live and work in
+              Spain; a Hawthornden Castle Fellowship, funded by the Heinz
+              Foundation; an artist-in-residence position at Cité Internationale
+              des Arts in Paris; five residencies at the American Academy in
+              Rome; two grants from the Whiting Foundation; a Faber Residency in
+              the Arts, Sciences, and Humanities, which she received on two
+              separate occasions; an artist-in-residence position with the
+              Andorran Ministry of Culture; and the Dan Liberthson Prize from
+              the Academy of American Poets, which she received on three
+              separate occasions; among many other awards and honors. She serves
+              as Editor-in-Chief of Tupelo Press & Tupelo Quarterly.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://kristinamariedarling.com"
+                  target="_blank"
+                >
+                  Kristina Marie Darling
+                </a>{" "}
+                (she / her) is the author of thirty-five books, which include
+                Look to Your Left: A Feminist Poetics of Spectacle
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Paths to Publication
               <svg className="fill-current ml-2" height="12" width="15">
@@ -506,12 +715,14 @@ export default function Speakers() {
               Artist, Poet, Activist, Earthling, Parent
             </p>
             <img alt="Letta Simone Neely" src="/img/speakers/letta-neely.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              Letta Neely (she / her) is a Black Lesbian Earthling. She is the
-              author of two books of poetry and numerous plays. She is a
-              draptomaniac who knows her liberation is tied to yours and vice
-              versa.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              her liberation is tied to yours and vice versa.
+              <summary className="focus:outline-none textWrap">
+                Letta Neely (she / her) is a Black Lesbian Earthling. She is the
+                author of two books of poetry and numerous plays. She is a
+                draptomaniac who knows
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Local Literary Legends
               <svg className="fill-current ml-2" height="12" width="15">
@@ -523,30 +734,32 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Malcolm Friend</h3>
             <p className="mb-8 text-lg">Is a poet.</p>
             <img alt="Malcolm Friend" src="/img/speakers/malcolm-friend.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="http://www.malcolmfriend.com/"
-                target="_blank"
-              >
-                Malcolm Friend
-              </a>{" "}
-              (he / him) is a poet originally from the Rainier Beach
-              neighborhood of Seattle, WA, and the{" "}
-              <a
-                className="underline"
-                href="http://www.malcolmfriend.com/books"
-                target="_blank"
-              >
-                author
-              </a>{" "}
-              of the chapbook mxd kd mixtape (Glass Poetry, 2017) and the
-              full-length collection Our Bruises Kept Singing Purple (Inlandia
-              Books, 2018). He received his BA from Vanderbilt University, and
-              his MFA from the University of Pittsburgh. Together with JR
-              Mahung, he is a member of Black Plantains, an Afrocaribbean poetry
-              collective.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              (Glass Poetry, 2017) and the full-length collection Our Bruises
+              Kept Singing Purple (Inlandia Books, 2018). He received his BA
+              from Vanderbilt University, and his MFA from the University of
+              Pittsburgh. Together with JR Mahung, he is a member of Black
+              Plantains, an Afrocaribbean poetry collective.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="http://www.malcolmfriend.com/"
+                  target="_blank"
+                >
+                  Malcolm Friend
+                </a>{" "}
+                (he / him) is a poet originally from the Rainier Beach
+                neighborhood of Seattle, WA, and the{" "}
+                <a
+                  className="underline"
+                  href="http://www.malcolmfriend.com/books"
+                  target="_blank"
+                >
+                  author
+                </a>{" "}
+                of the chapbook mxd kd mixtape
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for LatiNEXT Reading
               <svg className="fill-current ml-2" height="12" width="15">
@@ -558,17 +771,8 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Martha Collins</h3>
             <p className="mb-8 text-lg">TBD</p>
             <img alt="Martha Collins" src="/img/speakers/martha-collins.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://marthacollinspoet.com/"
-                target="_blank"
-              >
-                Martha Collins's
-              </a>{" "}
-              (she / her) tenth book of poetry, Because What Else Could I Do
-              (Pittsburgh, 2019), won the Poetry Society of America’s William
-              Carlos Williams Award.{" "}
+            <details className="font-mono mt-6 text-lg">
+              William Carlos Williams Award.{" "}
               <a
                 className="underline"
                 href="https://upittpress.org/authors/martha-collins/"
@@ -583,8 +787,19 @@ export default function Speakers() {
               with Kevin Prufer, Into English: Poems, Translations,
               Commentaries. She founded the U.Mass.-Boston creative writing
               program, and later served as Pauline Delaney Professor of Creative
-              Writing at Oberlin College.{" "}
-            </p>
+              Writing at Oberlin College.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://marthacollinspoet.com/"
+                  target="_blank"
+                >
+                  Martha Collins's
+                </a>{" "}
+                (she / her) tenth book of poetry, Because What Else Could I Do
+                (Pittsburgh, 2019), won the Poetry Society of America’s
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Flowers As They Live
               <svg className="fill-current ml-2" height="12" width="15">
@@ -596,29 +811,63 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Nikia Chaney</h3>
             <p className="mb-8 text-lg">Poet, Educator</p>
             <img alt="Nikia Chaney" src="/img/speakers/nikia-chaney.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="https://www.nikiachaney.com/"
-                target="_blank"
-              >
-                ​Nikia Chaney
-              </a>{" "}
-              (she / her) is the author of{" "}
-              <a
-                className="underline"
-                href="https://www.amazon.com/us-mouth-Nikia-Chaney/dp/1938753275/ref=sr_1_1?dchild=1&keywords=us+mouth+nikia+chaney&qid=1615485152&sr=8-1"
-                target="_blank"
-              >
-                us mouth
-              </a>{" "}
-              (University of Hell Press, 2018) and two chapbooks, Sis Fuss
-              (2012, Orange Monkey Publishing) and ladies, please (2012, Dancing
-              Girl Press). She has served as Inlandia Literary Laureate
-              (2016-2018). She teaches at Cabrillo College.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              and ladies, please (2012, Dancing Girl Press). She has served as
+              Inlandia Literary Laureate (2016-2018). She teaches at Cabrillo
+              College.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.nikiachaney.com/"
+                  target="_blank"
+                >
+                  ​Nikia Chaney
+                </a>{" "}
+                (she / her) is the author of{" "}
+                <a
+                  className="underline"
+                  href="https://www.amazon.com/us-mouth-Nikia-Chaney/dp/1938753275/ref=sr_1_1?dchild=1&keywords=us+mouth+nikia+chaney&qid=1615485152&sr=8-1"
+                  target="_blank"
+                >
+                  us mouth
+                </a>{" "}
+                (University of Hell Press, 2018) and two chapbooks, Sis Fuss
+                (2012, Orange Monkey Publishing)
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Halal If Your Hear Me
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Nina LaNegra</h3>
+            <p className="mb-8 text-lg">Educator, Artist, Curator </p>
+            <img alt="Nina LaNegra" src="/img/speakers/nina-lanegra.jpg" />
+            <details className="font-mono mt-6 text-lg">
+              and host of Art Is Life Itself! (AiLiLIVE), a weekly performance
+              series founded in 2006 at the Haley House Bakery Cafe. As of
+              January 2016, AiLiLIVE is now a Monthly, EVERY 3rd Thursday
+              Series. Believing in the art of dialog, Ms. LaNegra created,
+              produces and hosts a weekly community talk radio program, AiLi
+              Radio on WRBB 104.9FM. AiLiLIVE is a live broadcast and web stream
+              for local and international audiences over the airwaves, on
+              Northeastern’s website, and through global mobile apps, TuneIn or
+              Simple Radio. Nina LaNegra is a Teaching Artist in Residence at
+              the Sustainability Guild International in Dorchester, Ma. LaNegra
+              is also an Executive Board Member of the United Neighbors of Lower
+              Roxbury non-profit, a certified Chef and a Nana. She is currently
+              working on a creative non-fiction book of her life adventures.
+              <summary className="focus:outline-none textWrap">
+                Nina LaNegra (she / her) brings over two decades of
+                award-winning television, radio and marketing experience to her
+                role as creatrix, producer
+              </summary>
+            </details>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Art Is Life Itself
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -647,16 +896,7 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Rajiv Mohabir</h3>
             <p className="mb-8 text-lg">Poet, Translator, Memoirist</p>
             <img alt="Rajiv Mohabir" src="/img/speakers/rajiv-mohabir.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="http://www.rajivmohabir.com/"
-                target="_blank"
-              >
-                Rajiv Mohabir
-              </a>{" "}
-              (he / him) is the author of The Cowherd’s Son (Tupelo Press 2017,
-              winner of the 2015 Kundiman Prize; Eric Hoffer Honorable Mention
+            <details className="font-mono mt-6 text-lg">
               2018) and The Taxidermist’s Cut (Four Way Books 2016, winner of
               the Four Way Books Intro to Poetry Prize, Finalist for the Lambda
               Literary Award for Gay Poetry in 2017), and translator of I Even
@@ -676,7 +916,19 @@ export default function Speakers() {
               poetry in the MFA program at Emerson College, translations editor
               at Waxwing Journal and poetry editor of Asian American Literary
               Review.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="http://www.rajivmohabir.com/"
+                  target="_blank"
+                >
+                  Rajiv Mohabir
+                </a>{" "}
+                (he / him) is the author of The Cowherd’s Son (Tupelo Press
+                2017, winner of the 2015 Kundiman Prize; Eric Hoffer Honorable
+                Mention
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full text-lg">
               Register for At Home in the Moving Body
               <svg className="ml-6 w-5" height="12" width="15">
@@ -688,19 +940,22 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Ryan Murphy</h3>
             <p className="mb-8 text-lg">Publisher, Poet</p>
             <img alt="Ryan Murphy" src="/img/speakers/ryan-murphy.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              Ryan Murphy (he / him) is the author of Millbrook,{" "}
-              <a
-                className="underline"
-                href="https://www.spdbooks.org/Author/Default.aspx?AuthorId=4219"
-                target="_blank"
-              >
-                The Redcoats
-              </a>
-              , and Down with the Ship. He has received grants and awards from
-              the Aldrich Museum of Contemporary Art, Chelsea Magazine, The Fund
-              For Poetry, and The New York State Foundation for the Arts.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              Museum of Contemporary Art, Chelsea Magazine, The Fund For Poetry,
+              and The New York State Foundation for the Arts.
+              <summary className="focus:outline-none textWrap">
+                Ryan Murphy (he / him) is the author of Millbrook,{" "}
+                <a
+                  className="underline"
+                  href="https://www.spdbooks.org/Author/Default.aspx?AuthorId=4219"
+                  target="_blank"
+                >
+                  The Redcoats
+                </a>
+                , and Down with the Ship. He has received grants and awards from
+                the Aldrich
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Poetry in the Marketplace
               <svg className="fill-current ml-2" height="12" width="15">
@@ -716,20 +971,10 @@ export default function Speakers() {
             </h3>
             <p className="mb-8 text-lg">Author, Teaching Artist, Editor</p>
             <img alt="​Safia Elhillo" src="/img/speakers/safia-elhillo.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              ​
-              <a
-                className="underline"
-                href="https://safia-mafia.com/bio"
-                target="_blank"
-              >
-                Safia Elhillo
-              </a>{" "}
-              (she / her) is the author of The January Children (University of
-              Nebraska Press, 2017), which received the the Sillerman First Book
-              Prize for African Poets and an Arab American Book Award, Girls
-              That Never Die (One World/Random House 2021), and the novel in
-              verse{" "}
+            <details className="font-mono mt-6 text-lg">
+              First Book Prize for African Poets and an Arab American Book
+              Award, Girls That Never Die (One World/Random House 2021), and the
+              novel in verse{" "}
               <a
                 className="underline"
                 href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
@@ -741,7 +986,18 @@ export default function Speakers() {
               co-editor of the anthology Halal If You Hear Me (Haymarket Books,
               2019). She is currently a Wallace Stegner Fellow at Stanford
               University and lives in Oakland.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://safia-mafia.com/bio"
+                  target="_blank"
+                >
+                  Safia Elhillo
+                </a>{" "}
+                (she / her) is the author of The January Children (University of
+                Nebraska Press, 2017), which received the the Sillerman
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Home Is Not A Country
               <svg className="fill-current ml-2" height="12" width="15">
@@ -753,21 +1009,23 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Seema Yasmin</h3>
             <p className="mb-8 text-lg">Poet, Doctor, Journalist</p>
             <img alt="Seema Yasmin" src="/img/speakers/seema-yasmin.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="http://seemayasmin.com/"
-                target="_blank"
-              >
-                Seema Yasmin
-              </a>{" "}
-              (she / her) is an Emmy Award-winning journalist, medical doctor,
-              and author. A fiction fellow of the Kundiman and Tin House
-              workshops, she is the author of four books including Muslim Women
-              Are Everything, Viral BS: Medical Myths and Why We Fall for Them,
-              and, poems based on her reporting on the Ebola epidemic in West
-              Africa.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              is the author of four books including Muslim Women Are Everything,
+              Viral BS: Medical Myths and Why We Fall for Them, and, poems based
+              on her reporting on the Ebola epidemic in West Africa.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="http://seemayasmin.com/"
+                  target="_blank"
+                >
+                  Seema Yasmin
+                </a>{" "}
+                (she / her) is an Emmy Award-winning journalist, medical doctor,
+                and author. A fiction fellow of the Kundiman and Tin House
+                workshops, she
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Halal If Your Hear Me
               <svg className="fill-current ml-2" height="12" width="15">
@@ -782,20 +1040,10 @@ export default function Speakers() {
               alt="​Stephen Hamilton"
               src="/img/speakers/stephen-hamilton.jpg"
             />
-            <p className="font-mono mt-6 text-lg">
-              ​
-              <a
-                className="underline"
-                href="http://www.itanproject.com/"
-                target="_blank"
-              >
-                Stephen Hamilton
-              </a>{" "}
-              (he / him) is an artist and arts educator living and working in
-              Boston Massachusetts. Stephen’s Work incorporates both Western and
-              African techniques, blending figurative painting and drawing with
-              resist dyeing, weaving, and woodcarving. Each image is a marriage
-              between the aesthetic perspectives and artistry of both
+            <details className="font-mono mt-6 text-lg">
+              and African techniques, blending figurative painting and drawing
+              with resist dyeing, weaving, and woodcarving. Each image is a
+              marriage between the aesthetic perspectives and artistry of both
               traditions. As a Black American trained in traditional west
               African artforms, he treats the acts of weaving, dyeing, and
               woodcarving as ritualized acts of reclamation. He uses traditional
@@ -808,9 +1056,39 @@ export default function Speakers() {
               and visual bridge between the ancient and modern worlds. Through
               this, he explores elements of black identity through time and
               space on its own terms.
-            </p>
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="http://www.itanproject.com/"
+                  target="_blank"
+                >
+                  Stephen Hamilton
+                </a>{" "}
+                (he / him) is an artist and arts educator living and working in
+                Boston Massachusetts. Stephen’s Work incorporates both Western
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Dreamscaping: Future of Roxbury Panel
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Tariq Charles</h3>
+            <p className="mb-8 text-lg">Student, Poet, Emcee</p>
+            <img alt="Tariq Charles" src="/img/speakers/tariq-charles.jpg" />
+            <details className="font-mono mt-6 text-lg">
+              Boston and spends his time enjoying music, and his family.
+              <summary className="focus:outline-none textWrap">
+                Tariq Charles (he / him), 19, is a student, poet and emcee. A
+                Roxbury native, Charles is a 2020 Youth Poet Laureate Finalist
+                for the city of
+              </summary>
+            </details>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Future of Roxbury Panel
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -825,21 +1103,24 @@ export default function Speakers() {
               alt="Tatiana Johnson-Boria"
               src="/img/speakers/tatiana-johnson-boria.jpg"
             />
-            <p className="font-mono mt-6 text-lg">
-              <a
-                className="underline"
-                href="http://www.tatianamrjohnson.com/"
-                target="_blank"
-              >
-                Tatiana
-              </a>{" "}
-              (she / her) is a writer, artist and educator. Her writing explores
-              identity, trauma, especially inherited trauma, and what it means
-              to heal. She completed her MFA in Creative Writing at Emerson
-              College and is a 2021 Tin House Scholar. She also serves on the
-              board for VIDA: Women in Literary Arts. Find her work in or
-              forthcoming at Ploughshares, New Delta Review, Foundry and others.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              heal. She completed her MFA in Creative Writing at Emerson College
+              and is a 2021 Tin House Scholar. She also serves on the board for
+              VIDA: Women in Literary Arts. Find her work in or forthcoming at
+              Ploughshares, New Delta Review, Foundry and others.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="http://www.tatianamrjohnson.com/"
+                  target="_blank"
+                >
+                  Tatiana
+                </a>{" "}
+                (she / her) is a writer, artist and educator. Her writing
+                explores identity, trauma, especially inherited trauma, and what
+                it means to
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Writing Our Mothers
               <svg className="fill-current ml-2" height="12" width="15">
@@ -851,18 +1132,48 @@ export default function Speakers() {
             <h3 className="mb-4 mt-8 text-5xl uppercase">Yasmin Belkhyr</h3>
             <p className="mb-8 text-lg">Moroccan-American Writer & Editor </p>
             <img alt="Yasmin Belkhyr" src="/img/speakers/yasmin-belkhyr.jpg" />
-            <p className="font-mono mt-6 text-lg">
-              Yasmin Belkhyr (she / her) is a Moroccan-American writer and
-              editor. She is the author of Bone Light, a poetry chapbook
-              published by the African Poetry Book Fund and Akashic Books, as
-              part of their New Generations African Poetry series. Her writing
-              has appeared in Soul Sister Revue, PANK, Waxwing, the TED Ideas
-              Blog, and Muzzle Magazine. She is the founder & editor of the
-              literary magazine, Winter Tangerine, and the independent
-              publisher, Honeysuckle Press.
-            </p>
+            <details className="font-mono mt-6 text-lg">
+              Poetry Book Fund and Akashic Books, as part of their New
+              Generations African Poetry series. Her writing has appeared in
+              Soul Sister Revue, PANK, Waxwing, the TED Ideas Blog, and Muzzle
+              Magazine. She is the founder & editor of the literary magazine,
+              Winter Tangerine, and the independent publisher, Honeysuckle
+              Press.
+              <summary className="focus:outline-none textWrap">
+                Yasmin Belkhyr (she / her) is a Moroccan-American writer and
+                editor. She is the author of Bone Light, a poetry chapbook
+                published by the African
+              </summary>
+            </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Halal If You Hear Me
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">826 Boston</h3>
+            <p className="mb-8 text-lg">Youth Writing Organization</p>
+            <img alt="826 Boston" src="/img/speakers/826-boston.jpg" />
+            <details className="font-mono mt-6 text-lg">
+              6-18 to find their voices, tell their stories, and gain
+              communication skills to succeed in school and in life.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://826boston.org/about/"
+                  target="_blank"
+                >
+                  826 Boston
+                </a>{" "}
+                (they / them) is a nonprofit youth writing and publishing
+                organization that empowers traditionally underserved students
+                ages
+              </summary>
+            </details>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for How We May Appear
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>

@@ -38,22 +38,24 @@ export default function Schedule() {
                 </div>
               </div>
             </summary>
-            <div className="gap-x-28 grid gap-y-20 mb-20 md:grid-cols-2 summaryDetail xl:gap-y-0 xl:grid-cols-3">
+            <div className="gap-x-20 grid gap-y-20 mb-20 md:grid-cols-2 summaryDetail xl:gap-y-0 xl:grid-cols-4">
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Paths to Publication
                 </h3>
                 <p className="mb-8">
-                  Kristina Marie Darling, Ryan Murphy, Frances Donovan, George
-                  Abraham
+                  A Panel with Kristina Marie Darling, Ryan Murphy, Frances
+                  Donovan, George Abraham
                 </p>
-                <div className="publication-images w-full"></div>
-                <p className="font-mono mt-6">
-                  This panel will consist of a variety of writers, editors and
-                  publishers who will discuss and answer any questions
+                <div className="publication-images w-full" />
+                <details className="font-mono mt-6">
                   associated with publishing in journals as well as publishing a
                   full-length manuscript.
-                </p>
+                  <summary className="focus:outline-none textWrap">
+                    This panel will consist of a variety of writers, editors and
+                    publishers who will discuss and answer any questions
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -67,10 +69,22 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Elegy in a Time of Pandemic
                 </h3>
+                <p className="mb-8">Writing Workshop</p>
                 <img alt="Chen Chen" src="/img/speakers/chen-chen.jpg" />
-                <p className="font-mono mt-6">
-                  This writing workshop facilitated by Chen Chen
-                </p>
+                <details className="font-mono mt-6">
+                  Can poems speak to job loss, loss of everyday routines, loss
+                  of future plans, and missing friends? And what if we simply
+                  can’t write poems at this moment—what do we do with the loss
+                  of our sense of being poets? In this generative workshop,
+                  we’ll make space for all these questions, looking to a range
+                  of elegies not for neat answers (which don’t exist anyway) but
+                  a deepening of our attention to where we are, who we are, in
+                  the midst of crisis.
+                  <summary className="focus:outline-none textWrap">
+                    How do we write about grief right now, when there are so
+                    many (and simultaneous) forms of grief to address?
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -82,16 +96,54 @@ export default function Schedule() {
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                  Writing Workshop
+                  Sweet Impossible Blossom
                 </h3>
+                <p className="mb-8">Writing Workshop</p>
                 <img
                   alt="Denice Frohman"
                   src="/img/speakers/denice-frohman.jpg"
                 />
-                <p className="font-mono mt-6">
-                  This writing workshop will be facilitated by women of the
-                  world poetry slam champion, Denice Frohman
+                <details className="font-mono mt-6">
+                  space by drawing our attention to the everyday moments in our
+                  lives that can hold meaning. We’ll explore the work of
+                  contemporary poets like Aracelis Girmay, Ross Gay, and
+                  Li-Young Lee, and think through the following question: How
+                  can writing toward or from the body open up other portals of
+                  experience? By mining the mundane, we’ll root ourselves in the
+                  present and reconsider what these moments can hold.
+                  <summary className="focus:outline-none textWrap">
+                    Jenna Wortham once wrote, “Embodiment is an act of
+                    resistance.” In this workshop we’ll write toward a more
+                    embodied
+                  </summary>
+                </details>
+                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
+                  <a href="#" className="flex items-center">
+                    Register for this event
+                    <svg className="fill-current ml-2" height="12" width="15">
+                      <use xlinkHref="#icon-rightarrow" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div className="speakers-grid">
+                <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
+                  Poetry is Not A Luxury
+                </h3>
+                <p className="mb-8">
+                  Reading & Discussion with Janice Lobo Sapiago & Angelo Geter
                 </p>
+                <div className="poetry-luxury-images w-full" />
+                <details className="font-mono mt-6">
+                  SC, Angelo Geter and the Poet Laureate of Santa Clara County,
+                  CA Janice Lobo Sapiago. Poets will perform a reading of their
+                  work and engage in conversations around poetry, civic service,
+                  and landscaping spaces for youth poets.
+                  <summary className="focus:outline-none textWrap">
+                    Hosted by the Academy of American Poets, this reading and
+                    discussion brings together the Poet Laureate of Rock Hill,
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -129,10 +181,14 @@ export default function Schedule() {
                   Dreamscape
                 </h3>
                 <p className="mb-8">Future of Roxbury Panel</p>
-                <p className="font-mono mt-6">
-                  This panel will consist of artists, residents, youth and city
-                  planners and will center futurescaping Roxbury.
-                </p>
+                <div className="dreamscape-images w-full" />
+                <details className="font-mono mt-6">
+                  This panel discussion is moderated by Marisa Luse.
+                  <summary className="focus:outline-none textWrap">
+                    This panel will consist of artists, residents, youth and
+                    city planners and will center around futurescaping Roxbury.
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -146,14 +202,26 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Writing our Mothers
                 </h3>
+                <p className="mb-8">Writing Workshop and Panel</p>
                 <img
                   alt="Tatiana Johnson-Boria"
                   src="/img/speakers/tatiana-johnson-boria.jpg"
                 />
-                <p className="font-mono mt-6">
-                  This writing workshop is facilitated by Roxbury native,
-                  Tatiana Johnson-Boria.
-                </p>
+                <details className="font-mono mt-6">
+                  explore mothers as vessels, as nurturers, as sources of harm,
+                  as sources of healing within our work? How can we make space
+                  for our own capacity to mother ourselves? In this workshop
+                  we'll be going through a series of exercises and explorations
+                  meant to generate new work while also hearing from others
+                  about their own artistic expressions of the mother-self
+                  relationship. The reading component of this workshop will
+                  feature Crystal Valentine, Aleshea Harris, Alicia Lochard and
+                  Dasia Moore.
+                  <summary className="focus:outline-none textWrap">
+                    The poet and artist, Krista Franklin, has called mothers:
+                    "ancestral, mythical, and living." How can we
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -165,16 +233,22 @@ export default function Schedule() {
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                  Writing Workshop
+                  What Awaits Is What We Make It
                 </h3>
+                <p className="mb-8">Writing Workshop</p>
                 <img
                   alt="Aricka Foreman"
                   src="/img/speakers/aricka-foreman.jpg"
                 />
-                <p className="font-mono mt-6">
-                  This writing workshop will be facilitated by Detroit native
-                  and Chicago Resident, Aricka Foreman.
-                </p>
+                <details className="font-mono mt-6">
+                  We'll cull together a tapestry from what we've assembled:
+                  music, film, visual art. It's in this wellspring we dream.
+                  Let's dream together.
+                  <summary className="focus:outline-none textWrap">
+                    At a moment of continued reckoning, we seek something
+                    righteous for ourselves: pleasure, witness and hope.
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -186,16 +260,28 @@ export default function Schedule() {
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                  Writing Workshop
+                  At Home in the Moving Body
                 </h3>
+                <p className="mb-8">
+                  Connecting Body, Breath, and Image: Writing Workshop
+                </p>
                 <img
                   alt="Rajiv Mohabir"
                   src="/img/speakers/rajiv-mohabir.jpg"
                 />
-                <p className="font-mono mt-6">
-                  This writing workshop will be facilitated by local professor,
-                  MFA Rajiv Mohabir.
-                </p>
+                <details className="font-mono mt-6">
+                  tip from breathing exercises, we will work together to create
+                  unexpected and deep images that bear our understanding of what
+                  the body can do as an antenna for our experience of being
+                  human. Central to this will be thinking through the various
+                  migrations and motions our bodies make and have a memory of
+                  making. This will include engaging the concept of home in its
+                  complexities for the poet and the poem's speaker.
+                  <summary className="focus:outline-none textWrap">
+                    In this workshop we will connect and constellate the poet’s
+                    body to the literary image and to the poetic line. Taking a
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -232,13 +318,17 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   Home Is Not A Country
                 </h3>
-                <div className="home-images w-full"></div>
-                <p className="font-mono mt-6">
-                  Home is Not A Country is a talk and reading with Safia Elhilio
-                  and a Roxbury Youth Poet Laureate Finalist, Asiyah Herrera
-                  regarding Elhillo’s recently released YA novel written in
-                  verse.
-                </p>
+                <div className="home-images w-full" />
+                <details className="font-mono mt-6">
+                  in verse. Participants are encouraged to bring their lunch on
+                  screen while enjoying this conversation.
+                  <summary className="focus:outline-none textWrap">
+                    Home is Not A Country is a talk and reading with Safia
+                    Elhillo and a Roxbury Youth Poet Laureate Finalist, Asiyah
+                    Herrera regarding Elhillo’s recently released YA novel
+                    written
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -256,11 +346,17 @@ export default function Schedule() {
                   alt="Rachel McKibbens"
                   src="/img/speakers/rachel-mckibbens.jpg"
                 />
-                <p className="font-mono mt-6">
-                  This craft talk encourages participants to bring their lunch
-                  on screen while enjoying a craft talk from poet and performer,
-                  Rachel McKibbens.
-                </p>
+                <details className="font-mono mt-6">
+                  instead of an agent of confession? This craft talk encourages
+                  participants to bring their lunch on screen while enjoying a
+                  craft talk from poet and performer, Rachel McKibbens.
+                  <summary className="focus:outline-none textWrap">
+                    As poets, we use devices to resurrect or bury, but how often
+                    are we willing to lean into our own wickedness, to give it
+                    its rightful placement as the second face of our
+                    vulnerability
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -300,12 +396,14 @@ export default function Schedule() {
                 <p className="mb-8">
                   Diannely Antigua, Malcolm Friend, Jonathan Mendoza
                 </p>
-                <div className="latinext-images w-full"></div>
-                <p className="font-mono mt-6">
-                  This reading and performance features Latinext folks who were
-                  published in the BreakBeat Poet’s LatiNEXT Anthology. Closes
-                  with a q/a.
-                </p>
+                <div className="latinext-images w-full" />
+                <details className="font-mono mt-6">
+                  <em>LatiNEXT</em> Anthology. Closes with a q/a.
+                  <summary className="focus:outline-none textWrap">
+                    This reading and performance features Latinext folks who
+                    were published in the BreakBeat Poet’s
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -317,15 +415,17 @@ export default function Schedule() {
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                  Flowers As They Live: Local Living Legends Reading
+                  Flowers As They Live: Honoring Local Poets
                 </h3>
                 <p className="mb-8">Askia Toure, Letta Neely, Martha Collins</p>
-                <div className="locals-images w-full"></div>
-                <p className="font-mono mt-6">
-                  This reading highlights writers who have made an impact on the
-                  poetry world nationally and locally. #LocalLivingLegends
-                  Closes with a q/a.
-                </p>
+                <div className="locals-images w-full" />
+                <details className="font-mono mt-6">
+                  #LocalLivingLegends Closes with a q/a.
+                  <summary className="focus:outline-none textWrap">
+                    This reading highlights writers who have made an impact on
+                    the poetry world nationally and locally.
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -337,14 +437,26 @@ export default function Schedule() {
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                  826 Youth Anthology Reading
+                  How We May Appear
                 </h3>
-                <p className="mb-8">826 Boston</p>
-                <p className="font-mono mt-6">
-                  This performance features youth poets published in 826 Boston
+                <p className="mb-8">826 Youth Anthology Reading</p>
+                <img alt="826 Boston" src="/img/speakers/826-Boston.jpg" />
+                <details className="font-mono mt-6">
+                  publication features stories and poems written by young people
+                  across the city. As foreword author Amanda Gorman says:
+                  "Reading the collection from my sunlit apartment in Los
+                  Angeles, it is hard not to be struck with the vision that
+                  these authors present: a vibrant and youthful Boston, with its
+                  tongue of many languages, and heart of many songs.” This
+                  performance features youth poets published in 826 Boston
                   Poetry Anthology. The reading takes place outside the Roxbury
                   Branch Library.
-                </p>
+                  <summary className="focus:outline-none textWrap">
+                    How We May Appear, the first anthology produced by 826
+                    Boston's Youth Literary Advisory Board. This
+                    student-authored
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -359,11 +471,16 @@ export default function Schedule() {
                   50 Rappers Who Changed The World
                 </h3>
                 <p className="mb-8">Curated by Ashley Rose</p>
-                <div className="rappers-images w-full"></div>
-                <p className="font-mono mt-6">
-                  This session will feature a reading with Candace McDuffie and
-                  a q/a.
-                </p>
+                <div className="rappers-images w-full" />
+                <details className="font-mono mt-6">
+                  Rappers Who Changed the World. This session, like the book, is
+                  a celebration of the musicians who shaped the genre and
+                  changed the world.
+                  <summary className="focus:outline-none textWrap">
+                    Join writer, Candace McDuffie, and poet, Ashley Rose, for a
+                    reading and discussion of McDuffie's book, 50
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -404,12 +521,15 @@ export default function Schedule() {
                   Anthology Reading from Dr. Seema Yasmin, Nikia Chaney, Yasmin
                   Belkhyr
                 </p>
-                <div className="halal-images w-full"></div>
-                <p className="font-mono mt-6">
-                  This reading and performance celebrates poets of the Muslim
-                  Diaspora who were contributors to the Breakbeat Poet
-                  Anthology: <em>Halal If You Hear Me.</em> Closes with a q/a
-                </p>
+                <div className="halal-images w-full" />
+                <details className="font-mono mt-6">
+                  Breakbeat Poet Anthology: <em>Halal If You Hear Me</em>.
+                  Closes with a q/a
+                  <summary className="focus:outline-none textWrap">
+                    This reading and performance celebrates poets of the Muslim
+                    Diaspora who were contributors to the
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -426,11 +546,14 @@ export default function Schedule() {
                 <p className="mb-8">
                   Open Mic with Nina La Negra and Fulani Haynes
                 </p>
-                <p className="font-mono mt-6">
-                  This will be a digital open mic hosted by long-time Roxbury
-                  hosts, Nina La Negra and Fulani Haynes. This provides an
-                  opportunity for folks to sign up to read on the open mic.
-                </p>
+                <div className="art-life-images w-full" />
+                <details className="font-mono mt-6">
+                  and culture. Sign up for the open mic when you register!
+                  <summary className="focus:outline-none textWrap">
+                    Join long-time Roxbury artist organizers, Fulani Haynes and
+                    Nina LaNegra for an open mic that celebrates performance
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -447,12 +570,14 @@ export default function Schedule() {
                 <p className="mb-8">
                   Cierra Peters, Arielle Gray, Print Ain't Dead
                 </p>
-                <p className="font-mono mt-6">
-                  This casual discussion is facilitated by local collective,
-                  Print Ain’t Dead and will implore the literary and historical
-                  gossip associated with local and national literary movements &
-                  writers.
-                </p>
+                <details className="font-mono mt-6">
+                  historical gossip associated with local and national literary
+                  movements & writers.
+                  <summary className="focus:outline-none textWrap">
+                    This casual discussion is facilitated by local collective,
+                    Print Ain’t Dead and will implore the literary and
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -470,12 +595,14 @@ export default function Schedule() {
                   alt="Jill McDonough"
                   src="/img/speakers/jill-mcdonough.jpg"
                 />
-                <p className="font-mono mt-6">
-                  Jill McDonough will be offering some ways to think about sound
-                  and form in poems, then sharing some poems written by unhoused
-                  and incarcerated writers who have spent time in writing
-                  classrooms with Jill.
-                </p>
+                <details className="font-mono mt-6">
+                  written by unhoused and incarcerated writers who have spent
+                  time in writing classrooms with Jill.
+                  <summary className="focus:outline-none textWrap">
+                    Jill McDonough will be offering some ways to think about
+                    sound and form in poems, then sharing some poems
+                  </summary>
+                </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
                   <a href="#" className="flex items-center">
                     Register for this event
@@ -495,11 +622,18 @@ export default function Schedule() {
               <h3 className="mb-4 md:text-4xl text-3xl uppercase">
                 Keynote Address w/ Jericho Brown
               </h3>
-              <p>
-                2020 Pulitzer Prize winner, Jericho Brown will perform a reading
-                of his book. This talk will be moderated by a local artist.
-                Hosted by Roxbury Branch Public Library.
-              </p>
+              <div className="lg:flex">
+                <img
+                  alt="Jericho Brown"
+                  className="lg:w-1/3"
+                  src="/img/speakers/jericho-brown.jpg"
+                />
+                <p className="mt-6 lg:ml-8 lg:mt-0 lg:w-2/3">
+                  2020 Pulitzer Prize winner, Jericho Brown, will read from his
+                  book The Tradition and answer a few questions from the
+                  audience. This talk will be moderated by a local artist.
+                </p>
+              </div>
             </div>
           </div>
           <div className="border-t border-black md:grid md:grid-cols-8 items-center md:w-full py-10">
@@ -515,8 +649,16 @@ export default function Schedule() {
                 It will be filmed by Button Poetry and alots the winner of the
                 slam, a local writer, a chap book deal from the publisher,
                 Button Poetry. This event is only open to poetry living in
-                Massachusetts. Hosted by Button Poetry.
+                Massachusetts. Hosted by Harlym 125.
               </p>
+              <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
+                <a href="#" className="flex items-center">
+                  Register for this event
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
           <div className="border-t border-black md:grid md:grid-cols-8 items-center md:w-full py-10">
@@ -525,15 +667,30 @@ export default function Schedule() {
             </div>
             <div className="md:col-span-4 lg:col-span-5 text-lg">
               <h3 className="mb-4 md:text-4xl text-3xl uppercase">
-                Boston Un-Versed: a concert
+                Beasts The Beat
               </h3>
               <p>
                 Inspired by the online Versuz series this event will take place
                 in the Blair Lot and feature local hip hop artists in a
-                friendly. Hosted by DJ Why SHam.
+                friendly.
               </p>
             </div>
           </div>
+        </div>
+        <div className="font-mono md:text-lg max-w-7xl md:mt-24 mx-auto">
+          <h3 className="font-bold mb-2">Public Safety and COVID-19</h3>
+          <p>
+            Due to the pandemic and the goal to ensure a public health-conscious
+            space, this year’s festival will take place online via Zoom.
+            Depending on the speaker's comfort, some readings will air via Zoom
+            at a partnership site (i.e. Hibernian Hall) and without a live
+            audience. If health mandates permit, The Publisher’s Poetry Slam and
+            Boston’s Beasts the Beat will take place outdoors in Nubian Square’s
+            Blair Lot. In addition to onsite sanitizers, mandated masks, and
+            public health care representatives, there will be social distance
+            markers and volunteers to ensure the community members are socially
+            distancing and masked.
+          </p>
         </div>
       </div>
     </Layout>

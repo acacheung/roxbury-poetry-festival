@@ -231,61 +231,56 @@ const Header = class extends React.Component {
                 </div>
               </a>
             </Link>
-            <Link href="/slam">
-              <a className={headerStyles.scrollingItem}>
-                <div className={headerStyles.scrollingSpeakers}>
-                  <div className="flex items-center">
-                    <p>Publisher's Slam</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
+            <a href="#" className={headerStyles.scrollingItem}>
+              <div className={headerStyles.scrolling}>
+                <div className="flex items-center">
+                  <p>Register</p>
+                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
-                <div
-                  aria-hidden="true"
-                  className={headerStyles.scrollingSpeakers}
-                >
-                  <div className="flex items-center">
-                    <p>Publisher's Slam</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
+              </div>
+              <div aria-hidden="true" className={headerStyles.scrolling}>
+                <div className="flex items-center">
+                  <p>Register</p>
+                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
-                <div
-                  aria-hidden="true"
-                  className={headerStyles.scrollingSpeakers}
-                >
-                  <div className="flex items-center">
-                    <p>Publisher's Slam</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
+              </div>
+              <div aria-hidden="true" className={headerStyles.scrolling}>
+                <div className="flex items-center">
+                  <p>Register</p>
+                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
-                <div
-                  aria-hidden="true"
-                  className={headerStyles.scrollingSpeakers}
-                >
-                  <div className="flex items-center">
-                    <p>Publisher's Slam</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
+              </div>
+              <div aria-hidden="true" className={headerStyles.scrolling}>
+                <div className="flex items-center">
+                  <p>Register</p>
+                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
-                <div
-                  aria-hidden="true"
-                  className={headerStyles.scrollingSpeakers}
-                >
-                  <div className="flex items-center">
-                    <p>Publisher's Slam</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
+              </div>
+              <div aria-hidden="true" className={headerStyles.scrolling}>
+                <div className="flex items-center">
+                  <p>Register</p>
+                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
-                <div
-                  aria-hidden="true"
-                  className={headerStyles.scrollingSpeakers}
-                >
-                  <div className="flex items-center">
-                    <p>Publisher's Slam</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
+              </div>
+              <div aria-hidden="true" className={headerStyles.scrolling}>
+                <div className="flex items-center">
+                  <p>Register</p>
+                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
-              </a>
-            </Link>
+              </div>
+              <div aria-hidden="true" className={headerStyles.scrolling}>
+                <div className="flex items-center">
+                  <p>Register</p>
+                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
+                </div>
+              </div>
+              <div aria-hidden="true" className={headerStyles.scrolling}>
+                <div className="flex items-center">
+                  <p>Register</p>
+                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
+                </div>
+              </div>
+            </a>
           </div>
         </nav>
         <div
