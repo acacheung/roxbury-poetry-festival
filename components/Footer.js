@@ -25,6 +25,11 @@ export default function Footer() {
             Speakers
           </a>
         </Link>
+        <Link href="/slam">
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-16 lg:pt-8">
+            Slam
+          </a>
+        </Link>
         <a
           className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-16 lg:pt-8"
           href="mailto:roxburypoetryfestival@gmail.com"

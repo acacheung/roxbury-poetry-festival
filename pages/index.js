@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Head from "next/head";
 import Layout from "@components/Layout";
 import React, { useEffect, useState } from "react";
 
@@ -119,20 +118,19 @@ export default function Home() {
               <p className="mb-8 text-lg">Poet, Educator</p>
               <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
               <details className="font-mono mt-6 text-lg">
-                Advanced Study at Harvard University, and the National Endowment
-                for the Arts. Brown’s first book, Please (2008), won the
-                American Book Award. His second book, The New Testament (2014),
-                won the Anisfield-Wolf Book Award and was named one of the best
-                of the year by Library Journal, Coldfront, and the Academy of
-                American Poets. He is also the author of the collection The
-                Tradition (2019), which was a finalist for the 2019 National
-                Book Award and the winner of the 2020 Pulitzer Prize for Poetry.
-                His poems have appeared in Buzzfeed, The Nation, The New York
-                Times, The New Yorker, The New Republic, Time, and The Pushcart
-                Prize Anthology, and several volumes of The Best American Poetry
-                anthologies. He is the Charles Howard Candler Professor of
-                Creative Writing and the Director of the Creative Writing
-                Program at Emory University in Atlanta.
+                and the National Endowment for the Arts. Brown’s first book,
+                Please (2008), won the American Book Award. His second book, The
+                New Testament (2014), won the Anisfield-Wolf Book Award and was
+                named one of the best of the year by Library Journal, Coldfront,
+                and the Academy of American Poets. He is also the author of the
+                collection The Tradition (2019), which was a finalist for the
+                2019 National Book Award and the winner of the 2020 Pulitzer
+                Prize for Poetry. His poems have appeared in Buzzfeed, The
+                Nation, The New York Times, The New Yorker, The New Republic,
+                Time, and The Pushcart Prize Anthology, and several volumes of
+                The Best American Poetry anthologies. He is the Charles Howard
+                Candler Professor of Creative Writing and the Director of the
+                Creative Writing Program at Emory University in Atlanta.
                 <summary className="focus:outline-none textWrap">
                   <a
                     className="underline"
@@ -143,7 +141,7 @@ export default function Home() {
                   </a>{" "}
                   (he / him) is the recipient of a Whiting Writers’ Award and
                   fellowships from the John Simon Guggenheim Foundation, the
-                  Radcliffe Institute for
+                  Radcliffe Institute for Advanced Study at Harvard University,
                 </summary>
               </details>
             </li>
@@ -185,10 +183,10 @@ export default function Home() {
                 >
                   Home Is Not A Country
                 </a>
-                (Make Me A World/Random House, 2021). With Fatimah Asghar, she
-                is co-editor of the anthology Halal If You Hear Me (Haymarket
-                Books, 2019). She is currently a Wallace Stegner Fellow at
-                Stanford University and lives in Oakland.
+                , 2021). With Fatimah Asghar, she is co-editor of the anthology
+                Halal If You Hear Me (Haymarket Books, 2019). She is currently a
+                Wallace Stegner Fellow at Stanford University and lives in
+                Oakland.
                 <summary className="focus:outline-none textWrap">
                   <a
                     className="underline"
@@ -199,7 +197,7 @@ export default function Home() {
                   </a>{" "}
                   (she / her) is the author of The January Children (University
                   of Nebraska Press, 2017), which received the the Sillerman
-                  First Book Prize for
+                  First Book Prize for (Make Me A World/Random House
                 </summary>
               </details>
             </li>

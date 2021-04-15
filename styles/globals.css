@@ -179,17 +179,29 @@ body {
 }
 
 .textWrap::after {
-  content: "...Read More";
-  font-style: italic;
-  margin-left: 0.25rem;
+  content: "… Read More";
+  @apply text-base;
+  @apply font-sans;
   @apply text-sm;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
 }
 
 .speakers-grid details[open] .textWrap::after {
   content: "";
 }
 
+.slam-bio details[open] .textWrap::after {
+  content: "";
+}
+
+details summary {
+  list-style-type: none;
+} /* Firefox */
 details summary::-webkit-details-marker {
+  display: none;
+} /* Chrome */
+details summary::marker {
   display: none;
 }
 

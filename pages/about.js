@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Head from "next/head";
 import Layout from "@components/Layout";
 
 export default function About() {
@@ -40,8 +39,15 @@ export default function About() {
                 and open to the public.
               </p>
               <p>
-                Stay tuned for the schedule release and more information
-                regarding the festival!
+                Questions or concerns? Please{" "}
+                <a
+                  className="underline"
+                  href="mailto:roxburypoetryfestival@gmail.com"
+                  target="_blank"
+                >
+                  reach out
+                </a>{" "}
+                to us!
               </p>
               <div className="my-10">
                 <h3 className="border-b border-black font-bold mb-6">
@@ -278,9 +284,7 @@ export default function About() {
               </a>
             </li>
             <li className="speakers-grid">
-              <h4 className="mb-4 mt-8 text-2xl uppercase">
-                Savior the Square
-              </h4>
+              <h4 className="mb-4 mt-8 text-2xl uppercase">Savor the Square</h4>
             </li>
             <li className="speakers-grid">
               <a
