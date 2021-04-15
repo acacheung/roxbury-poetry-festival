@@ -36,6 +36,11 @@ export default function Slam() {
                 The Poetry Slam takes place outdoors in the Blair Lot on June 5,
                 2021 from 5pm-7pm ET.
               </p>
+              <img
+                alt="Button Poetry"
+                className="w-3/5"
+                src="/img/logos/button-poetry.png"
+              />
             </div>
             <div className="font-mono md:text-lg md:w-3/4">
               <h3 className="mb-8 md:mb-10 text-4xl md:text-5xl uppercase">

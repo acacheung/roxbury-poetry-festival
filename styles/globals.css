@@ -272,8 +272,8 @@ details summary::marker {
 }
 
 .dreamscape-images {
-  -webkit-animation: dreamscapeImageTransition 12s infinite;
-  animation: dreamscapeImageTransition 12s infinite;
+  -webkit-animation: dreamscapeImageTransition 16s infinite;
+  animation: dreamscapeImageTransition 16s infinite;
   -webkit-animation-timing-function: steps(1, end);
   animation-timing-function: steps(1, end);
 }
@@ -282,11 +282,14 @@ details summary::marker {
   0% {
     background-image: url("../public/img/speakers/kai-grant.jpg");
   }
-  33% {
+  25% {
     background-image: url("../public/img/speakers/tariq-charles.jpg");
   }
-  66% {
+  50% {
     background-image: url("../public/img/speakers/stephen-hamilton.jpg");
+  }
+  75% {
+    background-image: url("../public/img/speakers/marisa-luse.jpg");
   }
   100% {
     background-image: url("../public/img/speakers/kai-grant.jpg");
