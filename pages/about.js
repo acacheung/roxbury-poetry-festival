@@ -271,6 +271,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://haleyhouse.org/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -287,6 +288,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://tamcc.org/savor-the-square"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -301,6 +303,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://www.northeastern.edu/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -314,6 +317,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://826boston.org/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -328,6 +332,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://buttonpoetry.com/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -342,6 +347,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://www.therecordco.org/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -356,6 +362,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://bostongotnext.com/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -370,6 +377,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://www.haymarketbooks.org/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -384,6 +392,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://printaintdead.us/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -405,6 +414,7 @@ export default function About() {
             <a
               className="underline"
               href="http://massachusetttribe.org/the-history-of-the-neponset"
+              rel="noreferrer noopener"
               target="_blank"
             >
               the Massachusett people
@@ -424,6 +434,7 @@ export default function About() {
             <a
               className="underline"
               href="http://roxburyhistoricalsociety.org/"
+              rel="noreferrer noopener"
               target="_blank"
             >
               The Roxbury Historical Society

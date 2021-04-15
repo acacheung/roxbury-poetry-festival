@@ -118,6 +118,7 @@ export default function Slam() {
             <a
               className="underline"
               href="https://buttonpoetry.com/"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Button Poetry

@@ -235,6 +235,7 @@ const Header = class extends React.Component {
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
               className={headerStyles.scrollingItem}
               target="_blank"
+              rel="noreferrer noopener"
             >
               <div className={headerStyles.scrolling}>
                 <div className="flex items-center">

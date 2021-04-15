@@ -109,6 +109,7 @@ export default function Home() {
                   <a
                     className="underline"
                     href="https://www.jerichobrown.com/"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Jericho Brown
@@ -130,6 +131,7 @@ export default function Home() {
                 <a
                   className="underline"
                   href="https://www.rachelmckibbens.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Rachel McKibbens
@@ -153,6 +155,7 @@ export default function Home() {
                 <a
                   className="px-3 underline"
                   href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Home Is Not A Country
@@ -165,6 +168,7 @@ export default function Home() {
                   <a
                     className="underline"
                     href="https://safia-mafia.com/bio"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Safia Elhillo

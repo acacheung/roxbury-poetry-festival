@@ -60,6 +60,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -95,6 +96,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -132,6 +134,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -163,6 +166,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -213,6 +217,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -252,6 +257,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -285,6 +291,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -325,6 +332,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -375,6 +383,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -409,6 +418,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -460,6 +470,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -489,6 +500,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -525,6 +537,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -553,6 +566,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -606,6 +620,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -635,6 +650,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -663,6 +679,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -694,6 +711,7 @@ export default function Schedule() {
                   <a
                     href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                     className="flex items-center"
+                    rel="noreferrer noopener"
                     target="_blank"
                   >
                     Register for this event
@@ -729,6 +747,7 @@ export default function Schedule() {
                     <a
                       href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
                       className="flex items-center"
+                      rel="noreferrer noopener"
                       target="_blank"
                     >
                       Register for this event
@@ -760,6 +779,7 @@ export default function Schedule() {
                 <a
                   href="https://cityofbostonartsandculture.submittable.com/submit/83c697df-d09a-4203-86e7-28efb999f290/roxbury-poetry-festival-publishers-poetry-slam"
                   className="flex items-center"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Register for the Slam

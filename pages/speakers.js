@@ -37,6 +37,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.angelogeter.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Angelo Geter
@@ -49,6 +50,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Poetry Is Not A Luxury
@@ -70,6 +72,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.arickaforeman.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Aricka Foreman
@@ -80,6 +83,7 @@ export default function Speakers() {
                 <a
                   className=" underline"
                   href="https://www.yesyesbooks.com/product-page/salt-body-shimmer"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Salt Body Shimmer
@@ -90,6 +94,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for What Awaits Is What We Make It
@@ -120,6 +125,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for the 50 Greatest Rappers
@@ -145,6 +151,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Home is Not a Country
@@ -173,6 +180,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Flowers As They Live
@@ -194,6 +202,7 @@ export default function Speakers() {
               <a
                 className="pl-3 underline"
                 href="https://www.amazon.com/Rappers-Who-Changed-World-Celebration/dp/1784883387"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 50 Rappers Who Changed The World
@@ -203,6 +212,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.candacemcduffie.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Candace McDuffie
@@ -215,6 +225,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for 50 Rappers Who Changed The World
@@ -243,6 +254,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.chenchenwrites.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Chen Chen
@@ -251,6 +263,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.amazon.com/Further-Possibilities-Poulin-Poets-America/dp/1942683332"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   When I Grow Up I Want to Be a List of Further Possibilities
@@ -262,6 +275,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Elegy in a Time of Pandemic
@@ -288,6 +302,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.denicefrohman.com"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Denice Frohman
@@ -300,6 +315,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Sweet Impossible Blossom
@@ -323,6 +339,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://diannelyantigua.com"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Diannely Antigua
@@ -332,6 +349,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.yesyesbooks.com/product-page/ugly-music-by-diannely-antigua"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Ugly Music
@@ -342,6 +360,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for LatiNext Reading
@@ -364,6 +383,7 @@ export default function Speakers() {
               <a
                 className="underline"
                 href="https://twitter.com/okelle"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 @okelle
@@ -372,6 +392,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://gardenofwords.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Frances Donovan’s
@@ -380,6 +401,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.amazon.com/Mad-Quick-Hand-Seashore-Poems/dp/1984273159"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Mad Quick Hand of the Seashore
@@ -391,6 +413,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Paths to Publication
@@ -418,6 +441,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Art Is Life Itself
@@ -447,6 +471,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.gabrahampoet.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   George Abraham
@@ -456,6 +481,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://buttonpoetry.com/product/birthright/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Birthright
@@ -466,6 +492,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Paths to Publication
@@ -532,6 +559,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.janicewrites.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Janice Lobo Sapigao
@@ -544,6 +572,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Poetry is Not A Luxury
@@ -574,6 +603,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.jerichobrown.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Jericho Brown
@@ -586,6 +616,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for An Evening with Jericho Brown
@@ -606,6 +637,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="http://www.jillmcdonough.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Jill McDonough
@@ -616,6 +648,7 @@ export default function Speakers() {
                   className="underline"
                   href="https://www.brooklinebooksmith-shop.com/book/9781948579025
                 "
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Here All Night
@@ -626,6 +659,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for On Sound & Form
@@ -653,6 +687,7 @@ export default function Speakers() {
               <a
                 className="px-3 underline"
                 href="https://twitter.com/jmendoza010"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 Twitter
@@ -661,6 +696,7 @@ export default function Speakers() {
               <a
                 className="pl-3 underline"
                 href="https://www.instagram.com/jmendoza010/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 Instagram
@@ -670,6 +706,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://mendozapoetry.com"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Jonathan Mendoza
@@ -682,6 +719,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for LatiNext Reading
@@ -706,6 +744,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://blackmarketnubian.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Kai Grant's
@@ -718,6 +757,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Future of Roxbury Panel
@@ -763,6 +803,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://kristinamariedarling.com"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Kristina Marie Darling
@@ -775,6 +816,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Paths to Publication
@@ -798,6 +840,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Local Literary Legends
@@ -819,6 +862,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="http://www.malcolmfriend.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Malcolm Friend
@@ -828,6 +872,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="http://www.malcolmfriend.com/books"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   author
@@ -839,6 +884,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for LatiNEXT Reading
@@ -863,6 +909,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://marthacollinspoet.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Martha Collins's
@@ -873,6 +920,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://upittpress.org/authors/martha-collins/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Previous books
@@ -883,6 +931,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Flowers As They Live
@@ -902,6 +951,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.nikiachaney.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   ​Nikia Chaney
@@ -910,6 +960,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.amazon.com/us-mouth-Nikia-Chaney/dp/1938753275/ref=sr_1_1?dchild=1&keywords=us+mouth+nikia+chaney&qid=1615485152&sr=8-1"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   us mouth
@@ -922,6 +973,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Halal If Your Hear Me
@@ -943,6 +995,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.facebook.com/AiLiLive/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   LaNegra
@@ -954,6 +1007,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Art Is Life Itself
@@ -974,6 +1028,7 @@ export default function Speakers() {
               <a
                 className="underline"
                 href="https://www.rachelmckibbens.com/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 Rachel McKibbens
@@ -985,6 +1040,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Excavating the Wicked Imagination
@@ -1007,6 +1063,7 @@ export default function Speakers() {
               <a
                 className="px-3 underline"
                 href="https://restlessbooks.org/bookstore/antiman"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 memoir
@@ -1020,6 +1077,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="http://www.rajivmohabir.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Rajiv Mohabir
@@ -1032,6 +1090,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for At Home in the Moving Body
@@ -1051,6 +1110,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://www.spdbooks.org/Author/Default.aspx?AuthorId=4219"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   The Redcoats
@@ -1062,6 +1122,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Poetry in the Marketplace
@@ -1084,6 +1145,7 @@ export default function Speakers() {
               <a
                 className="px-3 underline"
                 href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 Home Is Not A Country
@@ -1096,6 +1158,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://safia-mafia.com/bio"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Safia Elhillo
@@ -1108,6 +1171,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Home Is Not A Country
@@ -1128,6 +1192,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="http://seemayasmin.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Seema Yasmin
@@ -1140,6 +1205,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Halal If Your Hear Me
@@ -1174,6 +1240,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="http://www.itanproject.com/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   Stephen Hamilton
@@ -1186,6 +1253,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Future of Roxbury Panel
@@ -1207,6 +1275,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Future of Roxbury Panel
@@ -1239,6 +1308,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Flowers as They Live
@@ -1267,6 +1337,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for Halal If You Hear Me
@@ -1286,6 +1357,7 @@ export default function Speakers() {
                 <a
                   className="underline"
                   href="https://826boston.org/about/"
+                  rel="noreferrer noopener"
                   target="_blank"
                 >
                   826 Boston
@@ -1298,6 +1370,7 @@ export default function Speakers() {
             <a
               className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
               href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Register for How We May Appear
