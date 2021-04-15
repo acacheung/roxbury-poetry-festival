@@ -893,6 +893,40 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Marisa Luse</h3>
+            <p className="mb-8 text-lg">Activist, Creative Champion, Founder</p>
+            <img alt="Marisa Luse" src="/img/speakers/marisa-luse.jpg" />
+            <details className="font-mono mt-6">
+              value humanity, breaking down silos that results in system,
+              organizational, and community change, increasing civic engagement
+              and participation, and inspiring others to be courageous leaders
+              and advocates for themselves, their families, and communities.
+              Marisa is the Founder and CEO of The CoLu Group and RAPP Boston.
+              She also serves on several community boards and committees in
+              Roxbury and Boston that focus on arts and culture, civic and
+              community engagement to early education.
+              <summary className="focus:outline-none textWrap">
+                Marisa Luse (she / her) is Roxbury native with a wealth of
+                non-profit management, community engagement and civic leadership
+                experience. She is committed to creating and shifting spaces
+                that
+              </summary>
+            </details>
+            <a
+              className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
+              href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Register for Future of Roxbury Panel
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Martha Collins</h3>
             <p className="mb-8 text-lg">Poet, Writer</p>
@@ -1011,6 +1045,40 @@ export default function Speakers() {
               target="_blank"
             >
               Register for Art Is Life Itself
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Print Ain't Dead (Cierra Peters & Arielle Gray)
+            </h3>
+            <p className="mb-8 text-lg">Bookstore, Publishing Platform</p>
+            <img
+              alt="Print Ain't Dead"
+              src="/img/speakers/print-aint-dead.jpg"
+            />
+            <p className="font-mono mt-6">
+              <a
+                className="underline"
+                href="https://printaintdead.us/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                Print Ain't Dead
+              </a>{" "}
+              (she / her) is a bookstore and publishing platform focused on
+              literary and textbased artifacts produced by black, brown and
+              indigenous artists.
+            </p>
+            <a
+              className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
+              href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Register for The Literary Tea
               <svg className="ml-4 lg:ml-6" height="8" width="19">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>

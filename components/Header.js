@@ -40,7 +40,7 @@ const Header = class extends React.Component {
         <nav className="flex flex-col md:flex-grow justify-center">
           <button
             aria-label="Toggle Menu"
-            className="absolute mr-6 mt-6 right-0 top-0"
+            className="absolute focus:outline-none mr-6 mt-6 right-0 top-0"
             onClick={() => this.toggleHamburger()}
           >
             <div className={headerStyles.iconHamburger + " block"}>

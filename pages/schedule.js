@@ -460,7 +460,7 @@ export default function Schedule() {
                 </p>
                 <div className="latinext-images w-full" />
                 <details className="font-mono mt-6">
-                  Poet’s <em>LatiNEXT</em> Anthology. Closes with a q/a.
+                  Poet’s <em>LatiNEXT</em> Anthology. Closes with a Q/A.
                   <summary className="focus:outline-none textWrap">
                     This reading and performance features Latinext folks who
                     were published in the BreakBeat
@@ -490,7 +490,7 @@ export default function Schedule() {
                 </p>
                 <div className="locals-images w-full" />
                 <details className="font-mono mt-6">
-                  #LocalLivingLegends Closes with a q/a.
+                  #LocalLivingLegends Closes with a Q/A.
                   <summary className="focus:outline-none textWrap">
                     This reading highlights writers who have made an impact on
                     the poetry world nationally and locally.
@@ -551,7 +551,7 @@ export default function Schedule() {
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                   50 Rappers Who Changed The World
                 </h3>
-                <p className="mb-8">Curated by Ashley Rose</p>
+                <p className="mb-8">Author Interview & Discussion</p>
                 <div className="rappers-images w-full" />
                 <details className="font-mono mt-6">
                   book, 50 Rappers Who Changed the World. This session, like the
@@ -610,7 +610,7 @@ export default function Schedule() {
                 <div className="halal-images w-full" />
                 <details className="font-mono mt-6">
                   to the Breakbeat Poet Anthology: <em>Halal If You Hear Me</em>
-                  . Closes with a q/a
+                  . Closes with a Q/A.
                   <summary className="focus:outline-none textWrap">
                     This reading and performance celebrates poets of the Muslim
                     Diaspora who were contributors
@@ -632,7 +632,7 @@ export default function Schedule() {
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                  Art as Life Itself
+                  Art Is Life Itself
                 </h3>
                 <p className="mb-8">
                   Open Mic with Nina La Negra and Fulani Haynes
@@ -665,8 +665,14 @@ export default function Schedule() {
                   The Literary Tea
                 </h3>
                 <p className="mb-8">
-                  Cierra Peters, Arielle Gray, Print Ain't Dead
+                  Cierra Peters and Arielle Gray, Print Ain't Dead
                 </p>
+                <div className="schedule-image">
+                  <img
+                    alt="Print Ain't Dead"
+                    src="/img/speakers/print-aint-dead.jpg"
+                  />
+                </div>
                 <details className="font-mono mt-6">
                   historical gossip associated with local and national literary
                   movements & writers.
