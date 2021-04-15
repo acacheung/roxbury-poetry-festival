@@ -4,8 +4,6 @@ import Svg from "../components/Svg";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 
-var pathname = window.location.pathname;
-
 export default function Layout({ children }) {
   return (
     <>
