@@ -76,7 +76,7 @@ export default function Home() {
           </div>
           <a
             className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full"
-            href="/"
+            href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
             target="_blank"
           >
             <div className="banner-text bg-gray-900 flex h-full items-center justify-end">
@@ -118,31 +118,34 @@ export default function Home() {
               <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
               <p className="mb-8 text-lg">Poet, Educator</p>
               <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
-              <p className="font-mono mt-6 text-lg">
-                <a
-                  className="underline"
-                  href="https://www.jerichobrown.com/"
-                  target="_blank"
-                >
-                  Jericho Brown
-                </a>{" "}
-                (he / him) is the recipient of a Whiting Writers’ Award and
-                fellowships from the John Simon Guggenheim Foundation, the
-                Radcliffe Institute for Advanced Study at Harvard University,
-                and the National Endowment for the Arts. Brown’s first book,
-                Please (2008), won the American Book Award. His second book, The
-                New Testament (2014), won the Anisfield-Wolf Book Award and was
-                named one of the best of the year by Library Journal, Coldfront,
-                and the Academy of American Poets. He is also the author of the
-                collection The Tradition (2019), which was a finalist for the
-                2019 National Book Award and the winner of the 2020 Pulitzer
-                Prize for Poetry. His poems have appeared in Buzzfeed, The
-                Nation, The New York Times, The New Yorker, The New Republic,
-                Time, and The Pushcart Prize Anthology, and several volumes of
-                The Best American Poetry anthologies. He is the Charles Howard
-                Candler Professor of Creative Writing and the Director of the
-                Creative Writing Program at Emory University in Atlanta.
-              </p>
+              <details className="font-mono mt-6 text-lg">
+                Advanced Study at Harvard University, and the National Endowment
+                for the Arts. Brown’s first book, Please (2008), won the
+                American Book Award. His second book, The New Testament (2014),
+                won the Anisfield-Wolf Book Award and was named one of the best
+                of the year by Library Journal, Coldfront, and the Academy of
+                American Poets. He is also the author of the collection The
+                Tradition (2019), which was a finalist for the 2019 National
+                Book Award and the winner of the 2020 Pulitzer Prize for Poetry.
+                His poems have appeared in Buzzfeed, The Nation, The New York
+                Times, The New Yorker, The New Republic, Time, and The Pushcart
+                Prize Anthology, and several volumes of The Best American Poetry
+                anthologies. He is the Charles Howard Candler Professor of
+                Creative Writing and the Director of the Creative Writing
+                Program at Emory University in Atlanta.
+                <summary className="focus:outline-none textWrap">
+                  <a
+                    className="underline"
+                    href="https://www.jerichobrown.com/"
+                    target="_blank"
+                  >
+                    Jericho Brown
+                  </a>{" "}
+                  (he / him) is the recipient of a Whiting Writers’ Award and
+                  fellowships from the John Simon Guggenheim Foundation, the
+                  Radcliffe Institute for
+                </summary>
+              </details>
             </li>
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
@@ -152,9 +155,16 @@ export default function Home() {
                 src="/img/speakers/rachel-mckibbens.jpg"
               />
               <p className="font-mono mt-6 text-lg">
-                ​Rachel McKibbens (she / her) is a witch, a writer and a
-                thinker. She founded the Pink Door Writing Retreat for fellows
-                and resides in upstate New York.
+                <a
+                  className="underline"
+                  href="https://www.rachelmckibbens.com/"
+                  target="_blank"
+                >
+                  Rachel McKibbens
+                </a>{" "}
+                (she / her) is a witch, a writer and a thinker. She founded the
+                Pink Door Writing Retreat for fellows and resides in upstate New
+                York.
               </p>
             </li>
             <li className="speakers-grid">
@@ -165,32 +175,33 @@ export default function Home() {
               </h3>
               <p className="mb-8 text-lg">Author, Teaching Artist, Editor</p>
               <img alt="​Safia Elhillo" src="/img/speakers/safia-elhillo.jpg" />
-              <p className="font-mono mt-6 text-lg">
-                ​
+              <details className="font-mono mt-6 text-lg">
+                African Poets and an Arab American Book Award, Girls That Never
+                Die (One World/Random House 2021), and the novel in verse
                 <a
-                  className="underline"
-                  href="https://safia-mafia.com/bio"
-                  target="_blank"
-                >
-                  Safia Elhillo
-                </a>{" "}
-                (she / her) is the author of The January Children (University of
-                Nebraska Press, 2017), which received the the Sillerman First
-                Book Prize for African Poets and an Arab American Book Award,
-                Girls That Never Die (One World/Random House 2021), and the
-                novel in verse{" "}
-                <a
-                  className="underline"
+                  className="px-3 underline"
                   href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
                   target="_blank"
                 >
                   Home Is Not A Country
-                </a>{" "}
+                </a>
                 (Make Me A World/Random House, 2021). With Fatimah Asghar, she
                 is co-editor of the anthology Halal If You Hear Me (Haymarket
                 Books, 2019). She is currently a Wallace Stegner Fellow at
                 Stanford University and lives in Oakland.
-              </p>
+                <summary className="focus:outline-none textWrap">
+                  <a
+                    className="underline"
+                    href="https://safia-mafia.com/bio"
+                    target="_blank"
+                  >
+                    Safia Elhillo
+                  </a>{" "}
+                  (she / her) is the author of The January Children (University
+                  of Nebraska Press, 2017), which received the the Sillerman
+                  First Book Prize for
+                </summary>
+              </details>
             </li>
           </ul>
         </div>

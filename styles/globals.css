@@ -179,7 +179,10 @@ body {
 }
 
 .textWrap::after {
-  content: "...";
+  content: "...Read More";
+  font-style: italic;
+  margin-left: 0.25rem;
+  @apply text-sm;
 }
 
 .speakers-grid details[open] .textWrap::after {
@@ -190,11 +193,29 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
-.publication-images {
+.schedule-image img,
+.schedule-image-rachel img {
+  height: 21rem;
+  width: 21rem;
+}
+
+.publication-images,
+.poetry-luxury-images,
+.dreamscape-images,
+.home-images,
+.latinext-images,
+.locals-images,
+.rappers-images,
+.halal-images,
+.art-life-images {
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   height: 21rem;
+  width: 21rem;
+}
+
+.publication-images {
   -webkit-animation: publicationImageTransition 12s infinite;
   animation: publicationImageTransition 12s infinite;
   -webkit-animation-timing-function: steps(1, end);
@@ -220,10 +241,6 @@ details summary::-webkit-details-marker {
 }
 
 .poetry-luxury-images {
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 21rem;
   -webkit-animation: poetryImageTransition 8s infinite;
   animation: poetryImageTransition 8s infinite;
   -webkit-animation-timing-function: steps(1, end);
@@ -243,10 +260,6 @@ details summary::-webkit-details-marker {
 }
 
 .dreamscape-images {
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 21rem;
   -webkit-animation: dreamscapeImageTransition 12s infinite;
   animation: dreamscapeImageTransition 12s infinite;
   -webkit-animation-timing-function: steps(1, end);
@@ -269,10 +282,6 @@ details summary::-webkit-details-marker {
 }
 
 .home-images {
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 21rem;
   -webkit-animation: homeImageTransition 8s infinite;
   animation: homeImageTransition 8s infinite;
   -webkit-animation-timing-function: steps(1, end);
@@ -292,10 +301,6 @@ details summary::-webkit-details-marker {
 }
 
 .latinext-images {
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 15.5rem;
   -webkit-animation: latinextImageTransition 12s infinite;
   animation: latinextImageTransition 12s infinite;
   -webkit-animation-timing-function: steps(1, end);
@@ -318,12 +323,8 @@ details summary::-webkit-details-marker {
 }
 
 .locals-images {
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 15.5rem;
-  -webkit-animation: localsImageTransition 12s infinite;
-  animation: localsImageTransition 12s infinite;
+  -webkit-animation: localsImageTransition 16s infinite;
+  animation: localsImageTransition 16s infinite;
   -webkit-animation-timing-function: steps(1, end);
   animation-timing-function: steps(1, end);
 }
@@ -332,11 +333,14 @@ details summary::-webkit-details-marker {
   0% {
     background-image: url("../public/img/speakers/askia-toure.jpg");
   }
-  33% {
+  25% {
     background-image: url("../public/img/speakers/letta-neely.jpg");
   }
-  66% {
+  50% {
     background-image: url("../public/img/speakers/martha-collins.jpg");
+  }
+  75% {
+    background-image: url("../public/img/speakers/toni-bee.jpg");
   }
   100% {
     background-image: url("../public/img/speakers/askia-toure.jpg");
@@ -344,10 +348,6 @@ details summary::-webkit-details-marker {
 }
 
 .rappers-images {
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 15.5rem;
   -webkit-animation: rappersImageTransition 8s infinite;
   animation: rappersImageTransition 8s infinite;
   -webkit-animation-timing-function: steps(1, end);
@@ -367,10 +367,6 @@ details summary::-webkit-details-marker {
 }
 
 .halal-images {
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 15.5rem;
   -webkit-animation: halalImmageTransition 12s infinite;
   animation: halalImmageTransition 12s infinite;
   -webkit-animation-timing-function: steps(1, end);
@@ -393,10 +389,6 @@ details summary::-webkit-details-marker {
 }
 
 .art-life-images {
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 15.5rem;
   -webkit-animation: artLifeImmageTransition 8s infinite;
   animation: artLifeImmageTransition 8s infinite;
   -webkit-animation-timing-function: steps(1, end);
@@ -433,9 +425,19 @@ details summary::-webkit-details-marker {
     margin-right: 1.5rem;
   }
 
+  .schedule-image img,
+  .schedule-image-rachel img,
   .publication-images,
-  .home-images {
-    height: 26.1875rem;
+  .poetry-luxury-images,
+  .dreamscape-images,
+  .home-images,
+  .latinext-images,
+  .locals-images,
+  .rappers-images,
+  .halal-images,
+  .art-life-images {
+    height: 21rem;
+    width: 21rem;
   }
 }
 
@@ -445,14 +447,19 @@ details summary::-webkit-details-marker {
     margin-left: 33vw;
   }
 
+  .schedule-image img,
+  .schedule-image-rachel img,
   .publication-images,
   .poetry-luxury-images,
-  .dreamscape-images {
+  .home-images,
+  .dreamscape-images,
+  .latinext-images,
+  .locals-images,
+  .rappers-images,
+  .halal-images,
+  .art-life-images {
     height: 18.25rem;
-  }
-
-  .home-images {
-    height: 22.72rem;
+    width: 18.25rem;
   }
 }
 
@@ -465,9 +472,22 @@ details summary::-webkit-details-marker {
     margin-left: 29.5vw;
   }
 
+  .schedule-image img,
   .publication-images,
   .poetry-luxury-images,
-  .dreamscape-images {
+  .dreamscape-images,
+  .latinext-images,
+  .locals-images,
+  .rappers-images,
+  .halal-images,
+  .art-life-images {
     height: 15.5rem;
+    width: 15.5rem;
+  }
+
+  .schedule-image-rachel img,
+  .home-images {
+    height: 22.75rem;
+    width: 22.75rem;
   }
 }

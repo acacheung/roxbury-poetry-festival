@@ -44,7 +44,9 @@ export default function About() {
                 regarding the festival!
               </p>
               <div className="my-10">
-                <h3 className="font-bold mb-2">About the Poet Laureate</h3>
+                <h3 className="border-b border-black font-bold mb-6">
+                  About the Poet Laureate
+                </h3>
                 <div className="md:flex">
                   <img
                     alt="Porsha Olayiwola"
@@ -70,8 +72,52 @@ export default function About() {
                   </p>
                 </div>
               </div>
+              <div className="my-10">
+                <h3 className="border-b border-black font-bold mb-6">
+                  Festival Managers
+                </h3>
+                <div className="md:flex mb-10">
+                  <img
+                    alt="Mariama Savage"
+                    className="w-full h-full mb-4 md:w-1/4"
+                    src="/img/mariama-savage.jpg"
+                  />
+                  <p className="font-mono md:ml-6 md:text-lg md:w-3/4">
+                    M​ariama Savage, the daughter of two Sierra Leonean
+                    immigrants, is a Boston bred avid writer and fierce
+                    proponent for bettering her community. Savage’s writing
+                    revolves around the idea of sharing stories about the world
+                    around her through the lens of extended metaphors in an
+                    effort to recognize global strife and take action to fight
+                    against the many ways it takes form. As a Sierra
+                    Leonean-American Muslim woman, Savage struggles with
+                    upholding her culture in addition to being true to herself
+                    and the intersectional identities cultural traditions tread
+                    upon. With her writing she aspires to dismantle and
+                    deconstruct the isms and phobias that keep her people from
+                    propelling forward.
+                  </p>
+                </div>
+                <div className="md:flex">
+                  <img
+                    alt="Winelle Felix"
+                    className="w-full h-full mb-4 md:w-1/4"
+                    src="/img/winelle-felix.jpg"
+                  />
+                  <p className="font-mono md:ml-6 md:text-lg md:w-3/4">
+                    Winelle Felix is a Trinidadian writer living in Boston. She
+                    is an MFA candidate in the Creative Writing program at
+                    Emerson College. When she is not translating her experiences
+                    through writing, she’s thinking of a master plan to get back
+                    to Marcus beach where she can get her hands on some Bake and
+                    Shark.
+                  </p>
+                </div>
+              </div>
               <div>
-                <h3 className="font-bold">RPF Advisory Team</h3>
+                <h3 className="border-b border-black font-bold mb-6">
+                  RPF Advisory Team
+                </h3>
                 <ul className="list-disc md:gap-x-20 md:grid md:grid-cols-2 ml-5">
                   <li className="mt-2">Vernon C. Robinson</li>
                   <li className="mt-2">DJ WHY SHAM</li>
@@ -87,7 +133,9 @@ export default function About() {
                 </ul>
               </div>
               <div className="my-10">
-                <h3 className="font-bold mb-2">Public Safety & COVID-19</h3>
+                <h3 className="border-b border-black font-bold mb-6">
+                  Public Safety & COVID-19
+                </h3>
                 <p>
                   Due to the pandemic and the goal to ensure a public
                   health-conscious space, this year’s festival will take place

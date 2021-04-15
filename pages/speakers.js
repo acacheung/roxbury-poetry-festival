@@ -56,17 +56,17 @@ export default function Speakers() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Aricka Foreman</h3>
-            <p className="mb-8 text-lg">TBD</p>
+            <p className="mb-8 text-lg">Poet, Writer, Artist</p>
             <img alt="Aricka Foreman" src="/img/speakers/aricka-foreman.jpg" />
             <details className="font-mono mt-6 text-lg">
-              Chamber, and{" "}
+              Chamber, and
               <a
-                className="underline"
+                className="px-3 underline"
                 href="https://www.yesyesbooks.com/product-page/salt-body-shimmer"
                 target="_blank"
               >
                 Salt Body Shimmer
-              </a>{" "}
+              </a>
               (YesYes Books), she has earned fellowships from Cave Canem,
               Callaloo, and the Millay Colony for the Arts. She serves on the
               Board of Directors for The Offing, and spends her time in Chicago,
@@ -118,7 +118,7 @@ export default function Speakers() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Asiyah Herrera</h3>
-            <p className="mb-8 text-lg">TBD</p>
+            <p className="mb-8 text-lg">Poet, Teaching Artist, Editor</p>
             <img alt="Asiyah Herrera" src="/img/speakers/asiyah-herrera.jpg" />
             <details className="font-mono mt-6 text-lg">
               youngest author to be published in the Boston Art Review with her
@@ -171,9 +171,9 @@ export default function Speakers() {
             <details className="font-mono mt-6 text-lg">
               Her written work has been featured on digital platforms such as
               Rolling Stone, MTV, Forbes, PAPER, SPIN, Entertainment Weekly, NBC
-              News and Newsweek. Candace’s first book,{" "}
+              News and Newsweek. Candace’s first book,
               <a
-                className="underline"
+                className="pl-3 underline"
                 href="https://www.amazon.com/Rappers-Who-Changed-World-Celebration/dp/1784883387"
                 target="_blank"
               >
@@ -218,7 +218,14 @@ export default function Speakers() {
               frequently snowy Rochester, NY with his partner, Jeff Gilbert and
               their pug dog, Mr. Rupert Giles.
               <summary className="focus:outline-none textWrap">
-                Chen Chen (he / him) is the author of{" "}
+                <a
+                  className="underline"
+                  href="https://www.chenchenwrites.com/"
+                  target="_blank"
+                >
+                  Chen Chen
+                </a>{" "}
+                (he / him) is the author of{" "}
                 <a
                   className="underline"
                   href="https://www.amazon.com/Further-Possibilities-Poulin-Poets-America/dp/1942683332"
@@ -271,7 +278,7 @@ export default function Speakers() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Diannely Antigua</h3>
-            <p className="mb-8 text-lg">TBD</p>
+            <p className="mb-8 text-lg">Little Poet, Big Hair</p>
             <img
               alt="Diannely Antigua"
               src="/img/speakers/diannely-antigua.jpg"
@@ -535,18 +542,18 @@ export default function Speakers() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Jill McDonough</h3>
-            <p className="mb-8 text-lg">Jill's at UMB and jails.</p>
+            <p className="mb-8 text-lg">Poet, Professor</p>
             <img alt="Jill McDonough" src="/img/speakers/jill-mcdonough.jpg" />
             <details className="font-mono mt-6 text-lg">
-              Her most recent book is{" "}
+              Her most recent book is
               <a
-                className="underline"
+                className="px-3 underline"
                 href="https://www.brooklinebooksmith-shop.com/book/9781948579025
                 "
                 target="_blank"
               >
                 Here All Night
-              </a>{" "}
+              </a>
               (Alice James, 2019). She teaches in the MFA program at
               UMass-Boston and offers College Reading and Writing in Boston
               jails.
@@ -586,17 +593,17 @@ export default function Speakers() {
               is a proud anxious Virgo, Greek yogurt enthusiast, and devout
               believer in the power of young people to change this world for the
               better. Books, updates, and more information can be found at
-              @JMendoza010 on{" "}
+              @JMendoza010 on
               <a
-                className="underline"
+                className="px-3 underline"
                 href="https://twitter.com/jmendoza010"
                 target="_blank"
               >
                 Twitter
-              </a>{" "}
-              and{" "}
+              </a>
+              and
               <a
-                className="underline"
+                className="pl-3 underline"
                 href="https://www.instagram.com/jmendoza010/"
                 target="_blank"
               >
@@ -772,14 +779,14 @@ export default function Speakers() {
             <p className="mb-8 text-lg">TBD</p>
             <img alt="Martha Collins" src="/img/speakers/martha-collins.jpg" />
             <details className="font-mono mt-6 text-lg">
-              William Carlos Williams Award.{" "}
+              William Carlos Williams Award.
               <a
-                className="underline"
+                className="px-3 underline"
                 href="https://upittpress.org/authors/martha-collins/"
                 target="_blank"
               >
                 Previous books
-              </a>{" "}
+              </a>
               include Blue Front, White Papers, Admit One: An American
               Scrapbook, and the paired volumes Day Unto Day and Night Unto
               Night. Collins has also published four volumes of co-translated
@@ -844,26 +851,23 @@ export default function Speakers() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Nina LaNegra</h3>
-            <p className="mb-8 text-lg">Educator, Artist, Curator </p>
+            <p className="mb-8 text-lg">ArtiVist, Creatrix, Producer, Host</p>
             <img alt="Nina LaNegra" src="/img/speakers/nina-lanegra.jpg" />
             <details className="font-mono mt-6 text-lg">
-              and host of Art Is Life Itself! (AiLiLIVE), a weekly performance
-              series founded in 2006 at the Haley House Bakery Cafe. As of
-              January 2016, AiLiLIVE is now a Monthly, EVERY 3rd Thursday
-              Series. Believing in the art of dialog, Ms. LaNegra created,
-              produces and hosts a weekly community talk radio program, AiLi
-              Radio on WRBB 104.9FM. AiLiLIVE is a live broadcast and web stream
-              for local and international audiences over the airwaves, on
-              Northeastern’s website, and through global mobile apps, TuneIn or
-              Simple Radio. Nina LaNegra is a Teaching Artist in Residence at
-              the Sustainability Guild International in Dorchester, Ma. LaNegra
-              is also an Executive Board Member of the United Neighbors of Lower
-              Roxbury non-profit, a certified Chef and a Nana. She is currently
-              working on a creative non-fiction book of her life adventures.
+              sleeps. Some describe her as nocturnal, while others say early
+              bird, but most of all she believes in common unity, art and
+              culture. Cultural Warriors, we don't die, we multiply.
               <summary className="focus:outline-none textWrap">
-                Nina LaNegra (she / her) brings over two decades of
-                award-winning television, radio and marketing experience to her
-                role as creatrix, producer
+                Producer, educator, performer, artiVist, Writer, curator, diaper
+                changer, counselor, wet nurse and corporate ceo{" "}
+                <a
+                  className="underline"
+                  href="https://www.facebook.com/AiLiLive/"
+                  target="_blank"
+                >
+                  LaNegra
+                </a>{" "}
+                (she / her) seldom
               </summary>
             </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
@@ -881,9 +885,17 @@ export default function Speakers() {
               src="/img/speakers/rachel-mckibbens.jpg"
             />
             <p className="font-mono mt-6 text-lg">
-              ​Rachel McKibbens (she / her) is a witch, a writer and a thinker.
-              She founded the Pink Door Writing Retreat for fellows and resides
-              in upstate New York.
+              ​
+              <a
+                className="underline"
+                href="https://www.rachelmckibbens.com/"
+                target="_blank"
+              >
+                Rachel McKibbens
+              </a>{" "}
+              (she / her) is a witch, a writer and a thinker. She founded the
+              Pink Door Writing Retreat for fellows and resides in upstate New
+              York.
             </p>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
               Register for Excavating the Wicked Imagination
@@ -903,14 +915,14 @@ export default function Speakers() {
               Regret Night: Holi Songs of Demerara (1916) (Kaya Press 2019)
               which received a PEN/Heim Translation Fund Grant Award and the
               2020 Harold Morton Landon Translation Award from the American
-              Academy of Poets. His{" "}
+              Academy of Poets. His
               <a
-                className="underline"
+                className="px-3 underline"
                 href="https://restlessbooks.org/bookstore/antiman"
                 target="_blank"
               >
                 memoir
-              </a>{" "}
+              </a>
               received the 2019 Reckless Books’ New Immigrant Writing Prize and
               is forthcoming 2021. Currently he is an Assistant Professor of
               poetry in the MFA program at Emerson College, translations editor
@@ -974,14 +986,14 @@ export default function Speakers() {
             <details className="font-mono mt-6 text-lg">
               First Book Prize for African Poets and an Arab American Book
               Award, Girls That Never Die (One World/Random House 2021), and the
-              novel in verse{" "}
+              novel in verse
               <a
-                className="underline"
+                className="px-3 underline"
                 href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
                 target="_blank"
               >
                 Home Is Not A Country
-              </a>{" "}
+              </a>
               (Make Me A World/Random House, 2021). With Fatimah Asghar, she is
               co-editor of the anthology Halal If You Hear Me (Haymarket Books,
               2019). She is currently a Wallace Stegner Fellow at Stanford
@@ -1095,39 +1107,61 @@ export default function Speakers() {
             </a>
           </li>
           <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">
-              Tatiana Johnson-Boria
-            </h3>
-            <p className="mb-8 text-lg">TBD</p>
-            <img
-              alt="Tatiana Johnson-Boria"
-              src="/img/speakers/tatiana-johnson-boria.jpg"
-            />
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Toni Bee</h3>
+            <p className="mb-8 text-lg">Poet, Journalist, Activist</p>
+            <img alt="Toni Bee" src="/img/speakers/toni-bee.jpg" />
             <details className="font-mono mt-6 text-lg">
-              heal. She completed her MFA in Creative Writing at Emerson College
-              and is a 2021 Tin House Scholar. She also serves on the board for
-              VIDA: Women in Literary Arts. Find her work in or forthcoming at
-              Ploughshares, New Delta Review, Foundry and others.
+              was elected Poet Populist of Cambridge, the first woman to grace
+              that position. She led the Black Lives Matter march of Cambridge
+              in 2015 and the following year was selected as the city’s Poetry
+              Ambassador. Toni has been a teaching artist for The Wang Theatre,
+              and she is a graduate of Simmons University. 22 Again is the title
+              of her recently published first book of poetry. Bee has featured
+              at: Lizard Lounge, The Boston Poetry Slam, New England Poetry
+              Club, The Boston National Poetry Month Festival, the Boston Poetry
+              Marathon, and has been awarded by YWCA Cambridge.
               <summary className="focus:outline-none textWrap">
-                <a
-                  className="underline"
-                  href="http://www.tatianamrjohnson.com/"
-                  target="_blank"
-                >
-                  Tatiana
-                </a>{" "}
-                (she / her) is a writer, artist and educator. Her writing
-                explores identity, trauma, especially inherited trauma, and what
-                it means to
+                Toni Bee (she / her) is a poet, educator, and freelance
+                journalist raised in Dorchester, MA and educated in Roxbury. In
+                2011, she
               </summary>
             </details>
             <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
-              Register for Writing Our Mothers
+              Register for Flowers as They Live
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
             </a>
           </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
+            <p className="mb-8 text-lg">Poet, Witch, Noisemaker</p>
+            <img
+              alt="Rachel McKibbens"
+              src="/img/speakers/rachel-mckibbens.jpg"
+            />
+            <p className="font-mono mt-6 text-lg">
+              ​
+              <a
+                className="underline"
+                href="https://www.rachelmckibbens.com/"
+                target="_blank"
+              >
+                Rachel McKibbens
+              </a>{" "}
+              (she / her) is a witch, a writer and a thinker. She founded the
+              Pink Door Writing Retreat for fellows and resides in upstate New
+              York.
+            </p>
+            <a className="border border-black inline-flex items-center mt-6 px-5 py-3 rounded-full text-lg">
+              Register for Excavating the Wicked Imagination
+              <svg className="fill-current ml-2" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Yasmin Belkhyr</h3>
             <p className="mb-8 text-lg">Moroccan-American Writer & Editor </p>
