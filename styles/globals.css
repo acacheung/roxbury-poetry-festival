@@ -36,17 +36,14 @@ html,
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  padding: 0;
-  margin: 0;
+  @apply text-black;
   background-color: #ffffff;
   background-image: url("../public/img/background.jpg");
   background-position: 57% 49%;
   background-size: cover;
-  @apply text-black;
-}
-
-.hero {
+  margin: 0;
   min-height: calc(100vh - 1.5rem);
+  padding: 0;
 }
 
 .background-banner {
@@ -177,8 +174,249 @@ body {
   list-style-type: none;
 }
 
-.summaryWrap::marker {
+.textWrap {
+  list-style-type: none;
+}
+
+.textWrap::after {
+  content: "…\00a0\00a0Read\00a0\00a0More";
+  @apply text-base;
+  @apply font-sans;
+  @apply text-sm;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+}
+
+.speakers-grid details[open] .textWrap::after {
+  content: "";
+}
+
+.slam-bio details[open] .textWrap::after {
+  content: "";
+}
+
+details summary {
+  list-style-type: none;
+} /* Firefox */
+details summary::-webkit-details-marker {
   display: none;
+} /* Chrome */
+details summary::marker {
+  display: none;
+}
+
+.schedule-image img,
+.schedule-image-rachel img {
+  height: 21rem;
+  width: 21rem;
+}
+
+.publication-images,
+.poetry-luxury-images,
+.dreamscape-images,
+.home-images,
+.latinext-images,
+.locals-images,
+.rappers-images,
+.halal-images,
+.art-life-images {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 21rem;
+  width: 21rem;
+}
+
+.publication-images {
+  -webkit-animation: publicationImageTransition 12s infinite;
+  animation: publicationImageTransition 12s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes publicationImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/kristina-marie-darling.jpg");
+  }
+  25% {
+    background-image: url("../public/img/speakers/ryan-murphy.jpg");
+  }
+  50% {
+    background-image: url("../public/img/speakers/frances-donovan.jpg");
+  }
+  75% {
+    background-image: url("../public/img/speakers/george-abraham.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/kristina-marie-darling.jpg");
+  }
+}
+
+.poetry-luxury-images {
+  -webkit-animation: poetryImageTransition 8s infinite;
+  animation: poetryImageTransition 8s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes poetryImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/janice-lobo-sapigao.jpg");
+  }
+  50% {
+    background-image: url("../public/img/speakers/angelo-geter.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/janice-lobo-sapigao.jpg");
+  }
+}
+
+.dreamscape-images {
+  -webkit-animation: dreamscapeImageTransition 12s infinite;
+  animation: dreamscapeImageTransition 12s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes dreamscapeImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/kai-grant.jpg");
+  }
+  33% {
+    background-image: url("../public/img/speakers/tariq-charles.jpg");
+  }
+  66% {
+    background-image: url("../public/img/speakers/stephen-hamilton.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/kai-grant.jpg");
+  }
+}
+
+.home-images {
+  -webkit-animation: homeImageTransition 8s infinite;
+  animation: homeImageTransition 8s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes homeImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/safia-elhillo.jpg");
+  }
+  50% {
+    background-image: url("../public/img/speakers/asiyah-herrera.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/safia-elhillo.jpg");
+  }
+}
+
+.latinext-images {
+  -webkit-animation: latinextImageTransition 12s infinite;
+  animation: latinextImageTransition 12s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes latinextImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/diannely-antigua.jpg");
+  }
+  33% {
+    background-image: url("../public/img/speakers/malcolm-friend.jpg");
+  }
+  66% {
+    background-image: url("../public/img/speakers/jonathan-mendoza.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/diannely-antigua.jpg");
+  }
+}
+
+.locals-images {
+  -webkit-animation: localsImageTransition 16s infinite;
+  animation: localsImageTransition 16s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes localsImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/askia-toure.jpg");
+  }
+  25% {
+    background-image: url("../public/img/speakers/letta-neely.jpg");
+  }
+  50% {
+    background-image: url("../public/img/speakers/martha-collins.jpg");
+  }
+  75% {
+    background-image: url("../public/img/speakers/toni-bee.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/askia-toure.jpg");
+  }
+}
+
+.rappers-images {
+  -webkit-animation: rappersImageTransition 8s infinite;
+  animation: rappersImageTransition 8s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes rappersImageTransition {
+  0% {
+    background-image: url("../public/img/speakers/candace-mcduffie.jpg");
+  }
+  50% {
+    background-image: url("../public/img/speakers/ashley-rose.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/candace-mcduffie.jpg");
+  }
+}
+
+.halal-images {
+  -webkit-animation: halalImmageTransition 12s infinite;
+  animation: halalImmageTransition 12s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes halalImmageTransition {
+  0% {
+    background-image: url("../public/img/speakers/seema-yasmin.jpg");
+  }
+  33% {
+    background-image: url("../public/img/speakers/nikia-chaney.jpg");
+  }
+  66% {
+    background-image: url("../public/img/speakers/yasmin-belkhyr.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/seema-yasmin.jpg");
+  }
+}
+
+.art-life-images {
+  -webkit-animation: artLifeImmageTransition 8s infinite;
+  animation: artLifeImmageTransition 8s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes artLifeImmageTransition {
+  0% {
+    background-image: url("../public/img/speakers/nina-lanegra.jpg");
+  }
+  50% {
+    background-image: url("../public/img/speakers/fulani-haynes.jpg");
+  }
+  100% {
+    background-image: url("../public/img/speakers/nina-lanegra.jpg");
+  }
 }
 
 @screen md {
@@ -189,14 +427,29 @@ body {
   .footer-top::before {
     content: "";
     @apply bg-black;
-    @apply max-w-7xl;
     @apply mx-auto;
     display: block;
-    position: absolute;
     height: 1px;
+    max-width: 77rem;
+    position: absolute;
     top: 0;
     width: 100%;
     margin-right: 1.5rem;
+  }
+
+  .schedule-image img,
+  .schedule-image-rachel img,
+  .publication-images,
+  .poetry-luxury-images,
+  .dreamscape-images,
+  .home-images,
+  .latinext-images,
+  .locals-images,
+  .rappers-images,
+  .halal-images,
+  .art-life-images {
+    height: 21rem;
+    width: 21rem;
   }
 }
 
@@ -204,6 +457,21 @@ body {
   .summaryDetail,
   .summaryDetail2Col {
     margin-left: 33vw;
+  }
+
+  .schedule-image img,
+  .schedule-image-rachel img,
+  .publication-images,
+  .poetry-luxury-images,
+  .home-images,
+  .dreamscape-images,
+  .latinext-images,
+  .locals-images,
+  .rappers-images,
+  .halal-images,
+  .art-life-images {
+    height: 18.25rem;
+    width: 18.25rem;
   }
 }
 
@@ -214,5 +482,24 @@ body {
 
   .summaryDetail2Col {
     margin-left: 29.5vw;
+  }
+
+  .schedule-image img,
+  .publication-images,
+  .poetry-luxury-images,
+  .dreamscape-images,
+  .latinext-images,
+  .locals-images,
+  .rappers-images,
+  .halal-images,
+  .art-life-images {
+    height: 15.5rem;
+    width: 15.5rem;
+  }
+
+  .schedule-image-rachel img,
+  .home-images {
+    height: 22.75rem;
+    width: 22.75rem;
   }
 }

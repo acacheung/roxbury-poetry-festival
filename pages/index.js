@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Head from "next/head";
 import Layout from "@components/Layout";
 import React, { useEffect, useState } from "react";
 
@@ -74,11 +73,113 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="background-banner bottom-0 fixed h-16 items-center z-50 text-white md:text-2xl uppercase w-full">
-            <div className="banner-text bg-gray-900 flex h-full items-center justify-end">
-              <p className="pr-6">Registration Opens April 15th</p>
-            </div>
+        </div>
+        <div className="max-w-7xl mx-auto pb-16 px-6">
+          <div className="md:flex items-center justify-between mb-10 md:mb-14">
+            <h2 className="font-bold mb-10 md:mb-0 text-4xl">Headliners</h2>
+            <Link href="/speakers">
+              <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
+                See all Speakers
+                <svg className="ml-3" height="12" width="15">
+                  <use xlinkHref="#icon-rightarrow" />
+                </svg>
+              </a>
+            </Link>
           </div>
+          <ul className="gap-x-28 gap-y-20 grid md:grid-cols-2 lg:grid-cols-3">
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Jericho Brown</h3>
+              <p className="mb-8 text-lg">Poet, Educator</p>
+              <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
+              <details className="font-mono mt-6 text-lg">
+                and the National Endowment for the Arts. Brown’s first book,
+                Please (2008), won the American Book Award. His second book, The
+                New Testament (2014), won the Anisfield-Wolf Book Award and was
+                named one of the best of the year by Library Journal, Coldfront,
+                and the Academy of American Poets. He is also the author of the
+                collection The Tradition (2019), which was a finalist for the
+                2019 National Book Award and the winner of the 2020 Pulitzer
+                Prize for Poetry. His poems have appeared in Buzzfeed, The
+                Nation, The New York Times, The New Yorker, The New Republic,
+                Time, and The Pushcart Prize Anthology, and several volumes of
+                The Best American Poetry anthologies. He is the Charles Howard
+                Candler Professor of Creative Writing and the Director of the
+                Creative Writing Program at Emory University in Atlanta.
+                <summary className="focus:outline-none textWrap">
+                  <a
+                    className="underline"
+                    href="https://www.jerichobrown.com/"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    Jericho Brown
+                  </a>{" "}
+                  (he / him) is the recipient of a Whiting Writers’ Award and
+                  fellowships from the John Simon Guggenheim Foundation, the
+                  Radcliffe Institute for Advanced Study at Harvard University,
+                </summary>
+              </details>
+            </li>
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
+              <p className="mb-8 text-lg">Poet, Witch, Noisemaker</p>
+              <img
+                alt="Rachel McKibbens"
+                src="/img/speakers/rachel-mckibbens.jpg"
+              />
+              <p className="font-mono mt-6 text-lg">
+                <a
+                  className="underline"
+                  href="https://www.rachelmckibbens.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Rachel McKibbens
+                </a>{" "}
+                (she / her) is a witch, a writer and a thinker. She founded the
+                Pink Door Writing Retreat for fellows and resides in upstate New
+                York.
+              </p>
+            </li>
+            <li className="speakers-grid">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">
+                Safia
+                <br />
+                Elhillo
+              </h3>
+              <p className="mb-8 text-lg">Author, Teaching Artist, Editor</p>
+              <img alt="​Safia Elhillo" src="/img/speakers/safia-elhillo.jpg" />
+              <details className="font-mono mt-6 text-lg">
+                African Poets and an Arab American Book Award, Girls That Never
+                Die (One World/Random House 2021), and the novel in verse
+                <a
+                  className="px-3 underline"
+                  href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Home Is Not A Country
+                </a>
+                , 2021). With Fatimah Asghar, she is co-editor of the anthology
+                Halal If You Hear Me (Haymarket Books, 2019). She is currently a
+                Wallace Stegner Fellow at Stanford University and lives in
+                Oakland.
+                <summary className="focus:outline-none textWrap">
+                  <a
+                    className="underline"
+                    href="https://safia-mafia.com/bio"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    Safia Elhillo
+                  </a>{" "}
+                  (she / her) is the author of The January Children (University
+                  of Nebraska Press, 2017), which received the the Sillerman
+                  First Book Prize for (Make Me A World/Random House
+                </summary>
+              </details>
+            </li>
+          </ul>
         </div>
       </div>
     </Layout>

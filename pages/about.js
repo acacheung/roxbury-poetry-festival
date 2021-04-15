@@ -1,7 +1,5 @@
 import Link from "next/link";
-import Head from "next/head";
 import Layout from "@components/Layout";
-import Footer from "../components/Footer";
 
 export default function About() {
   return (
@@ -41,18 +39,27 @@ export default function About() {
                 and open to the public.
               </p>
               <p>
-                Stay tuned for the schedule release and more information
-                regarding the festival!
+                Questions or concerns? Please{" "}
+                <a
+                  className="underline"
+                  href="mailto:roxburypoetryfestival@gmail.com"
+                  target="_blank"
+                >
+                  reach out
+                </a>{" "}
+                to us!
               </p>
               <div className="my-10">
-                <h3 className="font-bold mb-2">About the Poet Laureate</h3>
+                <h3 className="border-b border-black font-bold mb-6">
+                  About the Poet Laureate
+                </h3>
                 <div className="md:flex">
                   <img
                     alt="Porsha Olayiwola"
-                    className="w-full h-full mb-4 md:w-1/3"
+                    className="w-full h-full mb-4 md:w-1/4"
                     src="/img/porsha.jpg"
                   />
-                  <p className="font-mono md:ml-6 md:text-lg md:w-2/3">
+                  <p className="font-mono md:ml-6 md:text-lg md:w-3/4">
                     <a
                       className="underline"
                       href="http://www.porshaolayiwola.com/"
@@ -71,8 +78,52 @@ export default function About() {
                   </p>
                 </div>
               </div>
+              <div className="my-10">
+                <h3 className="border-b border-black font-bold mb-6">
+                  Festival Managers
+                </h3>
+                <div className="md:flex mb-10">
+                  <img
+                    alt="Mariama Savage"
+                    className="w-full h-full mb-4 md:w-1/4"
+                    src="/img/mariama-savage.jpg"
+                  />
+                  <p className="font-mono md:ml-6 md:text-lg md:w-3/4">
+                    M​ariama Savage, the daughter of two Sierra Leonean
+                    immigrants, is a Boston bred avid writer and fierce
+                    proponent for bettering her community. Savage’s writing
+                    revolves around the idea of sharing stories about the world
+                    around her through the lens of extended metaphors in an
+                    effort to recognize global strife and take action to fight
+                    against the many ways it takes form. As a Sierra
+                    Leonean-American Muslim woman, Savage struggles with
+                    upholding her culture in addition to being true to herself
+                    and the intersectional identities cultural traditions tread
+                    upon. With her writing she aspires to dismantle and
+                    deconstruct the isms and phobias that keep her people from
+                    propelling forward.
+                  </p>
+                </div>
+                <div className="md:flex">
+                  <img
+                    alt="Winelle Felix"
+                    className="w-full h-full mb-4 md:w-1/4"
+                    src="/img/winelle-felix.jpg"
+                  />
+                  <p className="font-mono md:ml-6 md:text-lg md:w-3/4">
+                    Winelle Felix is a Trinidadian writer living in Boston. She
+                    is an MFA candidate in the Creative Writing program at
+                    Emerson College. When she is not translating her experiences
+                    through writing, she’s thinking of a master plan to get back
+                    to Marcus beach where she can get her hands on some Bake and
+                    Shark.
+                  </p>
+                </div>
+              </div>
               <div>
-                <h3 className="font-bold">RPF Advisory Team</h3>
+                <h3 className="border-b border-black font-bold mb-6">
+                  RPF Advisory Team
+                </h3>
                 <ul className="list-disc md:gap-x-20 md:grid md:grid-cols-2 ml-5">
                   <li className="mt-2">Vernon C. Robinson</li>
                   <li className="mt-2">DJ WHY SHAM</li>
@@ -88,7 +139,9 @@ export default function About() {
                 </ul>
               </div>
               <div className="my-10">
-                <h3 className="font-bold mb-2">Public Safety & COVID-19</h3>
+                <h3 className="border-b border-black font-bold mb-6">
+                  Public Safety & COVID-19
+                </h3>
                 <p>
                   Due to the pandemic and the goal to ensure a public
                   health-conscious space, this year’s festival will take place
@@ -103,7 +156,7 @@ export default function About() {
             </div>
           </div>
           <div className="justify-center max-w-6xl md:mb-32 md:mt-24 my-16 mx-auto text-center">
-            <p className="mb-10 md:text-4xl lg:text-5xl text-2xl">
+            <p className="lg:text-5xl mb-10 md:text-4xl text-2xl">
               “‘Thank you’ is the best prayer that anyone could say. I say that
               one a lot. Thank you expresses extreme gratitude, humility,
               understanding.”
@@ -218,6 +271,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://haleyhouse.org/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -231,14 +285,25 @@ export default function About() {
               </a>
             </li>
             <li className="speakers-grid">
-              <h4 className="mb-4 mt-8 text-2xl uppercase">
-                Savior the Square
-              </h4>
+              <a
+                className="flex items-center md:mb-4 mt-8"
+                href="https://tamcc.org/savor-the-square"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <img
+                  alt="Savor the Square"
+                  className="h-16 md:h-20 mr-6"
+                  src="/img/logos/savor-square.jpg"
+                />
+                <h4 className="text-2xl uppercase">Savor the Square</h4>
+              </a>
             </li>
             <li className="speakers-grid">
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://www.northeastern.edu/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -252,6 +317,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://826boston.org/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -266,6 +332,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://buttonpoetry.com/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -280,6 +347,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://www.therecordco.org/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -294,6 +362,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://bostongotnext.com/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -308,6 +377,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://www.haymarketbooks.org/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -322,6 +392,7 @@ export default function About() {
               <a
                 className="flex items-center md:mb-4 mt-8"
                 href="https://printaintdead.us/"
+                rel="noreferrer noopener"
                 target="_blank"
               >
                 <img
@@ -343,6 +414,7 @@ export default function About() {
             <a
               className="underline"
               href="http://massachusetttribe.org/the-history-of-the-neponset"
+              rel="noreferrer noopener"
               target="_blank"
             >
               the Massachusett people
@@ -362,6 +434,7 @@ export default function About() {
             <a
               className="underline"
               href="http://roxburyhistoricalsociety.org/"
+              rel="noreferrer noopener"
               target="_blank"
             >
               The Roxbury Historical Society
@@ -369,7 +442,6 @@ export default function About() {
             .
           </div>
         </div>
-        <Footer />
       </Layout>
     </>
   );

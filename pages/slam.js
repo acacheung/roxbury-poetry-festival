@@ -1,15 +1,10 @@
 import Link from "next/link";
-import Head from "next/head";
 import Layout from "@components/Layout";
 
 export default function Slam() {
   return (
     <>
       <Layout>
-        <Head>
-          <title>Publisher's Poetry Slam | Roxbury Poetry Festival</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
         <div className="max-w-7xl mx-auto px-6 w-full">
           <Link href="/">
             <a className="hidden md:flex h-32 items-center justify-center">
@@ -23,8 +18,16 @@ export default function Slam() {
             <h2 className="font-bold mb-6 md:mb-0 md:text-4xl text-3xl">
               Publisher's Poetry Slam
             </h2>
-            <div className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
-              Registration Opens April 15
+            <div className="border border-black inline-block rounded-full py-3 px-5">
+              <a
+                href="https://cityofbostonartsandculture.submittable.com/submit/83c697df-d09a-4203-86e7-28efb999f290/roxbury-poetry-festival-publishers-poetry-slam"
+                className="flex items-center"
+              >
+                Register for the Slam
+                <svg className="fill-current ml-2" height="12" width="15">
+                  <use xlinkHref="#icon-rightarrow" />
+                </svg>
+              </a>
             </div>
           </div>
           <div className="border-t border-black md:flex md:pt-20 pt-10">
@@ -61,21 +64,61 @@ export default function Slam() {
                   </li>
                 </ul>
                 <li className="pl-6 mb-10">
-                  Judges are TBD. Poem and performance will be judged on a
-                  scale.
+                  Judges are TBD. Poem and performance will be judged on a scale
+                  of 1-10 based on written craft and performance and delivery. 
                 </li>
                 <li className="pl-6">
                   Winner will receive a chapbook deal from Button Poetry along
                   with supporting resources to write their book.
                 </li>
               </ul>
+              <div className="my-10">
+                <h3 className="border-b border-black font-bold mb-6">
+                  Hosted By Harlym 125
+                </h3>
+                <div className="slam-bio md:flex">
+                  <img
+                    alt="Harlym 125"
+                    className="w-full h-full mb-4 md:w-1/3"
+                    src="/img/speakers/harlym125.jpg"
+                  />
+                  <p className="font-mono md:ml-6 md:text-lg md:w-2/3">
+                    <details className="font-mono text-lg">
+                      Known for his work, Harlym 1Two5 is often asked to be a
+                      panelist or to give presentations on a broad range of
+                      topics regarding diversity and pluralism, and also is
+                      asked to prepare presentations in response to very
+                      specific incidents or conditions. Appearing at dozens of
+                      college campuses every year. He is the "HUMAN HIGHLIGHT OF
+                      POETRY AND EDU-ACTIVISM."
+                      <summary className="focus:outline-none textWrap">
+                        1Two5 remains well known nationally and in multitudes
+                        poetry circles. Known as Harlym 125, He is a frequent
+                        and highly regarded figure in competitions, performance,
+                        concert and beyond. 125 has become a part of the Boston
+                        area poetry scene and joined teams of poets who have won
+                        numerous competitions regionally and nationally. 125 has
+                        also become well known in the Boston area for his work
+                        leading workshops dealing with issues of diversity,
+                        equity and inclusion. Several times in the last couple
+                        of years, Harlym has been called to local high schools,
+                        colleges and communities to help bring a calm and
+                        constructive unity after incidents of racial injustice
+                        have occurred.
+                      </summary>
+                    </details>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
+
           <p className="max-w-4xl lg:text-5xl md:mt-20 md:mb-40 md:text-4xl mt-12 mx-auto text-2xl text-center">
             The Poetry Slam will be filmed and published by{" "}
             <a
               className="underline"
               href="https://buttonpoetry.com/"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Button Poetry
