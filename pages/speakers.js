@@ -189,7 +189,7 @@ export default function Speakers() {
               src="/img/speakers/candace-mcduffie.jpg"
             />
             <details className="font-mono mt-6">
-              platforms such as Rolling Stone, MTV, Forbes, PAPER, SPIN,
+              digital platforms such as Rolling Stone, MTV, Forbes, PAPER, SPIN,
               Entertainment Weekly, NBC News and Newsweek. Candace’s first book,
               <a
                 className="pl-3 underline"
@@ -209,7 +209,7 @@ export default function Speakers() {
                 </a>{" "}
                 (she / her) is a respected cultural critic and music journalist
                 who focuses on the intersection of race, gender and
-                entertainment. Her written work has been featured on digital
+                entertainment. Her written work has been featured on
               </summary>
             </details>
             <a
@@ -404,15 +404,15 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Musician, Performer, Chef</p>
             <img alt="Fulani Haynes" src="/img/speakers/fulani-haynes.jpg" />
             <details className="font-mono mt-6">
-              theatrical experience has given Fulani a rich foundation to draw
-              upon in performances and collaborations with noted recording
+              and theatrical experience has given Fulani a rich foundation to
+              draw upon in performances and collaborations with noted recording
               artists like Frank Wilkins, Patricia Adams, Hakim Law, and Mike
               Shea, and in performances for regular folks and nonprofit
               organizations in her own community.
               <summary className="focus:outline-none textWrap">
                 Fulani Haynes (she / her) has electrified audiences in clubs,
                 cabarets, theaters, and other performance venues in the Boston
-                area for more than four decades. Her depth of musical and
+                area for more than four decades. Her depth of musical
               </summary>
             </details>
             <a
@@ -479,8 +479,8 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Educator, Poet, Performer</p>
             <img alt="Harlym125" src="/img/speakers/harlym125.jpg" />
             <details className="font-mono mt-6">
-              Boston area poetry scene and joined teams of poets who have won
-              numerous competitions regionally and nationally. 125 has also
+              of the Boston area poetry scene and joined teams of poets who have
+              won numerous competitions regionally and nationally. 125 has also
               become well known in the Boston area for his work leading
               workshops dealing with issues of diversity, equity and inclusion.
               Several times in the last couple of years, Harlym has been called
@@ -496,7 +496,7 @@ export default function Speakers() {
                 1Two5 (he / him) remains well known nationally and in multitudes
                 poetry circles. Known as Harlym 125, He is a frequent and highly
                 regarded figure in competitions, performance, concert and
-                beyond. 125 has become a part of the
+                beyond. 125 has become a part
               </summary>
             </details>
             <Link href="/slam">
@@ -557,19 +557,19 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Poet, Educator</p>
             <img alt="Jericho Brown" src="/img/speakers/jericho-brown.jpg" />
             <details className="font-mono mt-6">
-              and the National Endowment for the Arts. Brown’s first book,
-              Please (2008), won the American Book Award. His second book, The
-              New Testament (2014), won the Anisfield-Wolf Book Award and was
-              named one of the best of the year by Library Journal, Coldfront,
-              and the Academy of American Poets. He is also the author of the
-              collection The Tradition (2019), which was a finalist for the 2019
-              National Book Award and the winner of the 2020 Pulitzer Prize for
-              Poetry. His poems have appeared in Buzzfeed, The Nation, The New
-              York Times, The New Yorker, The New Republic, Time, and The
-              Pushcart Prize Anthology, and several volumes of The Best American
-              Poetry anthologies. He is the Charles Howard Candler Professor of
-              Creative Writing and the Director of the Creative Writing Program
-              at Emory University in Atlanta.
+              University, and the National Endowment for the Arts. Brown’s first
+              book, Please (2008), won the American Book Award. His second book,
+              The New Testament (2014), won the Anisfield-Wolf Book Award and
+              was named one of the best of the year by Library Journal,
+              Coldfront, and the Academy of American Poets. He is also the
+              author of the collection The Tradition (2019), which was a
+              finalist for the 2019 National Book Award and the winner of the
+              2020 Pulitzer Prize for Poetry. His poems have appeared in
+              Buzzfeed, The Nation, The New York Times, The New Yorker, The New
+              Republic, Time, and The Pushcart Prize Anthology, and several
+              volumes of The Best American Poetry anthologies. He is the Charles
+              Howard Candler Professor of Creative Writing and the Director of
+              the Creative Writing Program at Emory University in Atlanta.
               <summary className="focus:outline-none textWrap">
                 <a
                   className="underline"
@@ -580,7 +580,7 @@ export default function Speakers() {
                 </a>{" "}
                 (he / him) is the recipient of a Whiting Writers’ Award and
                 fellowships from the John Simon Guggenheim Foundation, the
-                Radcliffe Institute for Advanced Study at Harvard University,
+                Radcliffe Institute for Advanced Study at Harvard
               </summary>
             </details>
             <a
@@ -599,8 +599,8 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Poet, Professor</p>
             <img alt="Jill McDonough" src="/img/speakers/jill-mcdonough.jpg" />
             <details className="font-mono mt-6">
-              She teaches in the MFA program at UMass-Boston and offers College
-              Reading and Writing in Boston jails.
+              2019). She teaches in the MFA program at UMass-Boston and offers
+              College Reading and Writing in Boston jails.
               <summary className="focus:outline-none textWrap">
                 Three-time Pushcart prize winner{" "}
                 <a
@@ -620,7 +620,7 @@ export default function Speakers() {
                 >
                   Here All Night
                 </a>{" "}
-                (Alice James, 2019).
+                (Alice James,
               </summary>
             </details>
             <a
@@ -695,12 +695,12 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Entrepreneur, Organizer, Creative</p>
             <img alt="Kai Grant" src="/img/speakers/kai-grant.jpg" />
             <details className="font-mono mt-6">
-              She's been awarded citations by the Boston City Council, the
-              Governor of Massachusetts, the Black & Latino Caucus, the NAACP,
-              and a host of local organizations and currently resides on the
-              Board of Directors for the Roxbury Cultural District. Kai resides
-              in the Historic District of Highland Park where she and her
-              husband of 29 years raised their four sons. Kai Grant is the
+              Leaders. She's been awarded citations by the Boston City Council,
+              the Governor of Massachusetts, the Black & Latino Caucus, the
+              NAACP, and a host of local organizations and currently resides on
+              the Board of Directors for the Roxbury Cultural District. Kai
+              resides in the Historic District of Highland Park where she and
+              her husband of 29 years raised their four sons. Kai Grant is the
               co-founder and program manager at Black Market.
               <summary className="focus:outline-none textWrap">
                 <a
@@ -712,7 +712,7 @@ export default function Speakers() {
                 </a>{" "}
                 (she / her) family has been in Boston’s Roxbury neighborhood for
                 over 100 years as Educators, Entrepreneurs, Political Leaders,
-                Artists, Spiritual Leaders, and Military Leaders.
+                Artists, Spiritual Leaders, and Military
               </summary>
             </details>
             <a
@@ -811,10 +811,10 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Is a poet.</p>
             <img alt="Malcolm Friend" src="/img/speakers/malcolm-friend.jpg" />
             <details className="font-mono mt-6">
-              Our Bruises Kept Singing Purple (Inlandia Books, 2018). He
-              received his BA from Vanderbilt University, and his MFA from the
-              University of Pittsburgh. Together with JR Mahung, he is a member
-              of Black Plantains, an Afrocaribbean poetry collective.
+              collection Our Bruises Kept Singing Purple (Inlandia Books, 2018).
+              He received his BA from Vanderbilt University, and his MFA from
+              the University of Pittsburgh. Together with JR Mahung, he is a
+              member of Black Plantains, an Afrocaribbean poetry collective.
               <summary className="focus:outline-none textWrap">
                 <a
                   className="underline"
@@ -833,7 +833,7 @@ export default function Speakers() {
                   author
                 </a>{" "}
                 of the chapbook mxd kd mixtape (Glass Poetry, 2017) and the
-                full-length collection
+                full-length
               </summary>
             </details>
             <a
@@ -1045,7 +1045,7 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Publisher, Poet</p>
             <img alt="Ryan Murphy" src="/img/speakers/ryan-murphy.jpg" />
             <details className="font-mono mt-6">
-              For Poetry, and The New York State Foundation for the Arts.
+              Fund For Poetry, and The New York State Foundation for the Arts.
               <summary className="focus:outline-none textWrap">
                 Ryan Murphy (he / him) is the author of Millbrook,{" "}
                 <a
@@ -1057,7 +1057,6 @@ export default function Speakers() {
                 </a>
                 , and Down with the Ship. He has received grants and awards from
                 the Aldrich Museum of Contemporary Art, Chelsea Magazine, The
-                Fund
               </summary>
             </details>
             <a
@@ -1253,7 +1252,7 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Moroccan-American Writer & Editor </p>
             <img alt="Yasmin Belkhyr" src="/img/speakers/yasmin-belkhyr.jpg" />
             <details className="font-mono mt-6">
-              their New Generations African Poetry series. Her writing has
+              of their New Generations African Poetry series. Her writing has
               appeared in Soul Sister Revue, PANK, Waxwing, the TED Ideas Blog,
               and Muzzle Magazine. She is the founder & editor of the literary
               magazine, Winter Tangerine, and the independent publisher,
@@ -1262,7 +1261,7 @@ export default function Speakers() {
                 Yasmin Belkhyr (she / her) is a Moroccan-American writer and
                 editor. She is the author of Bone Light, a poetry chapbook
                 published by the African Poetry Book Fund and Akashic Books, as
-                part of
+                part
               </summary>
             </details>
             <a
@@ -1281,7 +1280,8 @@ export default function Speakers() {
             <p className="mb-8 text-lg">Youth Writing Organization</p>
             <img alt="826 Boston" src="/img/speakers/826-boston.jpg" />
             <details className="font-mono mt-6">
-              and gain communication skills to succeed in school and in life.
+              stories, and gain communication skills to succeed in school and in
+              life.
               <summary className="focus:outline-none textWrap">
                 <a
                   className="underline"
@@ -1292,7 +1292,7 @@ export default function Speakers() {
                 </a>{" "}
                 (they / them) is a nonprofit youth writing and publishing
                 organization that empowers traditionally underserved students
-                ages 6-18 to find their voices, tell their stories,
+                ages 6-18 to find their voices, tell their
               </summary>
             </details>
             <a

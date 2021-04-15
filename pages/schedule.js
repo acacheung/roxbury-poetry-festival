@@ -78,17 +78,17 @@ export default function Schedule() {
                   <img alt="Chen Chen" src="/img/speakers/chen-chen.jpg" />
                 </div>
                 <details className="font-mono mt-6">
-                  Can poems speak to job loss, loss of everyday routines, loss
-                  of future plans, and missing friends? And what if we simply
-                  can’t write poems at this moment—what do we do with the loss
-                  of our sense of being poets? In this generative workshop,
-                  we’ll make space for all these questions, looking to a range
-                  of elegies not for neat answers (which don’t exist anyway) but
-                  a deepening of our attention to where we are, who we are, in
-                  the midst of crisis.
+                  address? Can poems speak to job loss, loss of everyday
+                  routines, loss of future plans, and missing friends? And what
+                  if we simply can’t write poems at this moment—what do we do
+                  with the loss of our sense of being poets? In this generative
+                  workshop, we’ll make space for all these questions, looking to
+                  a range of elegies not for neat answers (which don’t exist
+                  anyway) but a deepening of our attention to where we are, who
+                  we are, in the midst of crisis.
                   <summary className="focus:outline-none textWrap">
                     How do we write about grief right now, when there are so
-                    many (and simultaneous) forms of grief to address?
+                    many (and simultaneous) forms of grief to
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -116,9 +116,9 @@ export default function Schedule() {
                   />
                 </div>
                 <details className="font-mono mt-6">
-                  space by drawing our attention to the everyday moments in our
-                  lives that can hold meaning. We’ll explore the work of
-                  contemporary poets like Aracelis Girmay, Ross Gay, and
+                  embodied space by drawing our attention to the everyday
+                  moments in our lives that can hold meaning. We’ll explore the
+                  work of contemporary poets like Aracelis Girmay, Ross Gay, and
                   Li-Young Lee, and think through the following question: How
                   can writing toward or from the body open up other portals of
                   experience? By mining the mundane, we’ll root ourselves in the
@@ -126,7 +126,6 @@ export default function Schedule() {
                   <summary className="focus:outline-none textWrap">
                     Jenna Wortham once wrote, “Embodiment is an act of
                     resistance.” In this workshop we’ll write toward a more
-                    embodied
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -203,11 +202,11 @@ export default function Schedule() {
                 <p className="mb-8">Future of Roxbury Panel</p>
                 <div className="dreamscape-images w-full" />
                 <details className="font-mono mt-6">
-                  is moderated by Marisa Luse.
+                  discussion is moderated by Marisa Luse.
                   <summary className="focus:outline-none textWrap">
                     This panel will consist of artists, residents, youth and
                     city planners and will center around futurescaping Roxbury.
-                    This panel discussion
+                    This panel
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -235,18 +234,18 @@ export default function Schedule() {
                   />
                 </div>
                 <details className="font-mono mt-6">
-                  explore mothers as vessels, as nurturers, as sources of harm,
-                  as sources of healing within our work? How can we make space
-                  for our own capacity to mother ourselves? In this workshop
-                  we'll be going through a series of exercises and explorations
-                  meant to generate new work while also hearing from others
-                  about their own artistic expressions of the mother-self
-                  relationship. The reading component of this workshop will
-                  feature Crystal Valentine, Aleshea Harris, Alicia Lochard and
-                  Dasia Moore.
+                  can we explore mothers as vessels, as nurturers, as sources of
+                  harm, as sources of healing within our work? How can we make
+                  space for our own capacity to mother ourselves? In this
+                  workshop we'll be going through a series of exercises and
+                  explorations meant to generate new work while also hearing
+                  from others about their own artistic expressions of the
+                  mother-self relationship. The reading component of this
+                  workshop will feature Crystal Valentine, Aleshea Harris,
+                  Alicia Lochard and Dasia Moore.
                   <summary className="focus:outline-none textWrap">
                     The poet and artist, Krista Franklin, has called mothers:
-                    "ancestral, mythical, and living." How can we
+                    "ancestral, mythical, and living." How
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -274,12 +273,12 @@ export default function Schedule() {
                   />
                 </div>
                 <details className="font-mono mt-6">
-                  cull together a tapestry from what we've assembled: music,
-                  film, visual art. It's in this wellspring we dream. Let's
-                  dream together.
+                  hope. We'll cull together a tapestry from what we've
+                  assembled: music, film, visual art. It's in this wellspring we
+                  dream. Let's dream together.
                   <summary className="focus:outline-none textWrap">
                     At a moment of continued reckoning, we seek something
-                    righteous for ourselves: pleasure, witness and hope. We'll
+                    righteous for ourselves: pleasure, witness and
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -396,14 +395,14 @@ export default function Schedule() {
                   />
                 </div>
                 <details className="font-mono mt-6">
-                  instead of an agent of confession? This craft talk encourages
-                  participants to bring their lunch on screen while enjoying a
-                  craft talk from poet and performer, Rachel McKibbens.
+                  vulnerability instead of an agent of confession? This craft
+                  talk encourages participants to bring their lunch on screen
+                  while enjoying a craft talk from poet and performer, Rachel
+                  McKibbens.
                   <summary className="focus:outline-none textWrap">
                     As poets, we use devices to resurrect or bury, but how often
                     are we willing to lean into our own wickedness, to give it
                     its rightful placement as the second face of our
-                    vulnerability
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -451,10 +450,10 @@ export default function Schedule() {
                 </p>
                 <div className="latinext-images w-full" />
                 <details className="font-mono mt-6">
-                  <em>LatiNEXT</em> Anthology. Closes with a q/a.
+                  Poet’s <em>LatiNEXT</em> Anthology. Closes with a q/a.
                   <summary className="focus:outline-none textWrap">
                     This reading and performance features Latinext folks who
-                    were published in the BreakBeat Poet’s
+                    were published in the BreakBeat
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -508,9 +507,9 @@ export default function Schedule() {
                   <img alt="826 Boston" src="/img/speakers/826-Boston.jpg" />
                 </div>
                 <details className="font-mono mt-6">
-                  publication features stories and poems written by young people
-                  across the city. As foreword author Amanda Gorman says:
-                  "Reading the collection from my sunlit apartment in Los
+                  authored publication features stories and poems written by
+                  young people across the city. As foreword author Amanda Gorman
+                  says: "Reading the collection from my sunlit apartment in Los
                   Angeles, it is hard not to be struck with the vision that
                   these authors present: a vibrant and youthful Boston, with its
                   tongue of many languages, and heart of many songs.” This
@@ -519,8 +518,7 @@ export default function Schedule() {
                   Branch Library.
                   <summary className="focus:outline-none textWrap">
                     How We May Appear, the first anthology produced by 826
-                    Boston's Youth Literary Advisory Board. This
-                    student-authored
+                    Boston's Youth Literary Advisory Board. This student-
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -543,12 +541,12 @@ export default function Schedule() {
                 <p className="mb-8">Curated by Ashley Rose</p>
                 <div className="rappers-images w-full" />
                 <details className="font-mono mt-6">
-                  50 Rappers Who Changed the World. This session, like the book,
-                  is a celebration of the musicians who shaped the genre and
-                  changed the world.
+                  book, 50 Rappers Who Changed the World. This session, like the
+                  book, is a celebration of the musicians who shaped the genre
+                  and changed the world.
                   <summary className="focus:outline-none textWrap">
                     Join writer, Candace McDuffie, and poet, Ashley Rose, for a
-                    reading and discussion of McDuffie's book,
+                    reading and discussion of McDuffie's
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -597,11 +595,11 @@ export default function Schedule() {
                 </p>
                 <div className="halal-images w-full" />
                 <details className="font-mono mt-6">
-                  Breakbeat Poet Anthology: <em>Halal If You Hear Me</em>.
-                  Closes with a q/a
+                  to the Breakbeat Poet Anthology: <em>Halal If You Hear Me</em>
+                  . Closes with a q/a
                   <summary className="focus:outline-none textWrap">
                     This reading and performance celebrates poets of the Muslim
-                    Diaspora who were contributors to the
+                    Diaspora who were contributors
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -626,10 +624,11 @@ export default function Schedule() {
                 </p>
                 <div className="art-life-images w-full" />
                 <details className="font-mono mt-6">
-                  and culture. Sign up for the open mic when you register!
+                  performance and culture. Sign up for the open mic when you
+                  register!
                   <summary className="focus:outline-none textWrap">
                     Join long-time Roxbury artist organizers, Fulani Haynes and
-                    Nina LaNegra for an open mic that celebrates performance
+                    Nina LaNegra for an open mic that celebrates
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -653,12 +652,11 @@ export default function Schedule() {
                   Cierra Peters, Arielle Gray, Print Ain't Dead
                 </p>
                 <details className="font-mono mt-6">
-                  gossip associated with local and national literary movements &
-                  writers.
+                  historical gossip associated with local and national literary
+                  movements & writers.
                   <summary className="focus:outline-none textWrap">
                     This casual discussion is facilitated by local collective,
                     Print Ain’t Dead and will implore the literary and
-                    historical
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -685,11 +683,11 @@ export default function Schedule() {
                   />
                 </div>
                 <details className="font-mono mt-6">
-                  written by unhoused and incarcerated writers who have spent
-                  time in writing classrooms with Jill.
+                  poems written by unhoused and incarcerated writers who have
+                  spent time in writing classrooms with Jill.
                   <summary className="focus:outline-none textWrap">
                     Jill McDonough will be offering some ways to think about
-                    sound and form in poems, then sharing some poems
+                    sound and form in poems, then sharing some
                   </summary>
                 </details>
                 <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
@@ -778,7 +776,7 @@ export default function Schedule() {
             </div>
             <div className="md:col-span-4 lg:col-span-5 text-lg">
               <h3 className="mb-4 md:text-4xl text-3xl uppercase">
-                Beasts The Beat
+                Beast The Beat
               </h3>
               <p>
                 Inspired by the online Versuz series this event will take place

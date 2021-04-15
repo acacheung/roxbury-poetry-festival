@@ -179,7 +179,7 @@ body {
 }
 
 .textWrap::after {
-  content: "… Read More";
+  content: "…\00a0\00a0Read\00a0\00a0More";
   @apply text-base;
   @apply font-sans;
   @apply text-sm;

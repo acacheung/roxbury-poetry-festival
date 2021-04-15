@@ -156,7 +156,7 @@ export default function About() {
             </div>
           </div>
           <div className="justify-center max-w-6xl md:mb-32 md:mt-24 my-16 mx-auto text-center">
-            <p className="mb-10 md:text-4xl lg:text-5xl text-2xl">
+            <p className="lg:text-5xl mb-10 md:text-4xl text-2xl">
               “‘Thank you’ is the best prayer that anyone could say. I say that
               one a lot. Thank you expresses extreme gratitude, humility,
               understanding.”
@@ -284,7 +284,18 @@ export default function About() {
               </a>
             </li>
             <li className="speakers-grid">
-              <h4 className="mb-4 mt-8 text-2xl uppercase">Savor the Square</h4>
+              <a
+                className="flex items-center md:mb-4 mt-8"
+                href="https://tamcc.org/savor-the-square"
+                target="_blank"
+              >
+                <img
+                  alt="Savor the Square"
+                  className="h-16 md:h-20 mr-6"
+                  src="/img/logos/savor-square.jpg"
+                />
+                <h4 className="text-2xl uppercase">Savor the Square</h4>
+              </a>
             </li>
             <li className="speakers-grid">
               <a
