@@ -1284,6 +1284,48 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Tatiana Johnson-Boria
+            </h3>
+            <p className="mb-8 text-lg">Poet, Educator, Artist</p>
+            <img
+              alt="Tatiana Johnson-Boria"
+              src="/img/speakers/tatiana-johnson-boria.jpg"
+            />
+            <details className="font-mono mt-6">
+              She completed her MFA in Creative Writing at Emerson College and
+              is a 2021 Tin House Scholar. She also serves on the board for
+              VIDA: Women in Literary Arts. Find her work in or forthcoming at
+              Ploughshares, New Delta Review, Foundry and others.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="http://www.tatianamrjohnson.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Tatiana
+                </a>{" "}
+                (she / her) is a writer, artist and educator. Her writing
+                explores identity, trauma, especially inherited trauma, and what
+                it means to heal.
+              </summary>
+            </details>
+            <a
+              className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
+              href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Register for Writing Our Mothers
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Toni Bee</h3>
             <p className="mb-8 text-lg">Poet, Journalist, Activist</p>
