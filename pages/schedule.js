@@ -17,9 +17,9 @@ export default function Schedule() {
           The Schedule
         </h2>
         <div>
-          <details className="border-t border-black" open>
+          <details className="speakers-grid" open>
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -56,19 +56,17 @@ export default function Schedule() {
                     associated
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -92,19 +90,17 @@ export default function Schedule() {
                     many (and simultaneous) forms of grief to
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -130,19 +126,17 @@ export default function Schedule() {
                     resistance.” In this workshop we’ll write toward a more
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -162,25 +156,23 @@ export default function Schedule() {
                     discussion brings together the Poet Laureate of Rock Hill,
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
             </div>
           </details>
-          <details className="border-t border-black">
+          <details className="speakers-grid">
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -213,19 +205,17 @@ export default function Schedule() {
                     This panel
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -253,19 +243,17 @@ export default function Schedule() {
                     "ancestral, mythical, and living." How
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -287,19 +275,17 @@ export default function Schedule() {
                     righteous for ourselves: pleasure, witness and
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -328,25 +314,23 @@ export default function Schedule() {
                     body to the literary image and to the poetic line.
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
             </div>
           </details>
-          <details className="border-t border-black">
+          <details className="speakers-grid">
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -379,19 +363,17 @@ export default function Schedule() {
                     Herrera regarding Elhillo’s recently released YA novel
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -414,25 +396,23 @@ export default function Schedule() {
                     its rightful placement as the second face of our
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
             </div>
           </details>
-          <details className="border-t border-black">
+          <details className="speakers-grid">
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -466,19 +446,17 @@ export default function Schedule() {
                     were published in the BreakBeat
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -496,19 +474,17 @@ export default function Schedule() {
                     the poetry world nationally and locally.
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -533,19 +509,17 @@ export default function Schedule() {
                     Boston's Youth Literary Advisory Board. This student-
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -562,25 +536,23 @@ export default function Schedule() {
                     reading and discussion of McDuffie's
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
             </div>
           </details>
-          <details className="border-t border-black">
+          <details className="speakers-grid">
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between my-10">
+              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -616,19 +588,17 @@ export default function Schedule() {
                     Diaspora who were contributors
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -646,19 +616,17 @@ export default function Schedule() {
                     Nina LaNegra for an open mic that celebrates
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -681,19 +649,17 @@ export default function Schedule() {
                     Print Ain’t Dead and will implore the literary and
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
               <div className="speakers-grid">
                 <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
@@ -713,19 +679,17 @@ export default function Schedule() {
                     sound and form in poems, then sharing some
                   </summary>
                 </details>
-                <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="flex items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    Register for this event
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
+                <a
+                  href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <p>Register for this event</p>
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
               </div>
             </div>
           </details>
@@ -749,19 +713,17 @@ export default function Schedule() {
                     his book The Tradition and answer a few questions from the
                     audience. This talk will be moderated by a local artist.
                   </p>
-                  <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                    <a
-                      href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                      className="flex items-center"
-                      rel="noreferrer noopener"
-                      target="_blank"
-                    >
-                      Register for this event
-                      <svg className="fill-current ml-2" height="12" width="15">
-                        <use xlinkHref="#icon-rightarrow" />
-                      </svg>
-                    </a>
-                  </div>
+                  <a
+                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <p>Register for this event</p>
+                    <svg className="fill-current ml-2" height="12" width="15">
+                      <use xlinkHref="#icon-rightarrow" />
+                    </svg>
+                  </a>
                 </div>
               </div>
             </div>
@@ -781,19 +743,17 @@ export default function Schedule() {
                 Button Poetry. This event is only open to poetry living in
                 Massachusetts. Hosted by Harlym 125.
               </p>
-              <div className="border border-black inline-block rounded-full mt-10 py-3 px-5">
-                <a
-                  href="https://cityofbostonartsandculture.submittable.com/submit/83c697df-d09a-4203-86e7-28efb999f290/roxbury-poetry-festival-publishers-poetry-slam"
-                  className="flex items-center"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  Register for the Slam
-                  <svg className="fill-current ml-2" height="12" width="15">
-                    <use xlinkHref="#icon-rightarrow" />
-                  </svg>
-                </a>
-              </div>
+              <a
+                href="https://cityofbostonartsandculture.submittable.com/submit/83c697df-d09a-4203-86e7-28efb999f290/roxbury-poetry-festival-publishers-poetry-slam"
+                className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                Register for the Slam
+                <svg className="fill-current ml-2" height="12" width="15">
+                  <use xlinkHref="#icon-rightarrow" />
+                </svg>
+              </a>
             </div>
           </div>
           <div className="border-t border-black md:grid md:grid-cols-8 items-center md:w-full py-10">
@@ -820,7 +780,7 @@ export default function Schedule() {
             Depending on the speaker's comfort, some readings will air via Zoom
             at a partnership site (i.e. Hibernian Hall) and without a live
             audience. If health mandates permit, The Publisher’s Poetry Slam and
-            Boston’s Beasts the Beat will take place outdoors in Nubian Square’s
+            Boston’s Beast the Beat will take place outdoors in Nubian Square’s
             Blair Lot. In addition to onsite sanitizers, mandated masks, and
             public health care representatives, there will be social distance
             markers and volunteers to ensure the community members are socially
