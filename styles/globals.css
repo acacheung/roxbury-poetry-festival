@@ -187,6 +187,14 @@ body {
   text-transform: uppercase;
 }
 
+details[open] summary .event .speakers-grid-arrows .closed-arrow {
+  display: block;
+}
+
+details[open] summary .event .speakers-grid-arrows .open-arrow {
+  display: none;
+}
+
 .speakers-grid details[open] .textWrap::after {
   content: "";
 }
