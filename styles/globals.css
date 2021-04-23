@@ -238,14 +238,17 @@ details summary::marker {
   0% {
     background-image: url("../public/img/speakers/kristina-marie-darling.jpg");
   }
-  25% {
+  20% {
     background-image: url("../public/img/speakers/ryan-murphy.jpg");
   }
-  50% {
+  40% {
     background-image: url("../public/img/speakers/frances-donovan.jpg");
   }
-  75% {
+  60% {
     background-image: url("../public/img/speakers/george-abraham.jpg");
+  }
+  80% {
+    background-image: url("../public/img/speakers/lillian-yvonne-bertram.jpg");
   }
   100% {
     background-image: url("../public/img/speakers/kristina-marie-darling.jpg");

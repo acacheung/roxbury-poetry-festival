@@ -24,6 +24,22 @@
   @apply px-6;
 }
 
+.navButton {
+  border: 5px solid transparent;
+  padding: 10px;
+}
+
+.navButton:focus {
+  outline: none;
+}
+
+.navButton:focus-visible {
+  border: 5px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
 .scrollingItem {
   align-items: center;
   display: flex;

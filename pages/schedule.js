@@ -44,7 +44,7 @@ export default function Schedule() {
                 </h3>
                 <p className="mb-8">
                   A Panel with Kristina Marie Darling, Ryan Murphy, Frances
-                  Donovan, George Abraham
+                  Donovan, George Abraham, Lillian-Yvonne Bertram
                 </p>
                 <div className="publication-images w-full" />
                 <details className="font-mono mt-6">
