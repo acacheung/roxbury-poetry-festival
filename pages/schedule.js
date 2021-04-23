@@ -19,7 +19,7 @@ export default function Schedule() {
         <div>
           <details className="speakers-grid" open>
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
+              <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -30,9 +30,20 @@ export default function Schedule() {
                     </div>
                   </div>
                 </div>
-                <div className="md:col-span-1 flex flex-col items-end">
-                  <svg className="fill-current" height="20" width="40">
+                <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
+                  <svg
+                    className="fill-current open-arrow"
+                    height="20"
+                    width="40"
+                  >
                     <use xlinkHref="#icon-uparrow" />
+                  </svg>
+                  <svg
+                    className="fill-current hidden closed-arrow"
+                    height="20"
+                    width="40"
+                  >
+                    <use xlinkHref="#icon-downarrow" />
                   </svg>
                 </div>
               </div>
@@ -44,7 +55,7 @@ export default function Schedule() {
                 </h3>
                 <p className="mb-8">
                   A Panel with Kristina Marie Darling, Ryan Murphy, Frances
-                  Donovan, George Abraham
+                  Donovan, George Abraham, Lillian-Yvonne Bertram
                 </p>
                 <div className="publication-images w-full" />
                 <details className="font-mono mt-6">
@@ -172,7 +183,7 @@ export default function Schedule() {
           </details>
           <details className="speakers-grid">
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
+              <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -183,9 +194,20 @@ export default function Schedule() {
                     </div>
                   </div>
                 </div>
-                <div className="md:col-span-1 flex flex-col items-end">
-                  <svg className="fill-current" height="20" width="40">
+                <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
+                  <svg
+                    className="fill-current open-arrow"
+                    height="20"
+                    width="40"
+                  >
                     <use xlinkHref="#icon-uparrow" />
+                  </svg>
+                  <svg
+                    className="fill-current hidden closed-arrow"
+                    height="20"
+                    width="40"
+                  >
+                    <use xlinkHref="#icon-downarrow" />
                   </svg>
                 </div>
               </div>
@@ -330,7 +352,7 @@ export default function Schedule() {
           </details>
           <details className="speakers-grid">
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
+              <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -341,9 +363,20 @@ export default function Schedule() {
                     </div>
                   </div>
                 </div>
-                <div className="md:col-span-1 flex flex-col items-end">
-                  <svg className="fill-current" height="20" width="40">
+                <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
+                  <svg
+                    className="fill-current open-arrow"
+                    height="20"
+                    width="40"
+                  >
                     <use xlinkHref="#icon-uparrow" />
+                  </svg>
+                  <svg
+                    className="fill-current hidden closed-arrow"
+                    height="20"
+                    width="40"
+                  >
+                    <use xlinkHref="#icon-downarrow" />
                   </svg>
                 </div>
               </div>
@@ -412,7 +445,7 @@ export default function Schedule() {
           </details>
           <details className="speakers-grid">
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
+              <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -423,9 +456,20 @@ export default function Schedule() {
                     </div>
                   </div>
                 </div>
-                <div className="md:col-span-1 flex flex-col items-end">
-                  <svg className="fill-current" height="20" width="40">
+                <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
+                  <svg
+                    className="fill-current open-arrow"
+                    height="20"
+                    width="40"
+                  >
                     <use xlinkHref="#icon-uparrow" />
+                  </svg>
+                  <svg
+                    className="fill-current hidden closed-arrow"
+                    height="20"
+                    width="40"
+                  >
+                    <use xlinkHref="#icon-downarrow" />
                   </svg>
                 </div>
               </div>
@@ -552,7 +596,7 @@ export default function Schedule() {
           </details>
           <details className="speakers-grid">
             <summary className="focus:outline-none summaryWrap">
-              <div className="flex md:grid md:grid-cols-8 items-center justify-between py-10">
+              <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
                 <div className="md:col-span-7">
                   <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
                     <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -563,9 +607,20 @@ export default function Schedule() {
                     </div>
                   </div>
                 </div>
-                <div className="md:col-span-1 flex flex-col items-end">
-                  <svg className="fill-current" height="20" width="40">
+                <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
+                  <svg
+                    className="fill-current open-arrow"
+                    height="20"
+                    width="40"
+                  >
                     <use xlinkHref="#icon-uparrow" />
+                  </svg>
+                  <svg
+                    className="fill-current hidden closed-arrow"
+                    height="20"
+                    width="40"
+                  >
+                    <use xlinkHref="#icon-downarrow" />
                   </svg>
                 </div>
               </div>

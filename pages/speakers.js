@@ -19,20 +19,19 @@ export default function Speakers() {
         <ul className="gap-x-28 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Angelo Geter</h3>
-            <p className="mb-8 text-lg">Educator, Writer, Performer</p>
+            <p className="mb-8 text-lg">
+              Poet, Educator, Performance Artist, Activist
+            </p>
             <img alt="Angelo Geter" src="/img/speakers/angelo-geter.jpg" />
             <details className="font-mono mt-6">
-              known in the spoken word world as “EyeAmBic.” Geter is a National
-              Poetry Slam champion, Rustbelt Regional Poetry Slam finalist,
-              Southern Fried Regional Poetry Slam finalist, and a 2019
-              All-America City winner. He has performed at venues and
-              competitions across the country, and currently serves on the Board
-              of Directors for the Watering Hole, an organization dedicated to
-              holding spaces for poets of color in the oral and written
-              traditions of poetry. He also works as the Director of Campus
-              Programming at Winthrop University and is releasing his debut
-              poetry collection in late 2020. Geter is the poet laureate of Rock
-              Hill, South Carolina.
+              entertains and inspires. He currently serves as the Poet Laureate
+              of Rock Hill, SC, and is a 2020 Academy of American Poets Laureate
+              Fellow. Geter is also a 2019 All-America city winner, 2018
+              National Poetry Slam champion, Rustbelt Regional Poetry Slam
+              finalist, Southern Fried Regional Poetry Slam finalist and has
+              performed and competed in several venues across the country. His
+              work has appeared on All Def Poetry, Charleston Currents, and the
+              Academy of American Poets “Poem a Day” series.
               <summary className="focus:outline-none textWrap">
                 <a
                   className="underline"
@@ -40,11 +39,11 @@ export default function Speakers() {
                   rel="noreferrer noopener"
                   target="_blank"
                 >
-                  Angelo Geter
+                  Angelo ‘Eyeambic’ Geter
                 </a>{" "}
-                (he / him) received a BA in Political Science from Winthrop
-                University and a MS in Higher Education from Drexel University.
-                He is a poet and performance artist also
+                (he / him) is a dynamic poet, spoken word artist and
+                motivational speaker who merges his passions for poetry and
+                speaking into a unique performance that educates,
               </summary>
             </details>
             <a
@@ -849,6 +848,54 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Lillian-Yvonne Bertram
+            </h3>
+            <p className="mb-8 text-lg">Poet, Writer, Digital Maker</p>
+            <img
+              alt="Lillian-Yvonne Bertram"
+              src="/img/speakers/lillian-yvonne-bertram.jpg"
+            />
+            <details className="font-mono mt-6">
+              Paradise. They currently direct the MFA in Creative Writing at
+              UMass Boston.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.lillianyvonnebertram.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Lillian-Yvonne Bertram
+                </a>{" "}
+                (they / them) is the author of the books{" "}
+                <a
+                  className="underline"
+                  href="http://www.noemipress.org/catalog/poetry/travesty-generator/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Travesty Generator
+                </a>
+                ; How Narrow My Escapes; Personal Science; a slice from the cake
+                made of air; and But a Storm is Blowing From
+              </summary>
+            </details>
+            <a
+              className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
+              href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Register for Paths to Publication
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Malcolm Friend</h3>
             <p className="mb-8 text-lg">Is a poet.</p>

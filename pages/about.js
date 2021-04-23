@@ -135,7 +135,7 @@ export default function About() {
                   <li className="mt-2">Kristina McGeehan</li>
                   <li className="mt-2">Tariq Charles</li>
                   <li className="mt-2">Stephen Hamilton</li>
-                  <li className="mt-2">Amber Williams (Sublime Luv)</li>
+                  <li className="mt-2">Amber Williams (SublimeLuv)</li>
                 </ul>
               </div>
               <div className="my-10">
