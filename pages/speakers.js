@@ -102,6 +102,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">
               Ashley
@@ -133,6 +134,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Asiyah Herrera</h3>
             <p className="mb-8 text-lg">Poet, Teaching Artist, Editor</p>
@@ -159,6 +161,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Askia Toure</h3>
             <p className="mb-8 text-lg">
@@ -188,6 +191,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Candace McDuffie</h3>
             <p className="mb-8 text-lg">Journalist, Writer, Cultural Critic</p>
@@ -283,6 +287,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Denice Frohman</h3>
             <p className="mb-8 text-lg">Poet, Educator, Activist</p>
@@ -368,6 +373,50 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Ekua Holmes</h3>
+            <p className="mb-8 text-lg">Artist, Designer, Illustrator</p>
+            <img alt="Ekua Holmes" src="/img/speakers/ekua-holmes.jpeg" />
+            <details className="font-mono mt-6">
+              of hope, faith and self-determination. Ms. Holmes serves as
+              Commissioner and Vice Chair of the Boston Art Commission, which
+              oversees the placement and maintenance of public works of art on
+              and in city of Boston properties. Ekua Holmes is currently the
+              Assistant Director at the Center for Art and Community
+              Partnerships at MassArt where she manages and coordinates sparc!
+              the ArtMobile, an art-inspiring, art-transforming vehicle
+              retrofitted to contribute to community based, multidisciplinary
+              arts programming currently focused in the Boston neighborhoods of
+              Mission Hill, Roxbury and Dorchester, MA. Holmes is the founder
+              and lead artist of the Roxbury Sunflower Project.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.ekuaholmes.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Ekua Holmes’
+                </a>{" "}
+                (she / her) work is collage based and her subjects, made from
+                cut and torn papers, investigate family histories, relationship
+                dynamics, childhood impressions, the power
+              </summary>
+            </details>
+            <a
+              className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
+              href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Register for Future of Roxbury Panel
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Frances Donovan</h3>
             <p className="mb-8 text-lg">Poet, Writer, Teacher</p>
@@ -667,6 +716,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Jonathan Mendoza</h3>
             <p className="mb-8 text-lg">Organizer, Poet, Educator</p>
@@ -727,6 +777,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Kai Grant</h3>
             <p className="mb-8 text-lg">Entrepreneur, Organizer, Creative</p>
@@ -765,6 +816,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">
               Kristina Marie Darling
@@ -824,6 +876,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Letta Simone Neely</h3>
             <p className="mb-8 text-lg">
@@ -1021,6 +1074,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Nikia Chaney</h3>
             <p className="mb-8 text-lg">Poet, Educator</p>
@@ -1063,6 +1117,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Nina LaNegra</h3>
             <p className="mb-8 text-lg">ArtiVist, Creatrix, Producer, Host</p>
@@ -1097,6 +1152,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">
               Print Ain't Dead (Cierra Peters & Arielle Gray)
@@ -1131,6 +1187,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Rachel McKibbens</h3>
             <p className="mb-8 text-lg">Poet, Witch, Noisemaker</p>
@@ -1164,6 +1221,7 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Rajiv Mohabir</h3>
             <p className="mb-8 text-lg">Poet, Translator, Memoirist</p>
@@ -1214,6 +1272,35 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Red Shaydez</h3>
+            <p className="mb-8 text-lg">
+              Musician, Entrepreneur, Mentor, Educator, Community Builder
+            </p>
+            <img alt="Red Shaydez" src="/img/speakers/red-shaydez.jpeg" />
+            <details className="font-mono mt-6">
+              "Shaydez" symbolizes her view from the world behind the tinted
+              lens and her nickname. The Boston native established her name in
+              her local scene and beyond. Her creativity expands apart from
+              being an award-winning hip-hop artist; she’s a professional video
+              producer, educator, and youth mentor as well.
+              <summary className="focus:outline-none textWrap">
+                A single pair of red sunglasses received as a gift became a
+                defining moment for rapper{" "}
+                <a
+                  className="underline"
+                  href="https://chillinintheshade.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Red Shaydez
+                </a>{" "}
+                (she / her). "Red" epitomizes her ambition and ambiance, while
+              </summary>
+            </details>
+          </li>
+
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Ryan Murphy</h3>
             <p className="mb-8 text-lg">Publisher, Poet</p>
@@ -1443,23 +1530,38 @@ export default function Speakers() {
 
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Toni Bee</h3>
-            <p className="mb-8 text-lg">Poet, Journalist, Activist</p>
-            <img alt="Toni Bee" src="/img/speakers/toni-bee.jpg" />
+            <p className="mb-8 text-lg">Poet, Educator, Teaching Artist</p>
+            <img alt="Toni Bee" src="/img/speakers/toni-bee.jpeg" />
             <details className="font-mono mt-6">
-              to grace that position. She led the Black Lives Matter march of
-              Cambridge in 2015 and the following year was selected as the
-              city’s Poetry Ambassador. Toni has been a teaching artist for The
-              Wang Theatre, and she is a graduate of Simmons University. 22
-              Again is the title of her recently published first book of poetry.
-              Bee has featured at: Lizard Lounge, The Boston Poetry Slam, New
-              England Poetry Club, The Boston National Poetry Month Festival,
-              the Boston Poetry Marathon, and has been awarded by YWCA
-              Cambridge.
+              position. Bee led the Black Lives Matter march of Cambridge in
+              2015 and the following year was selected as the city's Inaugural
+              Poetry Ambassador. Toni is a teaching artist and storyteller who
+              has worked at Boch Theatre. She received her 'papers' from Simmons
+              University. Her poetry book is called{" "}
+              <a
+                className="pl-3 underline"
+                href="https://www.tonibee.org/blank-page"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                22 Again
+              </a>
+              , and is on the Advisory Board of The New England Poetry Club;
+              Toni is the Founder and Curator of The Poetry Mashup as well as
+              Poets In The Garden, which focuses on food justice in community
+              gardens for Black folks and People of Color woman.
               <summary className="focus:outline-none textWrap">
-                Toni Bee (she / her) is a poet, educator, and freelance
-                journalist raised in Dorchester, MA and educated in Roxbury. In
-                2011, she was elected Poet Populist of Cambridge, the first
-                woman
+                <a
+                  className="underline"
+                  href="https://www.tonibee.org/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Toni Bee
+                </a>{" "}
+                (she / her) is a poet, educator, and photographer raised in
+                Dorchester and educated in Roxbury. She is a Cambridge Poet
+                Populist emeritus, and the first woman to grace that
               </summary>
             </details>
             <a
