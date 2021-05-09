@@ -293,14 +293,17 @@ details summary::marker {
   0% {
     background-image: url("../public/img/speakers/kai-grant.jpg");
   }
-  25% {
+  20% {
     background-image: url("../public/img/speakers/tariq-charles.jpg");
   }
-  50% {
+  40% {
     background-image: url("../public/img/speakers/stephen-hamilton.jpg");
   }
-  75% {
+  60% {
     background-image: url("../public/img/speakers/marisa-luse.jpg");
+  }
+  80% {
+    background-image: url("../public/img/speakers/ekua-holmes.jpeg");
   }
   100% {
     background-image: url("../public/img/speakers/kai-grant.jpg");
