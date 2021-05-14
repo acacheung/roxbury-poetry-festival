@@ -589,7 +589,7 @@ export default function Speakers() {
             </h3>
             <p className="mb-8 text-lg">Poet, Professor, Editor</p>
             <img
-              alt="Janice Lobo Sapiago"
+              alt="Janice Lobo Sapigao"
               src="/img/speakers/janice-lobo-sapigao.jpg"
             />
             <details className="font-mono mt-6">

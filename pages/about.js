@@ -316,6 +316,21 @@ export default function About() {
             <li className="speakers-grid">
               <a
                 className="flex items-center md:mb-4 mt-8"
+                href="https://www.bpl.org/locations/19/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <img
+                  alt="Roxbury Branch Library"
+                  className="h-16 md:h-20 mr-6"
+                  src="/img/logos/bpl.png"
+                />
+                <h4 className="text-2xl uppercase">Roxbury Branch Library</h4>
+              </a>
+            </li>
+            <li className="speakers-grid">
+              <a
+                className="flex items-center md:mb-4 mt-8"
                 href="https://826boston.org/"
                 rel="noreferrer noopener"
                 target="_blank"
@@ -401,6 +416,21 @@ export default function About() {
                   src="/img/logos/print-aint-dead.jpeg"
                 />
                 <h4 className="text-2xl uppercase">Print Ain’t Dead</h4>
+              </a>
+            </li>
+            <li className="speakers-grid">
+              <a
+                className="flex items-center md:mb-4 mt-8"
+                href="https://frugalbookstore.net/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <img
+                  alt="Frugal Bookstore"
+                  className="h-16 md:h-20 mr-6"
+                  src="/img/logos/frugal-bookstore.png"
+                />
+                <h4 className="text-2xl uppercase">Frugal Bookstore</h4>
               </a>
             </li>
           </ul>
