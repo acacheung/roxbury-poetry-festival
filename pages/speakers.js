@@ -585,7 +585,7 @@ export default function Speakers() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">
-              Janice Lobo Sapiago
+              Janice Lobo Sapigao
             </h3>
             <p className="mb-8 text-lg">Poet, Professor, Editor</p>
             <img
