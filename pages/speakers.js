@@ -1872,7 +1872,7 @@ export default function Speakers() {
           </li>
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Angela Siew</h3>
-            <p className="mb-8 text-lg"></p>
+            <p className="mb-8 text-lg">Poet, Writer, Dreamer</p>
             <img alt="Angela Siew" src="/img/speakers/angela-siew.jpg" />
             <details className="font-mono mt-6">
               Poetry Workshop. She is the recipient of an Academy of American
