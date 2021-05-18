@@ -759,7 +759,7 @@ export default function Speakers() {
               rel="noreferrer noopener"
               target="_blank"
             >
-              Register for On Sound & Form
+              Register for New Writing
               <svg className="ml-4 lg:ml-6" height="8" width="19">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -1871,6 +1871,22 @@ export default function Speakers() {
             </details>
           </li>
           <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Angela Siew</h3>
+            <p className="mb-8 text-lg"></p>
+            <img alt="Angela Siew" src="/img/speakers/angela-siew.jpg" />
+            <details className="font-mono mt-6">
+              Poetry Workshop. She is the recipient of an Academy of American
+              Poets College Prize and has work published in Crab Orchard Review,
+              Dialogist, The Merrimack Review and Art New England.
+              <summary className="focus:outline-none textWrap">
+                Angela Siew (she / her) is a multilingual poet who received her
+                MFA from Emerson College. Her work has been supported by the
+                Bread Loaf Writers’ Conference and the Community of Writers
+              </summary>
+            </details>
+          </li>
+
+          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Phree</h3>
             <p className="mb-8 text-lg">Poet, Performer, Curator</p>
             <img alt="Phree" src="/img/speakers/phree.jpg" />
@@ -1898,8 +1914,7 @@ export default function Speakers() {
         </h2>
         <ul className="gap-x-28 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
           <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">DJ WhySham</h3>
-            <p className="mb-8 text-lg"></p>
+            <h3 className="mb-8 mt-8 text-5xl uppercase">DJ WhySham</h3>
             <img alt="DJ WhySham" src="/img/speakers/dj-whysham.jpg" />
             <details className="font-mono mt-6">
               uses the tagline “Your Community DJ”. DJ WhySham has been seen on
@@ -1920,18 +1935,57 @@ export default function Speakers() {
           </li>
 
           <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">Red Shaydez</h3>
-            <p className="mb-8 text-lg"></p>
+            <h3 className="mb-8 mt-8 text-5xl uppercase">Red Shaydez</h3>
             <img alt="Red Shaydez" src="/img/speakers/red-shaydez.jpeg" />
             <details className="font-mono mt-6">
-              "Shaydez" symbolizes her view from the world behind the tinted
-              lens and her nickname. The Boston native established her name in
-              her local scene and beyond. Her creativity expands apart from
-              being an award-winning hip-hop artist; she’s a professional video
-              producer, educator, and youth mentor as well.
+              undeniable talent and electric personality have been widely
+              praised by both local and national media such as
+              <a
+                className="pl-3 underline"
+                href="http://soundtrack.mtv.com/post/music-from-ex-on-the-beach-season-3-episode-12/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                MTV
+              </a>
+              ,
+              <a
+                className="pl-3 underline"
+                href="https://www.youtube.com/watch?v=WtuG1HZCi8A"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                Boston 25 News
+              </a>
+              ,
+              <a
+                className="pl-3 underline"
+                href="https://www.bostonmagazine.com/arts-entertainment/2019/05/29/female-emcees-boston/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                Boston Magazine
+              </a>
+              ,
+              <a
+                className="pl-3 underline"
+                href="https://www.bostonglobe.com/2020/06/11/arts/five-black-musicians-reckoning-with-racism-what-comes-next/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                The Boston Globe
+              </a>
+              ,
+              <a
+                className="pl-3 underline"
+                href="https://www.npr.org/2020/10/21/925822173/city-scenes-how-bostons-lgbtq-musicians-are-making-space-for-each-other"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                NPR MUSIC
+              </a>
+              , and more!”
               <summary className="focus:outline-none textWrap">
-                A single pair of red sunglasses received as a gift became a
-                defining moment for rapper{" "}
                 <a
                   className="underline"
                   href="https://chillinintheshade.com/"
@@ -1940,13 +1994,14 @@ export default function Speakers() {
                 >
                   Red Shaydez
                 </a>{" "}
-                (she / her). "Red" epitomizes her ambition and ambiance, while
+                (she / her), Boston native, is a Boston Music Award winning
+                hip-hop artist, professional video producer, public speaker,
+                educator, and youth mentor. Red’s
               </summary>
             </details>
           </li>
           <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">MALiA the Model</h3>
-            <p className="mb-8 text-lg"></p>
+            <h3 className="mb-8 mt-8 text-5xl uppercase">MALiA the Model</h3>
             <img
               alt="MALiA the Model"
               src="/img/speakers/malia-the-model.jpg"
@@ -1977,8 +2032,7 @@ export default function Speakers() {
             </details>
           </li>
           <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">CakeSwagg</h3>
-            <p className="mb-8 text-lg"></p>
+            <h3 className="mb-8 mt-8 text-5xl uppercase">CakeSwagg</h3>
             <img alt="CakeSwagg" src="/img/speakers/cakeswagg.jpg" />
             <details className="font-mono mt-6">
               week she uses a variety of instrumentals. CakeSwagg has attracted
@@ -1987,38 +2041,38 @@ export default function Speakers() {
               <summary className="focus:outline-none textWrap">
                 <a
                   className="underline"
-                  href="https://www.facebook.com/cakeswagg/"
+                  href="https://bostongotnext.com/cakeswagg/"
                   rel="noreferrer noopener"
                   target="_blank"
                 >
                   CakeSwagg
-                </a>
-                , (she / her) Roxbury Native is a Boston Music Award nominee.
+                </a>{" "}
+                (she / her), Roxbury Native, is a Boston Music Award nominee.
                 CakeSwagg is the creator of "Talk that Talk Tuesdays”, where she
                 is known to release a freestyle every Tuesday. Each
               </summary>
             </details>
           </li>
           <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">Brandie Blaze</h3>
-            <p className="mb-8 text-lg"></p>
+            <h3 className="mb-8 mt-8 text-5xl uppercase">Brandie Blaze</h3>
             <img alt="Brandie Blaze" src="/img/speakers/brandie-blaze.jpg" />
             <details className="font-mono mt-6">
-              Known for her hit record “Boss Like Me”, Brandie Blaze has been
-              influential to women in Boston and across the world looking to
-              break into the music industry by just being themselves.
+              leaving her mark across the music scene. Known for her hit record
+              “Boss Like Me”, Brandie Blaze has been influential to women in
+              Boston and across the world looking to break into the music
+              industry by just being themselves.
               <summary className="focus:outline-none textWrap">
                 <a
                   className="underline"
-                  href="https://www.facebook.com/brandieblaze617/"
+                  href="https://bostongotnext.com/brandieblaze/"
                   rel="noreferrer noopener"
                   target="_blank"
                 >
                   Brandie Blaze
-                </a>
-                , (she / her) Dorchester Native, Trap Feminist, Boston Music
-                Award nominee, featured in Jubilee, Brandie Blaze has been a
-                trailblazer leaving her mark across the music scene.
+                </a>{" "}
+                (she / her), Dorchester Native, Trap Feminist, Boston Music
+                Award nominee, featured in Jubilee “Is WAP A Female
+                Empowerment?”, Brandie Blaze has been a trailblazer
               </summary>
             </details>
           </li>

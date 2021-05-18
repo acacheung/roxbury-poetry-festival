@@ -730,8 +730,9 @@ export default function Schedule() {
                 </div>
                 <div className="speakers-grid">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    On Sound & Form
+                    New Writing from Incarcerated and Unhoused Bostonians
                   </h3>
+                  <p className="mb-8">w/ Jill McDonough</p>
                   <div className="schedule-image">
                     <img
                       alt="Jill McDonough"
