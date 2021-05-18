@@ -14,9 +14,7 @@ export default function About() {
               </svg>
             </a>
           </Link>
-          <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">
-            About Us
-          </h2>
+          <h2 className="font-bold my-10 md:text-4xl text-3xl">About Us</h2>
           <div className="border-t border-black lg:flex md:pt-20 pt-10 w-full">
             <div className="mb-10 lg:mb-0 lg:mr-16 lg:text-3xl lg:w-1/3 lg:pr-6 text-center text-2xl xl:mr-32">
               <p className="mb-6">
@@ -452,15 +450,18 @@ export default function About() {
             and the neighboring Wampanoag Nation. We pay respect to the
             Massachusett elders past and present. We acknowledge the truth of
             violence perpetrated in the name of this country and make a
-            commitment to uncovering that truth. We make this acknowledgment as
+            commitment to uncovering that truth. We make this acknowledgement as
             a step toward dismantling the ongoing legacies of settler
             colonialism, and as a commitment to social justice. We also
             acknowledge and trace this country’s modern existence to the
             historical enslavement of Black and African people. We recognize
-            that the genocide of indigenous people occured conjunctionally and
-            alongside the enslavement of Africans. To learn more about the
-            colonial and current history of Roxbury and its residents, please
-            visit{" "}
+            that the genocide of Indigenous people occurred conjunctionally and
+            alongside the enslavement of Africans in the name of this country
+            and make a commitment to uncovering that truth. We make this
+            acknowledgement as a step toward dismantling the ongoing legacies of
+            settler colonialism, and as a commitment to social justice. To learn
+            more about the colonial and current history of Roxbury and its
+            residents, please visit{" "}
             <a
               className="underline"
               href="http://roxburyhistoricalsociety.org/"

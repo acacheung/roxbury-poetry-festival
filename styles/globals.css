@@ -147,7 +147,8 @@ body {
   }
 }
 
-.speakers-grid::before {
+.speakers-grid::before,
+.schedule-grid::before {
   content: "";
   @apply bg-black;
   display: block;
@@ -162,11 +163,13 @@ body {
   transform: scaleY(1);
 }
 
-.speakers-grid {
+.speakers-grid,
+.schedule-grid {
   position: relative;
 }
 
-.speakers-grid:hover::before {
+.speakers-grid:hover::before,
+.schedule-grid:hover::before {
   transform: scaleY(6);
 }
 
@@ -293,17 +296,20 @@ details summary::marker {
   0% {
     background-image: url("../public/img/speakers/kai-grant.jpg");
   }
-  20% {
+  16.7% {
     background-image: url("../public/img/speakers/tariq-charles.jpg");
   }
-  40% {
+  33.4% {
     background-image: url("../public/img/speakers/stephen-hamilton.jpg");
   }
-  60% {
+  50.1% {
     background-image: url("../public/img/speakers/marisa-luse.jpg");
   }
-  80% {
+  66.8% {
     background-image: url("../public/img/speakers/ekua-holmes.jpeg");
+  }
+  83.5% {
+    background-image: url("../public/img/speakers/karilyn-crockett.jpg");
   }
   100% {
     background-image: url("../public/img/speakers/kai-grant.jpg");
@@ -471,8 +477,7 @@ details summary::marker {
 }
 
 @screen lg {
-  .summaryDetail,
-  .summaryDetail2Col {
+  .summaryDetail {
     margin-left: 33vw;
   }
 
@@ -495,10 +500,6 @@ details summary::marker {
 @screen xl {
   .summaryDetail {
     margin-left: 0;
-  }
-
-  .summaryDetail2Col {
-    margin-left: 29.5vw;
   }
 
   .schedule-image img,

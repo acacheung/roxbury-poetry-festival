@@ -14,7 +14,7 @@ export default function Slam() {
               </svg>
             </a>
           </Link>
-          <div className="md:flex items-center justify-between mb-10 mt-24">
+          <div className="md:flex items-center justify-between my-10">
             <h2 className="font-bold mb-6 md:mb-0 md:text-4xl text-3xl">
               Publisher's Poetry Slam
             </h2>

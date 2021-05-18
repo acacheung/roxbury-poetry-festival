@@ -13,9 +13,7 @@ export default function Speakers() {
             </svg>
           </a>
         </Link>
-        <h2 className="font-bold mb-10 mt-24 md:text-4xl text-3xl">
-          All Speakers
-        </h2>
+        <h2 className="font-bold my-10 md:text-4xl text-3xl">All Speakers</h2>
         <ul className="gap-x-28 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Angelo Geter</h3>
@@ -282,6 +280,57 @@ export default function Speakers() {
               target="_blank"
             >
               Register for Elegy in a Time of Pandemic
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Crystal Valentine</h3>
+            <p className="mb-8 text-lg">Writer, Performer, Anime Enthusiast </p>
+            <img
+              alt="Crystal Valentine"
+              src="/img/speakers/crystal-valentine.jpg"
+            />
+            <details className="font-mono mt-6">
+              time winner of the College Union Poetry Slam Invitational. Her
+              work has appeared or is forthcoming in the Academy of American
+              Poets Poem-a-Day, BreakBeat Poets Vol. 2: Black Girl Magic
+              Anthology (Haymarket Books), Muzzle Magazine, TriQuarterly
+              Magazine, Winter Tangerine and elsewhere. She received an MFA from
+              New York University and is the current festival manager for the{" "}
+              <a
+                className="pl-3 underline"
+                href="https://masspoetry.org/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                Massachusetts Poetry Festival
+              </a>
+              . When she isn’t writing or agonizing over line breaks, you can
+              find her watching anime and dreaming.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.crystalvalentinepoetry.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Crystal Valentine
+                </a>{" "}
+                (she / her) is a queer, Black woman from the Bronx now residing
+                in Boston, Massachusetts. She is a Callaloo fellow, a former NYC
+                Youth Poet Laureate, and a two-
+              </summary>
+            </details>
+            <a
+              className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
+              href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Register for An Evening with Jericho Brown
               <svg className="ml-4 lg:ml-6" height="8" width="19">
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
@@ -732,7 +781,7 @@ export default function Speakers() {
               throughout the U.S. He is a proud anxious Virgo, Greek yogurt
               enthusiast, and devout believer in the power of young people to
               change this world for the better. Books, updates, and more
-              information can be found at @JMendoza010 on
+              information can be found at @JMendoza010 on{" "}
               <a
                 className="px-3 underline"
                 href="https://twitter.com/jmendoza010"
@@ -740,8 +789,8 @@ export default function Speakers() {
                 target="_blank"
               >
                 Twitter
-              </a>
-              and
+              </a>{" "}
+              and{" "}
               <a
                 className="pl-3 underline"
                 href="https://www.instagram.com/jmendoza010/"
@@ -802,6 +851,74 @@ export default function Speakers() {
                 (she / her) family has been in Boston’s Roxbury neighborhood for
                 over 100 years as Educators, Entrepreneurs, Political Leaders,
                 Artists, Spiritual Leaders, and Military
+              </summary>
+            </details>
+            <a
+              className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
+              href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Register for Future of Roxbury Panel
+              <svg className="ml-4 lg:ml-6" height="8" width="19">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Dr. Karilyn Crockett
+            </h3>
+            <p className="mb-8 text-lg">Professor, Writer, Researcher</p>
+            <img
+              alt="Karilyn Crockett"
+              src="/img/speakers/karilyn-crockett.jpg"
+            />
+            <details className="font-mono mt-6">
+              structural poverty and race. Karilyn’s book{" "}
+              <a
+                className="px-3 underline"
+                href="https://bookshop.org/books/people-before-highways-boston-activists-urban-planners-and-a-new-movement-for-city-making-9781625342966/9781625342973"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                "People before Highways: Boston Activists, Urban Planners, and a
+                New Movement for City Making"
+              </a>{" "}
+              (UMASS Press 2018) investigates a 1960s era grassroots movement to
+              halt urban extension of the U.S. interstate highway system and the
+              geographic and political changes in Boston that resulted. In 2019
+              this book was named one of the “ten best books of the decade” by
+              the Boston Public Library Association of Librarians. Previously
+              Karilyn co-founded Multicultural Youth Tour of What's Now
+              (MYTOWN), an award winning, Boston-based, educational non-profit
+              organization. MYTOWN hired public high school students to research
+              their local and family histories to produce youth-led walking
+              tours for sale to public audiences. During its nearly 15 years of
+              operation, MYTOWN created jobs for more than 300 low and
+              moderate-income teenagers, who in turn led public walking tours
+              for more than 14,000 visitors and residents. In a White House
+              ceremony, the National Endowment for the Humanities cited MYTOWN
+              as “One of ten best Youth Humanities Programs in America.” Karilyn
+              holds a PhD from the American Studies program at Yale University,
+              a Master of Science in Geography from the London School of
+              Economics, and a Master of Arts and Religion from Yale Divinity
+              School. Karilyn served for four years with the Mayor's Office of
+              Economic Development as the Director of Economic Policy & Research
+              and the Director of Small Business Development for the City of
+              Boston. She recently completed her service as the City of Boston's
+              first Chief of Equity, a Cabinet-level position Mayor Walsh
+              established to embed equity and racial justice into all City
+              planning, operations, and work moving forward. She holds a faculty
+              appointment as professor of urban history, public policy and
+              planning in MIT's Department of Urban Studies & Planning.
+              Karilyn’s career mission is to continue to work at the nexus of
+              education, economic development policy and urban revitalization.
+              <summary className="focus:outline-none textWrap">
+                Dr. Karilyn Crockett’s (she / her) research focuses on
+                large-scale land use changes in twentieth century American
+                cities and examines the social and geographic implications of
               </summary>
             </details>
             <a
@@ -1232,7 +1349,7 @@ export default function Speakers() {
               2017), and translator of I Even Regret Night: Holi Songs of
               Demerara (1916) (Kaya Press 2019) which received a PEN/Heim
               Translation Fund Grant Award and the 2020 Harold Morton Landon
-              Translation Award from the American Academy of Poets. His
+              Translation Award from the American Academy of Poets. His{" "}
               <a
                 className="px-3 underline"
                 href="https://restlessbooks.org/bookstore/antiman"
@@ -1240,7 +1357,7 @@ export default function Speakers() {
                 target="_blank"
               >
                 memoir
-              </a>
+              </a>{" "}
               received the 2019 Reckless Books’ New Immigrant Writing Prize and
               is forthcoming 2021. Currently he is an Assistant Professor of
               poetry in the MFA program at Emerson College, translations editor
@@ -1272,35 +1389,6 @@ export default function Speakers() {
               </svg>
             </a>
           </li>
-
-          <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">Red Shaydez</h3>
-            <p className="mb-8 text-lg">
-              Musician, Entrepreneur, Mentor, Educator, Community Builder
-            </p>
-            <img alt="Red Shaydez" src="/img/speakers/red-shaydez.jpeg" />
-            <details className="font-mono mt-6">
-              "Shaydez" symbolizes her view from the world behind the tinted
-              lens and her nickname. The Boston native established her name in
-              her local scene and beyond. Her creativity expands apart from
-              being an award-winning hip-hop artist; she’s a professional video
-              producer, educator, and youth mentor as well.
-              <summary className="focus:outline-none textWrap">
-                A single pair of red sunglasses received as a gift became a
-                defining moment for rapper{" "}
-                <a
-                  className="underline"
-                  href="https://chillinintheshade.com/"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  Red Shaydez
-                </a>{" "}
-                (she / her). "Red" epitomizes her ambition and ambiance, while
-              </summary>
-            </details>
-          </li>
-
           <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Ryan Murphy</h3>
             <p className="mb-8 text-lg">Publisher, Poet</p>
@@ -1343,7 +1431,7 @@ export default function Speakers() {
             <img alt="​Safia Elhillo" src="/img/speakers/safia-elhillo.jpg" />
             <details className="font-mono mt-6">
               Arab American Book Award, Girls That Never Die (One World/Random
-              House 2021), and the novel in verse
+              House 2021), and the novel in verse{" "}
               <a
                 className="px-3 underline"
                 href="https://bookshop.org/books/home-is-not-a-country-9780593177068/9780593177051"
@@ -1351,7 +1439,7 @@ export default function Speakers() {
                 target="_blank"
               >
                 Home Is Not A Country
-              </a>
+              </a>{" "}
               (Make Me A World/Random House, 2021). With Fatimah Asghar, she is
               co-editor of the anthology Halal If You Hear Me (Haymarket Books,
               2019). She is currently a Wallace Stegner Fellow at Stanford
@@ -1637,6 +1725,302 @@ export default function Speakers() {
                 <use xlinkHref="#icon-rightarrow" />
               </svg>
             </a>
+          </li>
+        </ul>
+        <h2 className="font-bold my-10 md:text-4xl text-3xl">Meet Our Hosts</h2>
+        <ul className="gap-x-28 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">SublimeLuv</h3>
+            <p className="mb-8 text-lg">Womanist, Poet, Performer</p>
+            <img alt="SublimeLuv" src="/img/speakers/sublimeluv.jpg" />
+            <details className="font-mono mt-6">
+              spoken word artist, teaching artist, makeup artist, personal
+              stylist, and social justice advocate. She is a product of private
+              and public local school systems; and became an activist through
+              words at an early age due to her contrasting experiences in those
+              institutions. She has a fierce passion to combat climate change,
+              gentrification, and systematic inequality; which
+              disproportionately affect disadvantaged populations and people of
+              the global majority. She has a Bachelor of Arts in Sociology from
+              Simmons University. She has performed at the Isabella Stewart
+              Gardner Museum where she opened up for Grammy nominated artist
+              Maimouna Youssef, the Museum of Fine Arts, the city of Quincy's
+              first Pride celebration, and has been an active performer in The
+              Femme Show since 2014. Through her art and future endeavors, she
+              aims to empower women and people of the global majority to impact
+              visibility and positive global change.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.sublimeluv.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Amber Aliyah Williams, aka SublimeLuv,
+                </a>{" "}
+                (she / her) is a black queer womanist who always speaks her
+                truth and believes "the personal is political." She is a Boston
+                born and bred
+              </summary>
+            </details>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Denise Washington</h3>
+            <p className="mb-8 text-lg">CEO, Curator, Poet</p>
+            <img
+              alt="Denise Washington"
+              src="/img/speakers/denise-washington.jpg"
+            />
+            <details className="font-mono mt-6">
+              years, poetry has been popping up around the City of Boston,
+              beyond and currently on-line, virtually, empowering communities
+              one poem at a time! This Series create a safe space for people to
+              breathe, listen, recite and enjoy! She is currently on the
+              Advisory Board of The New England Poetry Club. She is an Educator
+              in Boston, nurturing students, teaching mindfulness, yoga and
+              Zumba to the whole school community, their families and staff. She
+              was born and raised in Roxbury, Massachusetts; was a METCO student
+              who graduated from Lincoln-Sudbury Regional High School; is an
+              Elma Lewis School of Fine Arts Alum and a vocal student of the
+              late John Andrew Ross. She holds a Master of Science degree in
+              Early Childhood Education from Wheelock College and a Bachelor of
+              Science Degree from Emerson College in Television Production/
+              Creative Writing. For several years, she lived in North Hollywood,
+              California. While living there she discovered her love for writing
+              television scripts, plays, poetry and Children’s literature and
+              she became a Television Writer on a show produced by HBO.
+              <summary className="focus:outline-none textWrap">
+                Denise (she / her) is so excited to be using the power of poetry
+                to bring people together! She is the Founder and CEO of her{" "}
+                <a
+                  className="underline"
+                  href="https://www.facebook.com/Pop-Up-Poetry-1645852038857897/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  #Pop-Up Poetry Series, A Denise Plays Hard Event
+                </a>
+                . For the past 4
+              </summary>
+            </details>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">D Ruff</h3>
+            <p className="mb-8 text-lg">Poet, Performer, Curator</p>
+            <img alt="​D Ruff" src="/img/speakers/d-ruff.jpg" />
+            <details className="font-mono mt-6">
+              "if you can Feel It, you can Speak It" Open Mic movement, held at
+              Bella Luna/ Milky Way in Jamaica Plain, for the last ten years. He
+              has been writing and performing for over twenty years. Most of his
+              poems stem from personal experiences and his environments and
+              therefore range in topics from black love and heartbreak to
+              inequality and black culture. D Ruff performs with inspiring
+              passion in hopes that any black body will also want to find a way
+              to express themselves, find that "tribe" and achieve their
+              greatness, with the intention of leaving the cycle of hurt, pain,
+              and negativity, right where it was showcased.
+              <summary className="focus:outline-none textWrap">
+                D Ruff (he / him) is a spoken word poet, author of "Staying on
+                94: Tales from a Misguided Soul," and Creative Director of the
+                Boston Pulse Poetry program. He has been the co-host of the
+              </summary>
+            </details>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Nakia Hill</h3>
+            <p className="mb-8 text-lg">Writer, Educator, Journalist</p>
+            <img alt="Nakia Hill" src="/img/speakers/nakia-hill.jpg" />
+            <details className="font-mono mt-6">
+              native of Roxbury, Hill was named a Boston Artist-in-Residence in
+              2018 by Mayor Marty Walsh. Hill is the author of two books:{" "}
+              <a
+                className="px-3 underline"
+                href="https://www.nakiahill.com/books-1/o6xj6qucd96tem9ui1bgog8ekif3p0"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                Water Carrier
+              </a>{" "}
+              and{" "}
+              <a
+                className="pl-3 underline"
+                href="https://www.nakiahill.com/books-1/i-still-did-it"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                I Still Did It
+              </a>
+              . She is the first Black woman to become an editor at Boston Art
+              Review. She is a co-writer on Here Comes the Break, a
+              fictionalized YA drama podcast. You can find her cheffin' it up in
+              the kitchen while immersing herself in good music and podcasts
+              during her spare time.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.nakiahill.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Nakia Hill
+                </a>{" "}
+                (she / her) is a writer, journalist, and educator who focuses on
+                empowering Black women and girls to use writing as a tool for
+                healing and resistance through book publishing. A
+              </summary>
+            </details>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Phree</h3>
+            <p className="mb-8 text-lg">Poet, Performer, Curator</p>
+            <img alt="Phree" src="/img/speakers/phree.jpg" />
+            <details className="font-mono mt-6">
+              Non-Binary BIPOC individuals to heal, break barriers and build
+              bonds. Born and Raised in Boston, Phree utilizes their gift of
+              creativity as a fight towards freedom and an extreme attempt at
+              revolutionizing therapy through art and as a form of healing.
+              Their work consists of topics ranging from but not limited to,
+              intergenerational trauma, cycles of abuse, mental health, identity
+              and self love. Phree uses their voice as a tool for self
+              liberation, to influence the power of passion and works to counter
+              systemic oppression with community building and advocacy.
+              <summary className="focus:outline-none textWrap">
+                Phree (they / them) is a Black, Queer, Non-Binary
+                Multidisciplinary Artist and the Founder of The Bois & Bullshit
+                Collective; a working space for Masculine - of - Centered Queer,
+                Trans,
+              </summary>
+            </details>
+          </li>
+        </ul>
+        <h2 className="font-bold my-10 md:text-4xl text-3xl">
+          DJ WhySham Presents… BEAST THE BEAT
+        </h2>
+        <ul className="gap-x-28 gap-y-20 grid pb-20 md:grid-cols-2 lg:grid-cols-3">
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">DJ WhySham</h3>
+            <p className="mb-8 text-lg"></p>
+            <img alt="DJ WhySham" src="/img/speakers/dj-whysham.jpg" />
+            <details className="font-mono mt-6">
+              uses the tagline “Your Community DJ”. DJ WhySham has been seen on
+              “The ShadeRoom w/ Megan Thee Stallion”, Boston Neighborhood
+              Network and has DJ’ed for Senator Elizabeth Warren. She is also
+              the Official DJ for Brandie Blaze and CakeSwagg. While in Boston,
+              DJ WhySham received the Neighborhood Leadership Award from the
+              Codman Square Neighborhood Council. This award recognized Hidden
+              Heroes & Sheroes in the community who have demonstrated
+              leadership, initiative and commitment to improving the quality of
+              life in our neighborhood.
+              <summary className="focus:outline-none textWrap">
+                Shamara AKA DJ WhySham (she / her), was nominated for the 2019 &
+                2020 Boston Music Awards ‘DJ Of The Year’. She is a visionary,
+                activist, traveler, sister, god-parent, curator and
+              </summary>
+            </details>
+          </li>
+
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Red Shaydez</h3>
+            <p className="mb-8 text-lg"></p>
+            <img alt="Red Shaydez" src="/img/speakers/red-shaydez.jpeg" />
+            <details className="font-mono mt-6">
+              "Shaydez" symbolizes her view from the world behind the tinted
+              lens and her nickname. The Boston native established her name in
+              her local scene and beyond. Her creativity expands apart from
+              being an award-winning hip-hop artist; she’s a professional video
+              producer, educator, and youth mentor as well.
+              <summary className="focus:outline-none textWrap">
+                A single pair of red sunglasses received as a gift became a
+                defining moment for rapper{" "}
+                <a
+                  className="underline"
+                  href="https://chillinintheshade.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Red Shaydez
+                </a>{" "}
+                (she / her). "Red" epitomizes her ambition and ambiance, while
+              </summary>
+            </details>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">MALiA the Model</h3>
+            <p className="mb-8 text-lg"></p>
+            <img
+              alt="MALiA the Model"
+              src="/img/speakers/malia-the-model.jpg"
+            />
+            <details className="font-mono mt-6">
+              Lawrence, Ma and found her talents making way to Boston in 2017.
+              With her UPBEAT tempo, she keeps a good mix of old and new school
+              sounds, creating a feel good, unapologetic, money making, party
+              type of music. Her inspirations range from Missy Elliott, Kanye
+              West, Nicki Minaj, Lil Wayne, Tink, T.I., Rihanna, Busta Rhymes
+              and Aaliyah. Known for her SCENARiO Li-Mix on Youtube, paying
+              homage to A Tribe Called Quest, the model rapper released her
+              first EP entitled ‘MADE U LOOK’ (2018). Soon after, her single ‘NO
+              TIME’ (2019), ‘BE GONE’ (2020) and her newest single I’M HOT!
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.maliathemodel.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  MALiA The Model
+                </a>{" "}
+                (she / her) is MODEL MUSiK! With her one of a kind voice and
+                slim figure, MALiA is, Naomi Campbell meets Hip Hop. Beginning
+                her music journey in 2018, she grew up in
+              </summary>
+            </details>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">CakeSwagg</h3>
+            <p className="mb-8 text-lg"></p>
+            <img alt="CakeSwagg" src="/img/speakers/cakeswagg.jpg" />
+            <details className="font-mono mt-6">
+              week she uses a variety of instrumentals. CakeSwagg has attracted
+              over 28k listeners to her recent song “Ferb and Phineas”,
+              available on all music platforms.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.facebook.com/cakeswagg/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  CakeSwagg
+                </a>
+                , (she / her) Roxbury Native is a Boston Music Award nominee.
+                CakeSwagg is the creator of "Talk that Talk Tuesdays”, where she
+                is known to release a freestyle every Tuesday. Each
+              </summary>
+            </details>
+          </li>
+          <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Brandie Blaze</h3>
+            <p className="mb-8 text-lg"></p>
+            <img alt="Brandie Blaze" src="/img/speakers/brandie-blaze.jpg" />
+            <details className="font-mono mt-6">
+              Known for her hit record “Boss Like Me”, Brandie Blaze has been
+              influential to women in Boston and across the world looking to
+              break into the music industry by just being themselves.
+              <summary className="focus:outline-none textWrap">
+                <a
+                  className="underline"
+                  href="https://www.facebook.com/brandieblaze617/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Brandie Blaze
+                </a>
+                , (she / her) Dorchester Native, Trap Feminist, Boston Music
+                Award nominee, featured in Jubilee, Brandie Blaze has been a
+                trailblazer leaving her mark across the music scene.
+              </summary>
+            </details>
           </li>
         </ul>
       </div>
