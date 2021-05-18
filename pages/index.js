@@ -74,9 +74,40 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="max-w-7xl mx-auto mb-40 px-6">
+          <div className="md:flex items-center justify-between mb-10 md:mb-14">
+            <h2 className="font-bold mb-10 md:mb-0 text-4xl">
+              Poem For Roxbury
+            </h2>
+          </div>
+          <ul className="gap-x-20 grid md:grid-cols-2">
+            <li className="border-t border-black">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">
+                Rashawnda Williams
+              </h3>{" "}
+              <p className="mb-8 text-lg">Roxbury Love</p>
+              <video
+                controls
+                src="/rashawnda-williams.mp4"
+                poster="/rashawnda-williams.jpg"
+              ></video>
+            </li>
+            <li className="border-t border-black">
+              <h3 className="mb-4 mt-8 text-5xl uppercase">Durane West</h3>
+              <p className="mb-8 text-lg">617 Roxbury</p>
+              <video
+                controls
+                src="/durane-west.mp4"
+                poster="/durane-west.jpg"
+              ></video>
+            </li>
+          </ul>
+        </div>
         <div className="max-w-7xl mx-auto pb-16 px-6">
           <div className="md:flex items-center justify-between mb-10 md:mb-14">
-            <h2 className="font-bold mb-10 md:mb-0 text-4xl">Headliners</h2>
+            <h2 className="font-bold mb-10 md:mb-0 text-4xl">
+              Festival Headliners
+            </h2>
             <Link href="/speakers">
               <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
                 See all Speakers
