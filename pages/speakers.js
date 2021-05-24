@@ -467,59 +467,6 @@ export default function Speakers() {
           </li>
 
           <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">Frances Donovan</h3>
-            <p className="mb-8 text-lg">Poet, Writer, Teacher</p>
-            <img
-              alt="Frances Donovan"
-              src="/img/speakers/frances-donovan.jpg"
-            />
-            <details className="font-mono mt-6">
-              MFA in poetry from Lesley University and she once drove a
-              bulldozer in an LGBTQ+ Pride Parade while wearing a bustier.
-              Twitter:{" "}
-              <a
-                className="underline"
-                href="https://twitter.com/okelle"
-                rel="noreferrer noopener"
-                target="_blank"
-              >
-                @okelle
-              </a>
-              <summary className="focus:outline-none textWrap">
-                <a
-                  className="underline"
-                  href="https://gardenofwords.com/"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  Frances Donovan’s
-                </a>{" "}
-                (she / her) chapbook{" "}
-                <a
-                  className="underline"
-                  href="https://www.amazon.com/Mad-Quick-Hand-Seashore-Poems/dp/1984273159"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                >
-                  Mad Quick Hand of the Seashore
-                </a>{" "}
-                was a finalist in the Lambda Literary Awards. Bylines include
-                The Rumpus, SWWIM, and Solstice. She holds an
-              </summary>
-            </details>
-            <a
-              className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg"
-              href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              Register for Paths to Publication
-              <svg className="ml-4 lg:ml-6" height="8" width="19">
-                <use xlinkHref="#icon-rightarrow" />
-              </svg>
-            </a>
-          </li>
-          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Fulani Haynes</h3>
             <p className="mb-8 text-lg">Musician, Performer, Chef</p>
             <img alt="Fulani Haynes" src="/img/speakers/fulani-haynes.jpg" />
