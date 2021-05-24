@@ -136,6 +136,30 @@ export default function About() {
                   <li className="mt-2">Amber Williams (SublimeLuv)</li>
                 </ul>
               </div>
+              <p className="italic my-10 text-normal">
+                The Roxbury Poetry Festival's logo-font shares lineage with work
+                from the artist, Cagen Luse, whose artwork can be supported
+                here:{" "}
+                <a
+                  className="underline"
+                  href="https://www.etsy.com/shop/950Design?ref=shop_sugg"
+                  rel="noreferrer noreopener"
+                  target="_blank"
+                >
+                  www.950design.com
+                </a>
+                . The Roxbury Poetry Festival's logo was designed by artist
+                Demetrius Wilson whose work can be found{" "}
+                <a
+                  className="underline"
+                  href="https://galateafineart.wordpress.com/2020/02/11/artist-profile-demetrius-wilson/"
+                  rel="noreferrer noreopener"
+                  target="_blank"
+                >
+                  here
+                </a>
+                .
+              </p>
               <div className="my-10">
                 <h3 className="border-b border-black font-bold mb-6">
                   Public Safety & COVID-19
