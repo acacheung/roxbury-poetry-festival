@@ -807,7 +807,7 @@ export default function Schedule() {
               </h3>
               <p>
                 This poetry slam occurs outdoors in Nubian’s Square Blair Lot.
-                It will be filmed by Button Poetry and alots the winner of the
+                It will be filmed by Button Poetry and allots the winner of the
                 slam, a local writer, a chap book deal from the publisher,
                 Button Poetry. This event is only open to poetry living in
                 Massachusetts. Hosted by Harlym 125.
@@ -834,9 +834,8 @@ export default function Schedule() {
                 Beast The Beat
               </h3>
               <p>
-                Inspired by the online Versuz series this event will take place
-                in the Blair Lot and feature local hip hop artists in a
-                friendly.
+                Presented by DJ Why Sham, Beast the Beat is a women / fem rap
+                concert.
               </p>
             </div>
           </div>
