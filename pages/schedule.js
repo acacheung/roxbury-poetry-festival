@@ -812,20 +812,21 @@ export default function Schedule() {
                 Button Poetry. This event is only open to poetry living in
                 Massachusetts. Hosted by Harlym 125.
               </p>
-              <a
-                href="https://cityofbostonartsandculture.submittable.com/submit/83c697df-d09a-4203-86e7-28efb999f290/roxbury-poetry-festival-publishers-poetry-slam"
-                className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
-                rel="noreferrer noopener"
-                target="_blank"
-              >
-                Register for the Slam
-                <svg className="fill-current ml-2" height="12" width="15">
-                  <use xlinkHref="#icon-rightarrow" />
-                </svg>
-              </a>
+              <Link href="/slam">
+                <a
+                  className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  More info about the slam
+                  <svg className="fill-current ml-2" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
+              </Link>
             </div>
           </div>
-          <div className="border-t border-black md:grid md:grid-cols-8 items-center md:w-full py-10">
+          <div className="border-t border-black md:grid md:grid-cols-8 md:w-full py-10">
             <div className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
               7:00pm - 9:00pm ET
             </div>
@@ -837,6 +838,11 @@ export default function Schedule() {
                 Presented by DJ Why Sham, Beast the Beat is a women / fem rap
                 concert.
               </p>
+              <img
+                alt="Beast the Beat Flyer"
+                className="max-w-2xl mt-8 w-full"
+                src="/img/beast-flyer.jpg"
+              />
             </div>
           </div>
         </div>
