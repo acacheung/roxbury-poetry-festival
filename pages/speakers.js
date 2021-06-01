@@ -1140,6 +1140,42 @@ export default function Speakers() {
           </li>
 
           <li className="speakers-grid">
+            <h3 className="mb-4 mt-8 text-5xl uppercase">
+              Michelle Garcia Fresco
+            </h3>
+            <p className="mb-8 text-lg">Poet, Performer, Teaching Artist</p>
+            <img
+              alt="Michelle Garcia Fresco"
+              src="/img/speakers/michelle-garcia-fresco.jpg"
+            />
+            <details className="font-mono mt-6">
+              in Creative Writing and Sociology. Believing in the power of
+              poetry as a medium for social justice. Garcia`s writing is often
+              inspired by the women in her family, social and racial injustices
+              in America, coping with loss and mental health, as well as her
+              Dominican roots. Her work has appeared in <em>Wbur/The Artery</em>
+              , <em>Tinderbox Poetry</em>, and <em>the Rising Phoenix</em>. She
+              is also the winner of Stirling Spoon's “2020: Identity in America”
+              contest, chosen by Richard Blanco, former US Inaugural Poet and
+              author.
+              <summary className="focus:outline-none textWrap">
+                Michelle Garcia Fresco (she / her) is an Dominican poet,
+                performer, and teaching artist based in Boston. She is currently
+                a Senior at the University of Massachusetts Lowell, double
+                majoring
+              </summary>
+            </details>
+            <Link href="/slam">
+              <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
+                View the Publisher's Poetry Slam
+                <svg className="ml-4 lg:ml-6" height="8" width="19">
+                  <use xlinkHref="#icon-rightarrow" />
+                </svg>
+              </a>
+            </Link>
+          </li>
+
+          <li className="speakers-grid">
             <h3 className="mb-4 mt-8 text-5xl uppercase">Nikia Chaney</h3>
             <p className="mb-8 text-lg">Poet, Educator</p>
             <img alt="Nikia Chaney" src="/img/speakers/nikia-chaney.jpg" />
@@ -1832,26 +1868,26 @@ export default function Speakers() {
               </summary>
             </details>
           </li>
-
           <li className="speakers-grid">
-            <h3 className="mb-4 mt-8 text-5xl uppercase">Phree</h3>
-            <p className="mb-8 text-lg">Poet, Performer, Curator</p>
-            <img alt="Phree" src="/img/speakers/phree.jpg" />
+            <h3 className="mb-4 mt-8 text-5xl uppercase">Lewis Morris</h3>
+            <p className="mb-8 text-lg">Poet, Beatmaker, MC</p>
+            <img alt="Lewis Morris" src="/img/speakers/lewis-morris.jpg" />
             <details className="font-mono mt-6">
-              Non-Binary BIPOC individuals to heal, break barriers and build
-              bonds. Born and Raised in Boston, Phree utilizes their gift of
-              creativity as a fight towards freedom and an extreme attempt at
-              revolutionizing therapy through art and as a form of healing.
-              Their work consists of topics ranging from but not limited to,
-              intergenerational trauma, cycles of abuse, mental health, identity
-              and self love. Phree uses their voice as a tool for self
-              liberation, to influence the power of passion and works to counter
-              systemic oppression with community building and advocacy.
+              retain a refreshingly simplified approach to hip-hop production
+              that harkens back to the boom-bap of the 90's while remaining
+              fresh and new.
               <summary className="focus:outline-none textWrap">
-                Phree (they / them) is a Black, Queer, Non-Binary
-                Multidisciplinary Artist and the Founder of The Bois & Bullshit
-                Collective; a working space for Masculine - of - Centered Queer,
-                Trans,
+                <a
+                  className="underline"
+                  href="https://lewismorris.bandcamp.com"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  Lewis M.
+                </a>{" "}
+                (he / him) is a Boston-based (and Providence born) poet,
+                beatmaker, and MC. He has performed at the Apollo Theater in
+                NYC, The Smithsonian, among many other venues. His beats
               </summary>
             </details>
           </li>

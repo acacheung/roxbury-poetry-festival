@@ -14,21 +14,10 @@ export default function Slam() {
               </svg>
             </a>
           </Link>
-          <div className="md:flex items-center justify-between my-10">
+          <div className="md:flex items-center my-10">
             <h2 className="font-bold mb-6 md:mb-0 md:text-4xl text-3xl">
               Publisher's Poetry Slam
             </h2>
-            <div className="border border-black inline-block rounded-full py-3 px-5">
-              <a
-                href="https://cityofbostonartsandculture.submittable.com/submit/83c697df-d09a-4203-86e7-28efb999f290/roxbury-poetry-festival-publishers-poetry-slam"
-                className="flex items-center"
-              >
-                Register for the Slam
-                <svg className="fill-current ml-2" height="12" width="15">
-                  <use xlinkHref="#icon-rightarrow" />
-                </svg>
-              </a>
-            </div>
           </div>
           <div className="border-t border-black md:flex md:pt-20 pt-10">
             <div className="mb-10 md:mb-0 md:mr-20 md:text-3xl md:w-1/3 text-2xl xl:mr-32">
@@ -115,10 +104,40 @@ export default function Slam() {
                   </p>
                 </div>
               </div>
+              <div className="my-10">
+                <h3 className="border-b border-black font-bold mb-6">
+                  Bout Manager - Michelle Garcia Fresco
+                </h3>
+                <div className="slam-bio md:flex">
+                  <img
+                    alt="Michelle Garcia Fresco"
+                    className="w-full h-full mb-4 md:w-1/3"
+                    src="/img/speakers/michelle-garcia-fresco.jpg"
+                  />
+                  <p className="font-mono md:ml-6 md:text-lg md:w-2/3">
+                    <p className="font-mono text-lg">
+                      Michelle Garcia Fresco is an Dominican poet, performer,
+                      and teaching artist based in Boston. She is currently a
+                      Senior at the University of Massachusetts Lowell, double
+                      majoring in Creative Writing and Sociology. Believing in
+                      the power of poetry as a medium for social justice.
+                      Garcia`s writing is often inspired by the women in her
+                      family, social and racial injustices in America, coping
+                      with loss and mental health, as well as her Dominican
+                      roots. Her work has appeared in <em>Wbur/The Artery</em>,{" "}
+                      <em>Tinderbox Poetry</em>, and <em>the Rising Phoenix</em>
+                      . She is also the winner of{" "}
+                      <em>Stirling Spoon's “2020: Identity in America”</em>
+                      contest, chosen by Richard Blanco, former US Inaugural
+                      Poet and author.
+                    </p>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
-          <p className="max-w-4xl lg:text-5xl md:mt-20 md:mb-40 md:text-4xl mt-12 mx-auto text-2xl text-center">
+          <p className="max-w-4xl lg:text-5xl md:mt-20 md:mb-24 md:text-4xl my-12 mx-auto text-2xl text-center">
             The Poetry Slam will be filmed and published by{" "}
             <a
               className="underline"
@@ -129,6 +148,11 @@ export default function Slam() {
               Button Poetry
             </a>
           </p>
+          <img
+            alt="Poetry Slam Flyer"
+            className="flex max-w-4xl md:mb-20 mx-auto w-full"
+            src="/img/slam-flyer.jpg"
+          />
         </div>
       </Layout>
     </>

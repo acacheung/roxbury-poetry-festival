@@ -118,7 +118,7 @@ export default function About() {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="mb-10">
                 <h3 className="border-b border-black font-bold mb-6">
                   RPF Advisory Team
                 </h3>
@@ -134,6 +134,43 @@ export default function About() {
                   <li className="mt-2">Tariq Charles</li>
                   <li className="mt-2">Stephen Hamilton</li>
                   <li className="mt-2">Amber Williams (SublimeLuv)</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="border-b border-black font-bold mb-6">
+                  Thank You To Our Donors
+                </h3>
+                <ul className="list-disc md:gap-x-12 md:grid md:grid-cols-3 ml-5">
+                  <li className="mt-2">Kara Elliot-Ortega</li>
+                  <li className="mt-2">E Lev Friedland</li>
+                  <li className="mt-2">Micha Black</li>
+                  <li className="mt-2">Shea Martin</li>
+                  <li className="mt-2">Tatiana Johnson-Boria</li>
+                  <li className="mt-2">Jaime Zuckerman</li>
+                  <li className="mt-2">Percy Bromby II</li>
+                  <li className="mt-2">Anneke Reich</li>
+                  <li className="mt-2">Madison Simpson</li>
+                  <li className="mt-2">Jeni Prater</li>
+                  <li className="mt-2">Bailey Snyder</li>
+                  <li className="mt-2">Ashley Davis</li>
+                  <li className="mt-2">Cass Queen</li>
+                  <li className="mt-2">Sherell Barbee</li>
+                  <li className="mt-2">Sam Rush</li>
+                  <li className="mt-2">Eileen Donovan</li>
+                  <li className="mt-2">Marley O' Neil</li>
+                  <li className="mt-2">Nora Platt</li>
+                  <li className="mt-2">Meghan Napier</li>
+                  <li className="mt-2">Jessica Gonzalez</li>
+                  <li className="mt-2">Livia M</li>
+                  <li className="mt-2">April Wildes</li>
+                  <li className="mt-2">Stephen Hamilton</li>
+                  <li className="mt-2">Malaisha York</li>
+                  <li className="mt-2">Julissa Jansen</li>
+                  <li className="mt-2">Kelly Chavez</li>
+                  <li className="mt-2">Aoife Troxel</li>
+                  <li className="mt-2">Kevin Fong</li>
+                  <li className="mt-2">Paul D</li>
+                  <li className="mt-2">Octavia Bryant</li>
                 </ul>
               </div>
               <p className="italic my-10 text-normal">

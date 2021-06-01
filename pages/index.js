@@ -43,6 +43,7 @@ export default function Home() {
               <div className="md:w-1/4 md:mt-10 mt-6 mx-auto w-2/3">
                 <img
                   alt="Poetry writing book gif"
+                  className="mx-auto"
                   height="300"
                   src="/img/gif-black.gif"
                   width="300"
