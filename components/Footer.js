@@ -32,7 +32,7 @@ export default function Footer() {
         </Link>
         <a
           className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16"
-          href="/speaker-books.pdf"
+          href="/speaker-book.pdf"
           target="_blank"
         >
           Books
