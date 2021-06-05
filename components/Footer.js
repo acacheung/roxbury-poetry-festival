@@ -11,27 +11,34 @@ export default function Footer() {
           <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:pt-8">Home</a>
         </Link>
         <Link href="/about">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-16 lg:pt-8">
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
             About
           </a>
         </Link>
         <Link href="/schedule">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-16 lg:pt-8">
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
             Schedule
           </a>
         </Link>
         <Link href="/speakers">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-16 lg:pt-8">
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
             Speakers
           </a>
         </Link>
         <Link href="/slam">
-          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-16 lg:pt-8">
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
             Slam
           </a>
         </Link>
         <a
-          className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-16 lg:pt-8"
+          className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16"
+          href="/speaker-books.pdf"
+          target="_blank"
+        >
+          Books
+        </a>
+        <a
+          className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16"
           href="mailto:roxburypoetryfestival@gmail.com"
           target="_blank"
         >
