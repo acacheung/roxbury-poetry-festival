@@ -51,8 +51,8 @@ export default function Home() {
               </div>
             </div>
             <div className="font-mono md:mt-10 mt-6 md:text-left mb-20 pb-20 text-center">
-              <p className="md:text-3xl text-2xl uppercase">
-                June 05, 2021 / 10 am - 9 pm ET
+              <p className="md:text-3xl text-2xl">
+                August 5, 2023 - Save the date!
               </p>
               <div className="md:flex md:text-lg mt-8 items-start">
                 <div className="flex md:justify-start justify-center">
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto mb-40 px-6">
+        {/* <div className="max-w-7xl mx-auto mb-40 px-6">
           <div className="md:flex items-center justify-between mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">
               Poem For Roxbury
@@ -103,8 +103,8 @@ export default function Home() {
               ></video>
             </li>
           </ul>
-        </div>
-        <div className="max-w-7xl mx-auto pb-16 px-6">
+        </div> */}
+        {/* <div className="max-w-7xl mx-auto pb-16 px-6">
           <div className="md:flex items-center justify-between mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">
               Festival Headliners
@@ -212,7 +212,7 @@ export default function Home() {
               </details>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

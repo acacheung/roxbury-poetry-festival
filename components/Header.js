@@ -23,11 +23,11 @@ const Header = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.hamburgerActive
           ? this.setState({
-              navBarActiveClass: headerStyles.isActive,
-            })
+            navBarActiveClass: headerStyles.isActive,
+          })
           : this.setState({
-              navBarActiveClass: "",
-            });
+            navBarActiveClass: "",
+          });
       }
     );
   };
@@ -66,101 +66,107 @@ const Header = class extends React.Component {
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RPF 2021</p>
+                    <p>About RPF</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RPF 2021</p>
+                    <p>About RPF</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RPF 2021</p>
+                    <p>About RPF</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RPF 2021</p>
+                    <p>About RPF</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RPF 2021</p>
+                    <p>About RPF</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>About RPF 2021</p>
+                    <p>About RPF</p>
+                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
+                  </div>
+                </div>
+                <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div className="flex items-center">
+                    <p>About RPF</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
               </a>
             </Link>
-            <Link href="/schedule">
+            <Link href="/2021">
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Schedule</p>
+                    <p>RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Schedule</p>
+                    <p>RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Schedule</p>
+                    <p>RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Schedule</p>
+                    <p>RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Schedule</p>
+                    <p>RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Schedule</p>
+                    <p>RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Schedule</p>
+                    <p>RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Schedule</p>
+                    <p>RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Schedule</p>
+                    <p>RPF 2021</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
               </a>
             </Link>
-            <Link href="/speakers">
+            {/* <Link href="/speakers">
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrollingSpeakers}>
                   <div className="flex items-center">
@@ -232,58 +238,34 @@ const Header = class extends React.Component {
                   </div>
                 </div>
               </a>
-            </Link>
+            </Link> */}
             <a
-              href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+              href="https://docs.google.com/forms/d/1dVPr3Ww0Ur5G2nGnzgnr3cw64wqNUdXjsWyIxfFoUAE/edit"
               className={headerStyles.scrollingItem}
               target="_blank"
               rel="noreferrer noopener"
             >
               <div className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register</p>
+                  <p>Call for Proposals</p>
                   <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register</p>
+                  <p>Call for Proposals</p>
                   <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register</p>
+                  <p>Call for Proposals</p>
                   <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
               </div>
               <div aria-hidden="true" className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register</p>
-                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                </div>
-              </div>
-              <div aria-hidden="true" className={headerStyles.scrolling}>
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                </div>
-              </div>
-              <div aria-hidden="true" className={headerStyles.scrolling}>
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                </div>
-              </div>
-              <div aria-hidden="true" className={headerStyles.scrolling}>
-                <div className="flex items-center">
-                  <p>Register</p>
-                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                </div>
-              </div>
-              <div aria-hidden="true" className={headerStyles.scrolling}>
-                <div className="flex items-center">
-                  <p>Register</p>
+                  <p>Call for Proposals</p>
                   <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
               </div>
@@ -296,7 +278,7 @@ const Header = class extends React.Component {
             " hidden flex flex-col md:flex-row-reverse md:justify-between md:max-w-7xl md:items-end md:mt-0 md:text-left md:w-full mt-10 px-6 text-center"
           }
         >
-          <div className="font-mono uppercase mb-6 md:mb-0">June 05, 2021</div>
+          <div className="font-mono uppercase mb-6 md:mb-0">August 5, 2023</div>
           <div className="font-mono md:flex items-start">
             <div className="flex md:justify-start justify-center">
               A

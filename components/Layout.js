@@ -64,7 +64,7 @@ export default function Layout({ children }) {
         <main className="relative z-30">{children}</main>
       </div>
       <Footer />
-      <Banner />
+      {/* <Banner /> */}
     </>
   );
 }

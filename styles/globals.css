@@ -440,9 +440,9 @@ details summary::marker {
 }
 
 @screen md {
-  .hero {
+  /* .hero {
     height: calc(100vh - 1.5rem);
-  }
+  } */
 
   .footer-top::before {
     content: "";
