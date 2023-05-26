@@ -63,7 +63,7 @@ export default function About() {
                       href="http://www.porshaolayiwola.com/"
                       target="_blank"
                     >
-                      ​Porsha Olayiwola
+                      Porsha Olayiwola
                     </a>{" "}
                     is a writer, performer, futurist and curator. Olayiwola is
                     serving as the current Poet Laureate for the City of Boston
@@ -80,28 +80,6 @@ export default function About() {
                 <h3 className="border-b border-black font-bold mb-6">
                   Festival Managers
                 </h3>
-                <div className="md:flex mb-10">
-                  <img
-                    alt="Mariama Savage"
-                    className="w-full h-full mb-4 md:w-1/4"
-                    src="/img/mariama-savage.jpg"
-                  />
-                  <p className="font-mono md:ml-6 md:text-lg md:w-3/4">
-                    M​ariama Savage, the daughter of two Sierra Leonean
-                    immigrants, is a Boston bred avid writer and fierce
-                    proponent for bettering her community. Savage’s writing
-                    revolves around the idea of sharing stories about the world
-                    around her through the lens of extended metaphors in an
-                    effort to recognize global strife and take action to fight
-                    against the many ways it takes form. As a Sierra
-                    Leonean-American Muslim woman, Savage struggles with
-                    upholding her culture in addition to being true to herself
-                    and the intersectional identities cultural traditions tread
-                    upon. With her writing she aspires to dismantle and
-                    deconstruct the isms and phobias that keep her people from
-                    propelling forward.
-                  </p>
-                </div>
                 <div className="md:flex">
                   <img
                     alt="Winelle Felix"
@@ -118,6 +96,7 @@ export default function About() {
                   </p>
                 </div>
               </div>
+              {/* 
               <div className="mb-10">
                 <h3 className="border-b border-black font-bold mb-6">
                   RPF Advisory Team
@@ -212,8 +191,10 @@ export default function About() {
                   community members are socially distancing and masked.
                 </p>
               </div>
+               */}
             </div>
           </div>
+
           <div className="justify-center max-w-6xl md:mb-32 md:mt-24 my-16 mx-auto text-center">
             <p className="lg:text-5xl mb-10 md:text-4xl text-2xl">
               “‘Thank you’ is the best prayer that anyone could say. I say that
@@ -224,6 +205,7 @@ export default function About() {
               - Pulitzer Prize Winner, Alice Walker
             </p>
           </div>
+          {/* 
           <ul className="gap-x-10 gap-y-10 grid mb-20 md:grid-cols-3 lg:grid-cols-4">
             <li className="speakers-grid">
               <a
@@ -497,6 +479,7 @@ export default function About() {
             From the very bottom of our hearts, thank you to our sponsors and
             co-collaborators. This dream is only reality with you!
           </div>
+           */}
           <div className="font-mono md:text-lg max-w-6xl mx-auto">
             The Roxbury Poetry Festival resides on the ancestral and unceded
             lands of{" "}
