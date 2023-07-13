@@ -27,6 +27,12 @@ export default function Slam() {
               <p className="mb-6">
                 Registration for the Poetry Slam will close August 1st 2023.
               </p>
+              <a href="https://cityofbostonartsandculture.submittable.com/submit/267464/rox-poetry-festival-publishers-poetry-slam-2023" target="_blank" rel="noreferrer noopener" className="mb-6 border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
+                Register to compete
+                <svg className="ml-3" height="12" width="15">
+                  <use xlinkHref="#icon-rightarrow" />
+                </svg>
+              </a>
               <img
                 alt="Button Poetry"
                 className="w-3/5"
