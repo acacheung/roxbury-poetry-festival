@@ -793,10 +793,10 @@ export default function Schedule() {
                 Publisher’s Poetry Slam
               </h3>
               <p>
-                This poetry slam occurs outdoors in Nubian’s Square Blair Lot.
+                This poetry slam is taking place at the Bruce C Bolling Building.
                 It will be filmed by Button Poetry and allots the winner of the
-                slam, a local writer, a chap book deal from the publisher,
-                Button Poetry. This event is only open to poetry living in
+                slam, a local writer, a chapbook deal from the publisher,
+                Button Poetry. This event is only open to poets living in
                 Massachusetts. Hosted by Harlym 125.
               </p>
               <Link href="/slam">
