@@ -179,10 +179,10 @@ export default function Schedule() {
                   </h3>
                   {/* <p className="mb-8">Writing Workshop and Panel</p> */}
                   <div className="schedule-image">
-                    <img
+                    {/* <img
                       alt="Tatiana Johnson-Boria"
                       src="/img/speakers/tatiana-johnson-boria.jpg"
-                    />
+                    /> */}
                   </div>
                   <details className="font-mono mt-6">
                     This class is a great place to start! In this introductory
@@ -200,7 +200,7 @@ export default function Schedule() {
                     </summary>
                   </details>
                   <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
                     rel="noreferrer noopener"
                     target="_blank"
@@ -218,10 +218,10 @@ export default function Schedule() {
                   </h3>
                   <p className="mb-8">Reading & Panel</p>
                   <div className="schedule-image">
-                    <img
+                    {/* <img
                       alt="Aricka Foreman"
                       src="/img/speakers/aricka-foreman.jpg"
-                    />
+                    /> */}
                   </div>
                   <details className="font-mono mt-6">
                     Plot lines, images, and other craft elements take on some
@@ -239,7 +239,7 @@ export default function Schedule() {
                     </summary>
                   </details>
                   <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
                     rel="noreferrer noopener"
                     target="_blank"
@@ -253,19 +253,63 @@ export default function Schedule() {
               </div>
             </details>
           </div>
+          <div className="border-t border-black md:grid md:grid-cols-8 items-center md:w-full py-10">
+            <div className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
+              1:00pm - 2:15pm ET
+            </div>
+            <div className="md:col-span-4 lg:col-span-5 text-lg">
+              <h3 className="mb-4 md:text-4xl text-3xl uppercase">
+                Lunchtime Reading & Craft Talk
+              </h3>
+              <div className="lg:flex">
+                <img
+                  alt="Jericho Brown"
+                  className="lg:h-full lg:w-1/3"
+                  src="/img/speakers/jericho-brown.jpg"
+                />
+                <div className="mt-6 lg:ml-8 lg:mt-0 lg:w-2/3">
+                  <p>
+                    This lunchtime keynote will feature poet and professor, Nate
+                    Marshall. Lunch will be provided for festival participants
+                    Nate Marshall is an award-winning writer, editor, educator,
+                    and MC. His most recent book, Finna, was recognized as one
+                    of the best books of 2020 by NPR and The New York Public
+                    Library. His first book, Wild Hundreds, was honored with the
+                    Black Caucus of the American Library Association’s award for
+                    Poetry Book of the Year and The Great Lakes College
+                    Association’s New Writer Award. He was also an editor of The
+                    BreakBeat Poets: New American Poetry in the Age of Hip-Hop.
+                    Marshall co-wrote the play No Blue Memories: The Life of
+                    Gwendolyn Brooks with Eve Ewing. He also wrote the audio
+                    drama Bruh Rabbit & The Fantastic Telling of Remington
+                    Ellis, Esq., which was produced by Make-Believe Association.
+                    Marshall records hip-hop as a solo artist and with the group
+                    Daily Lyrical Product.
+                  </p>
+                  <a
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
+                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <p>Register for this event</p>
+                    <svg className="fill-current ml-2" height="12" width="15">
+                      <use xlinkHref="#icon-rightarrow" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="schedule-grid">
             <details>
               <summary className="focus:outline-none summaryWrap">
-                <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
-                  <div className="md:col-span-7">
-                    <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
-                      <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
-                        1:00pm - 2:00pm
-                      </p>
-                      <div className="md:col-span-3 lg:col-span-4 md:text-lg">
-                        Lunch Time Craft Talk
-                      </div>
-                    </div>
+                <div className="event flex md:grid md:grid-cols-3 items-center justify-between py-10 gap-x-20">
+                  <p className="md:col-span-4 lg:col-span-1 mb-6 md:mb-0 md:text-3xl text-2xl">
+                    2:30pm - 3:45pm ET
+                  </p>
+                  <div className="md:col-span-3 lg:col-span-1 md:text-lg">
+                    Workshops & Readings
                   </div>
                   <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
                     <svg
@@ -285,122 +329,29 @@ export default function Schedule() {
                   </div>
                 </div>
               </summary>
-              <div className="gap-x-20 gap-y-20 grid md:grid-cols-2 xl:grid-cols-6 mb-20 summaryDetail">
-                <div className="speakers-grid xl:col-span-2 xl:col-start-3">
-                  <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    Home Is Not A Country
-                  </h3>
-                  <div className="home-images w-full" />
-                  <details className="font-mono mt-6">
-                    written in verse. Participants are encouraged to bring their
-                    lunch on screen while enjoying this conversation.
-                    <summary className="focus:outline-none textWrap">
-                      Home is Not A Country is a talk and reading with Safia
-                      Elhillo and a Roxbury Youth Poet Laureate Finalist, Asiyah
-                      Herrera regarding Elhillo’s recently released YA novel
-                    </summary>
-                  </details>
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    <p>Register for this event</p>
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
-                <div className="speakers-grid xl:col-span-2">
-                  <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    Craft Talk w/ Rachel McKibbens
-                  </h3>
-                  <p className="mb-8">
-                    This event is in partnership with GrubStreet
-                  </p>
-                  <div className="schedule-image-rachel">
-                    <img
-                      alt="Rachel McKibbens"
-                      src="/img/speakers/rachel-mckibbens.jpg"
-                    />
-                  </div>
-                  <details className="font-mono mt-6">
-                    vulnerability instead of an agent of confession? This craft
-                    talk encourages participants to bring their lunch on screen
-                    while enjoying a craft talk from poet and performer, Rachel
-                    McKibbens.
-                    <summary className="focus:outline-none textWrap">
-                      As poets, we use devices to resurrect or bury, but how
-                      often are we willing to lean into our own wickedness, to
-                      give it its rightful placement as the second face of our
-                    </summary>
-                  </details>
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    <p>Register for this event</p>
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </details>
-          </div>
-          <div className="schedule-grid">
-            <details>
-              <summary className="focus:outline-none summaryWrap">
-                <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
-                  <div className="md:col-span-7">
-                    <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
-                      <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
-                        2:00pm - 3:00pm ET
-                      </p>
-                      <div className="md:col-span-3 lg:col-span-4 md:text-lg">
-                        Readings, Performances & Conversations
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
-                    <svg
-                      className="fill-current open-arrow"
-                      height="20"
-                      width="40"
-                    >
-                      <use xlinkHref="#icon-uparrow" />
-                    </svg>
-                    <svg
-                      className="fill-current hidden closed-arrow"
-                      height="20"
-                      width="40"
-                    >
-                      <use xlinkHref="#icon-downarrow" />
-                    </svg>
-                  </div>
-                </div>
-              </summary>
-              <div className="gap-x-20 grid gap-y-20 mb-20 md:grid-cols-2 summaryDetail xl:gap-y-0 xl:grid-cols-4">
+              <div className="gap-x-20 grid gap-y-20 mb-20 md:grid-cols-2 summaryDetail xl:gap-y-0 xl:grid-cols-3">
                 <div className="speakers-grid">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    LatiNEXT: Anthology Reading
+                    Transitions and Seasons: When things we love are no longer
                   </h3>
-                  <p className="mb-8">
-                    Diannely Antigua, Malcolm Friend, Jonathan Mendoza
-                  </p>
-                  <div className="latinext-images w-full" />
+                  <p className="mb-8">Youth Writing Workshop + Mic</p>
+                  {/* <div className="dreamscape-images w-full" /> */}
                   <details className="font-mono mt-6">
-                    Poet’s <em>LatiNEXT</em> Anthology. Closes with a Q/A.
+                    We discussed that odd and complex combination of feelings
+                    when you want to move on but also want to start fresh. When
+                    you want to relive something, but have to accept that it’s
+                    changed. It’s that icky and odd space in between the process
+                    of something ending and the process of something new taking
+                    its place. Poets in this workshop will spend time writing
+                    about the inbetween, non existent transitional space, the
+                    white page.
                     <summary className="focus:outline-none textWrap">
-                      This reading and performance features Latinext folks who
-                      were published in the BreakBeat
+                      This workshop sprouted from a conversation I had with a
+                      good writer friend of mine over a poem she sent me.
                     </summary>
                   </details>
                   <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
                     rel="noreferrer noopener"
                     target="_blank"
@@ -413,57 +364,33 @@ export default function Schedule() {
                 </div>
                 <div className="speakers-grid">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    Flowers As They Live: Honoring Local Poets
+                    Who is this? Visioning Characters on the Page
                   </h3>
-                  <p className="mb-8">
-                    Askia Toure, Letta Neely, Martha Collins, Moderated by Toni
-                    Bee
-                  </p>
-                  <div className="locals-images w-full" />
-                  <details className="font-mono mt-6">
-                    #LocalLivingLegends Closes with a Q/A.
-                    <summary className="focus:outline-none textWrap">
-                      This reading highlights writers who have made an impact on
-                      the poetry world nationally and locally.
-                    </summary>
-                  </details>
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    <p>Register for this event</p>
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
-                <div className="speakers-grid">
-                  <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    How We May Appear
-                  </h3>
-                  <p className="mb-8">826 Youth Anthology Reading</p>
+                  <p className="mb-8">Performance & Workshop</p>
                   <div className="schedule-image">
-                    <img alt="826 Boston" src="/img/speakers/826-Boston.jpg" />
+                    {/* <img
+                      alt="Tatiana Johnson-Boria"
+                      src="/img/speakers/tatiana-johnson-boria.jpg"
+                    /> */}
                   </div>
                   <details className="font-mono mt-6">
-                    authored publication features stories and poems written by
-                    young people across the city. As foreword author Amanda
-                    Gorman says: "Reading the collection from my sunlit
-                    apartment in Los Angeles, it is hard not to be struck with
-                    the vision that these authors present: a vibrant and
-                    youthful Boston, with its tongue of many languages, and
-                    heart of many songs.” This performance features youth poets
-                    published in 826 Boston Poetry Anthology. The reading takes
-                    place outside the Roxbury Branch Library.
+                    In this session, Letta will perform a few of the play's
+                    monologues and then lead participants through writing their
+                    own persona poems and monologues. More specifically,
+                    participants in this workshop will explore the intricacies
+                    and magic of weaving one character's narrative into the
+                    makeup of another character. Letta Neely, in terms of
+                    writing characters, will teach us how to "pull it all into
+                    the current."
                     <summary className="focus:outline-none textWrap">
-                      How We May Appear, the first anthology produced by 826
-                      Boston's Youth Literary Advisory Board. This student-
+                      Pulling It All Into The Current is a one-person choreopoem
+                      and play by writer and organizer, Letta Neely. The play
+                      explores various characters through some of their most
+                      defining life moments.
                     </summary>
                   </details>
                   <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
                     rel="noreferrer noopener"
                     target="_blank"
@@ -476,17 +403,24 @@ export default function Schedule() {
                 </div>
                 <div className="speakers-grid">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    50 Rappers Who Changed The World
+                    S(Mothering)
                   </h3>
-                  <p className="mb-8">Author Interview & Discussion</p>
-                  <div className="rappers-images w-full" />
+                  <p className="mb-8">
+                    Facilitated by Crystal Valentine, Anna Ross, and Yara
+                    Liceaga
+                  </p>
+                  <div className="schedule-image">
+                    {/* <img
+                      alt="Aricka Foreman"
+                      src="/img/speakers/aricka-foreman.jpg"
+                    /> */}
+                  </div>
                   <details className="font-mono mt-6">
-                    book, 50 Rappers Who Changed the World. This session, like
-                    the book, is a celebration of the musicians who shaped the
-                    genre and changed the world.
+                    Poet will explore motherhood in all of its glorious, and
+                    inglorious ways.
                     <summary className="focus:outline-none textWrap">
-                      Join writer, Candace McDuffie, and poet, Ashley Rose, for
-                      a reading and discussion of McDuffie's
+                      This curated reading and discussion will feature poets who
+                      write about their mothers, or who write about mothers.
                     </summary>
                   </details>
                   <a
@@ -505,6 +439,134 @@ export default function Schedule() {
             </details>
           </div>
           <div className="schedule-grid">
+            <details>
+              <summary className="focus:outline-none summaryWrap">
+                <div className="event flex md:grid md:grid-cols-3 items-center justify-between py-10 gap-x-20">
+                  <p className="md:col-span-4 lg:col-span-1 mb-6 md:mb-0 md:text-3xl text-2xl">
+                    4:00pm - 5:15pm ET
+                  </p>
+                  <div className="md:col-span-3 lg:col-span-1 md:text-lg">
+                    How to Write a Poem
+                  </div>
+                  <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
+                    <svg
+                      className="fill-current open-arrow"
+                      height="20"
+                      width="40"
+                    >
+                      <use xlinkHref="#icon-uparrow" />
+                    </svg>
+                    <svg
+                      className="fill-current hidden closed-arrow"
+                      height="20"
+                      width="40"
+                    >
+                      <use xlinkHref="#icon-downarrow" />
+                    </svg>
+                  </div>
+                </div>
+              </summary>
+              <div className="gap-x-20 grid gap-y-20 mb-20 md:grid-cols-2 summaryDetail xl:gap-y-0 xl:grid-cols-3">
+                <div className="speakers-grid">
+                  <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
+                    How to Write a Poem
+                  </h3>
+                  <p className="mb-8">Writing Workshop</p>
+                  {/* <div className="dreamscape-images w-full" /> */}
+                  <details className="font-mono mt-6">
+                    and space and what they do in general and then we'll write
+                    one poem at least on the spot and I'll leave you with a list
+                    of ways you can make another poem and then another instantly
+                    without getting in your own way. My philosophy is make more
+                    poems rather fixing one over and over. So this is a lots of
+                    poems workshop as a matter of fact.
+                    <summary className="focus:outline-none textWrap">
+                      This is a sophisticated workshop for beginners and
+                      advanced folks. We will look at a handful of poems and
+                      think about how they manage time
+                    </summary>
+                  </details>
+                  <a
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
+                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <p>Register for this event</p>
+                    <svg className="fill-current ml-2" height="12" width="15">
+                      <use xlinkHref="#icon-rightarrow" />
+                    </svg>
+                  </a>
+                </div>
+                <div className="speakers-grid">
+                  <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
+                    BARS with Brandie Blaze
+                  </h3>
+                  <p className="mb-8">Writing Workshop</p>
+                  <div className="schedule-image">
+                    {/* <img
+                      alt="Tatiana Johnson-Boria"
+                      src="/img/speakers/tatiana-johnson-boria.jpg"
+                    /> */}
+                  </div>
+                  <details className="font-mono mt-6">
+                    Blaze will move through, instructing folks on how to write a
+                    bar while also adding nuance to ensure your voice, tone,
+                    rhyme is as slick as its intended to be. All levels are
+                    welcome
+                    <summary className="focus:outline-none textWrap">
+                      This writing workshop with MC Brandie Blaze is an
+                      introduction to the structural song unit of a rap BAR.
+                    </summary>
+                  </details>
+                  <a
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
+                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <p>Register for this event</p>
+                    <svg className="fill-current ml-2" height="12" width="15">
+                      <use xlinkHref="#icon-rightarrow" />
+                    </svg>
+                  </a>
+                </div>
+                <div className="speakers-grid">
+                  <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
+                    If You Can Feel It, You Can Speak It
+                  </h3>
+                  {/* <p className="mb-8">Reading & Panel</p> */}
+                  <div className="schedule-image">
+                    {/* <img
+                      alt="Aricka Foreman"
+                      src="/img/speakers/aricka-foreman.jpg"
+                    /> */}
+                  </div>
+                  <details className="font-mono mt-6">
+                    This space is open to all. Come, sign up to read something
+                    you just wrote, sign up to read your favorite please or just
+                    attend and listen! Sign up sheets will be available on site.
+                    <summary className="focus:outline-none textWrap">
+                      Boston's only monthly open mic movement dedicated to
+                      voices & experiences of the LGBTQ+ communities of color.
+                    </summary>
+                  </details>
+                  <a
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
+                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <p>Register for this event</p>
+                    <svg className="fill-current ml-2" height="12" width="15">
+                      <use xlinkHref="#icon-rightarrow" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </details>
+          </div>
+          {/* <div className="schedule-grid">
             <details>
               <summary className="focus:outline-none summaryWrap">
                 <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
@@ -660,14 +722,14 @@ export default function Schedule() {
                 </div>
               </div>
             </details>
-          </div>
+          </div> */}
           <div className="border-t border-black md:grid md:grid-cols-8 items-center md:w-full py-10">
             <div className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
-              4:00pm - 5:00pm ET
+              5:30pm - 6:30pm ET
             </div>
             <div className="md:col-span-4 lg:col-span-5 text-lg">
               <h3 className="mb-4 md:text-4xl text-3xl uppercase">
-                Keynote Address w/ Jericho Brown
+                Keynote Address w/ Hanif Abdaraquib
               </h3>
               <div className="lg:flex">
                 <img
@@ -676,13 +738,39 @@ export default function Schedule() {
                   src="/img/speakers/jericho-brown.jpg"
                 />
                 <div className="mt-6 lg:ml-8 lg:mt-0 lg:w-2/3">
-                  <p>
-                    2020 Pulitzer Prize winner, Jericho Brown, will read from
-                    his book The Tradition and answer a few questions from the
-                    audience. This talk will be moderated by a local artist.
-                  </p>
+                  <details className="font-mono mt-6">
+                    His first full length poetry collection, The Crown Ain't
+                    Worth Much, was released in June 2016 from Button Poetry. It
+                    was named a finalist for the Eric Hoffer Book Prize, and was
+                    nominated for a Hurston-Wright Legacy Award. His first
+                    collection of essays, They Can't Kill Us Until They Kill Us,
+                    was released in winter 2017 by Two Dollar Radio and was
+                    named a book of the year by Buzzfeed, Esquire, NPR, Oprah
+                    Magazine, Paste, CBC, The Los Angeles Review, Pitchfork, and
+                    The Chicago Tribune, among others. He released Go Ahead In
+                    The Rain: Notes To A Tribe Called Quest with University of
+                    Texas press in February 2019. The book became a New York
+                    Times Bestseller, was a finalist for the Kirkus Prize, and
+                    was longlisted for the National Book Award. His second
+                    collection of poems, A Fortune For Your Disaster, was
+                    released in 2019 by Tin House, and won the 2020 Lenore
+                    Marshall Prize. His newest release, A Little Devil In
+                    America (Random House, 2021) was a winner of the Andrew
+                    Carnegie Medal and the Gordon Burn Prize, a finalist for the
+                    National Book Critics Circle Award and the
+                    Pen/Diamonstein-Spielvogel Award . In 2021, Abdurraqib was
+                    named a MacArthur Fellow. He is a graduate of Beechcroft
+                    High School.
+                    <summary className="focus:outline-none textWrap">
+                      Hanif Abdurraqib is a poet, essayist, and cultural critic
+                      from Columbus, Ohio. His poetry has been published in
+                      Muzzle, Vinyl, PEN American, and various other journals.
+                      His essays and music criticism have been published in The
+                      FADER, Pitchfork, The New Yorker, and The New York Times.
+                    </summary>
+                  </details>
                   <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
                     rel="noreferrer noopener"
                     target="_blank"
@@ -698,7 +786,7 @@ export default function Schedule() {
           </div>
           <div className="border-t border-black md:grid md:grid-cols-8 items-center md:w-full py-10">
             <div className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
-              5:00pm - 7:00pm ET
+              7:00pm - 9:00pm ET
             </div>
             <div className="md:col-span-4 lg:col-span-5 text-lg">
               <h3 className="mb-4 md:text-4xl text-3xl uppercase">
@@ -725,27 +813,8 @@ export default function Schedule() {
               </Link>
             </div>
           </div>
-          <div className="border-t border-black md:grid md:grid-cols-8 md:w-full py-10">
-            <div className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
-              7:00pm - 9:00pm ET
-            </div>
-            <div className="md:col-span-4 lg:col-span-5 text-lg">
-              <h3 className="mb-4 md:text-4xl text-3xl uppercase">
-                Beast The Beat
-              </h3>
-              <p>
-                Presented by DJ Why Sham, Beast the Beat is a women / fem rap
-                concert.
-              </p>
-              <img
-                alt="Beast the Beat Flyer"
-                className="max-w-2xl mt-8 w-full"
-                src="/img/beast-flyer.jpg"
-              />
-            </div>
-          </div>
         </div>
-        <div className="font-mono md:text-lg max-w-7xl md:mt-24 mx-auto">
+        {/* <div className="font-mono md:text-lg max-w-7xl md:mt-24 mx-auto">
           <h3 className="font-bold mb-2">Public Safety and COVID-19</h3>
           <p>
             Due to the pandemic and the goal to ensure a public health-conscious
@@ -759,7 +828,7 @@ export default function Schedule() {
             markers and volunteers to ensure the community members are socially
             distancing and masked.
           </p>
-        </div>
+        </div> */}
       </div>
     </Layout>
   )
