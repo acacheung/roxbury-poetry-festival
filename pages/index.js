@@ -109,14 +109,14 @@ export default function Home() {
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">
               Festival Headliners
             </h2>
-            {/* <Link href="/speakers">
+            <Link href="/schedule">
               <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
-                See all Speakers
+                See the Schedule
                 <svg className="ml-3" height="12" width="15">
                   <use xlinkHref="#icon-rightarrow" />
                 </svg>
               </a>
-            </Link> */}
+            </Link>
           </div>
           <ul className="gap-x-28 gap-y-20 grid md:grid-cols-2">
             <li className="speakers-grid">
