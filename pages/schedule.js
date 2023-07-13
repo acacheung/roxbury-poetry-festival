@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Layout from "@components/Layout";
+import Link from 'next/link'
+import Layout from '@components/Layout'
 
 export default function Schedule() {
   return (
@@ -16,14 +16,18 @@ export default function Schedule() {
         <h2 className="font-bold my-10 md:text-4xl text-3xl">The Schedule</h2>
         <div>
           <div className="schedule-grid">
-            <details open>
+            <details>
               <summary className="focus:outline-none summaryWrap">
-                <div className="event flex md:grid md:grid-cols-3 items-center justify-between py-10 gap-x-20">
-                  <p className="md:col-span-4 lg:col-span-1 mb-6 md:mb-0 md:text-3xl text-2xl">
-                    10:00am - 11:15am
-                  </p>
-                  <div className="md:col-span-3 lg:col-span-1 md:text-lg">
-                    Workshops & Panels
+                <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
+                  <div className="md:col-span-7">
+                    <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
+                      <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
+                        10:00am - 11:15am
+                      </p>
+                      <div className="md:col-span-3 lg:col-span-4 md:text-lg">
+                        Panels & Workshops
+                      </div>
+                    </div>
                   </div>
                   <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
                     <svg
@@ -43,32 +47,15 @@ export default function Schedule() {
                   </div>
                 </div>
               </summary>
-              <div className="gap-x-20 grid gap-y-20 mb-20 md:grid-cols-2 summaryDetail xl:gap-y-0 xl:grid-cols-3">
-                <div className="speakers-grid">
+              <div className="gap-x-20 gap-y-20 grid md:grid-cols-2 xl:grid-cols-6 mb-20 summaryDetail">
+                <div className="speakers-grid xl:col-span-2 xl:col-start-3">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     Journalism 101
                   </h3>
-                  {/* <p className="mb-8">Writing Workshop</p> */}
-                  <div className="schedule-image">
-                    <img alt="Cristela Guerra" src="/img/speakers/chen-chen.jpg" />
-                  </div>
-                  {/* <details className="font-mono mt-6">
-                    address? Can poems speak to job loss, loss of everyday
-                    routines, loss of future plans, and missing friends? And
-                    what if we simply can’t write poems at this moment—what do
-                    we do with the loss of our sense of being poets? In this
-                    generative workshop, we’ll make space for all these
-                    questions, looking to a range of elegies not for neat
-                    answers (which don’t exist anyway) but a deepening of our
-                    attention to where we are, who we are, in the midst of
-                    crisis.
-                    <summary className="focus:outline-none textWrap">
-                      How do we write about grief right now, when there are so
-                      many (and simultaneous) forms of grief to
-                    </summary>
-                  </details> */}
+                  {/* <div className="home-images w-full" /> */}
+                  <p className="mb-8">Facilitated by Cristela Guerra</p>
                   <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
                     rel="noreferrer noopener"
                     target="_blank"
@@ -79,55 +66,33 @@ export default function Schedule() {
                     </svg>
                   </a>
                 </div>
-                <div className="speakers-grid">
+                <div className="speakers-grid xl:col-span-2">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     Not Poetry: Word Play With A Purpose!
                   </h3>
                   <p className="mb-8">Workshop</p>
-                  <div className="schedule-image">
+                  {/* <div className="schedule-image-rachel">
                     <img
-                      alt="Denice Frohman"
-                      src="/img/speakers/denice-frohman.jpg"
+                      alt="Rachel McKibbens"
+                      src="/img/speakers/rachel-mckibbens.jpg"
                     />
-                  </div>
+                  </div> */}
                   <details className="font-mono mt-6">
-                    since he was a kid. After doing so, and studying the craft of writing and performing poetry for decades, he has gathered and developed many techniques to open the creative mind. This will be a lively writing workshop for students  who want to write without all the rules. Let's peep under the left and right sides of the brain and see what peeps back!
+                    since he was a kid. After doing so, and studying the craft
+                    of writing and performing poetry for decades, he has
+                    gathered and developed many techniques to open the creative
+                    mind. This will be a lively writing workshop for students
+                    who want to write without all the rules. Let's peep under
+                    the left and right sides of the brain and see what peeps
+                    back!
                     <summary className="focus:outline-none textWrap">
-                      Literary Performer, Educator, and Former National Poetry Slam Champion, Regie Gibson, has been having fun with language
+                      Literary Performer, Educator, and Former National Poetry
+                      Slam Champion, Regie Gibson, has been having fun with
+                      language
                     </summary>
                   </details>
                   <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
-                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    <p>Register for this event</p>
-                    <svg className="fill-current ml-2" height="12" width="15">
-                      <use xlinkHref="#icon-rightarrow" />
-                    </svg>
-                  </a>
-                </div>
-                <div className="speakers-grid">
-                  <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    _
-                  </h3>
-                  <p className="mb-8">
-                    Panel + Discussion
-                  </p>
-                  <div className="poetry-luxury-images w-full" />
-                  {/* <details className="font-mono mt-6">
-                    SC, Angelo Geter and the Poet Laureate of Santa Clara
-                    County, CA Janice Lobo Sapiago. Poets will perform a reading
-                    of their work and engage in conversations around poetry,
-                    civic service, and landscaping spaces for youth poets.
-                    <summary className="focus:outline-none textWrap">
-                      Hosted by the Academy of American Poets, this reading and
-                      discussion brings together the Poet Laureate of Rock Hill,
-                    </summary>
-                  </details> */}
-                  <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
                     rel="noreferrer noopener"
                     target="_blank"
@@ -175,19 +140,29 @@ export default function Schedule() {
                     How We Take Up Space: A poetic workshop on spatial justice
                   </h3>
                   <p className="mb-8">Workshop</p>
-                  <div className="dreamscape-images w-full" />
+                  {/* <div className="dreamscape-images w-full" /> */}
                   <details className="font-mono mt-6">
-                    The space we live in can have negative as well as positive consequences on everything we do.
-                    <br /><br />
-                    In this workshop, poets, writers, and beautiful beings will reflect on the concept of spatial justice and how that shows up in their mind, body, and personal life. Together, we will redefine spatial justice. Then, craft and share original poems on our collective and individual concepts.
-                    <br /><br />
-                    Note: All participants must come prepared to be empowered to be vulnerable +  ready to take up space on the page and mic.
+                    The space we live in can have negative as well as positive
+                    consequences on everything we do.
+                    <br />
+                    <br />
+                    In this workshop, poets, writers, and beautiful beings will
+                    reflect on the concept of spatial justice and how that shows
+                    up in their mind, body, and personal life. Together, we will
+                    redefine spatial justice. Then, craft and share original
+                    poems on our collective and individual concepts.
+                    <br />
+                    <br />
+                    Note: All participants must come prepared to be empowered to
+                    be vulnerable + ready to take up space on the page and mic.
                     <summary className="focus:outline-none textWrap">
-                      Spatial justice involves “the fair and equitable distribution in space of socially valued resources and opportunities to use them” (Soja 2009).
+                      Spatial justice involves “the fair and equitable
+                      distribution in space of socially valued resources and
+                      opportunities to use them” (Soja 2009).
                     </summary>
                   </details>
                   <a
-                    href="https://www.eventbrite.ca/e/roxbury-poetry-festival-2021-tickets-146513542951"
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
                     rel="noreferrer noopener"
                     target="_blank"
@@ -210,9 +185,18 @@ export default function Schedule() {
                     />
                   </div>
                   <details className="font-mono mt-6">
-                    This class is a great place to start! In this introductory workshop, we will start with idea generation and then move to structure, format, and a discussion of software and online resources to begin your script. From there, we will study scenes, feature length plot structure. This class is meant to be for beginners and by the end of this fast-paced workshop students will walk away with basic knowledge of screenwriting to give them the foundation to continue bringing their script ideas to life!
+                    This class is a great place to start! In this introductory
+                    workshop, we will start with idea generation and then move
+                    to structure, format, and a discussion of software and
+                    online resources to begin your script. From there, we will
+                    study scenes, feature length plot structure. This class is
+                    meant to be for beginners and by the end of this fast-paced
+                    workshop students will walk away with basic knowledge of
+                    screenwriting to give them the foundation to continue
+                    bringing their script ideas to life!
                     <summary className="focus:outline-none textWrap">
-                      Do you have an idea for a feature length screenplay, but you aren't sure how to begin?
+                      Do you have an idea for a feature length screenplay, but
+                      you aren't sure how to begin?
                     </summary>
                   </details>
                   <a
@@ -229,7 +213,8 @@ export default function Schedule() {
                 </div>
                 <div className="speakers-grid">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    Culture as Container: How Identities Serve as Forms for Writing
+                    Culture as Container: How Identities Serve as Forms for
+                    Writing
                   </h3>
                   <p className="mb-8">Reading & Panel</p>
                   <div className="schedule-image">
@@ -239,9 +224,18 @@ export default function Schedule() {
                     />
                   </div>
                   <details className="font-mono mt-6">
-                    Plot lines, images, and other craft elements take on some unique approaches, creating containers that the writers find themselves within or rail against from piece to piece. Four writers will read from their poetry and discuss how their cultural backgrounds serve as forms for their work, highlighting specific craft elements in their own work and work of their kin writers, as well as distinct aspects of craft that they see as originating from within their communities.
+                    Plot lines, images, and other craft elements take on some
+                    unique approaches, creating containers that the writers find
+                    themselves within or rail against from piece to piece. Four
+                    writers will read from their poetry and discuss how their
+                    cultural backgrounds serve as forms for their work,
+                    highlighting specific craft elements in their own work and
+                    work of their kin writers, as well as distinct aspects of
+                    craft that they see as originating from within their
+                    communities.
                     <summary className="focus:outline-none textWrap">
-                      Identity and ancestry can create recurring signatures in writing.
+                      Identity and ancestry can create recurring signatures in
+                      writing.
                     </summary>
                   </details>
                   <a
@@ -553,7 +547,7 @@ export default function Schedule() {
                   </p>
                   <div className="halal-images w-full" />
                   <details className="font-mono mt-6">
-                    to the Breakbeat Poet Anthology:{" "}
+                    to the Breakbeat Poet Anthology:{' '}
                     <em>Halal If You Hear Me</em>. Closes with a Q/A.
                     <summary className="focus:outline-none textWrap">
                       This reading and performance celebrates poets of the
@@ -768,5 +762,5 @@ export default function Schedule() {
         </div>
       </div>
     </Layout>
-  );
+  )
 }

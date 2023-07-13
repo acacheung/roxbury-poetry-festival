@@ -1,8 +1,8 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import Svg from "../components/Svg";
-import Footer from "../components/Footer";
-import Banner from "../components/Banner";
+import Head from 'next/head'
+import Header from '../components/Header'
+import Svg from '../components/Svg'
+import Footer from '../components/Footer'
+import Banner from '../components/Banner'
 
 export default function Layout({ children }) {
   return (
@@ -64,7 +64,7 @@ export default function Layout({ children }) {
         <main className="relative z-30">{children}</main>
       </div>
       <Footer />
-      {/* <Banner /> */}
+      <Banner />
     </>
-  );
+  )
 }
