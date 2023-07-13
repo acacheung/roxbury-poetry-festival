@@ -16,14 +16,16 @@ export default function Slam() {
           </Link>
           <div className="md:flex items-center my-10">
             <h2 className="font-bold mb-6 md:mb-0 md:text-4xl text-3xl">
-              Publisher's Poetry Slam
+              Publisher's Poetry Slam 2023
             </h2>
           </div>
           <div className="border-t border-black md:flex md:pt-20 pt-10">
             <div className="mb-10 md:mb-0 md:mr-20 md:text-3xl md:w-1/3 text-2xl xl:mr-32">
               <p className="mb-6">
-                The Poetry Slam takes place outdoors in the Blair Lot on June 5,
-                2021 from 5pm-7pm ET.
+                The Poetry Slam is taking place at the Bruce C Bolling Building on August 5, 2023 from 7pm-9pm.
+              </p>
+              <p className="mb-6">
+                Registration for the Poetry Slam will close August 1st 2023.
               </p>
               <img
                 alt="Button Poetry"
@@ -37,11 +39,7 @@ export default function Slam() {
               </h3>
               <ul className="list-disc list-outside pl-6">
                 <li className="pl-6 mb-8">
-                  10 poets will compete in three rounds. Poets must perform
-                  original work and can not use prop, costume change or any
-                  musical accompaniment outside of their voice. Each poet will
-                  have 3 minutes and a 10 second grace period. There will be a
-                  half point time penalty for every 10 seconds over time limit.
+                  10 poets will compete in three rounds. Poets must perform original work and can not use props, costume changes, or any musical accompaniment outside of their voice. Each poet will have 3 minutes and a 10 second grace period. There will be a half point time penalty for every 10 seconds over time limit.
                 </li>
                 <ul className="pl-6">
                   <li className="mb-6">
@@ -59,7 +57,7 @@ export default function Slam() {
                 </ul>
                 <li className="pl-6 mb-10">
                   Judges are TBD. Poem and performance will be judged on a scale
-                  of 1-10 based on written craft and performance and delivery. 
+                  of 1-10 based on written craft and performance and delivery.
                 </li>
                 <li className="pl-6">
                   Winner will receive a chapbook deal from Button Poetry along
@@ -104,7 +102,7 @@ export default function Slam() {
                   </p>
                 </div>
               </div>
-              <div className="my-10">
+              {/* <div className="my-10">
                 <h3 className="border-b border-black font-bold mb-6">
                   Bout Manager - Michelle Garcia Fresco
                 </h3>
@@ -133,7 +131,7 @@ export default function Slam() {
                     </p>
                   </p>
                 </div>
-              </div>
+            </div> */}
             </div>
           </div>
 
@@ -148,13 +146,13 @@ export default function Slam() {
               Button Poetry
             </a>
           </p>
-          <img
+          {/* <img
             alt="Poetry Slam Flyer"
             className="flex max-w-4xl md:mb-20 mx-auto w-full"
             src="/img/slam-flyer.jpg"
-          />
+          /> */}
         </div>
-      </Layout>
+      </Layout >
     </>
   );
 }

@@ -7,28 +7,28 @@
 @layer base {
   @font-face {
     font-display: swap;
-    font-family: "Plex";
+    font-family: 'Plex';
     font-weight: 400;
-    src: url("../public/fonts/IBMPlexSans-Regular.ttf") format("truetype");
+    src: url('../public/fonts/IBMPlexSans-Regular.ttf') format('truetype');
   }
   @font-face {
     font-display: swap;
-    font-family: "Plex";
+    font-family: 'Plex';
     font-weight: 700;
-    src: url("../public/fonts/IBMPlexSans-Bold.ttf") format("truetype");
+    src: url('../public/fonts/IBMPlexSans-Bold.ttf') format('truetype');
   }
   @font-face {
     font-display: swap;
-    font-family: "Plex Mono";
+    font-family: 'Plex Mono';
     font-weight: 400;
-    src: url("../public/fonts/IBMPlexMono-Regular.ttf") format("truetype");
+    src: url('../public/fonts/IBMPlexMono-Regular.ttf') format('truetype');
   }
   @font-face {
     font-display: swap;
-    font-family: "Plex Mono";
+    font-family: 'Plex Mono';
     font-style: italic;
     font-weight: 400;
-    src: url("../public/fonts/IBMPlexMono-Italic.ttf") format("truetype");
+    src: url('../public/fonts/IBMPlexMono-Italic.ttf') format('truetype');
   }
 }
 
@@ -38,7 +38,7 @@ body {
   -webkit-font-smoothing: antialiased;
   @apply text-black;
   background-color: #ffffff;
-  background-image: url("../public/img/background.jpg");
+  background-image: url('../public/img/background.jpg');
   background-position: 57% 49%;
   background-size: cover;
   margin: 0;
@@ -47,7 +47,7 @@ body {
 }
 
 .background-banner {
-  background-image: url("../public/img/background.jpg");
+  background-image: url('../public/img/background.jpg');
   background-position: bottom;
   background-size: cover;
 }
@@ -149,7 +149,7 @@ body {
 
 .speakers-grid::before,
 .schedule-grid::before {
-  content: "";
+  content: '';
   @apply bg-black;
   display: block;
   position: absolute;
@@ -182,7 +182,7 @@ body {
 }
 
 .textWrap::after {
-  content: "…\00a0\00a0Read\00a0\00a0More";
+  content: '…\00a0\00a0Read\00a0\00a0More';
   @apply text-base;
   @apply font-sans;
   @apply text-sm;
@@ -199,11 +199,11 @@ details[open] summary .event .speakers-grid-arrows .open-arrow {
 }
 
 .speakers-grid details[open] .textWrap::after {
-  content: "";
+  content: '';
 }
 
 .slam-bio details[open] .textWrap::after {
-  content: "";
+  content: '';
 }
 
 details summary {
@@ -218,6 +218,7 @@ details summary::marker {
 
 .schedule-image img,
 .schedule-image-rachel img {
+  object-fit: cover;
   height: 21rem;
   width: 21rem;
 }
@@ -230,7 +231,8 @@ details summary::marker {
 .locals-images,
 .rappers-images,
 .halal-images,
-.art-life-images {
+.art-life-images,
+.culturecontainer-images {
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -247,19 +249,19 @@ details summary::marker {
 
 @keyframes publicationImageTransition {
   0% {
-    background-image: url("../public/img/speakers/kristina-marie-darling.jpg");
+    background-image: url('../public/img/speakers/kristina-marie-darling.jpg');
   }
   25% {
-    background-image: url("../public/img/speakers/ryan-murphy.jpg");
+    background-image: url('../public/img/speakers/ryan-murphy.jpg');
   }
   50% {
-    background-image: url("../public/img/speakers/george-abraham.jpg");
+    background-image: url('../public/img/speakers/george-abraham.jpg');
   }
   75% {
-    background-image: url("../public/img/speakers/lillian-yvonne-bertram.jpg");
+    background-image: url('../public/img/speakers/lillian-yvonne-bertram.jpg');
   }
   100% {
-    background-image: url("../public/img/speakers/kristina-marie-darling.jpg");
+    background-image: url('../public/img/speakers/kristina-marie-darling.jpg');
   }
 }
 
@@ -272,13 +274,13 @@ details summary::marker {
 
 @keyframes poetryImageTransition {
   0% {
-    background-image: url("../public/img/speakers/janice-lobo-sapigao.jpg");
+    background-image: url('../public/img/speakers/janice-lobo-sapigao.jpg');
   }
   50% {
-    background-image: url("../public/img/speakers/angelo-geter.jpg");
+    background-image: url('../public/img/speakers/angelo-geter.jpg');
   }
   100% {
-    background-image: url("../public/img/speakers/janice-lobo-sapigao.jpg");
+    background-image: url('../public/img/speakers/janice-lobo-sapigao.jpg');
   }
 }
 
@@ -291,25 +293,25 @@ details summary::marker {
 
 @keyframes dreamscapeImageTransition {
   0% {
-    background-image: url("../public/img/speakers/kai-grant.jpg");
+    background-image: url('../public/img/speakers/kai-grant.jpg');
   }
   16.7% {
-    background-image: url("../public/img/speakers/tariq-charles.jpg");
+    background-image: url('../public/img/speakers/tariq-charles.jpg');
   }
   33.4% {
-    background-image: url("../public/img/speakers/stephen-hamilton.jpg");
+    background-image: url('../public/img/speakers/stephen-hamilton.jpg');
   }
   50.1% {
-    background-image: url("../public/img/speakers/marisa-luse.jpg");
+    background-image: url('../public/img/speakers/marisa-luse.jpg');
   }
   66.8% {
-    background-image: url("../public/img/speakers/ekua-holmes.jpeg");
+    background-image: url('../public/img/speakers/ekua-holmes.jpeg');
   }
   83.5% {
-    background-image: url("../public/img/speakers/karilyn-crockett.jpg");
+    background-image: url('../public/img/speakers/karilyn-crockett.jpg');
   }
   100% {
-    background-image: url("../public/img/speakers/kai-grant.jpg");
+    background-image: url('../public/img/speakers/kai-grant.jpg');
   }
 }
 
@@ -322,13 +324,13 @@ details summary::marker {
 
 @keyframes homeImageTransition {
   0% {
-    background-image: url("../public/img/speakers/safia-elhillo.jpg");
+    background-image: url('../public/img/speakers/safia-elhillo.jpg');
   }
   50% {
-    background-image: url("../public/img/speakers/asiyah-herrera.jpg");
+    background-image: url('../public/img/speakers/asiyah-herrera.jpg');
   }
   100% {
-    background-image: url("../public/img/speakers/safia-elhillo.jpg");
+    background-image: url('../public/img/speakers/safia-elhillo.jpg');
   }
 }
 
@@ -341,16 +343,16 @@ details summary::marker {
 
 @keyframes latinextImageTransition {
   0% {
-    background-image: url("../public/img/speakers/diannely-antigua.jpg");
+    background-image: url('../public/img/speakers/diannely-antigua.jpg');
   }
   33% {
-    background-image: url("../public/img/speakers/malcolm-friend.jpg");
+    background-image: url('../public/img/speakers/malcolm-friend.jpg');
   }
   66% {
-    background-image: url("../public/img/speakers/jonathan-mendoza.jpg");
+    background-image: url('../public/img/speakers/jonathan-mendoza.jpg');
   }
   100% {
-    background-image: url("../public/img/speakers/diannely-antigua.jpg");
+    background-image: url('../public/img/speakers/diannely-antigua.jpg');
   }
 }
 
@@ -363,19 +365,19 @@ details summary::marker {
 
 @keyframes localsImageTransition {
   0% {
-    background-image: url("../public/img/speakers/askia-toure.jpg");
+    background-image: url('../public/img/speakers/askia-toure.jpg');
   }
   25% {
-    background-image: url("../public/img/speakers/letta-neely.jpg");
+    background-image: url('../public/img/speakers/letta-neely.jpg');
   }
   50% {
-    background-image: url("../public/img/speakers/martha-collins.jpg");
+    background-image: url('../public/img/speakers/martha-collins.jpg');
   }
   75% {
-    background-image: url("../public/img/speakers/toni-bee.jpg");
+    background-image: url('../public/img/speakers/toni-bee.jpg');
   }
   100% {
-    background-image: url("../public/img/speakers/askia-toure.jpg");
+    background-image: url('../public/img/speakers/askia-toure.jpg');
   }
 }
 
@@ -388,13 +390,13 @@ details summary::marker {
 
 @keyframes rappersImageTransition {
   0% {
-    background-image: url("../public/img/speakers/candace-mcduffie.jpg");
+    background-image: url('../public/img/speakers/candace-mcduffie.jpg');
   }
   50% {
-    background-image: url("../public/img/speakers/ashley-rose.jpg");
+    background-image: url('../public/img/speakers/ashley-rose.jpg');
   }
   100% {
-    background-image: url("../public/img/speakers/candace-mcduffie.jpg");
+    background-image: url('../public/img/speakers/candace-mcduffie.jpg');
   }
 }
 
@@ -407,16 +409,16 @@ details summary::marker {
 
 @keyframes halalImmageTransition {
   0% {
-    background-image: url("../public/img/speakers/seema-yasmin.jpg");
+    background-image: url('../public/img/speakers/seema-yasmin.jpg');
   }
   33% {
-    background-image: url("../public/img/speakers/nikia-chaney.jpg");
+    background-image: url('../public/img/speakers/nikia-chaney.jpg');
   }
   66% {
-    background-image: url("../public/img/speakers/yasmin-belkhyr.jpg");
+    background-image: url('../public/img/speakers/yasmin-belkhyr.jpg');
   }
   100% {
-    background-image: url("../public/img/speakers/seema-yasmin.jpg");
+    background-image: url('../public/img/speakers/seema-yasmin.jpg');
   }
 }
 
@@ -429,13 +431,38 @@ details summary::marker {
 
 @keyframes artLifeImmageTransition {
   0% {
-    background-image: url("../public/img/speakers/nina-lanegra.jpg");
+    background-image: url('../public/img/speakers/nina-lanegra.jpg');
   }
   50% {
-    background-image: url("../public/img/speakers/fulani-haynes.jpg");
+    background-image: url('../public/img/speakers/fulani-haynes.jpg');
   }
   100% {
-    background-image: url("../public/img/speakers/nina-lanegra.jpg");
+    background-image: url('../public/img/speakers/nina-lanegra.jpg');
+  }
+}
+
+.culturecontainer-images {
+  -webkit-animation: cultureContainerTransition 8s infinite;
+  animation: cultureContainerTransition 8s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes cultureContainerTransition {
+  0% {
+    background-image: url('../public/img/speakers/2023/quintin-collins.jpg');
+  }
+  25% {
+    background-image: url('../public/img/speakers/2023/imani-davis.jpeg');
+  }
+  50% {
+    background-image: url('../public/img/speakers/2023/matthew-henry.jpeg');
+  }
+  75% {
+    background-image: url('../public/img/speakers/2023/sarah-kersey.jpeg');
+  }
+  100% {
+    background-image: url('../public/img/speakers/2023/quintin-collins.jpg');
   }
 }
 
@@ -445,7 +472,7 @@ details summary::marker {
   }
 
   .footer-top::before {
-    content: "";
+    content: '';
     @apply bg-black;
     @apply mx-auto;
     display: block;
@@ -467,7 +494,8 @@ details summary::marker {
   .locals-images,
   .rappers-images,
   .halal-images,
-  .art-life-images {
+  .art-life-images,
+  .culturecontainer-images {
     height: 21rem;
     width: 21rem;
   }
@@ -488,7 +516,8 @@ details summary::marker {
   .locals-images,
   .rappers-images,
   .halal-images,
-  .art-life-images {
+  .art-life-images,
+  .culturecontainer-images {
     height: 18.25rem;
     width: 18.25rem;
   }
@@ -507,7 +536,8 @@ details summary::marker {
   .locals-images,
   .rappers-images,
   .halal-images,
-  .art-life-images {
+  .art-life-images,
+  .culturecontainer-images {
     height: 15.5rem;
     width: 15.5rem;
   }

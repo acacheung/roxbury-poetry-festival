@@ -15,21 +15,22 @@ export default function Footer() {
             About
           </a>
         </Link>
-        <Link href="/2021">
+        <Link href="/schedule">
           <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
-            RPF 2021
+            Schedule
           </a>
         </Link>
         {/* <Link href="/speakers">
           <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
             Speakers
           </a>
-        </Link>
+        </Link> */}
         <Link href="/slam">
           <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
             Slam
           </a>
         </Link>
+        {/*}
         <a
           className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16"
           href="/speakers-book.pdf"
@@ -37,14 +38,11 @@ export default function Footer() {
         >
           Books
         </a> */}
-        <a
-          className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16"
-          href="https://docs.google.com/forms/d/1dVPr3Ww0Ur5G2nGnzgnr3cw64wqNUdXjsWyIxfFoUAE/edit"
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          Call for Proposals
-        </a>
+        <Link href="/2021">
+          <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
+            RPF 2021
+          </a>
+        </Link>
         <a
           className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16"
           href="mailto:roxburypoetryfestival@gmail.com"
