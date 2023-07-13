@@ -23,11 +23,11 @@ const Header = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.hamburgerActive
           ? this.setState({
-              navBarActiveClass: headerStyles.isActive,
-            })
+            navBarActiveClass: headerStyles.isActive,
+          })
           : this.setState({
-              navBarActiveClass: '',
-            })
+            navBarActiveClass: '',
+          })
       },
     )
   }
@@ -82,14 +82,14 @@ const Header = class extends React.Component {
             </Link>
             <Link href="/schedule">
               <a className={headerStyles.scrollingItem}>
-                <div className={headerStyles.scrolling}>
+                <div className={headerStyles.scrollingSpeakers}>
                   <div className="flex items-center">
                     <p>Schedule</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
                 {[...Array(7)].map(() => (
-                  <div aria-hidden="true" className={headerStyles.scrolling}>
+                  <div aria-hidden="true" className={headerStyles.scrollingSpeakers}>
                     <div className="flex items-center">
                       <p>Schedule</p>
                       <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
@@ -98,7 +98,7 @@ const Header = class extends React.Component {
                 ))}
               </a>
             </Link>
-            <Link href="/speakers">
+            {/* <Link href="/speakers">
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrollingSpeakers}>
                   <div className="flex items-center">
@@ -118,7 +118,7 @@ const Header = class extends React.Component {
                   </div>
                 ))}
               </a>
-            </Link>
+            </Link> */}
             <a
               href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
               className={headerStyles.scrollingItem}

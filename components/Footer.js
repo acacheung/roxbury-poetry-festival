@@ -20,11 +20,11 @@ export default function Footer() {
             Schedule
           </a>
         </Link>
-        <Link href="/speakers">
+        {/* <Link href="/speakers">
           <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
             Speakers
           </a>
-        </Link>
+        </Link> */}
         <Link href="/slam">
           <a className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16">
             Slam
