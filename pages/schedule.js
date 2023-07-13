@@ -71,12 +71,12 @@ export default function Schedule() {
                     Not Poetry: Word Play With A Purpose!
                   </h3>
                   <p className="mb-8">Workshop</p>
-                  {/* <div className="schedule-image-rachel">
+                  <div className="schedule-image">
                     <img
-                      alt="Rachel McKibbens"
-                      src="/img/speakers/rachel-mckibbens.jpg"
+                      alt="Regie Gibson"
+                      src="/img/speakers/2023/regie-gibson.jpg"
                     />
-                  </div> */}
+                  </div>
                   <details className="font-mono mt-6">
                     since he was a kid. After doing so, and studying the craft
                     of writing and performing poetry for decades, he has
@@ -140,7 +140,9 @@ export default function Schedule() {
                     How We Take Up Space: A poetic workshop on spatial justice
                   </h3>
                   <p className="mb-8">Workshop</p>
-                  {/* <div className="dreamscape-images w-full" /> */}
+                  <div className="schedule-image">
+                    <img alt="Nakia Hill" src="/img/speakers/nakia-hill.jpg" />
+                  </div>
                   <details className="font-mono mt-6">
                     The space we live in can have negative as well as positive
                     consequences on everything we do.
@@ -179,10 +181,10 @@ export default function Schedule() {
                   </h3>
                   {/* <p className="mb-8">Writing Workshop and Panel</p> */}
                   <div className="schedule-image">
-                    {/* <img
-                      alt="Tatiana Johnson-Boria"
-                      src="/img/speakers/tatiana-johnson-boria.jpg"
-                    /> */}
+                    <img
+                      alt="Paloma Valenzuela"
+                      src="/img/speakers/2023/paloma-valenzuela.jpg"
+                    />
                   </div>
                   <details className="font-mono mt-6">
                     This class is a great place to start! In this introductory
@@ -217,12 +219,7 @@ export default function Schedule() {
                     Writing
                   </h3>
                   <p className="mb-8">Reading & Panel</p>
-                  <div className="schedule-image">
-                    {/* <img
-                      alt="Aricka Foreman"
-                      src="/img/speakers/aricka-foreman.jpg"
-                    /> */}
-                  </div>
+                  <div className="culturecontainer-images w-full" />
                   <details className="font-mono mt-6">
                     Plot lines, images, and other craft elements take on some
                     unique approaches, creating containers that the writers find
@@ -262,11 +259,11 @@ export default function Schedule() {
                 Lunchtime Reading & Craft Talk
               </h3>
               <div className="lg:flex">
-                <img
+                {/* <img
                   alt="Jericho Brown"
                   className="lg:h-full lg:w-1/3"
                   src="/img/speakers/jericho-brown.jpg"
-                />
+                /> */}
                 <div className="mt-6 lg:ml-8 lg:mt-0 lg:w-2/3">
                   <p>
                     This lunchtime keynote will feature poet and professor, Nate
@@ -368,10 +365,10 @@ export default function Schedule() {
                   </h3>
                   <p className="mb-8">Performance & Workshop</p>
                   <div className="schedule-image">
-                    {/* <img
-                      alt="Tatiana Johnson-Boria"
-                      src="/img/speakers/tatiana-johnson-boria.jpg"
-                    /> */}
+                    <img
+                      alt="Letta Neely"
+                      src="/img/speakers/2023/letta-neely.jpg"
+                    />
                   </div>
                   <details className="font-mono mt-6">
                     In this session, Letta will perform a few of the play's
@@ -410,10 +407,10 @@ export default function Schedule() {
                     Liceaga
                   </p>
                   <div className="schedule-image">
-                    {/* <img
-                      alt="Aricka Foreman"
-                      src="/img/speakers/aricka-foreman.jpg"
-                    /> */}
+                    <img
+                      alt="Crystal Valentine"
+                      src="/img/speakers/crystal-valentine.jpg"
+                    />
                   </div>
                   <details className="font-mono mt-6">
                     Poet will explore motherhood in all of its glorious, and
@@ -446,7 +443,7 @@ export default function Schedule() {
                     4:00pm - 5:15pm ET
                   </p>
                   <div className="md:col-span-3 lg:col-span-1 md:text-lg">
-                    How to Write a Poem
+                    Workshops & Readings
                   </div>
                   <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
                     <svg
@@ -504,10 +501,10 @@ export default function Schedule() {
                   </h3>
                   <p className="mb-8">Writing Workshop</p>
                   <div className="schedule-image">
-                    {/* <img
-                      alt="Tatiana Johnson-Boria"
-                      src="/img/speakers/tatiana-johnson-boria.jpg"
-                    /> */}
+                    <img
+                      alt="Brandie Blaze"
+                      src="/img/speakers/brandie-blaze.jpg"
+                    />
                   </div>
                   <details className="font-mono mt-6">
                     Blaze will move through, instructing folks on how to write a
@@ -537,10 +534,10 @@ export default function Schedule() {
                   </h3>
                   {/* <p className="mb-8">Reading & Panel</p> */}
                   <div className="schedule-image">
-                    {/* <img
-                      alt="Aricka Foreman"
-                      src="/img/speakers/aricka-foreman.jpg"
-                    /> */}
+                    <img
+                      alt="Jha D"
+                      src="/img/speakers/2023/if-you-can-feel-it.png"
+                    />
                   </div>
                   <details className="font-mono mt-6">
                     This space is open to all. Come, sign up to read something
@@ -733,9 +730,9 @@ export default function Schedule() {
               </h3>
               <div className="lg:flex">
                 <img
-                  alt="Jericho Brown"
+                  alt="Hanif Abdaraquib"
                   className="lg:h-full lg:w-1/3"
-                  src="/img/speakers/jericho-brown.jpg"
+                  src="/img/speakers/hanif-abdurraqib.jpg"
                 />
                 <div className="mt-6 lg:ml-8 lg:mt-0 lg:w-2/3">
                   <details className="font-mono mt-6">
