@@ -218,6 +218,7 @@ details summary::marker {
 
 .schedule-image img,
 .schedule-image-rachel img {
+  object-fit: cover;
   height: 21rem;
   width: 21rem;
 }
@@ -451,14 +452,17 @@ details summary::marker {
   0% {
     background-image: url('../public/img/speakers/2023/quintin-collins.jpg');
   }
-  33% {
+  25% {
     background-image: url('../public/img/speakers/2023/imani-davis.jpeg');
   }
-  66% {
+  50% {
     background-image: url('../public/img/speakers/2023/matthew-henry.jpeg');
   }
-  100% {
+  75% {
     background-image: url('../public/img/speakers/2023/sarah-kersey.jpeg');
+  }
+  100% {
+    background-image: url('../public/img/speakers/2023/quintin-collins.jpg');
   }
 }
 
