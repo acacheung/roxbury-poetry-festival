@@ -127,22 +127,18 @@ export default function Home() {
                 src="/img/speakers/hanif-abdurraqib.jpg"
               />
               <details className="font-mono mt-6 text-lg">
-                of essays, They Can't Kill Us Until They Kill Us, was released
-                in winter 2017 by Two Dollar Radio and was named a book of the
-                year by Buzzfeed, Esquire, NPR, Oprah Magazine, Paste, CBC, The
-                Los Angeles Review, Pitchfork, and The Chicago Tribune, among
-                others. He released Go Ahead In The Rain: Notes To A Tribe
-                Called Quest with University of Texas press in February 2019.
-                The book became a New York Times Bestseller, was a finalist for
-                the Kirkus Prize, and was longlisted for the National Book
-                Award. His second collection of poems, A Fortune For Your
-                Disaster, was released in 2019 by Tin House, and won the 2020
-                Lenore Marshall Prize. His newest release, A Little Devil In
-                America (Random House, 2021) was a winner of the Andrew Carnegie
-                Medal and the Gordon Burn Prize, a finalist for the National
-                Book Critics Circle Award and the Pen/Diamonstein-Spielvogel
-                Award. In 2021, Abdurraqib was named a MacArthur Fellow. He is a
-                graduate of Beechcroft High School.
+                He released Go Ahead In The Rain: Notes To A Tribe Called Quest
+                with University of Texas press in February 2019. The book became
+                a New York Times Bestseller, was a finalist for the Kirkus
+                Prize, and was longlisted for the National Book Award. His
+                second collection of poems, A Fortune For Your Disaster, was
+                released in 2019 by Tin House, and won the 2020 Lenore Marshall
+                Prize. His newest release, A Little Devil In America (Random
+                House, 2021) was a winner of the Andrew Carnegie Medal and the
+                Gordon Burn Prize, a finalist for the National Book Critics
+                Circle Award and the Pen/Diamonstein-Spielvogel Award. In 2021,
+                Abdurraqib was named a MacArthur Fellow. He is a graduate of
+                Beechcroft High School.
                 <summary className="focus:outline-none textWrap">
                   Hanif Abdurraqib is a poet, essayist, and cultural critic from
                   Columbus, Ohio. His poetry has been published in Muzzle,
@@ -152,17 +148,22 @@ export default function Home() {
                   full length poetry collection, The Crown Ain't Worth Much, was
                   released in June 2016 from Button Poetry. It was named a
                   finalist for the Eric Hoffer Book Prize, and was nominated for
-                  a Hurston-Wright Legacy Award. His first collection
+                  a Hurston-Wright Legacy Award. His first collection of essays,
+                  They Can't Kill Us Until They Kill Us, was released in winter
+                  2017 by Two Dollar Radio and was named a book of the year by
+                  Buzzfeed, Esquire, NPR, Oprah Magazine, Paste, CBC, The Los
+                  Angeles Review, Pitchfork, and The Chicago Tribune, among
+                  others.
                 </summary>
               </details>
             </li>
             <li className="speakers-grid">
               <h3 className="mb-4 mt-8 text-5xl uppercase">Nate Marshall</h3>
               <p className="mb-8 text-lg">Lunchtime Keynote</p>
-              {/* <img
-                alt="Rachel McKibbens"
-                src="/img/speakers/rachel-mckibbens.jpg"
-              /> */}
+              <img
+                alt="Nate Marshall"
+                src="/img/speakers/2023/nate-marshall.png"
+              />
               <p className="font-mono mt-6 text-lg">
                 This lunchtime keynote will feature poet and professor, Nate
                 Marshall. Lunch will be provided for festival participants. Nate
