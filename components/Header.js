@@ -23,11 +23,11 @@ const Header = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.hamburgerActive
           ? this.setState({
-            navBarActiveClass: headerStyles.isActive,
-          })
+              navBarActiveClass: headerStyles.isActive,
+            })
           : this.setState({
-            navBarActiveClass: '',
-          })
+              navBarActiveClass: '',
+            })
       },
     )
   }
@@ -89,7 +89,10 @@ const Header = class extends React.Component {
                   </div>
                 </div>
                 {[...Array(7)].map(() => (
-                  <div aria-hidden="true" className={headerStyles.scrollingSpeakers}>
+                  <div
+                    aria-hidden="true"
+                    className={headerStyles.scrollingSpeakers}
+                  >
                     <div className="flex items-center">
                       <p>Schedule</p>
                       <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
@@ -140,18 +143,18 @@ const Header = class extends React.Component {
                 </div>
               ))}
             </a>
-            <Link href="/2021">
+            <Link href="/slam">
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrollingSpeakers}>
                   <div className="flex items-center">
-                    <p>RPF 2021</p>
+                    <p>Slam</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
-                {[...Array(7)].map(() => (
+                {[...Array(10)].map(() => (
                   <div aria-hidden="true" className={headerStyles.scrolling}>
                     <div className="flex items-center">
-                      <p>RPF 2021</p>
+                      <p>Slam</p>
                       <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                     </div>
                   </div>

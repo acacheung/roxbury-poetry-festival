@@ -16,18 +16,14 @@ export default function Schedule() {
         <h2 className="font-bold my-10 md:text-4xl text-3xl">The Schedule</h2>
         <div>
           <div className="schedule-grid">
-            <details>
+            <details open>
               <summary className="focus:outline-none summaryWrap">
-                <div className="event flex md:grid md:grid-cols-8 items-center justify-between py-10">
-                  <div className="md:col-span-7">
-                    <div className="md:grid md:grid-cols-7 md:items-center md:w-full">
-                      <p className="md:col-span-4 lg:col-span-3 mb-6 md:mb-0 md:text-3xl text-2xl">
-                        10:00am - 11:15am
-                      </p>
-                      <div className="md:col-span-3 lg:col-span-4 md:text-lg">
-                        Panels & Workshops
-                      </div>
-                    </div>
+                <div className="event flex md:grid md:grid-cols-3 items-center justify-between py-10 gap-x-20">
+                  <p className="md:col-span-4 lg:col-span-1 mb-6 md:mb-0 md:text-3xl text-2xl">
+                    10:00am - 11:15am
+                  </p>
+                  <div className="md:col-span-3 lg:col-span-1 md:text-lg">
+                    Panels & Workshops
                   </div>
                   <div className="flex flex-col items-end md:col-span-1 speakers-grid-arrows">
                     <svg
@@ -47,13 +43,18 @@ export default function Schedule() {
                   </div>
                 </div>
               </summary>
-              <div className="gap-x-20 gap-y-20 grid md:grid-cols-2 xl:grid-cols-6 mb-20 summaryDetail">
-                <div className="speakers-grid xl:col-span-2 xl:col-start-3">
+              <div className="gap-x-20 grid gap-y-20 mb-20 md:grid-cols-2 summaryDetail xl:gap-y-0 xl:grid-cols-3">
+                <div className="speakers-grid">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     Journalism 101
                   </h3>
-                  {/* <div className="home-images w-full" /> */}
                   <p className="mb-8">Facilitated by Cristela Guerra</p>
+                  <div className="schedule-image">
+                    <img
+                      alt="Cristela Guerra"
+                      src="/img/speakers/2023/cristela.jpeg"
+                    />
+                  </div>
                   <a
                     href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
@@ -66,11 +67,11 @@ export default function Schedule() {
                     </svg>
                   </a>
                 </div>
-                <div className="speakers-grid xl:col-span-2">
+                <div className="speakers-grid">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     Not Poetry: Word Play With A Purpose!
                   </h3>
-                  <p className="mb-8">Workshop</p>
+                  <p className="mb-8">Workshop by Regie Gibson</p>
                   <div className="schedule-image">
                     <img
                       alt="Regie Gibson"
@@ -89,6 +90,40 @@ export default function Schedule() {
                       Literary Performer, Educator, and Former National Poetry
                       Slam Champion, Regie Gibson, has been having fun with
                       language
+                    </summary>
+                  </details>
+                  <a
+                    href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
+                    className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <p>Register for this event</p>
+                    <svg className="fill-current ml-2" height="12" width="15">
+                      <use xlinkHref="#icon-rightarrow" />
+                    </svg>
+                  </a>
+                </div>
+                <div className="speakers-grid">
+                  <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
+                    Dreamscape: Future of Roxbury II
+                  </h3>
+                  <p className="mb-8">
+                    Panel Discussion by Eric “Pops” Esteves
+                  </p>
+                  <div className="schedule-image">
+                    <img
+                      alt="Eric Pops Estevs"
+                      src="/img/speakers/2023/eric-pops-esteves.png"
+                    />
+                  </div>
+                  <details className="font-mono mt-6">
+                    others to discuss a dreamscape for Roxbury's future. This
+                    discussion will be curated by Eric “Pops” Esteves.
+                    <summary className="focus:outline-none textWrap">
+                      This panel discussion will explore the past and
+                      presentfuture of Roxbury. It offers a space for natives,
+                      transplants and
                     </summary>
                   </details>
                   <a
@@ -139,7 +174,7 @@ export default function Schedule() {
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     How We Take Up Space: A poetic workshop on spatial justice
                   </h3>
-                  <p className="mb-8">Workshop</p>
+                  <p className="mb-8">Workshop by Nakia Hill</p>
                   <div className="schedule-image">
                     <img alt="Nakia Hill" src="/img/speakers/nakia-hill.jpg" />
                   </div>
@@ -179,7 +214,7 @@ export default function Schedule() {
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     Intro to Screenwriting: Learn the Basics in 90 Minutes
                   </h3>
-                  {/* <p className="mb-8">Writing Workshop and Panel</p> */}
+                  <p className="mb-8">Workshop by Paloma Valenzuela</p>
                   <div className="schedule-image">
                     <img
                       alt="Paloma Valenzuela"
@@ -218,7 +253,10 @@ export default function Schedule() {
                     Culture as Container: How Identities Serve as Forms for
                     Writing
                   </h3>
-                  <p className="mb-8">Reading & Panel</p>
+                  <p className="mb-8">
+                    Reading & Panel by Quinton Collins, Imani Davis, Matthew E.
+                    Henry and Sarah Kersey
+                  </p>
                   <div className="culturecontainer-images w-full" />
                   <details className="font-mono mt-6">
                     Plot lines, images, and other craft elements take on some
@@ -259,11 +297,11 @@ export default function Schedule() {
                 Lunchtime Reading & Craft Talk
               </h3>
               <div className="lg:flex">
-                {/* <img
-                  alt="Jericho Brown"
+                <img
+                  alt="Nate Marshall"
                   className="lg:h-full lg:w-1/3"
-                  src="/img/speakers/jericho-brown.jpg"
-                /> */}
+                  src="/img/speakers/2023/nate-marshall.png"
+                />
                 <div className="mt-6 lg:ml-8 lg:mt-0 lg:w-2/3">
                   <p>
                     This lunchtime keynote will feature poet and professor, Nate
@@ -331,8 +369,15 @@ export default function Schedule() {
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     Transitions and Seasons: When things we love are no longer
                   </h3>
-                  <p className="mb-8">Youth Writing Workshop + Mic</p>
-                  {/* <div className="dreamscape-images w-full" /> */}
+                  <p className="mb-8">
+                    Youth Writing Workshop + Mic by Alondra Bobadilla
+                  </p>
+                  <div className="schedule-image">
+                    <img
+                      alt="Alondra Bobadilla"
+                      src="/img/speakers/2023/alondra-babidilla.png"
+                    />
+                  </div>
                   <details className="font-mono mt-6">
                     We discussed that odd and complex combination of feelings
                     when you want to move on but also want to start fresh. When
@@ -363,7 +408,7 @@ export default function Schedule() {
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     Who is this? Visioning Characters on the Page
                   </h3>
-                  <p className="mb-8">Performance & Workshop</p>
+                  <p className="mb-8">Performance & Workshop by Letta Neely</p>
                   <div className="schedule-image">
                     <img
                       alt="Letta Neely"
@@ -468,8 +513,13 @@ export default function Schedule() {
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     How to Write a Poem
                   </h3>
-                  <p className="mb-8">Writing Workshop</p>
-                  {/* <div className="dreamscape-images w-full" /> */}
+                  <p className="mb-8">Writing Workshop by Eileen Myles</p>
+                  <div className="schedule-image">
+                    <img
+                      alt="Carolyn Macartney"
+                      src="/img/speakers/2023/carolyn-macartney.jpg"
+                    />
+                  </div>
                   <details className="font-mono mt-6">
                     and space and what they do in general and then we'll write
                     one poem at least on the spot and I'll leave you with a list
@@ -499,7 +549,7 @@ export default function Schedule() {
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     BARS with Brandie Blaze
                   </h3>
-                  <p className="mb-8">Writing Workshop</p>
+                  <p className="mb-8">Writing Workshop by Brandie Blaze</p>
                   <div className="schedule-image">
                     <img
                       alt="Brandie Blaze"
@@ -532,7 +582,9 @@ export default function Schedule() {
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
                     If You Can Feel It, You Can Speak It
                   </h3>
-                  {/* <p className="mb-8">Reading & Panel</p> */}
+                  <p className="mb-8">
+                    Open Mic Movement by Jha D, D Ruff, If You Can Feel It
+                  </p>
                   <div className="schedule-image">
                     <img
                       alt="Jha D"
@@ -790,11 +842,11 @@ export default function Schedule() {
                 Publisher’s Poetry Slam
               </h3>
               <p>
-                This poetry slam is taking place at the Bruce C Bolling Building.
-                It will be filmed by Button Poetry and allots the winner of the
-                slam, a local writer, a chapbook deal from the publisher,
-                Button Poetry. This event is only open to poets living in
-                Massachusetts. Hosted by Harlym 125.
+                This poetry slam is taking place at the Bruce C Bolling
+                Building. It will be filmed by Button Poetry and allots the
+                winner of the slam, a local writer, a chapbook deal from the
+                publisher, Button Poetry. This event is only open to poets
+                living in Massachusetts. Hosted by Harlym 125.
               </p>
               <Link href="/slam">
                 <a
