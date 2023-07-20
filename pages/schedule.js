@@ -55,6 +55,47 @@ export default function Schedule() {
                       src="/img/speakers/2023/cristela.jpeg"
                     />
                   </div>
+                  <details className="font-mono mt-6">
+                    Before working in public radio, she was a newspaper
+                    journalist for more than a decade, working at The Boston
+                    Globe and The News-Press in Fort Myers, Florida. She is one
+                    of 24 journalists from around the world selected for the
+                    2024 class of the{' '}
+                    <a
+                      className="underline"
+                      href="https://nieman.harvard.edu/"
+                      rel="noreferrer noopener"
+                      target="_blank"
+                    >
+                      Nieman Foundation
+                    </a>{' '}
+                    for Journalism at Harvard University. Her work received a
+                    regional and national Edward R. Murrow Award in 2014 and
+                    most recently received another regional Edward R. Murrow in
+                    2023 as part of “Continuing Coverage” for her work at the
+                    U.S.-Mexico border on the journey of Venezuelans migrants.
+                    She was chosen as a 2019 Latina Leader by Amplify Latinx and
+                    selected by YW Boston to be inducted into its 2023 Academy
+                    of Women Achievers and receive the organization’s Sylvia
+                    Ferrell-Jones Award. They are the vice-president of the New
+                    England Chapter of the National Association of Hispanic
+                    Journalists, vice-chair of the board at RAW Art Works, and a
+                    board member at The Jar.
+                    <summary className="focus:outline-none textWrap">
+                      <a
+                        className="underline"
+                        href="https://www.wbur.org/inside/staff/cristela-guerra"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                      >
+                        Cristela Guerra
+                      </a>{' '}
+                      is a senior arts and culture reporter at WBUR in Boston, a
+                      queer Panamanian journalist of color, and a moderator who
+                      facilitates and leads conversations around race, identity,
+                      and equity.
+                    </summary>
+                  </details>
                   <a
                     href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
                     className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
@@ -254,7 +295,7 @@ export default function Schedule() {
                     Writing
                   </h3>
                   <p className="mb-8">
-                    Reading & Panel by Quinton Collins, Imani Davis, Matthew E.
+                    Reading & Panel by Quintin Collins, Imani Davis, Matthew E.
                     Henry and Sarah Kersey
                   </p>
                   <div className="culturecontainer-images w-full" />
@@ -406,29 +447,26 @@ export default function Schedule() {
                 </div>
                 <div className="speakers-grid">
                   <h3 className="mb-4 md:text-4xl mt-8 text-3xl uppercase">
-                    Who is this? Visioning Characters on the Page
+                    Poetry and Songwriting Inspired by Mediation
                   </h3>
-                  <p className="mb-8">Performance & Workshop by Letta Neely</p>
+                  <p className="mb-8">Workshop by Naomi Westwater</p>
                   <div className="schedule-image">
                     <img
-                      alt="Letta Neely"
-                      src="/img/speakers/2023/letta-neely.jpg"
+                      alt="Naomi Westwater"
+                      src="/img/speakers/2023/naomi-westwater.jpg"
                     />
                   </div>
                   <details className="font-mono mt-6">
-                    In this session, Letta will perform a few of the play's
-                    monologues and then lead participants through writing their
-                    own persona poems and monologues. More specifically,
-                    participants in this workshop will explore the intricacies
-                    and magic of weaving one character's narrative into the
-                    makeup of another character. Letta Neely, in terms of
-                    writing characters, will teach us how to "pull it all into
-                    the current."
+                    allow you to relax and come back to yourself, and then, from
+                    a place of calm, begin to write. We will start with a
+                    visualization meditation on nature, then move into a free
+                    write, and end the workshop focusing on writing lyrics or a
+                    poem in the form of a villanelle. This workshop is open for
+                    poets and/or songwriters.
                     <summary className="focus:outline-none textWrap">
-                      Pulling It All Into The Current is a one-person choreopoem
-                      and play by writer and organizer, Letta Neely. The play
-                      explores various characters through some of their most
-                      defining life moments.
+                      Often as writers we find it hard to tap into creativity
+                      with the constant pull and stress of daily life. This
+                      workshop is designed to
                     </summary>
                   </details>
                   <a
@@ -449,14 +487,9 @@ export default function Schedule() {
                   </h3>
                   <p className="mb-8">
                     Facilitated by Crystal Valentine, Anna Ross, and Yara
-                    Liceaga
+                    Liceaga-Rojas
                   </p>
-                  <div className="schedule-image">
-                    <img
-                      alt="Crystal Valentine"
-                      src="/img/speakers/crystal-valentine.jpg"
-                    />
-                  </div>
+                  <div className="smothering-images w-full" />
                   <details className="font-mono mt-6">
                     Poet will explore motherhood in all of its glorious, and
                     inglorious ways.

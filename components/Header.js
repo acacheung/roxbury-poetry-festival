@@ -151,7 +151,7 @@ const Header = class extends React.Component {
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
-                {[...Array(10)].map(() => (
+                {[...Array(11)].map(() => (
                   <div aria-hidden="true" className={headerStyles.scrolling}>
                     <div className="flex items-center">
                       <p>Slam</p>

@@ -232,7 +232,8 @@ details summary::marker {
 .rappers-images,
 .halal-images,
 .art-life-images,
-.culturecontainer-images {
+.culturecontainer-images,
+.smothering-images {
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -466,6 +467,28 @@ details summary::marker {
   }
 }
 
+.smothering-images {
+  -webkit-animation: smotheringTransition 12s infinite;
+  animation: smotheringTransition 12s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes smotheringTransition {
+  0% {
+    background-image: url('../public/img/speakers/crystal-valentine.jpg');
+  }
+  33% {
+    background-image: url('../public/img/speakers/2023/anna-ross.jpg');
+  }
+  66% {
+    background-image: url('../public/img/speakers/2023/yara-liceaga-rojas.jpg');
+  }
+  100% {
+    background-image: url('../public/img/speakers/crystal-valentine.jpg');
+  }
+}
+
 @screen md {
   .hero {
     height: 100%;
@@ -495,7 +518,8 @@ details summary::marker {
   .rappers-images,
   .halal-images,
   .art-life-images,
-  .culturecontainer-images {
+  .culturecontainer-images,
+  .smothering-images {
     height: 21rem;
     width: 21rem;
   }
@@ -517,7 +541,8 @@ details summary::marker {
   .rappers-images,
   .halal-images,
   .art-life-images,
-  .culturecontainer-images {
+  .culturecontainer-images,
+  .smothering-images {
     height: 18.25rem;
     width: 18.25rem;
   }
@@ -537,7 +562,8 @@ details summary::marker {
   .rappers-images,
   .halal-images,
   .art-life-images,
-  .culturecontainer-images {
+  .culturecontainer-images,
+  .smothering-images {
     height: 15.5rem;
     width: 15.5rem;
   }
