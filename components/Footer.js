@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -45,6 +45,14 @@ export default function Footer() {
         </Link>
         <a
           className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16"
+          href="https://forms.gle/zQKvBB8srzom4hZn6"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Volunteer
+        </a>
+        <a
+          className="speakers-grid mb-6 pt-6 lg:mb-0 lg:ml-10 lg:pt-8 xl:ml-16"
           href="mailto:roxburypoetryfestival@gmail.com"
           target="_blank"
         >
@@ -52,5 +60,5 @@ export default function Footer() {
         </a>
       </div>
     </footer>
-  );
+  )
 }

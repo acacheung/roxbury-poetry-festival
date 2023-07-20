@@ -262,6 +262,24 @@ export default function Home() {
             </li> */}
           </ul>
         </div>
+        <div className="max-w-7xl mx-auto my-16 px-6">
+          <div className="md:flex justify-end items-center mb-10 md:mb-14">
+            <h2 className="font-bold mb-10 md:mb-0 text-2xl">
+              Are you interested in volunteering?
+            </h2>
+            <a
+              href="https://forms.gle/zQKvBB8srzom4hZn6"
+              className="border border-black inline-flex items-center ml-6 px-5 py-3 rounded-full text-lg"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Volunteer Signup
+              <svg className="ml-3" height="12" width="15">
+                <use xlinkHref="#icon-rightarrow" />
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </Layout>
   )
