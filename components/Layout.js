@@ -4,7 +4,7 @@ import Svg from '../components/Svg'
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 
-export default function Layout({ children }) {
+export default function Layout({ children, showBanner = true }) {
   return (
     <>
       <Head>
@@ -42,7 +42,6 @@ export default function Layout({ children }) {
           content="A vital gathering of national and local writers."
           key="ogdesc"
         />
-        <link rel="icon" href="/favicon.ico" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-5R06V6T39B"
@@ -64,7 +63,7 @@ export default function Layout({ children }) {
         <main className="relative z-30">{children}</main>
       </div>
       <Footer />
-      <Banner />
+      {showBanner ? <Banner /> : null}
     </>
   )
 }

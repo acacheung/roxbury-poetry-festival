@@ -3,66 +3,17 @@ import React from 'react'
 import headerStyles from './Header.module.css'
 
 const Header = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      hamburgerActive: false,
-      hamburgerActiveClass: '',
-      headerShow: false,
-    }
-  }
-
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        hamburgerActive: !this.state.hamburgerActive,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.hamburgerActive
-          ? this.setState({
-              navBarActiveClass: headerStyles.isActive,
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      },
-    )
-  }
-
   render() {
     return (
-      <header
-        className={`justify-center h-6 md:items-center mx-auto relative z-50 w-full ${this.state.navBarActiveClass}`}
-      >
+      <header className="justify-center h-6 md:items-center mx-auto relative z-50 w-full">
         <nav className="flex flex-col md:flex-grow justify-center">
-          <button
-            aria-label="Toggle Menu"
-            className={
-              headerStyles.navButton + ' absolute mr-4 mt-4 right-0 top-0'
-            }
-            onClick={() => this.toggleHamburger()}
-          >
-            <div className={headerStyles.iconHamburger + ' block'}>
-              <svg className="fill-current" height="29" width="40">
-                <use xlinkHref="#icon-menu" />
-              </svg>
-            </div>
-            <div className={headerStyles.iconClose + ' hidden'}>
-              <svg className="fill-current" height="29" width="40">
-                <use xlinkHref="#icon-close" />
-              </svg>
-            </div>
-          </button>
           <div
             className={
               headerStyles.mainNav +
               ' flex font-bold font-sans hidden justify-between md:mt-0 mt-28'
             }
           >
-            <Link href="/about">
+            <Link href="/about" legacyBehavior>
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrolling}>
                   <div className="flex items-center">
@@ -80,7 +31,7 @@ const Header = class extends React.Component {
                 ))}
               </a>
             </Link>
-            <Link href="/schedule">
+            <Link href="/schedule" legacyBehavior>
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrollingSpeakers}>
                   <div className="flex items-center">
@@ -122,28 +73,23 @@ const Header = class extends React.Component {
                 ))}
               </a>
             </Link> */}
-            <a
-              href="https://www.eventbrite.com/e/roxbury-poetry-festival-2023-tickets-676251124317"
-              className={headerStyles.scrollingItem}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <div className={headerStyles.scrollingItem}>
               <div className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Register</p>
+                  <p>Reg Opens May 1</p>
                   <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
               </div>
               {[...Array(7)].map(() => (
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Register</p>
+                    <p>Reg Opens May 1</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
               ))}
-            </a>
-            <Link href="/slam">
+            </div>
+            <Link href="/slam" legacyBehavior>
               <a className={headerStyles.scrollingItem}>
                 <div className={headerStyles.scrollingSpeakers}>
                   <div className="flex items-center">
@@ -190,7 +136,7 @@ const Header = class extends React.Component {
             ' hidden flex flex-col md:flex-row-reverse md:justify-between md:max-w-7xl md:items-end md:mt-0 md:text-left md:w-full mt-10 px-6 text-center'
           }
         >
-          <div className="font-mono uppercase mb-6 md:mb-0">August 5, 2023</div>
+          <div className="font-mono uppercase mb-6 md:mb-0">June 27, 2026</div>
           <div className="font-mono md:flex items-start">
             <div className="flex md:justify-start justify-center">
               A

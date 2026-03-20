@@ -18,7 +18,7 @@ export default function Home() {
   })
 
   return (
-    <Layout>
+    <Layout showBanner={false}>
       <div className="w-full">
         <div className="hero">
           <div className="flex flex-col justify-between max-w-7xl mx-auto px-6">
@@ -50,9 +50,9 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="font-mono md:mt-10 mt-6 md:text-left mb-20 pb-20 text-center">
+            <div className="font-mono md:mt-10 mt-6 md:text-left text-center">
               <p className="md:text-3xl text-2xl">
-                August 5, 2023 - registration now open!
+                June 27, 2026 - registration opens May 1, 2026
               </p>
               <div className="md:flex md:text-lg mt-8 items-start">
                 <div className="flex md:justify-start justify-center">
@@ -103,13 +103,13 @@ export default function Home() {
               ></video>
             </li>
           </ul>
-        </div> */}
+        </div> 
         <div className="max-w-7xl mx-auto pb-16 px-6">
           <div className="md:flex items-center justify-between mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-4xl">
               Festival Headliners
             </h2>
-            <Link href="/schedule">
+            <Link href="/schedule" legacyBehavior>
               <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
                 See the Schedule
                 <svg className="ml-3" height="12" width="15">
@@ -259,10 +259,10 @@ export default function Home() {
                   First Book Prize for (Make Me A World/Random House
                 </summary>
               </details>
-            </li> */}
+            </li> 
           </ul>
         </div>
-        <div className="max-w-7xl mx-auto my-16 px-6">
+        {/* <div className="max-w-7xl mx-auto my-16 px-6">
           <div className="md:flex justify-end items-center mb-10 md:mb-14">
             <h2 className="font-bold mb-10 md:mb-0 text-2xl">
               Are you interested in volunteering?
@@ -279,7 +279,7 @@ export default function Home() {
               </svg>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   )

@@ -5,7 +5,7 @@ export default function Speakers() {
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-6 w-full">
-        <Link href="/">
+        <Link href="/" legacyBehavior>
           <a className="hidden md:flex h-32 items-center justify-center">
             <h1 className="hidden">Roxbury Poetry Festival</h1>
             <svg className="fill-current" height="30" width="615">
@@ -570,7 +570,7 @@ export default function Speakers() {
                 beyond. 125 has become a part
               </summary>
             </details>
-            <Link href="/slam">
+            <Link href="/slam" legacyBehavior>
               <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
                 View the Publisher's Poetry Slam
                 <svg className="ml-4 lg:ml-6" height="8" width="19">
@@ -1165,7 +1165,7 @@ export default function Speakers() {
                 majoring
               </summary>
             </details>
-            <Link href="/slam">
+            <Link href="/slam" legacyBehavior>
               <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
                 View the Publisher's Poetry Slam
                 <svg className="ml-4 lg:ml-6" height="8" width="19">

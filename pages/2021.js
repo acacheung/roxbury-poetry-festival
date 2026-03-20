@@ -3,9 +3,9 @@ import Layout from "@components/Layout";
 
 export default function Schedule() {
   return (
-    <Layout>
+    <Layout showBanner={false}>
       <div className="max-w-7xl mx-auto px-6 w-full">
-        <Link href="/">
+        <Link href="/" legacyBehavior>
           <a className="hidden md:flex h-32 items-center justify-center">
             <h1 className="hidden">Roxbury Poetry Festival</h1>
             <svg className="fill-current" height="30" width="615">
@@ -546,7 +546,7 @@ export default function Schedule() {
                   </h3>
                   <p className="mb-8">826 Youth Anthology Reading</p>
                   <div className="schedule-image">
-                    <img alt="826 Boston" src="/img/speakers/826-Boston.jpg" />
+                    <img alt="826 Boston" src="/img/speakers/826-boston.jpg" />
                   </div>
                   <details className="font-mono mt-6">
                     authored publication features stories and poems written by
@@ -812,7 +812,7 @@ export default function Schedule() {
                 Button Poetry. This event is only open to poetry living in
                 Massachusetts. Hosted by Harlym 125.
               </p>
-              <Link href="/slam">
+              <Link href="/slam" legacyBehavior>
                 <a
                   className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center"
                   rel="noreferrer noopener"
@@ -1418,7 +1418,7 @@ export default function Schedule() {
                 beyond. 125 has become a part
               </summary>
             </details>
-            <Link href="/slam">
+            <Link href="/slam" legacyBehavior>
               <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
                 View the Publisher's Poetry Slam
                 <svg className="ml-4 lg:ml-6" height="8" width="19">
@@ -2013,7 +2013,7 @@ export default function Schedule() {
                 majoring
               </summary>
             </details>
-            <Link href="/slam">
+            <Link href="/slam" legacyBehavior>
               <a className="border border-black inline-flex items-center mt-6 px-8 py-3 rounded-full lg:text-lg">
                 View the Publisher's Poetry Slam
                 <svg className="ml-4 lg:ml-6" height="8" width="19">

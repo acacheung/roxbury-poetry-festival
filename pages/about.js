@@ -4,9 +4,9 @@ import Layout from "@components/Layout";
 export default function About() {
   return (
     <>
-      <Layout>
+      <Layout showBanner={false}>
         <div className="max-w-7xl mx-auto px-6 w-full">
-          <Link href="/">
+          <Link href="/" legacyBehavior>
             <a className="hidden md:flex h-32 items-center justify-center">
               <h1 className="hidden">Roxbury Poetry Festival</h1>
               <svg className="fill-current" height="30" width="615">
