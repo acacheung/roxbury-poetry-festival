@@ -546,7 +546,7 @@ export default function Schedule() {
                   </h3>
                   <p className="mb-8">826 Youth Anthology Reading</p>
                   <div className="schedule-image">
-                    <img alt="826 Boston" src="/img/speakers/826-Boston.jpg" />
+                    <img alt="826 Boston" src="/img/speakers/826-boston.jpg" />
                   </div>
                   <details className="font-mono mt-6">
                     authored publication features stories and poems written by

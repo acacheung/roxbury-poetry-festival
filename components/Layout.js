@@ -42,7 +42,6 @@ export default function Layout({ children, showBanner = true }) {
           content="A vital gathering of national and local writers."
           key="ogdesc"
         />
-        <link rel="icon" href="/favicon.ico" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-5R06V6T39B"
