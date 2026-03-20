@@ -4,7 +4,7 @@ import Svg from '../components/Svg'
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 
-export default function Layout({ children }) {
+export default function Layout({ children, showBanner = true }) {
   return (
     <>
       <Head>
@@ -64,7 +64,7 @@ export default function Layout({ children }) {
         <main className="relative z-30">{children}</main>
       </div>
       <Footer />
-      <Banner />
+      {showBanner ? <Banner /> : null}
     </>
   )
 }

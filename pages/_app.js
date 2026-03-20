@@ -14,7 +14,7 @@ const isMobile = () => {
 
 const Cursor = () => {
   if (typeof navigator !== "undefined" && isMobile()) return null;
-  const [position, setPosition] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
   const [hidden, setHidden] = useState(true);
   const [clicked, setClicked] = useState(false);
   const [linkHovered, setLinkHovered] = useState(false);
