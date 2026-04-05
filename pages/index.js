@@ -55,7 +55,7 @@ export default function Home() {
                 June 27, 2026 - registration opens May 15, 2026.
               </p>
                <p className="mt-4 md:text-2xl text-xl">
-               Sign up for our <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0cy7VGDZuEhbdwpdX9dB2grKwlGWiB8aj_SrYLZjimK2i_w/viewform" className="underline">
+               Sign up for our <a target="_blank" rel="noreferrer noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSf0cy7VGDZuEhbdwpdX9dB2grKwlGWiB8aj_SrYLZjimK2i_w/viewform" className="underline">
                   mailing list
                 </a> for updates.
               </p>
