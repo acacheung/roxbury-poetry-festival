@@ -52,7 +52,12 @@ export default function Home() {
             </div>
             <div className="font-mono md:mt-10 mt-6 md:text-left text-center">
               <p className="md:text-3xl text-2xl">
-                June 27, 2026 - registration opens May 1, 2026
+                June 27, 2026 - registration opens May 15, 2026.
+              </p>
+               <p className="mt-4 md:text-2xl text-xl">
+               Sign up for our <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0cy7VGDZuEhbdwpdX9dB2grKwlGWiB8aj_SrYLZjimK2i_w/viewform" className="underline">
+                  mailing list
+                </a> for updates.
               </p>
               <div className="md:flex md:text-lg mt-8 items-start">
                 <div className="flex md:justify-start justify-center">

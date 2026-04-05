@@ -76,14 +76,14 @@ const Header = class extends React.Component {
             <div className={headerStyles.scrollingItem}>
               <div className={headerStyles.scrolling}>
                 <div className="flex items-center">
-                  <p>Reg Opens May 1</p>
+                  <p>Reg Opens May 15</p>
                   <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                 </div>
               </div>
               {[...Array(7)].map(() => (
                 <div aria-hidden="true" className={headerStyles.scrolling}>
                   <div className="flex items-center">
-                    <p>Reg Opens May 1</p>
+                    <p>Reg Opens May 15</p>
                     <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
                   </div>
                 </div>
