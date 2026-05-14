@@ -19,7 +19,7 @@ export default function Schedule() {
             <div className="md:mr-20 md:w-1/3">
               <p className="mb-6 md:text-3xl text-2xl">June 27, 2026</p>
               <p className="font-mono md:text-lg text-base">
-                Registration opens May 15, 2026.
+                Registration opens May 18, 2026.
               </p>
             </div>
             <div className="md:w-2/3">
@@ -29,7 +29,7 @@ export default function Schedule() {
               <p className="font-mono md:text-lg text-base">
                 The 2026 festival program is still in development. Session
                 times, speakers, workshops, and registration details will be
-                published here once registration opens on May 15, 2026.
+                published here once registration opens on May 18, 2026.
               </p>
               <div className="mt-10">
                 <Link href="/2023" legacyBehavior>

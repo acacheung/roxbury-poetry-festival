@@ -25,11 +25,8 @@ export default function Slam() {
                 The Poetry Slam returns on June 27, 2026.
               </p>
               <p className="mb-6">
-                Registration opens May 1, 2026. Full competition details will
+                Registration opens May 18, 2026. Full competition details will
                 be announced with the application.
-              </p>
-              <p className="mb-6 border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
-                Slam registration opens May 1, 2026
               </p>
               <img
                 alt="Button Poetry"
@@ -43,7 +40,7 @@ export default function Slam() {
               </h3>
               <p className="max-w-3xl">
                 The 2026 slam lineup, rules, judges, and application process
-                are still being finalized. Check back on May 1, 2026 for the
+                are still being finalized. Check back on May 18, 2026 for the
                 full announcement and registration details.
               </p>
             </div>
