@@ -7,6 +7,9 @@ import Transition from "../components/Transition";
 
 // Custom cursor https://dev.to/andrewchmr/awesome-animated-cursor-with-react-hooks-5ec3
 
+const enableBlossomSkyBackground =
+  process.env.NEXT_PUBLIC_ENABLE_BLOSSOM_SKY_BACKGROUND === "true";
+
 const isMobile = () => {
   const ua = navigator.userAgent;
   return /Android|Mobi/i.test(ua);
@@ -88,6 +91,17 @@ const Cursor = () => {
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
+
+  useEffect(() => {
+    document.body.classList.toggle(
+      "blossom-sky-gradient",
+      enableBlossomSkyBackground
+    );
+
+    return () => {
+      document.body.classList.remove("blossom-sky-gradient");
+    };
+  }, []);
 
   return (
     <>

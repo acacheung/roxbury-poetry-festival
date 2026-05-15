@@ -4,7 +4,7 @@ import Svg from '../components/Svg'
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 
-export default function Layout({ children, showBanner = true }) {
+export default function Layout({ children, showBanner = false }) {
   return (
     <>
       <Head>

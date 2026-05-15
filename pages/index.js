@@ -2,6 +2,21 @@ import Link from 'next/link'
 import Layout from '@components/Layout'
 import React, { useEffect, useState } from 'react'
 
+const featuredSessions = [
+  {
+    title: 'Kwame Dawes',
+    meta: '5:30pm - 6:30pm | Keynote Address & Conversation',
+    description:
+      'Kwame Dawes is the author of numerous books of poetry, fiction, criticism, and essays. His most recent collection is Sturge Town. Dawes is Professor of Literary Arts at Brown University, Series Editor of the African Poetry Book Series, Director of the African Poetry Book Fund, and Artistic Director of the Calabash International Literary Festival. He is the Poet Laureate of Jamaica for 2024-2027.',
+  },
+  {
+    title: 'Lunch Time Craft Talk',
+    meta: '1:00pm - 2:15pm | Details forthcoming',
+    description:
+      'The lunch time craft talk speaker and session details are still being finalized.',
+  },
+]
+
 export default function Home() {
   const [scrollState, setScrollState] = useState(0)
 
@@ -79,6 +94,34 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="max-w-7xl mx-auto md:pb-24 pb-16 md:pt-20 pt-12 px-6">
+          <div className="md:flex items-center justify-between mb-10 md:mb-14">
+            <h2 className="font-bold mb-10 md:mb-0 text-4xl">
+              Festival Headliners
+            </h2>
+            <Link href="/schedule" legacyBehavior>
+              <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
+                See the Schedule
+                <svg className="ml-3" height="12" width="15">
+                  <use xlinkHref="#icon-rightarrow" />
+                </svg>
+              </a>
+            </Link>
+          </div>
+          <ul className="gap-x-28 gap-y-20 grid md:grid-cols-2">
+            {featuredSessions.map((session) => (
+              <li className="speakers-grid" key={session.title}>
+                <h3 className="mb-4 mt-8 text-5xl uppercase">
+                  {session.title}
+                </h3>
+                <p className="mb-8 text-lg">{session.meta}</p>
+                <p className="font-mono mt-6 text-lg">
+                  {session.description}
+                </p>
+              </li>
+            ))}
+          </ul>
         </div>
         {/* <div className="max-w-7xl mx-auto mb-40 px-6">
           <div className="md:flex items-center justify-between mb-10 md:mb-14">
