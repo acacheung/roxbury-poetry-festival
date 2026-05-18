@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
+import { registrationLabel, registrationUrl } from '../lib/registration'
+import { volunteerUrl } from '../lib/volunteer'
 import headerStyles from './Header.module.css'
 
 const Header = class extends React.Component {
@@ -110,17 +112,34 @@ const Header = class extends React.Component {
                 )}
               </a>
             </Link>
-            <div
-              aria-label="Registration opens May 18"
+            <a
+              aria-label="Register for Roxbury Poetry Festival"
               className={headerStyles.scrollingItem}
+              href={registrationUrl}
+              rel="noreferrer noopener"
+              target="_blank"
             >
               {this.renderMarquee(
-                'Reg Opens May 18',
+                registrationLabel,
                 10,
                 headerStyles.scrolling,
                 '190s'
               )}
-            </div>
+            </a>
+            <a
+              aria-label="Volunteer for Roxbury Poetry Festival"
+              className={headerStyles.scrollingItem}
+              href={volunteerUrl}
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              {this.renderMarquee(
+                'Volunteer',
+                10,
+                headerStyles.scrollingSpeakers,
+                '150s'
+              )}
+            </a>
             <Link href="/slam" legacyBehavior>
               <a aria-label="Slam" className={headerStyles.scrollingItem}>
                 {this.renderMarquee(

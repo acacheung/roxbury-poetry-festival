@@ -70,20 +70,17 @@ const speakers = [
     image: '/img/speakers/2026/Amanda+Gunn+Author+Photo+10.webp',
     bio: (
       <>
-        Amanda Gunn grew up just at the edge of the woods in southern
-        Connecticut with two older brothers. A former Wallace Stegner Fellow at
-        Stanford, she is currently a doctoral candidate in English at Harvard
-        where she studies modern and contemporary poetry, Black poetry and
-        poetics, and post-WWII Black literature. She is the recipient of the
+        Amanda Gunn is a Black, queer poet who grew up just at the edge of the
+        woods in southern Connecticut with two older brothers. Her debut poetry
+        collection, <em>Things I Didn&apos;t Do with This Body</em>, was
+        published by Copper Canyon Press (2023). She is the recipient of the
         Missouri Review Editor&apos;s Prize, the Auburn Witness Poetry Prize,
-        and a Pushcart Prize, and has received additional fellowships from the
-        Civitella Ranieri Foundation, the Rona Jaffe Foundation, the Bread Loaf
-        Writers&apos; Conference, MacDowell, and the Kenyon Review Writers
-        Workshop. Her recent work appears or is forthcoming in{' '}
-        <em>Poetry</em>, <em>VQR</em>, <em>Ploughshares</em>, and{' '}
-        <em>Doek!</em> Her debut collection,{' '}
-        <em>Things I Didn&apos;t Do With This Body</em>, was published in 2023
-        by Copper Canyon Press.
+        and a Pushcart Prize, and has received fellowships from the Wallace
+        Stegner Program at Stanford, the Civitella Ranieri Foundation, the Rona
+        Jaffe Foundation, MacDowell, and others. She is a PhD candidate in
+        English at Harvard; her dissertation project examines formal
+        experimentation, aesthetic disruption, and political consciousness in
+        the work of Gwendolyn Brooks.
       </>
     ),
   },
@@ -125,6 +122,34 @@ const speakers = [
         Womxn of the World Poetry Slam in Baltimore and has conducted workshops
         in both college universities and local high schools. She is currently
         working on her debut speculative fiction novel.
+      </>
+    ),
+  },
+  {
+    name: 'Crystal Valentine',
+    slug: 'crystal-valentine',
+    role: 'Poet, educator, and organizer',
+    image: '/img/speakers/crystal-valentine.jpg',
+    bio: (
+      <>
+        Crystal Valentine is a nationally and internationally acclaimed poet,
+        educator and organizer. A former New York City Youth Poet Laureate and
+        two-time winner of the College Union Poetry Slam Invitational, Crystal
+        has been offered fellowships from Callaloo, Tin House, Bread Loaf
+        Writers&apos; Conferences, The Boston Foundation and Cave Canem. She is
+        the winner of Palette Poetry&apos;s 2021 Emerging Poet Prize, selected
+        by Kelli Russell Agodon and her work has appeared in the Academy of
+        American Poets Poem-a-Day, <em>Muzzle Magazine</em>,{' '}
+        <em>TriQuarterly Magazine</em>, and elsewhere. She received an MFA from
+        New York University. Originally hailing from the Bronx, Crystal now
+        resides in Boston where she serves as the co-host of Just Be(loved):
+        Your Neighborhood Poetry Slam and Open Mic. When she isn&apos;t writing
+        or agonizing over line breaks, you can find her watching anime and
+        dreaming. Visit her at{' '}
+        <ExternalLink href="https://www.iamcrystalvalentine.com/">
+          iamcrystalvalentine.com
+        </ExternalLink>
+        .
       </>
     ),
   },
@@ -324,6 +349,30 @@ const speakers = [
     ),
   },
   {
+    name: 'Lin Flores',
+    slug: 'lin-flores',
+    role: 'Poet',
+    image: '/img/speakers/2026/Lin Flores.jpg',
+    bio: (
+      <>
+        Lin Flores is the author of <em>Reflections While Living in Utah</em>{' '}
+        (2020) and an MFA candidate in Poetry at the University of New Orleans.
+        Lin is a two-time recipient of the Andrea Saunders Gereighty / Academy
+        of American Poets Award (2023 &amp; 2024). They were also named a 2024
+        poetry fellow with Roots. Wounds. Words. under Paul Tran. Most recently,
+        they were awarded an emerging artist grant to attend The Chateau
+        d&apos;Orquevaux, an international artist and writers residency in
+        France. Lin serves as a reader for <em>The Offing</em> and{' '}
+        <em>Bayou Magazine</em> and their poetry has been published in{' '}
+        <em>Poets</em>, <em>Lesbians Are Miracles</em>,{' '}
+        <em>Latinx Lit Mag</em>, <em>Moist</em>, <em>Pile Press</em>, and
+        UNO&apos;s <em>Ellipsis</em>. When not writing, Lin volunteers with
+        Plumas Colectiva, a collective of Latinx poets and artists, supporting
+        cultural expression and environmental advocacy.
+      </>
+    ),
+  },
+  {
     name: 'Maria Pinto',
     slug: 'maria-pinto',
     role: 'Author and educator',
@@ -449,6 +498,7 @@ const speakers = [
     name: 'Kwame Dawes',
     slug: 'kwame-dawes',
     role: 'Keynote speaker',
+    image: '/img/speakers/2026/Dawes-headshot-1.jpg',
     bio: (
       <>
         Kwame Dawes is the author of numerous books of poetry, fiction,

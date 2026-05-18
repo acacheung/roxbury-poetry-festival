@@ -137,7 +137,7 @@ Source file reviewed: `/Users/ashleycheung/Downloads/Schedule-Descriptions + Bio
 - The lunch craft talk is still marked TBD.
 - The PDF references image filenames, but the actual image files are not yet in `public/img/speakers/2026/`.
 - The first batch of 2026 images is now in `public/img/speakers/2026/`, and all images currently used by `pages/schedule.js` resolve to local files.
-- Registration URL and final public CTA wording are still not present in the PDF.
+- Registration URL is now available: `https://www.eventbrite.com/e/roxbury-poetry-festival-tickets-1989746590615`.
 - Festival location is partially implied only by the slam logistics; public location/room details still need confirmation.
 
 ## 2026 Update Phases
@@ -154,7 +154,7 @@ Source file reviewed: `/Users/ashleycheung/Downloads/Schedule-Descriptions + Bio
   - facilitator/speaker names
   - description/bio
   - image path
-  - registration URL or CTA
+  - registration URL or CTA: `https://www.eventbrite.com/e/roxbury-poetry-festival-tickets-1989746590615`
   - location/room, if available
 
 ### Phase 2: Replace Live Schedule
@@ -167,7 +167,7 @@ Source file reviewed: `/Users/ashleycheung/Downloads/Schedule-Descriptions + Bio
 ### Phase 3: Update Homepage
 
 - Keep the confirmed hero date: June 27, 2026.
-- Replace the current registration placeholder with the final CTA once registration opens or the URL is ready.
+- Replace the current registration placeholder with the final CTA.
 - Replace visible featured/headliner content with the 2026 headliners, keynote, lunchtime feature, or other priority programming from the source document.
 - Remove or leave commented historical sections only if they are intentionally retained for future reference.
 
@@ -186,7 +186,7 @@ Source file reviewed: `/Users/ashleycheung/Downloads/Schedule-Descriptions + Bio
 
 ### Phase 5: Refresh Shared Site Copy
 
-- Update `components/Header.js` once the CTA changes from "Reg Opens May 18" to the active registration/action text.
+- Update `components/Header.js` with the active registration/action text.
 - Update `components/Banner.js` with the active CTA and link behavior if the banner should be clickable.
 - Update `components/Layout.js` metadata so social previews no longer describe the inaugural virtual festival.
 - Update `pages/about.js` so the festival description, organizers, partners, accessibility/public safety, and contact information reflect 2026.
@@ -204,7 +204,6 @@ Source file reviewed: `/Users/ashleycheung/Downloads/Schedule-Descriptions + Bio
 ## Content Still Needed From The 2026 Document
 
 - Final festival location and any room/session locations.
-- Registration URL and final CTA wording.
 - Final lunch craft talk details.
 - Final headliner/homepage priority content.
 - Missing or ambiguous photo files from the PDF.
@@ -224,7 +223,7 @@ Source file reviewed: `/Users/ashleycheung/Downloads/Schedule-Descriptions + Bio
 - [x] Replace homepage featured/headliner sections with 2026 content.
 - [x] Replace the live placeholder schedule in `pages/schedule.js`.
 - [ ] Replace or finalize the live placeholder slam page in `pages/slam.js`.
-- [ ] Update shared CTAs in `components/Header.js` and `components/Banner.js` when final registration is available.
+- [x] Update shared CTAs in `components/Header.js` and `components/Banner.js` when final registration is available.
 - [ ] Refresh metadata copy in `components/Layout.js`.
 - [ ] Refresh About page copy in `pages/about.js`.
 - [x] Add final 2026 photos under `public/img/speakers/2026/`.

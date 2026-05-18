@@ -246,6 +246,19 @@ details summary::marker {
   width: 21rem;
 }
 
+.schedule-image img[alt='Stephen Hamilton'] {
+  object-position: center top;
+}
+
+.home-featured-image img {
+  aspect-ratio: 640 / 464;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  object-position: center 38%;
+  width: 100%;
+}
+
 .schedule-image-loop {
   height: 21rem;
   position: relative;
@@ -628,6 +641,11 @@ details summary::marker {
     height: 21rem;
     width: 21rem;
   }
+
+  .home-featured-image img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 @screen lg {
@@ -652,6 +670,11 @@ details summary::marker {
     height: 18.25rem;
     width: 18.25rem;
   }
+
+  .home-featured-image img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 @screen xl {
@@ -673,6 +696,11 @@ details summary::marker {
   .smothering-images {
     height: 15.5rem;
     width: 15.5rem;
+  }
+
+  .home-featured-image img {
+    height: auto;
+    width: 100%;
   }
 
   .schedule-image-rachel img,

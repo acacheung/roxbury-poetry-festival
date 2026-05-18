@@ -1,10 +1,33 @@
 import Link from 'next/link'
 import Layout from '@components/Layout'
+import { registrationLabel, registrationUrl } from '../lib/registration'
 
-const registrationCopy = 'Registration opens May 18, 2026.'
+function RegistrationLink({ className = '', variant = 'default' }) {
+  const variantClassName =
+    variant === 'large'
+      ? 'bg-[#d8f4ff] font-bold hover:bg-[#f3e7ff] hover:shadow-[3px_3px_0_#6fc7b5] hover:-translate-y-0.5 md:text-lg px-5 py-3 shadow-[6px_6px_0_#ff8f70] text-base transition uppercase'
+      : variant === 'session'
+      ? 'bg-[#d8f4ff] md:text-lg text-base font-bold uppercase px-5 py-3 shadow-[6px_6px_0_#ff8f70] hover:bg-[#f3e7ff] hover:shadow-[3px_3px_0_#6fc7b5] hover:-translate-y-0.5 transition'
+      : 'py-2 px-4'
+
+  return (
+    <a
+      className={`border border-black inline-flex rounded-full items-center ${variantClassName} ${className}`}
+      href={registrationUrl}
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      {registrationLabel}
+      <svg className="fill-current ml-2" height="12" width="15">
+        <use xlinkHref="#icon-rightarrow" />
+      </svg>
+    </a>
+  )
+}
 
 const speakerNamesBySlug = {
   'amanda-gunn': 'Amanda Gunn',
+  'crystal-valentine': 'Crystal Valentine',
   'emmanuel-oppong-yeboah': 'Emmanuel Oppong-Yeboah',
   'eric-esteves': 'Eric Esteves',
   'george-abraham': 'George Abraham',
@@ -50,13 +73,13 @@ const scheduleBlocks = [
           'The Artist Talk brings together Roxbury-based artists Stephen Hamilton and Ife Franklin for conversation, reflection, and creative exchange. Each artist will give a 15-minute presentation centered on the work they are currently developing, offering insight into their process, inspirations, and evolving ideas before opening the floor for audience questions.',
       },
       {
-        title: 'Writing Workshop',
+        title: 'Nourishing the Body and Spirit: Poets Writing Food',
         meta: 'Writing workshop with Amanda Gunn',
         image: '/img/speakers/2026/Amanda+Gunn+Author+Photo+10.webp',
         imageAlt: 'Amanda Gunn',
         speakerSlugs: ['amanda-gunn'],
         description:
-          'Amanda Gunn leads a writing workshop. Full workshop details are forthcoming.',
+          'Poets often turn to the subject of food—and its careful preparation—to tell their unique family history, to explore their cultural inheritance, or to write themselves against the grain of a dominant culture. We’ll start this generative workshop with a short meditation to lead us to our heart-subject: What food, what recipe feels as delicious and deep as home to you? Whose hands were the hands that prepared the food that fed you? We’ll look at poems in a range of forms that explore nourishment that is both physical and spiritual and, together, free-write poems that tell our own food stories.',
       },
       {
         title: 'Reconsidering the Page',
@@ -226,7 +249,7 @@ const scheduleBlocks = [
         image: '/img/speakers/2026/IYCFI-YCSI.png',
         imageAlt: 'If You Can Feel It / You Can Speak It',
         description:
-          'If You Can Feel It / You Can Speak It is Boston&apos;s only monthly open mic movement dedicated to voices and experiences of LGBTQ+ communities of color.',
+          "If You Can Feel IT / You Can Speak Boston's only monthly open mic movement dedicated to voices & experiences of the LGBTQ+ communities of color.",
       },
     ],
   },
@@ -236,6 +259,8 @@ const scheduleBlocks = [
     featured: {
       title: 'Kwame Dawes',
       meta: 'Keynote address & conversation',
+      image: '/img/speakers/2026/Dawes-headshot-1.jpg',
+      imageAlt: 'Kwame Dawes',
       speakerSlugs: ['kwame-dawes'],
       description:
         'Kwame Dawes is the author of numerous books of poetry, fiction, criticism, and essays. His most recent collection is Sturge Town. Dawes is Professor of Literary Arts at Brown University, Series Editor of the African Poetry Book Series, Director of the African Poetry Book Fund, and Artistic Director of the Calabash International Literary Festival. He is the Poet Laureate of Jamaica for 2024-2027.',
@@ -246,7 +271,8 @@ const scheduleBlocks = [
     category: 'Publisher’s Poetry Slam',
     featured: {
       title: 'Publisher’s Poetry Slam',
-      meta: 'Evening slam',
+      meta: 'Evening slam hosted by Crystal Valentine',
+      speakerSlugs: ['crystal-valentine'],
       description:
         'The Publisher’s Poetry Slam will close the festival. Public-facing slam rules, eligibility, application details, and prize language are still being finalized.',
       linkHref: '/slam',
@@ -322,9 +348,13 @@ function SessionCard({ session }) {
               key={speakerSlug}
               legacyBehavior
             >
-              <a className="border border-black inline-flex rounded-full py-2 px-4 items-center">
+              <a className="border border-black inline-flex rounded-full py-2 px-4 items-center transition hover:bg-[#f3e7ff] hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black group">
                 {speakerNamesBySlug[speakerSlug]} bio
-                <svg className="fill-current ml-2" height="12" width="15">
+                <svg
+                  className="fill-current ml-2 transition-transform group-hover:translate-x-1"
+                  height="12"
+                  width="15"
+                >
                   <use xlinkHref="#icon-rightarrow" />
                 </svg>
               </a>
@@ -332,7 +362,7 @@ function SessionCard({ session }) {
           ))}
         </div>
       ) : null}
-      <p className="font-mono mt-8">{registrationCopy}</p>
+      <RegistrationLink className="mt-8" variant="session" />
     </div>
   )
 }
@@ -350,7 +380,8 @@ function FeaturedBlock({ block }) {
         <h3 className="mb-4 md:text-4xl text-3xl uppercase">
           {featured.title}
         </h3>
-        <p className="font-mono">{featured.meta}</p>
+        <p className="font-mono mb-8">{featured.meta}</p>
+        <SessionImage image={featured.image} imageAlt={featured.imageAlt} />
         <p className="font-mono mt-6">{featured.description}</p>
         {featured.speakerSlugs ? (
           <div className="flex flex-wrap gap-3 mt-6">
@@ -360,9 +391,13 @@ function FeaturedBlock({ block }) {
                 key={speakerSlug}
                 legacyBehavior
               >
-                <a className="border border-black inline-flex rounded-full py-2 px-4 items-center">
+                <a className="border border-black inline-flex rounded-full py-2 px-4 items-center transition hover:bg-[#f3e7ff] hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black group">
                   {speakerNamesBySlug[speakerSlug]} bio
-                  <svg className="fill-current ml-2" height="12" width="15">
+                  <svg
+                    className="fill-current ml-2 transition-transform group-hover:translate-x-1"
+                    height="12"
+                    width="15"
+                  >
                     <use xlinkHref="#icon-rightarrow" />
                   </svg>
                 </a>
@@ -392,7 +427,7 @@ function ScheduleBlock({ block }) {
 
   return (
     <div className="schedule-grid">
-      <details open={block.open}>
+      <details open>
         <summary className="focus:outline-none summaryWrap">
           <div className="event flex md:grid md:grid-cols-3 items-center justify-between py-10 gap-x-20">
             <p className="md:col-span-4 lg:col-span-1 mb-6 md:mb-0 md:text-3xl text-2xl">
@@ -430,8 +465,10 @@ export default function Schedule() {
         <div className="border-t border-black md:flex md:justify-between md:items-start md:py-16 py-10">
           <p className="mb-6 md:mb-0 md:text-3xl text-2xl">June 27, 2026</p>
           <p className="font-mono md:text-lg text-base md:w-2/3">
-            {registrationCopy} Session details are subject to change as the
+            Registration is open. Session details are subject to change as the
             festival program is finalized.
+            <br />
+            <RegistrationLink className="mt-6" variant="large" />
           </p>
         </div>
         <div>
