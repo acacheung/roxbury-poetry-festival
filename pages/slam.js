@@ -25,7 +25,7 @@ export default function Slam() {
                 Submissions close on June 15, 2026 at 11:59pm.
               </p>
               <a
-                className="border border-black inline-flex rounded-full mb-10 py-3 px-5 text-lg items-center"
+                className="bg-[#d8f4ff] border border-black font-bold hover:bg-[#f3e7ff] hover:shadow-[3px_3px_0_#6fc7b5] hover:-translate-y-0.5 inline-flex rounded-full mb-10 py-3 px-5 text-lg items-center shadow-[6px_6px_0_#ff8f70] transition uppercase"
                 href="https://forms.gle/2UkDeqe7tzpx2PYH8"
                 rel="noreferrer noopener"
                 target="_blank"

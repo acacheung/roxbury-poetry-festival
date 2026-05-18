@@ -407,7 +407,7 @@ function FeaturedBlock({ block }) {
         ) : null}
         {featured.linkHref ? (
           <Link href={featured.linkHref} legacyBehavior>
-            <a className="border border-black inline-flex rounded-full mt-10 py-3 px-5 items-center">
+            <a className="bg-[#d8f4ff] border border-black font-bold hover:bg-[#f3e7ff] hover:shadow-[3px_3px_0_#6fc7b5] hover:-translate-y-0.5 inline-flex rounded-full mt-10 py-3 px-5 items-center shadow-[6px_6px_0_#ff8f70] transition uppercase">
               <p>{featured.linkText}</p>
               <svg className="fill-current ml-2" height="12" width="15">
                 <use xlinkHref="#icon-rightarrow" />
