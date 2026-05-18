@@ -30,7 +30,7 @@ export default function Slam() {
                 rel="noreferrer noopener"
                 target="_blank"
               >
-                <p>Sign up for the slam</p>
+                <p>Submit to compete</p>
                 <svg className="fill-current ml-2" height="12" width="15">
                   <use xlinkHref="#icon-rightarrow" />
                 </svg>

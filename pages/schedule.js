@@ -39,6 +39,7 @@ const speakerNamesBySlug = {
   'kayla-kennedy': 'Kayla Kennedy',
   'kes-maro': 'Kes Maro',
   'kwame-dawes': 'Kwame Dawes',
+  'lin-flores': 'Lin Flores',
   'maria-pinto': 'Maria Pinto',
   'matthew-e-henry': 'Matthew E. Henry',
   'mejdulene-bernard-shomali': 'Mejdulene Bernard Shomali',
@@ -189,6 +190,7 @@ const scheduleBlocks = [
           'perpetua-cannistraro',
           'jenny-molberg',
           'tatiana-johnson-boria',
+          'lin-flores',
         ],
         description:
           'A conversation about the world of publishing today, featuring editors, publishers, and literary artists. The panel will explore publishing, literary culture, and the pathways writers take to bring their work into the world.',
@@ -237,7 +239,7 @@ const scheduleBlocks = [
         title:
           'For the Culture: Journalism, Resistance, and the Practice of Black Joy',
         meta: 'Craft talk & workshop with Jeneé Osterheldt',
-        image: '/img/speakers/2026/Jeneé Osterheldt (1).JPEG',
+        image: '/img/speakers/2026/Jenee-Osterheldt.jpg',
         imageAlt: 'Jeneé Osterheldt',
         speakerSlugs: ['jenee-osterheldt'],
         description:

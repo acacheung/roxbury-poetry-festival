@@ -452,7 +452,7 @@ const speakers = [
     name: 'Jeneé Osterheldt',
     slug: 'jenee-osterheldt',
     role: 'Culture columnist',
-    image: '/img/speakers/2026/Jeneé Osterheldt (1).JPEG',
+    image: '/img/speakers/2026/Jenee-Osterheldt.jpg',
     bio: (
       <>
         Jeneé Osterheldt is a culture columnist who covers identity and social
