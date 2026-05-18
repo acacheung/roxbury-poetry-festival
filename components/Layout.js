@@ -4,42 +4,44 @@ import Svg from '../components/Svg'
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 
-export default function Layout({ children, showBanner = true }) {
+export default function Layout({ children, showBanner = false }) {
+  const siteTitle = 'Roxbury Poetry Festival'
+  const siteDescription =
+    'Registration is now open for the Roxbury Poetry Festival on June 27, 2026, a vital gathering of national and local writers in Roxbury, MA.'
+  const siteUrl = 'https://www.roxburypoetryfestival.com/'
+  const socialImage = `${siteUrl}social.jpg`
+
   return (
     <>
       <Head>
-        <title>Roxbury Poetry Festival</title>
+        <title>{siteTitle}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta
-          name="Description"
-          content="The Roxbury Poetry Festival is a biennial event centering poetry in Roxbury, MA. The inaugural festival is happening virtually with the exception of two evening events. The festival features several award-winning writers, panelists, and curators, and centers a keynote address from 2020 Pulitzer Prize winning poet, Jericho Brown. The day-long event culminates with a Publisher’s Poetry Slam sponsored by Button Poetry that yields a book contract for a local writer and a “Beast The Beat” concert battle highlighting local hip hop artist. The festival is free and open to the public."
-        />
+        <meta name="description" content={siteDescription} />
         <meta name="twitter:card" content="summary_large_image" key="twcard" />
+        <meta name="twitter:title" content={siteTitle} />
+        <meta name="twitter:description" content={siteDescription} />
+        <meta name="twitter:image" content={socialImage} />
         <meta
           property="og:url"
-          content="https://www.roxburypoetryfestival.com/"
+          content={siteUrl}
           key="ogurl"
         />
-        <meta
-          property="og:image"
-          content="https://www.roxburypoetryfestival.com/social.jpg"
-          key="ogimage"
-        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={socialImage} key="ogimage" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={siteDescription} />
 
         <meta
           property="og:site_name"
-          content="Roxbury Poetry Festival"
+          content={siteTitle}
           key="ogsitename"
         />
-        <meta
-          property="og:title"
-          content="Roxbury Poetry Festival"
-          key="ogtitle"
-        />
+        <meta property="og:title" content={siteTitle} key="ogtitle" />
         <meta
           property="og:description"
-          content="A vital gathering of national and local writers."
+          content={siteDescription}
           key="ogdesc"
         />
         <script

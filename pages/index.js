@@ -1,6 +1,24 @@
 import Link from 'next/link'
 import Layout from '@components/Layout'
 import React, { useEffect, useState } from 'react'
+import { registrationLabel, registrationUrl } from '../lib/registration'
+
+const featuredSessions = [
+  {
+    title: 'Kwame Dawes',
+    meta: '5:30pm - 6:30pm | Keynote Address & Conversation',
+    image: '/img/speakers/2026/Dawes-headshot-1.jpg',
+    imageAlt: 'Kwame Dawes',
+    description:
+      'Kwame Dawes is the author of numerous books of poetry, fiction, criticism, and essays. His most recent collection is Sturge Town. Dawes is Professor of Literary Arts at Brown University, Series Editor of the African Poetry Book Series, Director of the African Poetry Book Fund, and Artistic Director of the Calabash International Literary Festival. He is the Poet Laureate of Jamaica for 2024-2027.',
+  },
+  {
+    title: 'Lunch Time Craft Talk',
+    meta: '1:00pm - 2:15pm | Details forthcoming',
+    description:
+      'The lunch time craft talk speaker and session details are still being finalized.',
+  },
+]
 
 export default function Home() {
   const [scrollState, setScrollState] = useState(0)
@@ -51,15 +69,7 @@ export default function Home() {
               </div>
             </div>
             <div className="font-mono md:mt-10 mt-6 md:text-left text-center">
-              <p className="md:text-3xl text-2xl">
-                June 27, 2026 - registration opens May 18, 2026.
-              </p>
-               <p className="mt-4 md:text-2xl text-xl">
-               Sign up for our <a target="_blank" rel="noreferrer noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSf0cy7VGDZuEhbdwpdX9dB2grKwlGWiB8aj_SrYLZjimK2i_w/viewform" className="underline">
-                  mailing list
-                </a> for updates.
-              </p>
-              <div className="md:flex md:text-lg mt-8 items-start">
+              <div className="mb-8 md:flex md:text-lg items-start">
                 <div className="flex md:justify-start justify-center">
                   A
                   <div className="border-b border-black italic relative text-center w-32 mx-4">
@@ -77,8 +87,57 @@ export default function Home() {
                   of national and local writers
                 </p>
               </div>
+              <p className="md:text-3xl text-2xl">
+                Join us June 27, 2026 - registration now open!
+              </p>
+              <div className="mt-6">
+                <a
+                  className="bg-[#d8f4ff] border border-black font-bold hover:bg-[#f3e7ff] hover:shadow-[3px_3px_0_#6fc7b5] hover:-translate-y-0.5 inline-flex items-center md:text-lg px-5 py-3 rounded-full shadow-[6px_6px_0_#ff8f70] text-base transition uppercase"
+                  href={registrationUrl}
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  {registrationLabel}
+                  <svg className="ml-3" height="12" width="15">
+                    <use xlinkHref="#icon-rightarrow" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
+        </div>
+        <div className="max-w-7xl mx-auto md:pb-24 pb-16 md:pt-20 pt-12 px-6">
+          <div className="md:flex items-center justify-between mb-10 md:mb-14">
+            <h2 className="font-bold mb-10 md:mb-0 text-4xl">
+              Festival Headliners
+            </h2>
+            <Link href="/schedule" legacyBehavior>
+              <a className="border border-black inline-flex items-center px-5 py-3 rounded-full text-lg">
+                See the Schedule
+                <svg className="ml-3" height="12" width="15">
+                  <use xlinkHref="#icon-rightarrow" />
+                </svg>
+              </a>
+            </Link>
+          </div>
+          <ul className="gap-x-28 gap-y-20 grid md:grid-cols-2">
+            {featuredSessions.map((session) => (
+              <li className="speakers-grid" key={session.title}>
+                <h3 className="mb-4 mt-8 text-5xl uppercase">
+                  {session.title}
+                </h3>
+                <p className="mb-8 text-lg">{session.meta}</p>
+                {session.image ? (
+                  <div className="home-featured-image schedule-image">
+                    <img alt={session.imageAlt} src={session.image} />
+                  </div>
+                ) : null}
+                <p className="font-mono mt-6 text-lg">
+                  {session.description}
+                </p>
+              </li>
+            ))}
+          </ul>
         </div>
         {/* <div className="max-w-7xl mx-auto mb-40 px-6">
           <div className="md:flex items-center justify-between mb-10 md:mb-14">
@@ -273,7 +332,7 @@ export default function Home() {
               Are you interested in volunteering?
             </h2>
             <a
-              href="https://forms.gle/zQKvBB8srzom4hZn6"
+              href="https://forms.gle/6fZoPqVinrFpVjNj9"
               className="border border-black inline-flex items-center ml-6 px-5 py-3 rounded-full text-lg"
               rel="noreferrer noopener"
               target="_blank"

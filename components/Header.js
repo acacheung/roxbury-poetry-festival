@@ -1,110 +1,153 @@
 import Link from 'next/link'
 import React from 'react'
+import { registrationLabel, registrationUrl } from '../lib/registration'
+import { volunteerUrl } from '../lib/volunteer'
 import headerStyles from './Header.module.css'
 
 const Header = class extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      hamburgerActive: false,
+    }
+  }
+
+  toggleHamburger = () => {
+    this.setState((state) => ({
+      hamburgerActive: !state.hamburgerActive,
+    }))
+  }
+
+  renderMarqueeGroup(label, repeat, itemClassName, groupIndex) {
+    return (
+      <span className={headerStyles.scrollingGroup}>
+        {Array.from({ length: repeat }).map((_, index) => (
+          <span
+            aria-hidden="true"
+            className={itemClassName}
+            key={`${label}-${groupIndex}-${index}`}
+          >
+            <span className="flex items-center">
+              <span>{label}</span>
+              <span
+                className={`${headerStyles.navLine} border-b border-black md:w-10 ml-6 mr-4 w-6`}
+              />
+            </span>
+          </span>
+        ))}
+      </span>
+    )
+  }
+
+  renderMarquee(
+    label,
+    repeat,
+    itemClassName = headerStyles.scrolling,
+    duration = '72s'
+  ) {
+    return (
+      <span
+        className={headerStyles.scrollingTrack}
+        style={{ '--marquee-duration': duration }}
+      >
+        {this.renderMarqueeGroup(label, repeat, itemClassName, 0)}
+        {this.renderMarqueeGroup(label, repeat, itemClassName, 1)}
+      </span>
+    )
+  }
+
   render() {
     return (
-      <header className="justify-center h-6 md:items-center mx-auto relative z-50 w-full">
+      <header
+        className={`justify-center h-6 md:items-center mx-auto relative z-50 w-full ${
+          this.state.hamburgerActive ? headerStyles.isActive : ''
+        }`}
+      >
         <nav className="flex flex-col md:flex-grow justify-center">
+          <button
+            aria-expanded={this.state.hamburgerActive}
+            aria-label={
+              this.state.hamburgerActive
+                ? 'Close navigation menu'
+                : 'Open navigation menu'
+            }
+            className={`${headerStyles.navButton} absolute mr-6 mt-6 right-0 top-0`}
+            onClick={this.toggleHamburger}
+            type="button"
+          >
+            <div className={`${headerStyles.iconHamburger} block`}>
+              <svg aria-hidden="true" className="fill-current" height="29" width="40">
+                <use xlinkHref="#icon-menu" />
+              </svg>
+            </div>
+            <div className={`${headerStyles.iconClose} hidden`}>
+              <svg aria-hidden="true" className="fill-current" height="29" width="40">
+                <use xlinkHref="#icon-close" />
+              </svg>
+            </div>
+          </button>
           <div
             className={
               headerStyles.mainNav +
               ' flex font-bold font-sans hidden justify-between md:mt-0 mt-28'
             }
           >
-            <Link href="/about" legacyBehavior>
-              <a className={headerStyles.scrollingItem}>
-                <div className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>About RPF</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
-                </div>
-                {[...Array(6)].map(() => (
-                  <div aria-hidden="true" className={headerStyles.scrolling}>
-                    <div className="flex items-center">
-                      <p>About RPF</p>
-                      <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                    </div>
-                  </div>
-                ))}
-              </a>
-            </Link>
             <Link href="/schedule" legacyBehavior>
-              <a className={headerStyles.scrollingItem}>
-                <div className={headerStyles.scrollingSpeakers}>
-                  <div className="flex items-center">
-                    <p>Schedule</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
-                </div>
-                {[...Array(7)].map(() => (
-                  <div
-                    aria-hidden="true"
-                    className={headerStyles.scrollingSpeakers}
-                  >
-                    <div className="flex items-center">
-                      <p>Schedule</p>
-                      <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                    </div>
-                  </div>
-                ))}
+              <a aria-label="Schedule" className={headerStyles.scrollingItem}>
+                {this.renderMarquee(
+                  'Schedule',
+                  10,
+                  headerStyles.scrollingSpeakers,
+                  '150s'
+                )}
               </a>
             </Link>
-            {/* <Link href="/speakers">
-              <a className={headerStyles.scrollingItem}>
-                <div className={headerStyles.scrollingSpeakers}>
-                  <div className="flex items-center">
-                    <p>Speakers</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
-                </div>
-                {[...Array(7)].map(() => (
-                  <div
-                    aria-hidden="true"
-                    className={headerStyles.scrollingSpeakers}
-                  >
-                    <div className="flex items-center">
-                      <p>Speakers</p>
-                      <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                    </div>
-                  </div>
-                ))}
+            <Link href="/speakers" legacyBehavior>
+              <a aria-label="Speakers" className={headerStyles.scrollingItem}>
+                {this.renderMarquee(
+                  'Speakers',
+                  10,
+                  headerStyles.scrollingSpeakers,
+                  '150s'
+                )}
               </a>
-            </Link> */}
-            <div className={headerStyles.scrollingItem}>
-              <div className={headerStyles.scrolling}>
-                <div className="flex items-center">
-                  <p>Reg Opens May 18</p>
-                  <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                </div>
-              </div>
-              {[...Array(7)].map(() => (
-                <div aria-hidden="true" className={headerStyles.scrolling}>
-                  <div className="flex items-center">
-                    <p>Reg Opens May 18</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
-                </div>
-              ))}
-            </div>
+            </Link>
+            <a
+              aria-label="Register for Roxbury Poetry Festival"
+              className={headerStyles.scrollingItem}
+              href={registrationUrl}
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              {this.renderMarquee(
+                registrationLabel,
+                10,
+                headerStyles.scrolling,
+                '190s'
+              )}
+            </a>
+            <a
+              aria-label="Volunteer for Roxbury Poetry Festival"
+              className={headerStyles.scrollingItem}
+              href={volunteerUrl}
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              {this.renderMarquee(
+                'Volunteer',
+                10,
+                headerStyles.scrollingSpeakers,
+                '150s'
+              )}
+            </a>
             <Link href="/slam" legacyBehavior>
-              <a className={headerStyles.scrollingItem}>
-                <div className={headerStyles.scrollingSpeakers}>
-                  <div className="flex items-center">
-                    <p>Slam</p>
-                    <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                  </div>
-                </div>
-                {[...Array(11)].map(() => (
-                  <div aria-hidden="true" className={headerStyles.scrolling}>
-                    <div className="flex items-center">
-                      <p>Slam</p>
-                      <div className="border-b border-black md:w-10 ml-6 mr-4 w-6" />
-                    </div>
-                  </div>
-                ))}
+              <a aria-label="Slam" className={headerStyles.scrollingItem}>
+                {this.renderMarquee(
+                  'Slam',
+                  16,
+                  headerStyles.scrollingSpeakers,
+                  '150s'
+                )}
               </a>
             </Link>
             {/* <a

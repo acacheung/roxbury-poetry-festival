@@ -13,10 +13,38 @@
   z-index: 100;
 }
 
+:global(body.blossom-sky-gradient) .isActive {
+  background-color: #aebce8;
+  background-image: radial-gradient(
+      circle at 18% 12%,
+      rgba(255, 249, 214, 0.95) 0,
+      rgba(255, 249, 214, 0) 30%
+    ),
+    radial-gradient(
+      circle at 82% 22%,
+      rgba(202, 234, 255, 0.78) 0,
+      rgba(202, 234, 255, 0) 36%
+    ),
+    radial-gradient(
+      circle at 58% 58%,
+      rgba(255, 196, 214, 0.68) 0,
+      rgba(255, 196, 214, 0) 42%
+    ),
+    linear-gradient(
+      180deg,
+      #fffbea 0%,
+      #eef7ff 28%,
+      #ffdfe9 62%,
+      #aebce8 100%
+    );
+  background-repeat: no-repeat;
+  background-size: 100% 180vh;
+}
+
 .isActive .mainNav {
   display: flex;
   flex-direction: column;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 8vw, 2rem);
   justify-content: center;
   line-height: 1.15;
   text-align: center;
@@ -40,11 +68,45 @@
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
 
+.navLine {
+  display: block;
+}
+
 .scrollingItem {
   align-items: center;
   display: flex;
   height: 5.5rem;
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 10%,
+    #000 90%,
+    transparent
+  );
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 10%,
+    #000 90%,
+    transparent
+  );
   white-space: nowrap;
+  width: 100%;
+}
+
+.scrollingTrack {
+  animation: marquee var(--marquee-duration, 72s) linear infinite;
+  display: flex;
+  flex: 0 0 max-content;
+  width: max-content;
+  will-change: transform;
+}
+
+.scrollingGroup {
+  display: flex;
+  flex: 0 0 auto;
+  width: max-content;
 }
 
 .isActive .iconClose {
@@ -62,13 +124,11 @@
 }
 
 .scrolling {
-  animation: marquee 15s linear infinite;
   display: inline-block;
   padding-right: 8px;
 }
 
 .scrollingSpeakers {
-  animation: marquee 20s linear infinite;
   display: inline-block;
   padding-right: 8px;
 }
@@ -78,17 +138,85 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
-.scrollingItem:hover .scrolling,
-.scrollingItem:hover .scrollingSpeakers {
+.scrollingItem:hover .scrollingTrack {
   animation-play-state: paused;
 }
+
+.isActive .scrollingTrack {
+  animation: none;
+  justify-content: center;
+  min-width: 100%;
+  width: 100%;
+}
+
+.isActive .scrollingItem {
+  mask-image: none;
+  -webkit-mask-image: none;
+}
+
+.isActive .scrollingGroup {
+  justify-content: center;
+  min-width: 100%;
+}
+
+.isActive .navLine {
+  display: none;
+}
+
+.isActive .scrollingGroup + .scrollingGroup,
+.isActive .scrollingGroup .scrolling:not(:first-child),
+.isActive .scrollingGroup .scrollingSpeakers:not(:first-child) {
+  display: none;
+}
+
 @screen md {
   .isActive .mainNav {
     font-size: 4.5rem;
+  }
+
+  .isActive .scrollingTrack {
+    animation: marquee var(--marquee-duration, 72s) linear infinite;
+    justify-content: flex-start;
+    width: max-content;
+  }
+
+  .isActive .scrollingItem {
+    mask-image: linear-gradient(
+      90deg,
+      transparent,
+      #000 10%,
+      #000 90%,
+      transparent
+    );
+    -webkit-mask-image: linear-gradient(
+      90deg,
+      transparent,
+      #000 10%,
+      #000 90%,
+      transparent
+    );
+  }
+
+  .isActive .scrollingGroup {
+    justify-content: flex-start;
+    min-width: auto;
+  }
+
+  .isActive .navLine {
+    display: block;
+  }
+
+  .isActive .scrollingGroup + .scrollingGroup {
+    display: flex;
+  }
+
+  .isActive .scrollingGroup .scrolling:not(:first-child),
+  .isActive .scrollingGroup .scrollingSpeakers:not(:first-child) {
+    display: inline-block;
   }
 
   .scrollingItem {

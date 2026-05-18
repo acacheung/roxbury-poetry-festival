@@ -206,6 +206,29 @@ details[open] summary .event .speakers-grid-arrows .open-arrow {
   content: '';
 }
 
+.speaker-bio-summary.textWrap::after {
+  content: '';
+}
+
+.speaker-bio-preview {
+  display: block;
+  max-height: 10.5rem;
+  overflow: hidden;
+}
+
+.speaker-bio-read-more {
+  display: block;
+  font-family: Plex, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+
+.speaker-bio[open] .speaker-bio-summary {
+  display: none;
+}
+
 details summary {
   list-style-type: none;
 } /* Firefox */
@@ -221,6 +244,100 @@ details summary::marker {
   object-fit: cover;
   height: 21rem;
   width: 21rem;
+}
+
+.schedule-image img[alt='Stephen Hamilton'] {
+  object-position: center top;
+}
+
+.home-featured-image img {
+  aspect-ratio: 640 / 464;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  object-position: center 38%;
+  width: 100%;
+}
+
+.schedule-image-loop {
+  height: 21rem;
+  position: relative;
+  width: 21rem;
+}
+
+.schedule-image-loop-photo {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.schedule-image-loop-2 .schedule-image-loop-photo {
+  -webkit-animation: twoPhotoLoop 8s infinite;
+  animation: twoPhotoLoop 8s infinite;
+}
+
+.schedule-image-loop-2 .schedule-image-loop-photo-2 {
+  -webkit-animation-delay: -4s;
+  animation-delay: -4s;
+}
+
+.schedule-image-loop-3 .schedule-image-loop-photo {
+  -webkit-animation: threePhotoLoop 12s infinite;
+  animation: threePhotoLoop 12s infinite;
+}
+
+.schedule-image-loop-3 .schedule-image-loop-photo-2 {
+  -webkit-animation-delay: -8s;
+  animation-delay: -8s;
+}
+
+.schedule-image-loop-3 .schedule-image-loop-photo-3 {
+  -webkit-animation-delay: -4s;
+  animation-delay: -4s;
+}
+
+@keyframes twoPhotoLoop {
+  0%,
+  45% {
+    opacity: 1;
+  }
+
+  50%,
+  95% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes threePhotoLoop {
+  0%,
+  28% {
+    opacity: 1;
+  }
+
+  33%,
+  95% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .schedule-image-loop-photo {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  .schedule-image-loop-photo:first-child {
+    opacity: 1;
+  }
 }
 
 .publication-images,
@@ -508,6 +625,7 @@ details summary::marker {
   }
 
   .schedule-image img,
+  .schedule-image-loop,
   .schedule-image-rachel img,
   .publication-images,
   .poetry-luxury-images,
@@ -523,6 +641,11 @@ details summary::marker {
     height: 21rem;
     width: 21rem;
   }
+
+  .home-featured-image img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 @screen lg {
@@ -531,6 +654,7 @@ details summary::marker {
   }
 
   .schedule-image img,
+  .schedule-image-loop,
   .schedule-image-rachel img,
   .publication-images,
   .poetry-luxury-images,
@@ -546,6 +670,11 @@ details summary::marker {
     height: 18.25rem;
     width: 18.25rem;
   }
+
+  .home-featured-image img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 @screen xl {
@@ -554,6 +683,7 @@ details summary::marker {
   }
 
   .schedule-image img,
+  .schedule-image-loop,
   .publication-images,
   .poetry-luxury-images,
   .dreamscape-images,
@@ -568,9 +698,62 @@ details summary::marker {
     width: 15.5rem;
   }
 
+  .home-featured-image img {
+    height: auto;
+    width: 100%;
+  }
+
   .schedule-image-rachel img,
   .home-images {
     height: 22.75rem;
     width: 22.75rem;
   }
+}
+
+body.blossom-sky-gradient {
+  background-attachment: scroll;
+  background-color: #aebce8;
+  background-image: radial-gradient(
+      circle at 18% 12%,
+      rgba(255, 249, 214, 0.95) 0,
+      rgba(255, 249, 214, 0) 30%
+    ),
+    radial-gradient(
+      circle at 82% 22%,
+      rgba(202, 234, 255, 0.78) 0,
+      rgba(202, 234, 255, 0) 36%
+    ),
+    radial-gradient(
+      circle at 58% 58%,
+      rgba(255, 196, 214, 0.68) 0,
+      rgba(255, 196, 214, 0) 42%
+    ),
+    linear-gradient(
+      180deg,
+      #fffbea 0%,
+      #eef7ff 28%,
+      #ffdfe9 62%,
+      #aebce8 100%
+    );
+  background-repeat: no-repeat;
+  background-size: 100% max(180vh, 100%);
+}
+
+body.blossom-sky-gradient .background-banner {
+  background-color: #aebce8;
+  background-image: linear-gradient(
+    90deg,
+    #ffdfe9 0%,
+    #cfd8f1 55%,
+    #aebce8 100%
+  );
+}
+
+body.blossom-sky-gradient .cursor {
+  background: radial-gradient(
+    circle,
+    rgba(255, 246, 183, 0.9) 0%,
+    rgba(255, 196, 214, 0.28) 34%,
+    rgba(255, 255, 255, 0) 66%
+  );
 }
